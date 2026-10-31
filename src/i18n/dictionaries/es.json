@@ -1,0 +1,1002 @@
+{
+  "site": {
+    "name": "{siteName}",
+    "domain": "{siteDomain}",
+    "title": "Modern Warfare 4 Cheats | Aimbot, ESP de jugador y radar",
+    "description": "Aimbot, silent aimbot, ESP, wallhack, sin retroceso, God Mode, munición infinita y speedhack para Modern Warfare 4."
+  },
+  "nav": [
+    {
+      "id": "products",
+      "href": "/products/",
+      "label": "Productos",
+      "shortLabel": "Productos",
+      "sheetLabel": "Ver productos"
+    },
+    {
+      "id": "blog",
+      "href": "/blog/",
+      "label": "Blog",
+      "sheetLabel": "Leer el blog"
+    },
+    {
+      "id": "forum",
+      "href": "/forum/",
+      "label": "Foro",
+      "sheetLabel": "Abrir el foro"
+    },
+    {
+      "id": "faq",
+      "href": "/faq/",
+      "label": "FAQ",
+      "sheetLabel": "Preguntas antes de comprar"
+    },
+    {
+      "id": "support",
+      "href": "/support/",
+      "label": "Soporte",
+      "sheetLabel": "Abrir mesa de soporte"
+    }
+  ],
+  "hero": {
+    "status": "Lee el banner de Modern Warfare 4 en este sitio antes de iniciar.",
+    "eyebrow": "Domina cada partida",
+    "titleLead": "Aimbot Esp: Modern Warfare 4 ",
+    "titleAccent": "Trucos",
+    "subtitle": "Aimbot, ESP y radar para Modern Warfare 4 en PC, más wallhack. Revisa los productos abajo para comparar módulos y planes mensuales o de por vida antes del pago.",
+    "ctaPrimary": "Ver productos",
+    "metrics": [
+      {
+        "label": "Silent aimbot",
+        "strong": "Listado"
+      },
+      {
+        "label": "Velocidad del parche",
+        "strong": "<24h"
+      },
+      {
+        "label": "Usuarios",
+        "strong": "300+"
+      },
+      {
+        "label": "Soporte en vivo",
+        "strong": "24/7"
+      }
+    ],
+    "statusPills": [
+      "Aimbot",
+      "Silent aimbot",
+      "ESP",
+      "Wallhack",
+      "Sin retroceso",
+      "God Mode",
+      "Munición infinita",
+      "Speedhack",
+      "Interruptores del menú",
+      "Soporte 24/7",
+      "Estado en vivo"
+    ]
+  },
+  "features": {
+    "eyebrow": "Características",
+    "title": "Aimbot Esp: Todo lo que necesitas en un solo paquete",
+    "subtitle": "Los cheats mw4 listan aimbot, silent aimbot, ESP, wallhack, sin retroceso, God Mode, munición infinita y speedhack para Modern Warfare 4.",
+    "items": [
+      {
+        "title": "ESP",
+        "subtitle": "Posición, salud, distancia.",
+        "desc": "En una partida de Modern Warfare 4, ESP marca la posición del enemigo y añade un valor de salud más un valor de distancia.",
+        "bullets": [
+          "Posición del enemigo",
+          "Valor de salud",
+          "Valor de distancia",
+          "Interruptor pestaña jugadores",
+          "Separado del aim"
+        ],
+        "tags": [
+          "esp",
+          "salud",
+          "distancia"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-12 lg:col-start-1 lg:row-start-1"
+      },
+      {
+        "title": "Wallhack",
+        "subtitle": "Ver más allá de la cobertura.",
+        "desc": "Wallhack usa las mismas lecturas de posición, salud y distancia que ESP cuando un jugador está detrás de cobertura.",
+        "bullets": [
+          "Emparejado con ESP",
+          "Posición detrás de cobertura",
+          "Salud y distancia",
+          "Interruptor propio en el menú"
+        ],
+        "tags": [
+          "wallhack",
+          "esp",
+          "posición"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-8 lg:col-start-1 lg:row-start-2"
+      },
+      {
+        "title": "Aimbot",
+        "subtitle": "Controles de objetivo.",
+        "desc": "La pestaña aimbot define suavidad, qué hueso preferir y hasta qué distancia puede estar un objetivo.",
+        "bullets": [
+          "Silent aimbot",
+          "Control deslizante de suavidad",
+          "Elección de hueso",
+          "Tope de distancia"
+        ],
+        "tags": [
+          "aimbot",
+          "silent aimbot",
+          "suavidad"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-6 lg:col-start-1 lg:row-start-3"
+      },
+      {
+        "title": "Sin retroceso",
+        "subtitle": "Manejo del arma.",
+        "desc": "Sin retroceso es un interruptor de manejo del arma para las armas de Modern Warfare 4, separado de la pestaña aimbot.",
+        "bullets": [
+          "Interruptor de arma",
+          "No está en la pestaña aim",
+          "Deja el interruptor apagado",
+          "Vuelve a abrirlo tras un parche"
+        ],
+        "tags": [
+          "sin retroceso",
+          "manejo de armas",
+          "menú"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-6 lg:col-start-7 lg:row-start-3"
+      },
+      {
+        "title": "God Mode",
+        "subtitle": "Opción de combate.",
+        "desc": "God Mode es un interruptor de combate en el mismo menú. Un parche puede quitarlo de la lista.",
+        "bullets": [
+          "Interruptor de combate",
+          "Independiente del aim",
+          "Apaga el interruptor",
+          "Confírmalo tras un parche"
+        ],
+        "tags": [
+          "god mode",
+          "combate",
+          "menú"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-8 lg:row-span-2 lg:col-start-1 lg:row-start-4"
+      },
+      {
+        "title": "Munición infinita",
+        "subtitle": "Opción de munición.",
+        "desc": "La munición infinita cambia los límites del cargador en una partida de Modern Warfare 4 y está aparte de sin retroceso.",
+        "bullets": [
+          "Interruptor de munición",
+          "Aparte de sin retroceso",
+          "Apaga el interruptor",
+          "Confírmalo tras un parche"
+        ],
+        "tags": [
+          "munición infinita",
+          "combate",
+          "menú"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-4 lg:row-span-2 lg:col-start-9 lg:row-start-4"
+      },
+      {
+        "title": "Speedhack",
+        "subtitle": "Opción de movimiento.",
+        "desc": "Speedhack cambia la velocidad de movimiento. Apágalo antes de la siguiente ronda si no lo quieres.",
+        "bullets": [
+          "Interruptor de movimiento",
+          "No es un ajuste de aim",
+          "Apaga el interruptor",
+          "Confírmalo tras un parche"
+        ],
+        "tags": [
+          "speedhack",
+          "movimiento",
+          "menú"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-6 lg:col-start-1 lg:row-start-6"
+      },
+      {
+        "title": "Silent aimbot",
+        "subtitle": "Opción de puntería.",
+        "desc": "Silent aimbot comparte la pestaña aimbot: suavidad, prioridad de hueso y distancia máxima.",
+        "bullets": [
+          "Comparte la pestaña aim",
+          "Suavidad",
+          "Prioridad de hueso",
+          "Distancia máxima"
+        ],
+        "tags": [
+          "silent aimbot",
+          "aimbot",
+          "prioridad de hueso"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-6 lg:col-start-7 lg:row-start-6"
+      },
+      {
+        "title": "Interruptores del menú",
+        "subtitle": "Cada opción.",
+        "desc": "Cada opción listada tiene su propio interruptor. Un parche de Modern Warfare 4 puede cambiar qué interruptores siguen funcionando.",
+        "bullets": [
+          "Un interruptor cada uno",
+          "Pestaña aim en ese menú",
+          "Pestaña jugadores en ese menú",
+          "Lee el banner tras un parche"
+        ],
+        "tags": [
+          "menú",
+          "interruptores",
+          "parche"
+        ],
+        "bento": "sm:col-span-2 lg:col-span-4 lg:col-start-9 lg:row-start-2"
+      }
+    ]
+  },
+  "whyUs": {
+    "eyebrow": "Por qué nosotros",
+    "title": "Herramientas de Modern Warfare 4 respaldadas por parches, no por promesas",
+    "subtitle": "{siteDomain} publica compilaciones del cargador el día del parche. El ESP muestra posición, salud y distancia. Los operadores cubren un turno 24/7.",
+    "usLabel": "{siteName}",
+    "otherLabel": "Proveedor típico",
+    "rows": [
+      {
+        "title": "Actualizaciones del cargador el día del parche",
+        "desc": "Una compilación del cargador sale en horas tras una actualización de Modern Warfare 4. Lee el banner de estado antes de hacer cola."
+      },
+      {
+        "title": "Ajustes de puntería",
+        "desc": "Suavidad, prioridad de hueso y distancia máxima están en la pestaña aimbot. ESP muestra posición, salud y distancia."
+      },
+      {
+        "title": "Operadores en vivo",
+        "desc": "Ingenieros atienden configuración del cargador, configs de ESP y restablecimientos de HWID en turno 24/7."
+      },
+      {
+        "title": "Opciones del menú",
+        "desc": "Activa o desactiva cada opción listada. Tras un parche, abre el menú y mira qué interruptores quedan."
+      },
+      {
+        "title": "Compatibilidad",
+        "desc": "Iguala la compilación actual de Modern Warfare 4 antes de iniciar. Una actualización del anti-cheat puede cambiar lo que sigue funcionando."
+      },
+      {
+        "title": "Restablecimiento de HWID y traslados de licencia",
+        "desc": "Soporte gestiona limpiezas de HWID y un traslado a otro PC. Otras tiendas suelen bloquear una sola máquina o cobrar cada cambio."
+      }
+    ],
+    "metrics": [
+      {
+        "value": "<24h",
+        "title": "Respuesta a parches",
+        "desc": "Tiempo que tarda una compilación del cargador tras un cambio importante de Modern Warfare 4 o del anti-cheat."
+      },
+      {
+        "value": "24/7",
+        "title": "Soporte de operadores",
+        "desc": "Personas en turno para configuración del cargador, configs del menú y preguntas de cuenta."
+      },
+      {
+        "value": "300+",
+        "title": "Operadores activos",
+        "desc": "Jugadores en Windows en {siteDomain} usando el menú del cheat y las utilidades."
+      }
+    ]
+  },
+  "setup": {
+    "eyebrow": "Guía de configuración",
+    "titleLead": "Del pago a tu primera partida en solo",
+    "titleHighlight": "tres pasos sencillos",
+    "intro": "El cheat privado mw4 llega al portal del operador. Descarga el cargador, configura el menú e inicia Modern Warfare 4.",
+    "ctaPrimary": "Comparar planes",
+    "ctaSecondary": "Leer la FAQ de configuración",
+    "ctaPrimaryHref": "/cheats/",
+    "ctaSecondaryHref": "/faq/",
+    "steps": [
+      {
+        "step": "Paso 1",
+        "title": "Abrir el portal y descargar el cargador",
+        "desc": "Termina el pago, abre el panel del operador y descarga el cargador actual para Windows."
+      },
+      {
+        "step": "Paso 2",
+        "title": "Iniciar y configurar módulos",
+        "desc": "Arranca el cargador externo y configura aimbot, ESP y las demás opciones del menú para Modern Warfare 4."
+      },
+      {
+        "step": "Paso 3",
+        "title": "Verificar estado e iniciar Modern Warfare 4",
+        "desc": "Lee el banner de estado, inicia el cliente del juego y guarda el perfil almacenado en el portal."
+      }
+    ]
+  },
+  "compatibility": {
+    "eyebrow": "Soporte de plataforma",
+    "title": "Funciona en tu equipo.",
+    "subtitle": "Lee el banner de estado antes de iniciar Modern Warfare 4 tras una actualización.",
+    "items": [
+      "Windows 10 y 11",
+      "Modern Warfare 4",
+      "cliente anti-cheat",
+      "Actualizador automático",
+      "Sincronización de configs en la nube",
+      "Restablecimiento de HWID",
+      "Cargador externo"
+    ]
+  },
+  "cheats": {
+    "eyebrow": "Producto principal",
+    "title": "Modern Warfare 4 Cheats",
+    "subtitle": "Aimbot, silent aimbot, ESP, wallhack y el resto de opciones listadas.",
+    "viewAll": "Ver detalles del producto",
+    "explore": "Explorar",
+    "items": [
+      {
+        "badge": "Plazas limitadas",
+        "tier": "Privado",
+        "name": "Modern Warfare 4 Cheats",
+        "title": "Modern Warfare 4 Hacks para Windows",
+        "desc": "Aimbot, silent aimbot, ESP, wallhack, sin retroceso, God Mode, munición infinita y speedhack. Mensual: 35 USD por 30 días. De por vida: 150 USD.",
+        "homeDesc": "Al comprar cheats mw4 obtienes aimbot, silent aimbot, ESP, wallhack, sin retroceso, God Mode, munición infinita y speedhack. Mensual: 35 USD por 30 días. De por vida: 150 USD.",
+        "heroDesc": "Los controles de aimbot aquí son suavidad, prioridad de hueso y distancia máxima. Silent aimbot está en la misma pestaña. Confirma la compilación en {siteDomain} antes de iniciar.",
+        "features": [
+          "Aimbot",
+          "Silent aimbot",
+          "ESP",
+          "Wallhack",
+          "Sin retroceso",
+          "Speedhack"
+        ],
+        "more": 9,
+        "href": "/cheats/",
+        "variant": "limited"
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "Tienda",
+    "title": "Nuestros productos",
+    "subtitle": "Compara el menú de cheats y las utilidades en esta cuadrícula. Abre una página de producto para la lista de funciones y el pago.",
+    "viewAll": "Ver todos los cheats",
+    "backToCheats": "Volver al producto",
+    "showcaseHeading": "Resumen del producto",
+    "experience": {
+      "eyebrow": "Experiencia",
+      "title": "Capas del menú · Tras el pago",
+      "subtitle": "Las capturas de arriba son el menú de Modern Warfare 4. Las notas abajo explican qué hace cada grupo y cómo se abre el portal tras el pago.",
+      "previewLabel": "Capas en el juego",
+      "accessDividerTop": "Vista previa",
+      "accessDividerBottom": "Acceso"
+    },
+    "hwidPage": {
+      "showcaseHeading": "Capturas del panel",
+      "overviewSubtitle": "Qué IDs reescribe el panel, qué familias de anti-cheat están listadas y en qué se diferencia una marca de máquina de una sanción de cuenta.",
+      "highlights": {
+        "eyebrow": "De un vistazo",
+        "title": "Qué cubre una actualización de hardware",
+        "desc": "Tras una marca de hardware, el panel puede reescribir IDs de disco. Puede reescribir IDs MAC y GPU, y IDs relacionados. El objetivo es iniciar sesión en este PC. Más abajo en la página hay tablas con las filas."
+      },
+      "featuresSection": {
+        "eyebrow": "Filas listadas",
+        "title": "IDs y familias publicadas",
+        "desc": "Cada fila nombra un campo de huella que edita el panel, o una familia de anti-cheat escrita en esta página."
+      },
+      "experience": {
+        "eyebrow": "Tras el pago",
+        "title": "Notas del panel, luego orden del portal",
+        "subtitle": "Los avisos del panel están a la izquierda. La entrega de la licencia y el orden de configuración están a la derecha.",
+        "previewLabel": "Capturas del panel",
+        "accessDividerTop": "Panel",
+        "accessDividerBottom": "Orden"
+      },
+      "highlightsMore": "{count} filas más están en la tabla de funciones más abajo en la página."
+    },
+    "utilityPages": {
+      "ugc": {
+        "showcaseHeading": "Fotogramas del flujo",
+        "overviewSubtitle": "Cómo se asigna una restricción a una plantilla, qué pasos corren solos y por qué la plataforma sigue decidiendo el caso.",
+        "highlights": {
+          "eyebrow": "En resumen",
+          "title": "Paquetes de apelación que puedes repetir",
+          "desc": "Un límite de juego, uno social y uno de marketplace tienen cada uno un flujo de disputa que puedes repetir. No se pega el mismo texto a mano."
+        },
+        "featuresSection": {
+          "eyebrow": "Incluido",
+          "title": "Qué se activa con la licencia",
+          "desc": "Esas capacidades están disponibles en cuanto la licencia UGC está activa."
+        },
+        "experience": {
+          "eyebrow": "Cuando la licencia está activa",
+          "title": "Fotogramas, luego orden del portal",
+          "subtitle": "A la izquierda van los fotogramas. A la derecha: cómo llega la licencia y cómo corre la configuración.",
+          "previewLabel": "Fotogramas",
+          "accessDividerTop": "Fotogramas",
+          "accessDividerBottom": "Orden"
+        },
+        "highlightsMore": "{count} filas de capacidad más están más abajo en esta página."
+      },
+      "skin-changer": {
+        "showcaseHeading": "Fotogramas del cliente",
+        "overviewSubtitle": "Dónde se dibuja el acabado, qué no entra en tu inventario y cómo comprobar un título antes del pago.",
+        "highlights": {
+          "eyebrow": "Biblioteca",
+          "title": "La biblioteca de acabados en este PC",
+          "desc": "Skins premium de armas están en la biblioteca. También atuendos y estilos de cuchillo, dentro de juegos compatibles. Cada ítem no es una compra aparte."
+        },
+        "featuresSection": {
+          "eyebrow": "Grupos",
+          "title": "Grupos cosméticos",
+          "desc": "Estos tipos de acabado están disponibles cuando la licencia cosmética está activa."
+        },
+        "experience": {
+          "eyebrow": "Cuando llega el acceso",
+          "title": "Capturas, luego acceso al portal",
+          "subtitle": "Las notas de captura quedan a la izquierda. A la derecha: acceso al portal y cómo se configura el menú.",
+          "previewLabel": "Capturas",
+          "accessDividerTop": "Fotogramas",
+          "accessDividerBottom": "Acceso"
+        },
+        "highlightsMore": "{count} filas cosméticas continúan más abajo en esta página."
+      }
+    },
+    "swipeHint": "Desliza para ver más capturas",
+    "checkoutEyebrow": "Pago",
+    "checkoutSelect": "Seleccionar suscripción",
+    "checkoutSingle": "Opción de compra",
+    "checkoutTotal": "Total",
+    "bestValue": "Mejor valor",
+    "planWeekly": "1 semana",
+    "planWeeklyNote": "7 días",
+    "planMonthly": "Mensual",
+    "planLifetime": "De por vida",
+    "planOneTime": "Acceso único",
+    "planPerMonth": "31 días de acceso",
+    "planOneTimeNote": "Acceso ilimitado",
+    "get": "Obtener",
+    "explore": "Explorar",
+    "buyNow": "Comprar ahora",
+    "viewDetails": "Ver detalles",
+    "items": [
+      {
+        "badge": "Disponible",
+        "category": "Utilidad de hardware",
+        "title": "HWID Spoofer para PCs de Modern Warfare 4",
+        "subtitle": "Los seriales de disco, las direcciones MAC y los IDs de GPU reciben un nuevo pase. El limpiador de la licencia corre antes del siguiente inicio de sesión.",
+        "desc": "Tras una marca de hardware, esta licencia reescribe seriales de disco. También reescribe direcciones MAC, IDs de GPU y huellas relacionadas. La limpieza de rastros está en la misma licencia.",
+        "features": [
+          "Reescritura de serial de disco",
+          "Reescritura de MAC",
+          "Reescritura de ID de GPU",
+          "Limpiador en la licencia"
+        ],
+        "more": 0,
+        "href": "/hwid-spoofer/"
+      },
+      {
+        "badge": "Disponible",
+        "category": "Apelaciones de cuenta",
+        "title": "Flujos de recuperación de cuenta con UGC",
+        "subtitle": "Apelaciones con plantilla y pasos de disputa que puedes repetir, para un perfil restringido en un juego, una red social o un marketplace.",
+        "desc": "Unban & Governance Control (UGC) incluye apelaciones con plantilla. También presenta disputas por su cuenta cuando un inicio de sesión está limitado, y ese trabajo no va atado a una sola plataforma.",
+        "features": [
+          "Apelaciones por flujo",
+          "Presentación automática de disputas",
+          "Varias plataformas",
+          "Juegos, redes, marketplaces"
+        ],
+        "more": 0,
+        "href": "/ugc/"
+      },
+      {
+        "badge": "Disponible",
+        "category": "Cosméticos en pantalla",
+        "title": "Skin Changer cliente para títulos compatibles",
+        "subtitle": "Skins de armas y atuendos, dibujados en este PC, sin una compra aparte por cada cosmético.",
+        "desc": "Un cliente pequeño pinta skins premium de armas en tu pantalla. Incluye atuendos y variantes de cuchillo, en los títulos principales que lista.",
+        "features": [
+          "Aspectos de acabado de arma",
+          "Aspectos de atuendo",
+          "Aspectos de estilo de cuchillo",
+          "Títulos principales cubiertos"
+        ],
+        "more": 0,
+        "href": "/skin-changer/"
+      }
+    ]
+  },
+  "blog": {
+    "eyebrow": "Blog",
+    "title": "Guías y actualizaciones",
+    "subtitle": "Configuración de ESP y aimbot, ajuste del menú y comprobaciones del día del parche para Modern Warfare 4.",
+    "latestTitle": "Guías de Modern Warfare 4 Cheats y notas del día del parche",
+    "latestSubtitle": "Filtra por tema para encontrar guías de configuración, profundizaciones de funciones y notas del día del parche.",
+    "filterAll": "Todos los artículos",
+    "emptyFilter": "Ningún artículo coincide con este filtro.",
+    "emptyArchive": "Aún no hay artículos. Las nuevas guías aparecerán aquí.",
+    "viewAll": "Ver todos los artículos",
+    "read": "Leer el artículo completo",
+    "articleActionsAria": "Seguir leyendo",
+    "buyCta": "Comprar Modern Warfare 4 Cheats",
+    "buyHwidCta": "Comprar la licencia HWID",
+    "moreArticles": "Más artículos",
+    "sidebarAria": "Barra lateral del artículo",
+    "tocTitle": "En este artículo",
+    "relatedTitle": "Guías relacionadas",
+    "filterToolbarAria": "Filtrar artículos por tema",
+    "items": []
+  },
+  "workflow": {
+    "eyebrow": "Cómo funciona",
+    "badge": "4 pasos sencillos",
+    "titleBefore": "De la comprobación de estado a",
+    "titleHighlight": "perfil guardado.",
+    "subtitle": "Cuatro pasos desde el banner de estado hasta un perfil del portal que puedes cargar la próxima vez.",
+    "ctaLabel": "Elige tu plan",
+    "ctaHref": "/cheats/",
+    "ctaSecondary": "FAQ de configuración",
+    "ctaSecondaryHref": "/faq/",
+    "items": [
+      {
+        "num": "01",
+        "phase": "Antes de comprar",
+        "title": "Comprobar estado en vivo",
+        "desc": "Abre {siteDomain} y lee el banner antes de pagar o iniciar el juego."
+      },
+      {
+        "num": "02",
+        "phase": "Pago",
+        "title": "Elige tu producto",
+        "desc": "Elige el paquete de cheats o una utilidad cuando el problema es este PC o un límite de cuenta."
+      },
+      {
+        "num": "03",
+        "phase": "Cargador",
+        "title": "Iniciar y configurar",
+        "desc": "Descarga el cargador desde el portal, activa módulos y configura ESP y aim antes de una partida en vivo."
+      },
+      {
+        "num": "04",
+        "phase": "En el juego",
+        "title": "Guarda tu perfil",
+        "desc": "Guarda el perfil del menú en el portal para que la siguiente sesión parta de esos ajustes."
+      }
+    ]
+  },
+  "support": {
+    "eyebrow": "Soporte",
+    "title": "Soporte de Modern Warfare 4 Cheats",
+    "subtitle": "Pregunta por un plan antes de pagar, o envía un ticket tras el pago.",
+    "channels": [
+      {
+        "icon": "users",
+        "title": "Chat antes del pago",
+        "desc": "Pregunta por el plan de 30 días, el plan de por vida o qué producto encaja.",
+        "linkLabel": "Iniciar pago",
+        "href": "/go/mw4-cheats/"
+      },
+      {
+        "icon": "headphones",
+        "title": "Chat con soporte",
+        "desc": "Escribe sobre un error del cargador, un restablecimiento de HWID o una pregunta de pedido.",
+        "linkLabel": "{supportEmail}",
+        "href": "mailto:{supportEmail}"
+      },
+      {
+        "icon": "navFaq",
+        "title": "Leer la FAQ",
+        "desc": "Lee respuestas de configuración, plataforma y cuenta antes de pagar.",
+        "linkLabel": "Ver toda la FAQ",
+        "href": "/faq/"
+      }
+    ],
+    "ticketTitle": "Incluir en tu ticket",
+    "ticketItems": [
+      {
+        "title": "Correo del pedido",
+        "desc": "La dirección que usaste en el pago en {siteDomain} o en la página de pago del socio."
+      },
+      {
+        "title": "Plataforma",
+        "desc": "Windows 10 o Windows 11, más la versión del cliente de Modern Warfare 4."
+      },
+      {
+        "title": "Detalle del error",
+        "desc": "Una captura, o la línea exacta del cargador o del cliente del juego."
+      }
+    ],
+    "pageSections": [
+      {
+        "heading": "Cómo funciona el soporte",
+        "paragraphs": [
+          "Escribe antes del pago si necesitas duración del plan o qué producto encaja. Tras el pago, usa el correo para errores del cargador, restablecimientos HWID o preguntas de pedido.",
+          "El canal de pago abre el flujo del socio. No sustituye un ticket una vez pagado."
+        ]
+      },
+      {
+        "heading": "Configuración que espera el equipo",
+        "paragraphs": [
+          "Termina el pago, abre el portal del operador y descarga el cargador de Windows actual. Configura aimbot, ESP y los demás módulos listados.",
+          "Lee el banner de estado antes de una partida. No entres a una partida si el banner indica fuera de línea o en actualización.",
+          "Los parches y las actualizaciones del anti-cheat pueden cambiar lo que sigue funcionando. Revisa el banner después de una actualización del juego."
+        ]
+      },
+      {
+        "heading": "Qué lista el sitio",
+        "paragraphs": [
+          "Los cheats de Modern Warfare 4 cubren los módulos del menú listados. HWID Spoofer es para un PC que falla el inicio de sesión mientras otros PC funcionan.",
+          "UGC formatea flujos de apelación. Skin Changer dibuja cosmética solo en tu cliente. Cada página de producto tiene su lista de funciones y planes."
+        ]
+      },
+      {
+        "heading": "Ayuda relacionada",
+        "paragraphs": [
+          "La FAQ cubre plataforma, traslados de licencia y estado. La lista de productos compara el cheat y las utilidades.",
+          "Las guías del blog explican ideas de configuración. No sustituyen el cargador en vivo del portal. El archivo del foro es de solo lectura."
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Respuestas claras antes del pago.",
+    "subtitle": "Plataforma, sanciones de cuenta, planes y cómo se traslada una licencia a un PC nuevo.",
+    "items": [
+      {
+        "num": "01",
+        "q": "¿Dónde compruebo si los cheats de Modern Warfare 4 están en línea?",
+        "a": "El banner de estado está en {siteDomain}. Léelo tras una actualización de Modern Warfare 4 y tras una del anti-cheat."
+      },
+      {
+        "num": "02",
+        "q": "¿Qué pasa después de comprar?",
+        "a": "El pago del socio abre el portal, con el cargador, la guía de configuración y configs guardadas. Lee la guía antes de iniciar Modern Warfare 4."
+      },
+      {
+        "num": "03",
+        "q": "¿Puedo recibir una sanción en la cuenta usando cheats de terceros para Modern Warfare 4?",
+        "a": "Sí. Una modificación de terceros puede llevar a una sanción en la cuenta. Las reglas del anti-cheat cambian. Lee el banner antes de usar el menú."
+      },
+      {
+        "num": "04",
+        "q": "¿Qué plataformas están soportadas?",
+        "a": "Modern Warfare 4 en Windows 10 o Windows 11 de 64 bits. macOS y Linux quedan fuera de esa lista."
+      },
+      {
+        "num": "05",
+        "q": "¿Puedo trasladar mi licencia a un PC nuevo?",
+        "a": "Usa el restablecimiento de HWID en el portal, o abre un ticket de soporte. El número de traslados depende del nivel."
+      },
+      {
+        "num": "06",
+        "q": "¿Dónde se listan productos y utilidades?",
+        "a": "La tienda de cheats mw4 está en {siteDomain}/products/. Cada producto tiene su página, lista de funciones y pago con socio."
+      }
+    ]
+  },
+  "footer": {
+    "homeLink": "{siteName}",
+    "tagline": "Aimbot, ESP y wallhack para Modern Warfare 4. Los planes están en {siteDomain}.",
+    "trademark": "{game} es una marca comercial de su respectivo titular. {siteDomain} no está afiliado ni respaldado por ese titular.",
+    "explore": "Explorar",
+    "exploreLinks": [
+      {
+        "id": "products",
+        "href": "/",
+        "label": "Resumen de funciones",
+        "ariaLabel": "Funciones",
+        "scrollTarget": "features"
+      },
+      {
+        "id": "products",
+        "href": "/products/",
+        "label": "Todos los productos",
+        "ariaLabel": "Todos los productos"
+      },
+      {
+        "id": "products",
+        "href": "/cheats/",
+        "label": "Planes y módulos del cheat",
+        "ariaLabel": "{cheatProduct}"
+      },
+      {
+        "id": "hwidSpoofer",
+        "href": "/hwid-spoofer/",
+        "label": "Panel HWID",
+        "ariaLabel": "HWID Spoofer"
+      },
+      {
+        "id": "products",
+        "href": "/ugc/",
+        "label": "Apelaciones UGC",
+        "ariaLabel": "UGC"
+      },
+      {
+        "id": "products",
+        "href": "/skin-changer/",
+        "label": "Cliente de skins",
+        "ariaLabel": "Skin Changer"
+      },
+      {
+        "id": "blog",
+        "href": "/blog/",
+        "label": "Guías y artículos",
+        "ariaLabel": "Blog"
+      },
+      {
+        "id": "forum",
+        "href": "/forum/",
+        "label": "Foro de la comunidad",
+        "ariaLabel": "Foro"
+      }
+    ],
+    "supportLinks": [
+      {
+        "href": "/faq/",
+        "label": "FAQ antes de comprar",
+        "ariaLabel": "FAQ"
+      },
+      {
+        "href": "/support/",
+        "label": "Contactar soporte",
+        "ariaLabel": "Soporte"
+      }
+    ],
+    "support": "Soporte",
+    "legal": "Legal",
+    "privacy": "Política de privacidad",
+    "terms": "Términos y condiciones",
+    "about": "Acerca de"
+  },
+  "legalPages": {
+    "about": {
+      "title": "Acerca de {siteName}",
+      "description": "{siteName} publica {cheatProduct}, las páginas de utilidades y notas de soporte en {siteDomain}.",
+      "sections": [
+        {
+          "heading": "Quiénes somos",
+          "paragraphs": [
+            "{siteName} es un catálogo para PC de herramientas de Modern Warfare 4. El sitio lista el menú de cheats, HWID Spoofer, UGC y Skin Changer.",
+            "Las notas de configuración y el banner de estado están aquí para que puedas valorar {cheatProduct} antes de pagar. Los nombres de producto identifican el software. No son una reclamación de propiedad."
+          ]
+        },
+        {
+          "heading": "Qué publicamos",
+          "paragraphs": [
+            "El producto principal lista aimbot, silent aimbot, ESP, wallhack, sin retroceso, God Mode, munición infinita y speedhack. El plan de 30 días cuesta 35 $. El de por vida cuesta 150 $. Esos precios coinciden con la página del producto.",
+            "Los precios de las utilidades están en sus propias páginas. Los artículos cubren configuración del menú, comprobaciones del día del parche y qué cambia una actualización del anti-cheat.",
+            "Las páginas cambian cuando llega un parche o se mueve una opción del menú. Lee el banner de inicio antes de una sesión."
+          ]
+        },
+        {
+          "heading": "Cómo es la configuración",
+          "paragraphs": [
+            "El pago corre por el flujo del socio. Tras pagar, se abre el portal del operador. Descarga allí el cargador de Windows actual.",
+            "Configura el menú y lee el banner de estado. Inicia Modern Warfare 4 solo después de esa comprobación. Los parches y las actualizaciones del anti-cheat pueden cambiar lo que sigue funcionando."
+          ]
+        },
+        {
+          "heading": "Requisitos",
+          "paragraphs": [
+            "El cheat está listado para Windows 10 o Windows 11 de 64 bits. macOS y Linux no están en esa lista.",
+            "Las utilidades también piden HVCI, Core Isolation, TPM y Secure Boot donde sus páginas lo indican."
+          ]
+        },
+        {
+          "heading": "Soporte",
+          "paragraphs": [
+            "El correo atiende errores del cargador, restablecimientos HWID y preguntas de pedido. Pon en el ticket el correo del pedido, la versión de Windows, la build del juego y el error exacto.",
+            "La FAQ y el archivo del foro de solo lectura cubren notas de configuración. Lee el banner de inicio antes de una sesión."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Política de privacidad",
+      "description": "Analítica, cookies y el correo que envías con un ticket de soporte en {siteDomain}.",
+      "sections": [
+        {
+          "heading": "Información que recopilamos",
+          "paragraphs": [
+            "Si Google Analytics está activo, puede registrar visitas a páginas, tipo de dispositivo, navegador y una región aproximada. El pago y la entrega de la licencia corren en páginas de pago externas. {siteDomain} no guarda números de tarjeta de pago."
+          ]
+        },
+        {
+          "heading": "Cómo usamos los datos",
+          "paragraphs": [
+            "Esos datos muestran qué guías y páginas de producto se usan, para corregir enlaces rotos y páginas pobres. Un ticket de soporte puede conservar el correo y el mensaje hasta cerrar ese asunto."
+          ]
+        },
+        {
+          "heading": "Cookies",
+          "paragraphs": [
+            "Las cookies en este sitio se limitan a analítica. Bloquéalas en el navegador y las páginas siguen cargando."
+          ]
+        },
+        {
+          "heading": "Soporte",
+          "paragraphs": [
+            "Las preguntas de privacidad van por la página de Soporte. Las reglas de compra y reembolso están en Términos y condiciones."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Términos y condiciones",
+      "description": "Qué compras, cómo funcionan las licencias, cuándo puede valorarse un reembolso y la sanción de cuenta que aceptas en {siteDomain}.",
+      "sections": [
+        {
+          "heading": "Acuerdo",
+          "paragraphs": [
+            "Última actualización: septiembre de 2026. Usar {siteDomain}, o terminar el pago de un producto listado aquí, significa que aceptas estos Términos y condiciones y la Política de privacidad."
+          ]
+        },
+        {
+          "heading": "Qué compras",
+          "paragraphs": [
+            "Los productos son {cheatProduct} y las utilidades de la página de productos. La entrega es un portal de operador y un cargador en Windows.",
+            "Cada página de producto indica qué incluye esa compra en el momento en que pagas. Una actualización de Modern Warfare 4 o del anti-cheat puede cambiar los módulos."
+          ]
+        },
+        {
+          "heading": "Pago y entrega",
+          "paragraphs": [
+            "El pago y la licencia se gestionan en páginas de pago externas. {siteDomain} no procesa ni almacena números de tarjeta de pago.",
+            "Tras pagar, abre el portal del operador desde el flujo del pedido y descarga el cargador y la guía de configuración actuales antes de iniciar Modern Warfare 4."
+          ]
+        },
+        {
+          "heading": "Uso de la licencia",
+          "paragraphs": [
+            "Una licencia es solo para ti. No compartas archivos del cargador, accesos al portal ni claves de licencia. Los límites de HWID y dispositivo siguen el nivel y se aplican en el portal."
+          ]
+        },
+        {
+          "heading": "Reembolsos y compras",
+          "paragraphs": [
+            "La venta es final cuando termina el pago. No hay reembolso por cambio de opinión, sanción de cuenta, sanción del anti-cheat o un problema por saltarse la guía de configuración o usar módulos mientras el banner dice fuera de línea.",
+            "Si el producto falla con la configuración que describe, Modern Warfare 4 en Windows 10 u 11, el cargador actual del portal y el banner en línea cuando empezaste, usa la página de Soporte. Incluye el correo del pedido, versión de Windows, compilación del juego y captura o error exacto del cargador.",
+            "Soporte puede ofrecer una corrección, acceso de reemplazo o reembolso parcial o total cuando la falla es nuestra. Soporte no tiene que aprobar cada solicitud."
+          ]
+        },
+        {
+          "heading": "Disponibilidad y riesgo",
+          "paragraphs": [
+            "Las herramientas de terceros para Modern Warfare 4 pueden dejar de funcionar tras una actualización del juego o del anti-cheat. Usarlas puede llevar a acción sobre la cuenta.",
+            "Lee el banner de la página de inicio antes de una sesión. No entres a una partida mientras el banner diga que los módulos están fuera de línea o aún se alinean tras un parche."
+          ]
+        },
+        {
+          "heading": "Cambios",
+          "paragraphs": [
+            "Estos términos pueden actualizarse. La fecha de última actualización arriba cambia cuando ocurre. Usar el sitio después de esa fecha significa que aceptas los términos revisados."
+          ]
+        },
+        {
+          "heading": "Soporte",
+          "paragraphs": [
+            "Preguntas de términos, facturación o cargador van por los botones de la página de Soporte. La Política de privacidad cubre cómo se tratan los datos del sitio."
+          ]
+        }
+      ]
+    },
+    "support": {
+      "title": "Soporte de {siteName}",
+      "description": "Errores del cargador, restablecimientos de HWID y preguntas de pago se gestionan desde {siteDomain}."
+    }
+  },
+  "common": {
+    "breadcrumbHome": "Inicio",
+    "breadcrumbProducts": "Productos",
+    "breadcrumbBlog": "Blog",
+    "breadcrumbForum": "Foro",
+    "breadcrumbFaq": "FAQ",
+    "breadcrumbAbout": "Acerca de",
+    "breadcrumbPrivacy": "Privacidad",
+    "breadcrumbTerms": "Términos",
+    "breadcrumbSupport": "Soporte",
+    "contactSupport": "Contactar soporte"
+  },
+  "notFound": {
+    "metaDescription": "Esta dirección no es una página en {siteDomain}. Abra la portada o la lista de productos para seguir.",
+    "title": "Página no encontrada",
+    "documentTitle": "Esta dirección no es una página",
+    "body": "Esa dirección no existe. Vuelve al inicio o abre la lista de productos.",
+    "backHome": "Volver al inicio",
+    "viewProducts": "Ver productos",
+    "viewElite": "Ver página del producto"
+  },
+  "pages": {
+    "faq": {
+      "eyebrow": "Centro de ayuda",
+      "title": "FAQ Modern Warfare 4 Cheats: configuración, planes y anti-cheat",
+      "description": "Pasos de configuración, planes de 30 días y de por vida, opciones de ESP y aim, y qué hacer tras una actualización del anti-cheat.",
+      "schemaName": "FAQ Modern Warfare 4 Cheats",
+      "schemaDescription": "Configuración, duración del plan, ESP, aimbot, entrega del cargador y respuestas de pago para Modern Warfare 4 en {siteDomain}."
+    },
+    "forum": {
+      "eyebrow": "Foro de la comunidad de Modern Warfare 4",
+      "title": "Foro de la comunidad de Modern Warfare 4",
+      "description": "Hilos archivados de solo lectura sobre configuración del cargador, configs de ESP, estado de parches y bans de HWID. Las respuestas están cerradas.",
+      "exploreGuides": "Explorar las guías",
+      "postsAria": "Publicaciones de la comunidad",
+      "sortAria": "Orden de publicaciones",
+      "sortPopular": "Popular",
+      "sortLatest": "Más recientes",
+      "sortTop": "Más comentados",
+      "filterAria": "Filtrar discusiones por tema",
+      "filterAll": "Todos los temas",
+      "resultsCount": "discusiones de guía",
+      "voteAria": "Votación de la discusión",
+      "upvoteAria": "Votar a favor de esta discusión",
+      "downvoteUnavailableAria": "Voto negativo no disponible",
+      "guideTeam": "Equipo de guías de {siteName}",
+      "guideBasedQa": "Preguntas y respuestas basadas en guías",
+      "fromGuide": "De la guía:",
+      "comments": "comentarios",
+      "closedThread": "Hilo cerrado",
+      "closedBy": "Cerrado por archivo",
+      "repliesClosed": "Las respuestas están cerradas",
+      "readDiscussion": "Leer discusión",
+      "empty": "Ninguna discusión coincide. Prueba otra búsqueda o tema.",
+      "emptyArchive": "Aún no hay discusiones. Los hilos nuevos aparecerán aquí.",
+      "categoryGeneral": "General",
+      "categoryGuides": "Guías y builds",
+      "categoryPatch": "Parches",
+      "categoryCommunity": "Comunidad",
+      "categoryLabels": {
+        "MW4 Discussion": "Discusión MW4",
+        "Gameplay Questions": "Preguntas de jugabilidad",
+        "Product Questions": "Preguntas sobre productos",
+        "Setup & Support": "Configuración y soporte",
+        "Game Updates": "Actualizaciones del juego",
+        "Features & Customization": "Funciones y personalización",
+        "Account & PC Questions": "Preguntas de cuenta y PC",
+        "PC Performance & Support": "Rendimiento del PC y soporte"
+      },
+      "paginationAria": "Páginas de discusión",
+      "pagePrevious": "Anterior",
+      "pageNext": "Siguiente",
+      "sidebarTitle": "Comunidad {siteName}",
+      "sidebarIntro": "Archivo de solo lectura. Los hilos siguen visibles como referencia; no puedes abrir un hilo ni responder.",
+      "statsDiscussions": "discusiones de guía",
+      "statsTopics": "temas",
+      "exploreAllGuides": "Explorar todas las guías",
+      "communitiesHeading": "Comunidades",
+      "browseRelated": "Ver preguntas y respuestas relacionadas",
+      "browseAllCommunities": "Ver todas las comunidades",
+      "guidelinesHeading": "Normas de la comunidad",
+      "guideline1": "Sé amable y constructivo",
+      "guideline2": "Mantente en el tema y aporta contexto",
+      "guideline3": "Marca spoilers y contenido sensible",
+      "readFullGuidelines": "Leer las normas completas",
+      "sidebarFoot": "Acerca de · Normas · Privacidad · Términos"
+    },
+    "utilities": {
+      "title": "HWID Spoofer",
+      "description": "Los identificadores de hardware se renuevan cuando otros PCs aceptan el inicio de sesión y este lo rechaza al instante.",
+      "viewDetails": "Abrir la página de la utilidad",
+      "includes": "En la licencia:",
+      "schemaName": "HWID Spoofer"
+    }
+  },
+  "ui": {
+    "skipLink": "Saltar al contenido principal",
+    "browseCheatsNav": "Probar ahora",
+    "browseCheatsNavMobile": "Ver producto",
+    "homeAria": "Inicio Modern Warfare 4 Cheats",
+    "menuOpen": "Abrir menú",
+    "themeLight": "Cambiar a modo claro",
+    "languageSwitcherLabel": "Idioma",
+    "languageNames": {
+      "en": "English",
+      "es": "Español",
+      "de": "Deutsch",
+      "fr": "Français"
+    }
+  }
+}

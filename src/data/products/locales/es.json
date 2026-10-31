@@ -1,0 +1,336 @@
+{
+  "sharedGoodToKnow": "Una nueva versión del juego o una actualización antitrampas puede cambiar qué opciones siguen funcionando. Lea el banner en {siteDomain} antes de pagar o iniciar.",
+  "sharedLimitations": "El software de trampas de terceros puede detectarse, dejar de funcionar tras una actualización del juego y provocar sanciones en la cuenta. La compatibilidad puede cambiar antes de que se edite esta página.",
+  "acquisitionSteps": [
+    {
+      "num": "01",
+      "title": "Revise el estado actual",
+      "desc": "Lea el banner en {siteDomain} antes de pagar, y de nuevo tras una actualización de Modern Warfare 4 o del antitrampas."
+    },
+    {
+      "num": "02",
+      "title": "Elija su nivel de acceso",
+      "desc": "Elija Modern Warfare 4 Cheats o la utilidad que encaje con el objetivo. Revise esa lista de funciones antes del pago con el socio."
+    },
+    {
+      "num": "03",
+      "title": "Contacte al equipo",
+      "desc": "Escriba al soporte con el correo del pedido listo si necesita confirmar disponibilidad, configuración de Windows o datos de pago."
+    },
+    {
+      "num": "04",
+      "title": "Siga la configuración guiada",
+      "desc": "Siga la guía de configuración después de pagar. Pida ayuda al soporte si la instalación se detiene. Compruebe la versión actual del juego antes de iniciar."
+    }
+  ],
+  "systemRequirements": [
+    "Confirme la versión actual del juego antes de iniciar.",
+    "Los parches y las actualizaciones del antitrampas pueden cambiar la compatibilidad."
+  ],
+  "gallery": [
+    {
+      "alt": "Vista de rifle en primera persona en una azotea con nieve, con nombres, distancias y marcos verdes.",
+      "caption": "Superposiciones en partida",
+      "captionDesc": "Nombres, distancias y marcos en un combate en azotea de Modern Warfare 4."
+    },
+    {
+      "alt": "Panel de aimbot con Aim Key M2, hueso Nearest, Check Visibility activo, FOV 100 y suavizado.",
+      "caption": "Menú de aimbot",
+      "captionDesc": "Tecla de puntería, hueso, suavizado, FOV y distancia máxima en la pestaña aimbot."
+    },
+    {
+      "alt": "Pestaña Players del ESP con Enable ESP y Show Team, más nombre, distancia, salud, huesos y caja.",
+      "caption": "Menú ESP",
+      "captionDesc": "Nombre, distancia, barra de salud, huesos e interruptores de caja en la pestaña de jugadores."
+    }
+  ],
+  "tiers": {
+    "elite": {
+      "about": [
+        {
+          "type": "p",
+          "text": "Cada interruptor del menú cubre una opción: aimbot o silent aimbot, ESP o wallhack, God Mode, munición infinita, sin retroceso o speedhack."
+        },
+        {
+          "type": "h2",
+          "text": "Configuración y soporte"
+        },
+        {
+          "type": "p",
+          "text": "El menú activa o desactiva cada opción y muestra los ajustes de esa opción. Las notas de configuración llegan en el portal. Un parche puede cambiar qué ajustes siguen disponibles."
+        }
+      ],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Planes y entrega"
+        },
+        {
+          "type": "p",
+          "text": "El plan mensual cuesta $35 y dura 30 días. Lifetime cuesta $150 con acceso ilimitado. Ambos planes usan la misma lista de opciones. El portal entrega el cargador tras el pago. Lea el banner de estado antes de una sesión."
+        },
+        {
+          "type": "h2",
+          "text": "Actualizaciones y compatibilidad"
+        },
+        {
+          "type": "p",
+          "text": "La compatibilidad puede cambiar tras una actualización de Modern Warfare 4 o un cambio del antitrampas. Compruebe la versión del juego y el banner en {siteDomain} antes de iniciar."
+        }
+      ],
+      "overview": {
+        "title": "Suite de cheat Modern Warfare 4",
+        "paragraphs": [
+          "El menú agrupa aimbot con silent aimbot, luego ESP con wallhack. God Mode va con munición infinita. Sin retroceso va con speedhack.",
+          "Wallhack y ESP muestran la posición del enemigo con salud y distancia. El plan de 30 días cuesta $35. Lifetime cuesta $150. Tras un parche, lea el banner en {siteDomain} antes de abrir el juego."
+        ]
+      },
+      "goodToKnow": "Una nueva versión del juego o una actualización antitrampas puede cambiar qué opciones siguen funcionando. Lea el banner en {siteDomain} antes de pagar o iniciar.",
+      "limitations": "El software de trampas de terceros puede detectarse, dejar de funcionar tras una actualización del juego y provocar sanciones en la cuenta. La compatibilidad puede cambiar antes de que se edite esta página.",
+      "acquisitionTitle": "Cómo obtener Modern Warfare 4 Cheats"
+    }
+  },
+  "utilities": {
+    "hwid-spoofer": {
+      "body": [
+        {
+          "type": "h2",
+          "text": "Marcas que permanecen en la máquina"
+        },
+        {
+          "type": "p",
+          "text": "Una marca de hardware sigue al PC. Cambiar el nombre de usuario no la mueve. Si otros equipos aceptan el inicio de sesión y este rechaza cada cuenta nueva, actualice los identificadores. Los números de serie del disco se reescriben en el panel. Las direcciones MAC, los ID de GPU y las huellas relacionadas van en el mismo paso. El inicio de sesión puede usar un perfil de hardware limpio. Una sanción que sigue en la cuenta no se levanta."
+        },
+        {
+          "type": "h2",
+          "text": "Familias antitrampas descritas en esta página"
+        },
+        {
+          "type": "p",
+          "text": "Riot Vanguard (Valorant) es una nota en esta página. Easy Anti-Cheat es otra. BattlEye también figura. Ricochet (Call of Duty) aparece con ACE y con Javelin. Se incluyen pilas comparables. La suplantación puede entrar en conflicto con los términos del editor. Puede traer nuevas sanciones. Tras una actualización del proveedor, una nota antitrampas listada puede terminar sin aviso. Las reglas de detección cambian en el proveedor. Lea esta página y confirme el título antes del pago."
+        },
+        {
+          "type": "h2",
+          "text": "Limpieza incluida en la licencia"
+        },
+        {
+          "type": "p",
+          "text": "Se incluye un limpiador que elimina restos tras la suplantación. Termine los cambios de identificador, ejecute esa limpieza e inicie el juego en el orden que indica la guía del portal activo."
+        },
+        {
+          "type": "h2",
+          "text": "Requisitos en este PC"
+        },
+        {
+          "type": "p",
+          "text": "Windows 10 u 11, 64 bits, es el sistema aquí. La suplantación y el limpiador requieren derechos de administrador. En Seguridad de Windows, HVCI y Core Isolation permanecen activos. Internet debe mantenerse para activación y actualizaciones. En firmware, TPM y Secure Boot permanecen activos."
+        }
+      ],
+      "overview": {
+        "title": "Un refresco cuando el bloqueo es este PC",
+        "paragraphs": [
+          "Empiece aquí tras una marca de hardware. Actualice los números de serie del disco en esta máquina. El mismo trabajo cubre direcciones MAC e ID de GPU, más huellas relacionadas, para que el inicio de sesión pueda continuar. Las notas de cobertura nombran Vanguard. También nombran Easy Anti-Cheat y BattlEye. Ricochet aparece con pilas similares. Un limpiador viene en el paquete.",
+          "Otros equipos pueden aceptar un inicio de sesión nuevo mientras este lo detiene al instante. Ese es el caso de este producto. Una sanción guardada en el registro de la cuenta permanece. El precio de 31 días es $50. Lifetime sigue en $150. Las herramientas en las dos licencias son las mismas."
+        ]
+      },
+      "goodToKnow": "Ejecute el cambio de identificador y el limpiador, en el orden de la guía del portal, antes de abrir el juego que levantó la marca de hardware. Vuelva a leer las notas antitrampas en el banner de estado antes de pagar.",
+      "limitations": "Este producto es para marcas de ID de hardware. Una sanción de cuenta que sigue activa permanece activa. La suplantación puede entrar en conflicto con los términos del editor y traer nuevas sanciones. Una actualización del proveedor puede terminar una nota antitrampas listada sin aviso previo en esta página.",
+      "acquisitionTitle": "Pedido de esta licencia HWID",
+      "acquisitionSteps": [
+        {
+          "num": "01",
+          "title": "Compare su título con la lista",
+          "desc": "La cobertura publicada nombra Riot Vanguard. Easy Anti-Cheat va con BattlEye en esa lista. Ricochet está con familias relacionadas. Compare su título con la lista y con el banner en {siteDomain} antes de pagar."
+        },
+        {
+          "num": "02",
+          "title": "Elija 31 días o lifetime",
+          "desc": "Mensual cuesta $50 y dura 31 días. Lifetime a $150 significa acceso ilimitado. Cualquier licencia incluye el panel del operador y el limpiador de rastros."
+        },
+        {
+          "num": "03",
+          "title": "Configure Windows antes de la primera suplantación",
+          "desc": "En Seguridad de Windows, active HVCI y Core Isolation. En firmware, active TPM y Secure Boot. Haga ambos antes de la primera sesión. También se requieren derechos de administrador en este PC para la suplantación y el limpiador."
+        },
+        {
+          "num": "04",
+          "title": "Cambie IDs, limpie e inicie",
+          "desc": "El orden de la guía del portal es el cambio de identificador, luego la limpieza incluida, luego el cliente del juego."
+        }
+      ],
+      "systemRequirements": [
+        "Windows 10 u 11, 64 bits.",
+        "En Seguridad de Windows, HVCI y Core Isolation activos.",
+        "Derechos de administrador para la suplantación y el limpiador.",
+        "Internet estable para activación y actualizaciones.",
+        "TPM y Secure Boot activos en BIOS/UEFI."
+      ],
+      "gallery": [
+        {
+          "alt": "Ventana Device que lista DISK, MOBO, Display, UUID, GPU y Network como changed o unchanged.",
+          "caption": "Filas de comprobación de series",
+          "captionDesc": "Tras un ciclo de suplantación, cada fila indica si ese valor de hardware cambió."
+        },
+        {
+          "alt": "Ventana Device con Permanent Spoof, GPU spoof activo, ethernet apagado y un campo seed.",
+          "caption": "Controles de firmware",
+          "captionDesc": "Desde esta pantalla de firmware puede activar suplantación de GPU o ethernet, escribir una semilla y aplicar un cambio permanente."
+        }
+      ]
+    },
+    "ugc": {
+      "body": [
+        {
+          "type": "h2",
+          "text": "Qué prepara Unban & Governance Control"
+        },
+        {
+          "type": "p",
+          "text": "Las apelaciones en UGC, también llamado Unban & Governance Control, cubren un perfil de juego limitado. También cubren un identificador social. También cubren un escaparate de mercado. Usted crea una plantilla de flujo de trabajo. El software vuelve a enviar el paquete de disputa. Ese mensaje no se copia a mano. Reúna prueba de que es dueño de la cuenta, más una cronología, antes de que corran esas presentaciones."
+        },
+        {
+          "type": "h2",
+          "text": "La plataforma sigue decidiendo"
+        },
+        {
+          "type": "p",
+          "text": "La plataforma decide cada caso, y el revisor tiene la última palabra. Algunas sanciones no caducan. Una suspensión permanente permanece. UGC organiza la evidencia y la redacción. Los ID de hardware no se cambian. Los controles de seguridad no se eluden. Una prohibición a nivel de máquina queda fuera de este producto. Una evidencia escasa debilita el caso."
+        },
+        {
+          "type": "h2",
+          "text": "Configuración de Windows para UGC"
+        },
+        {
+          "type": "p",
+          "text": "El cliente corre en Windows 10 u 11. Antes del primer inicio, HVCI y Core Isolation están activos, y TPM y Secure Boot también."
+        }
+      ],
+      "overview": {
+        "title": "Apelaciones para cuentas de juego, redes y tienda",
+        "paragraphs": [
+          "UGC (Unban & Governance Control) combina flujos de apelación que usted configura con gestión de disputas que corre sola. En alcance: una cuenta de juego restringida, una cuenta social o una cuenta de mercado.",
+          "El revisor de esa plataforma decide el caso. Una prohibición ligada al hardware queda fuera de este producto. Pague $35 por el plazo de 31 días. Lifetime sigue en $150. El conjunto de capacidades no cambia entre ambos."
+        ]
+      },
+      "goodToKnow": "Reúna prueba de que es dueño de la cuenta y escriba una cronología antes de que las presentaciones corran solas. El revisor de la plataforma tiene la última palabra en cada apelación.",
+      "limitations": "No se promete un resultado. Una suspensión permanente permanece. UGC no cambia ID de hardware. No elude controles de seguridad. Una evidencia escasa debilita el caso.",
+      "acquisitionTitle": "Inicio de la licencia UGC",
+      "acquisitionSteps": [
+        {
+          "num": "01",
+          "title": "Separe un límite de cuenta de un bloqueo de PC",
+          "desc": "UGC apunta a límites de cuenta en perfiles de juego, perfiles sociales o perfiles de mercado. Un fallo que afecta cuentas nuevas solo en una máquina corresponde a la ruta HWID."
+        },
+        {
+          "num": "02",
+          "title": "Seleccione el plazo UGC",
+          "desc": "Puede tomar 31 días por $35. O puede tomar acceso ilimitado por $150. El espacio de trabajo de automatización es el mismo en ambos."
+        },
+        {
+          "num": "03",
+          "title": "Prepare Windows para el cliente de apelaciones",
+          "desc": "Seguridad de Windows debe tener HVCI y Core Isolation activos. El firmware debe tener TPM y Secure Boot activos. Termine eso antes de la primera sesión."
+        },
+        {
+          "num": "04",
+          "title": "Arme la apelación y repítala",
+          "desc": "Ponga las reglas de la plataforma en un flujo UGC. La automatización repite los pasos de disputa para no volver a escribir el ticket."
+        }
+      ],
+      "systemRequirements": [
+        "Windows 10 u 11, 64 bits.",
+        "Seguridad de Windows con HVCI y Core Isolation activos.",
+        "BIOS/UEFI con TPM y Secure Boot activos.",
+        "Internet tras la compra, para el cliente de apelaciones."
+      ],
+      "gallery": [
+        {
+          "alt": "Marca del producto UGC: un engranaje carmesí, una esfera de reloj y líneas de velocidad.",
+          "caption": "Marca UGC",
+          "captionDesc": "La marca representa la biblioteca de plantillas y los ejecutores de disputas usados en perfiles limitados."
+        }
+      ]
+    },
+    "skin-changer": {
+      "body": [
+        {
+          "type": "h2",
+          "text": "Qué dibuja el cliente"
+        },
+        {
+          "type": "p",
+          "text": "Este cliente ligero dibuja skins premium de armas. También dibuja atuendos de personaje. También dibuja variantes raras de cuchillo en juegos compatibles. Esos cosméticos no requieren cada uno una compra aparte. Un acabado no es un bien real."
+        },
+        {
+          "type": "h2",
+          "text": "Visible solo en su pantalla"
+        },
+        {
+          "type": "p",
+          "text": "El aspecto permanece en su pantalla. Los inventarios no ganan artículos. El comercio sigue siendo imposible. Al cerrar el cliente desaparecen las imágenes. No se espera que otros jugadores vean el acabado."
+        },
+        {
+          "type": "h2",
+          "text": "La lista compatible puede cambiar"
+        },
+        {
+          "type": "p",
+          "text": "Los juegos principales están listados hoy. Un parche puede quitar una entrada de esa lista. Una actualización de Windows también puede cambiar esa lista. Antes de comprar, pregunte al soporte si su título sigue en la lista. Un cliente cosmético aún puede entrar en conflicto con los términos del juego y provocar acción sobre la cuenta."
+        },
+        {
+          "type": "h2",
+          "text": "Configuración del PC para el cliente cosmético"
+        },
+        {
+          "type": "p",
+          "text": "Se requiere Windows 10 u 11, con HVCI y Core Isolation activos, y con TPM y Secure Boot activos. Tras la compra también necesita acceso al cargador."
+        }
+      ],
+      "overview": {
+        "title": "Acabados dibujados aquí, no comprados uno a uno",
+        "paragraphs": [
+          "Skin Changer dibuja skins premium de armas sobre juegos compatibles. Atuendos y variantes de cuchillo están en esa misma biblioteca. No compra cada cosmético por separado.",
+          "La imagen permanece en su máquina. No se escribe en el inventario de la cuenta. El plan cosmético de 31 días cuesta $35. Lifetime para esa biblioteca cuesta $150. Ambos planes comparten una biblioteca. Antes de comprar, pida al soporte que confirme el título."
+        ]
+      },
+      "goodToKnow": "El cosmético aparece solo dentro de su cliente local. El inventario no recibe el artículo. Pregunte al personal si el título está cubierto antes del pago.",
+      "limitations": "Un cliente cosmético aún puede entrar en conflicto con los términos del juego y provocar acción sobre la cuenta. Un acabado no es un bien real. No se puede comerciar. Desaparece al salir del cliente. Un parche o una actualización de Windows puede cambiar qué juegos y artículos están listados.",
+      "acquisitionTitle": "Antes del cliente cosmético",
+      "acquisitionSteps": [
+        {
+          "num": "01",
+          "title": "Pregunte si su juego sigue listado",
+          "desc": "Los títulos principales están cubiertos, y un parche puede mover esa lista. Envíe al soporte el nombre del juego antes del pago y pregunte si esos cosméticos siguen listados."
+        },
+        {
+          "num": "02",
+          "title": "Elija cuánto dura la licencia cosmética",
+          "desc": "Un mes de cosméticos cuesta $35 en 31 días. Pagar $150 una vez es acceso ilimitado. La biblioteca en sí no cambia con el plazo."
+        },
+        {
+          "num": "03",
+          "title": "Prepare Windows para el cliente cosmético",
+          "desc": "Antes de la primera sesión, Seguridad de Windows necesita HVCI y Core Isolation. El firmware necesita TPM y Secure Boot."
+        },
+        {
+          "num": "04",
+          "title": "Elija aspectos dentro del cliente",
+          "desc": "Cuando el portal haya entregado acceso, abra el cliente ligero. Para esa sesión, elija un skin de arma, un atuendo o una variante de cuchillo."
+        }
+      ],
+      "systemRequirements": [
+        "Windows 10 u 11, 64 bits.",
+        "Core Isolation y HVCI activos en Seguridad de Windows.",
+        "Secure Boot y TPM activos en BIOS/UEFI.",
+        "Internet, más acceso al cargador, tras la compra."
+      ],
+      "gallery": [
+        {
+          "alt": "Escudo Skin Changer con rifles cruzados, revólveres y destellos de estrella.",
+          "caption": "Marca cosmética",
+          "captionDesc": "Acabados de armas, atuendos de personaje y estilos de cuchillo se dibujan solo en su pantalla."
+        }
+      ]
+    }
+  }
+}

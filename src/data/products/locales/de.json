@@ -1,0 +1,336 @@
+{
+  "sharedGoodToKnow": "Ein neuer Spiel-Build oder ein Anti-Cheat-Update kann ändern, welche Optionen noch laufen. Lesen Sie das Banner auf {siteDomain}, bevor Sie bezahlen oder starten.",
+  "sharedLimitations": "Cheat-Software von Drittanbietern kann erkannt werden, nach einem Spielupdate ausfallen und zu Kontostrafen führen. Die Kompatibilität kann sich ändern, bevor diese Seite bearbeitet wird.",
+  "acquisitionSteps": [
+    {
+      "num": "01",
+      "title": "Aktuellen Status prüfen",
+      "desc": "Lesen Sie das Banner auf {siteDomain} vor der Zahlung, und erneut nach einem Modern Warfare 4- oder Anti-Cheat-Update."
+    },
+    {
+      "num": "02",
+      "title": "Zugriffsstufe wählen",
+      "desc": "Wählen Sie Modern Warfare 4 Cheats oder das Dienstprogramm, das zur Aufgabe passt. Lesen Sie diese Funktionsliste vor dem Partner-Checkout."
+    },
+    {
+      "num": "03",
+      "title": "Team kontaktieren",
+      "desc": "Schreiben Sie an den Support mit bereiter Bestell-E-Mail, wenn Sie Verfügbarkeit, Windows-Setup oder Zahlungsdetails bestätigen lassen müssen."
+    },
+    {
+      "num": "04",
+      "title": "Geführte Einrichtung folgen",
+      "desc": "Folgen Sie nach der Zahlung der Setup-Anleitung. Fragen Sie den Support, wenn die Installation hängen bleibt. Passen Sie den aktuellen Spiel-Build an, bevor Sie starten."
+    }
+  ],
+  "systemRequirements": [
+    "Bestätigen Sie die aktuelle Spielversion vor dem Start.",
+    "Patches und Anti-Cheat-Updates können die Kompatibilität ändern."
+  ],
+  "gallery": [
+    {
+      "alt": "Ego-Gewehrsicht auf einem verschneiten Dach, mit Spielernamen, Distanzen und grünen Klammern.",
+      "caption": "Match-Overlays",
+      "captionDesc": "Spielernamen, Distanzen und Klammern in einem Dachkampf in Modern Warfare 4."
+    },
+    {
+      "alt": "Aimbot-Panel mit Aim Key M2, Knochen Nearest, Check Visibility an, FOV 100 und Glättung.",
+      "caption": "Aimbot-Menü",
+      "captionDesc": "Zieltaste, Knochenwahl, Glättung, FOV und Maximaldistanz auf der Aimbot-Registerkarte."
+    },
+    {
+      "alt": "ESP-Register Players mit Enable ESP und Show Team, plus Name, Distanz, Leben, Knochen und Box.",
+      "caption": "ESP-Menü",
+      "captionDesc": "Name, Distanz, Gesundheitsbalken, Knochen und Box-Schalter auf der Spieler-Registerkarte."
+    }
+  ],
+  "tiers": {
+    "elite": {
+      "about": [
+        {
+          "type": "p",
+          "text": "Jeder Menüschalter deckt eine Option ab: Aimbot oder Silent Aimbot, ESP oder Wallhack, God Mode, unendliche Munition, No Recoil oder Speedhack."
+        },
+        {
+          "type": "h2",
+          "text": "Konfiguration und Support"
+        },
+        {
+          "type": "p",
+          "text": "Das Menü schaltet jede Option ein oder aus und zeigt die Einstellungen dieser Option. Setup-Hinweise kommen im Portal. Ein Patch kann ändern, welche Einstellungen bleiben."
+        }
+      ],
+      "body": [
+        {
+          "type": "h2",
+          "text": "Pläne und Lieferung"
+        },
+        {
+          "type": "p",
+          "text": "Monatlich kostet $35 und läuft 30 Tage. Lifetime kostet $150 mit unbegrenztem Zugriff. Beide Pläne nutzen dieselbe Optionsliste. Das Portal liefert den Loader nach dem Checkout. Lesen Sie das Statusbanner vor einer Sitzung."
+        },
+        {
+          "type": "h2",
+          "text": "Updates und Kompatibilität"
+        },
+        {
+          "type": "p",
+          "text": "Die Kompatibilität kann sich nach einem Modern Warfare 4-Update oder einer Anti-Cheat-Änderung verschieben. Prüfen Sie die Spielversion und das Banner auf {siteDomain}, bevor Sie starten."
+        }
+      ],
+      "overview": {
+        "title": "Modern Warfare 4 Cheat-Suite",
+        "paragraphs": [
+          "Das Menü gruppiert Aimbot mit Silent Aimbot, dann ESP mit Wallhack. God Mode liegt bei unendlicher Munition. No Recoil liegt bei Speedhack.",
+          "Wallhack und ESP zeigen Gegnerposition mit Gesundheit und Distanz. Der 30-Tage-Plan kostet $35. Lifetime kostet $150. Nach einem Patch lesen Sie das Banner auf {siteDomain}, bevor Sie das Spiel starten."
+        ]
+      },
+      "goodToKnow": "Ein neuer Spiel-Build oder ein Anti-Cheat-Update kann ändern, welche Optionen noch laufen. Lesen Sie das Banner auf {siteDomain}, bevor Sie bezahlen oder starten.",
+      "limitations": "Cheat-Software von Drittanbietern kann erkannt werden, nach einem Spielupdate ausfallen und zu Kontostrafen führen. Die Kompatibilität kann sich ändern, bevor diese Seite bearbeitet wird.",
+      "acquisitionTitle": "So erhalten Sie Modern Warfare 4 Cheats"
+    }
+  },
+  "utilities": {
+    "hwid-spoofer": {
+      "body": [
+        {
+          "type": "h2",
+          "text": "Flags, die an der Maschine bleiben"
+        },
+        {
+          "type": "p",
+          "text": "Ein Hardware-Flag folgt dem PC. Ein Benutzername-Wechsel verschiebt es nicht. Wenn andere Rigs eine Anmeldung akzeptieren und dieser jedes neue Konto ablehnt, Kennungen auffrischen. Festplattenserien werden im Panel neu geschrieben. MAC-Adressen, GPU-IDs und zugehörige Fingerabdrücke laufen im selben Schritt. Die Anmeldung kann ein sauberes Hardwareprofil nutzen. Eine Sanktion, die auf dem Konto bleibt, wird nicht aufgehoben."
+        },
+        {
+          "type": "h2",
+          "text": "Anti-Cheat-Familien auf dieser Seite"
+        },
+        {
+          "type": "p",
+          "text": "Riot Vanguard (Valorant) ist eine Notiz auf dieser Seite. Easy Anti-Cheat ist eine weitere. BattlEye steht ebenfalls. Ricochet (Call of Duty) steht mit ACE und mit Javelin. Vergleichbare Stacks sind dabei. Spoofing kann mit Publisher-Bedingungen kollidieren. Es kann neue Strafen bringen. Nach einem Anbieter-Update kann eine gelistete Anti-Cheat-Notiz ohne Hinweis enden. Erkennungsregeln ändern sich beim Anbieter. Lesen Sie diese Seite und bestätigen Sie den Titel vor dem Checkout."
+        },
+        {
+          "type": "h2",
+          "text": "Bereinigung in der Lizenz enthalten"
+        },
+        {
+          "type": "p",
+          "text": "Ein Cleaner ist enthalten und entfernt Reste nach dem Spoof. Schließen Sie die Kennungsänderungen ab, führen Sie die Bereinigung aus und starten Sie das Spiel in der Reihenfolge der aktiven Portal-Anleitung."
+        },
+        {
+          "type": "h2",
+          "text": "Anforderungen auf diesem PC"
+        },
+        {
+          "type": "p",
+          "text": "Windows 10 oder 11, 64-Bit, ist das OS hier. Spoof und Cleaner brauchen Administratorrechte. In der Windows-Sicherheit bleiben HVCI und Core Isolation an. Internet bleibt für Aktivierung und Updates aktiv. In der Firmware bleiben TPM und Secure Boot an."
+        }
+      ],
+      "overview": {
+        "title": "Auffrischen, wenn der Block dieser PC ist",
+        "paragraphs": [
+          "Starten Sie hier nach einem Hardware-Flag. Aktualisieren Sie Festplattenserien auf dieser Maschine. Dieselbe Arbeit deckt MAC-Adressen und GPU-IDs plus zugehörige Fingerabdrücke ab, damit die Anmeldung weitergehen kann. Die Abdeckungsnotizen nennen Vanguard. Sie nennen auch Easy Anti-Cheat und BattlEye. Ricochet steht mit ähnlichen Stacks. Ein Cleaner liegt im Paket.",
+          "Andere Computer können eine neue Anmeldung annehmen, während dieser sie sofort stoppt. Das ist der Fall für dieses Produkt. Eine im Kontodatensatz gespeicherte Sanktion bleibt. Der 31-Tage-Preis ist $50. Lifetime bleibt $150. Die Tools auf beiden Lizenzen sind gleich."
+        ]
+      },
+      "goodToKnow": "Führen Sie die Kennungsänderung und den Cleaner in der Portal-Anleitungsreihenfolge aus, bevor Sie das Spiel öffnen, das das Hardware-Flag ausgelöst hat. Lesen Sie die Anti-Cheat-Notizen auf dem Statusbanner erneut, bevor Sie bezahlen.",
+      "limitations": "Dieses Produkt ist für Hardware-ID-Flags. Eine noch aktive Kontosanktion bleibt aktiv. Spoofing kann mit Publisher-Bedingungen kollidieren und neue Strafen bringen. Ein Anbieter-Update kann eine gelistete Anti-Cheat-Notiz ohne Vorwarnung auf dieser Seite beenden.",
+      "acquisitionTitle": "Bestellung für diese HWID-Lizenz",
+      "acquisitionSteps": [
+        {
+          "num": "01",
+          "title": "Titel mit der Liste abgleichen",
+          "desc": "Veröffentlichte Abdeckung nennt Riot Vanguard. Easy Anti-Cheat steht mit BattlEye auf dieser Liste. Ricochet ist mit verwandten Familien dabei. Vergleichen Sie Ihren Titel mit der Liste und dem Banner auf {siteDomain}, bevor Sie bezahlen."
+        },
+        {
+          "num": "02",
+          "title": "31 Tage oder Lifetime wählen",
+          "desc": "Monatlich kostet $50 und läuft 31 Tage. Lifetime bei $150 bedeutet unbegrenzten Zugriff. Jede Lizenz enthält Bedienpanel und Spurenreiniger."
+        },
+        {
+          "num": "03",
+          "title": "Windows vor dem ersten Spoof einrichten",
+          "desc": "In der Windows-Sicherheit HVCI und Core Isolation einschalten. In der Firmware TPM und Secure Boot einschalten. Beides vor der ersten Sitzung. Administratorrechte auf diesem PC sind für Spoof und Cleaner ebenfalls nötig."
+        },
+        {
+          "num": "04",
+          "title": "IDs ändern, bereinigen, dann starten",
+          "desc": "Die Portal-Anleitungsreihenfolge ist Kennungsänderung, dann gebündelte Bereinigung, dann Spielclient."
+        }
+      ],
+      "systemRequirements": [
+        "Windows 10 oder 11, 64-Bit.",
+        "In der Windows-Sicherheit HVCI und Core Isolation an.",
+        "Administratorrechte für Spoof und Cleaner.",
+        "Internet, das für Aktivierung und Updates stabil bleibt.",
+        "TPM und Secure Boot an, in BIOS/UEFI."
+      ],
+      "gallery": [
+        {
+          "alt": "Device-Fenster mit DISK, MOBO, Display, UUID, GPU und Network als Changed oder Unchanged.",
+          "caption": "Serial-Check-Zeilen",
+          "captionDesc": "Nach einem Spoof-Zyklus sagt jede Zeile, ob dieser Hardwarewert geändert wurde."
+        },
+        {
+          "alt": "Device-Fenster mit Permanent Spoof, GPU-Spoof an, Ethernet aus und einem Seed-Feld.",
+          "caption": "Firmware-Steuerungen",
+          "captionDesc": "Auf diesem Firmware-Bildschirm können Sie GPU- oder Ethernet-Spoofing umschalten, einen Seed eintragen und eine permanente Änderung anwenden."
+        }
+      ]
+    },
+    "ugc": {
+      "body": [
+        {
+          "type": "h2",
+          "text": "Was Unban & Governance Control vorbereitet"
+        },
+        {
+          "type": "p",
+          "text": "Einsprüche in UGC, auch Unban & Governance Control genannt, decken ein eingeschränktes Gaming-Profil ab. Ein Social-Handle ist abgedeckt. Ein Marktplatz-Storefront ist abgedeckt. Sie bauen ein Workflow-Template. Die Software reicht das Streitpaket erneut ein. Diese Nachricht wird nicht von Hand kopiert. Sammeln Sie Eigentumsnachweise plus eine Timeline, bevor diese Einreichungen laufen."
+        },
+        {
+          "type": "h2",
+          "text": "Die Plattform entscheidet weiter"
+        },
+        {
+          "type": "p",
+          "text": "Die Plattform entscheidet jeden Fall, und der Prüfer hat das letzte Wort. Manche Strafen verfallen nie. Eine permanente Sperre bleibt. UGC ordnet Belege und Formulierung. Hardware-IDs werden nicht geändert. Sicherheitskontrollen werden nicht umgangen. Ein Maschinensperre liegt außerhalb dieses Produkts. Dünne Belege schwächen den Fall."
+        },
+        {
+          "type": "h2",
+          "text": "Windows-Setup für UGC"
+        },
+        {
+          "type": "p",
+          "text": "Der Client läuft unter Windows 10 oder 11. Vor dem ersten Start sind HVCI und Core Isolation an, und TPM und Secure Boot sind an."
+        }
+      ],
+      "overview": {
+        "title": "Einsprüche für Gaming-, Social- und Shop-Konten",
+        "paragraphs": [
+          "UGC (Unban & Governance Control) verbindet Einspruchs-Workflows, die Sie einrichten, mit Streitbearbeitung, die von selbst läuft. Im Umfang: ein eingeschränktes Gaming-Konto, ein Social-Konto oder ein Marktplatz-Konto.",
+          "Der Prüfer auf dieser Plattform entscheidet den Fall. Ein hardwaregebundener Ban liegt außerhalb dieses Produkts. $35 für die 31-Tage-Laufzeit. Lifetime bleibt $150. Der Funktionsumfang ändert sich nicht zwischen beiden."
+        ]
+      },
+      "goodToKnow": "Sammeln Sie Eigentumsnachweise und schreiben Sie eine Timeline, bevor Einreichungen von selbst laufen. Der Plattform-Prüfer hat bei jedem Einspruch das letzte Wort.",
+      "limitations": "Ein Ergebnis wird nicht versprochen. Eine permanente Sperre bleibt. UGC ändert keine Hardware-IDs. Es umgeht keine Sicherheitskontrollen. Dünne Belege schwächen den Fall.",
+      "acquisitionTitle": "Start der UGC-Lizenz",
+      "acquisitionSteps": [
+        {
+          "num": "01",
+          "title": "Kontolimit von PC-Block trennen",
+          "desc": "UGC zielt auf Kontolimits bei Gaming-, Social- oder Marktplatz-Profilen. Ein Fehler, der neue Konten nur auf einer Maschine trifft, gehört auf den HWID-Pfad."
+        },
+        {
+          "num": "02",
+          "title": "UGC-Laufzeit wählen",
+          "desc": "Sie können 31 Tage für $35 nehmen. Oder unbegrenzten Zugriff für $150. Der Automatisierungs-Arbeitsbereich ist auf beiden gleich."
+        },
+        {
+          "num": "03",
+          "title": "Windows für den Einspruchs-Client bereit machen",
+          "desc": "Windows-Sicherheit soll HVCI und Core Isolation an haben. Firmware soll TPM und Secure Boot an haben. Das vor der ersten Sitzung abschließen."
+        },
+        {
+          "num": "04",
+          "title": "Einspruch bauen und wiederholen",
+          "desc": "Plattformregeln in einen UGC-Workflow packen. Die Automatisierung spielt die Streitschritte erneut ab, damit das Ticket nicht erneut getippt wird."
+        }
+      ],
+      "systemRequirements": [
+        "Windows 10 oder 11, 64-Bit.",
+        "Windows-Sicherheit mit HVCI und Core Isolation an.",
+        "BIOS/UEFI mit TPM und Secure Boot an.",
+        "Internet nach dem Kauf für den Einspruchs-Client."
+      ],
+      "gallery": [
+        {
+          "alt": "UGC-Produktzeichen: ein karminrotes Zahnrad, ein Zifferblatt und Geschwindigkeitslinien.",
+          "caption": "UGC-Zeichen",
+          "captionDesc": "Das Zeichen steht für die Template-Bibliothek und die Streitläufer bei limitierten Profilen."
+        }
+      ]
+    },
+    "skin-changer": {
+      "body": [
+        {
+          "type": "h2",
+          "text": "Was der Client zeichnet"
+        },
+        {
+          "type": "p",
+          "text": "Dieser leichte Client zeichnet Premium-Waffen-Skins. Charakter-Outfits werden ebenfalls gezeichnet. Seltene Messervarianten werden in unterstützten Spielen gezeichnet. Diese Kosmetik braucht nicht jeweils einen separaten Kauf. Ein Finish ist keine echte Ware."
+        },
+        {
+          "type": "h2",
+          "text": "Nur auf Ihrem Display sichtbar"
+        },
+        {
+          "type": "p",
+          "text": "Der Look bleibt auf Ihrem Display. Inventare gewinnen keine Items. Handel bleibt unmöglich. Beim Schließen des Clients verschwinden die Bilder. Andere Spieler sollen das Finish voraussichtlich nicht sehen."
+        },
+        {
+          "type": "h2",
+          "text": "Die Support-Liste kann sich verschieben"
+        },
+        {
+          "type": "p",
+          "text": "Große Spiele stehen heute auf der Liste. Ein Patch kann einen Eintrag entfernen. Ein Windows-Update kann die Liste ebenfalls ändern. Fragen Sie vor dem Kauf den Support, ob Ihr Titel noch gelistet ist. Ein Kosmetik-Client kann trotzdem mit Spielbedingungen kollidieren und Kontomaßnahmen auslösen."
+        },
+        {
+          "type": "h2",
+          "text": "PC-Setup für den Kosmetik-Client"
+        },
+        {
+          "type": "p",
+          "text": "Windows 10 oder 11 ist nötig, mit HVCI und Core Isolation an, und mit TPM und Secure Boot an. Nach dem Kauf brauchen Sie außerdem Loader-Zugriff."
+        }
+      ],
+      "overview": {
+        "title": "Finishes hier gezeichnet, nicht einzeln gekauft",
+        "paragraphs": [
+          "Skin Changer zeichnet Premium-Waffen-Skins auf unterstützte Spiele. Outfits und Messervarianten liegen in derselben Bibliothek. Sie kaufen nicht jedes Kosmetikprodukt einzeln.",
+          "Das Bild bleibt auf Ihrer Maschine. Es wird nicht ins Kontoinventar geschrieben. Der 31-Tage-Kosmetikplan kostet $35. Lifetime für diese Bibliothek kostet $150. Beide Pläne teilen eine Bibliothek. Fragen Sie vor dem Kauf den Support, ob der Titel passt."
+        ]
+      },
+      "goodToKnow": "Kosmetik erscheint nur in Ihrem lokalen Client. Das Inventar erhält das Item nicht. Fragen Sie das Team vor dem Checkout, ob der Titel abgedeckt ist.",
+      "limitations": "Ein Kosmetik-Client kann trotzdem mit Spielbedingungen kollidieren und Kontomaßnahmen auslösen. Ein Finish ist keine echte Ware. Es ist nicht handelbar. Es verschwindet beim Beenden des Clients. Patch oder Windows-Update kann ändern, welche Spiele und Items gelistet sind.",
+      "acquisitionTitle": "Vor dem Kosmetik-Client",
+      "acquisitionSteps": [
+        {
+          "num": "01",
+          "title": "Fragen, ob Ihr Spiel noch gelistet ist",
+          "desc": "Große Titel sind abgedeckt, und ein Patch kann die Liste verschieben. Mailen Sie den Support den Spielnamen vor dem Checkout und fragen Sie, ob diese Kosmetik noch gelistet ist."
+        },
+        {
+          "num": "02",
+          "title": "Dauer der Kosmetik-Lizenz wählen",
+          "desc": "Ein Monat Kosmetik kostet $35 über 31 Tage. Einmal $150 zahlen ist unbegrenzter Zugriff. Die Bibliothek selbst ändert sich nicht mit der Laufzeit."
+        },
+        {
+          "num": "03",
+          "title": "Windows für den Kosmetik-Client vorbereiten",
+          "desc": "Vor der ersten Sitzung braucht Windows-Sicherheit HVCI und Core Isolation. Firmware braucht TPM und Secure Boot."
+        },
+        {
+          "num": "04",
+          "title": "Looks im Client wählen",
+          "desc": "Wenn das Portal Zugang geliefert hat, öffnen Sie den leichten Client. Für diese Sitzung wählen Sie einen Waffen-Skin, ein Outfit oder eine Messervariante."
+        }
+      ],
+      "systemRequirements": [
+        "Windows 10 oder 11, 64-Bit.",
+        "Core Isolation und HVCI in der Windows-Sicherheit aktiviert.",
+        "Secure Boot und TPM in BIOS/UEFI aktiviert.",
+        "Internet plus Loader-Zugang nach dem Kauf."
+      ],
+      "gallery": [
+        {
+          "alt": "Skin Changer-Schild mit gekreuzten Gewehren, Revolvern und Stern-Highlights.",
+          "caption": "Kosmetik-Zeichen",
+          "captionDesc": "Waffen-Finishes, Charakter-Outfits und Messer-Stile werden nur auf Ihrem Bildschirm gezeichnet."
+        }
+      ]
+    }
+  }
+}
