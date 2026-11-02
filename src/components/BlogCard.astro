@@ -26,8 +26,7 @@ interface Props {
   class?: string;
 }
 
-const { post, index = 0, eager = false, showDate = false, layout = 'default', class: className } =
-  Astro.props;
+const { post, eager = false, showDate = false, layout = 'default', class: className } = Astro.props;
 const isFeatured = layout === 'featured';
 const href = lp(blogPostPath(post.slug));
 const timestamp = getBlogPostTimestamp(post.date);

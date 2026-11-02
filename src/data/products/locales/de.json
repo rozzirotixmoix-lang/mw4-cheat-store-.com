@@ -29,19 +29,19 @@
   ],
   "gallery": [
     {
-      "alt": "Ego-Gewehrsicht auf einem verschneiten Dach, mit Spielernamen, Distanzen und grünen Klammern.",
-      "caption": "Match-Overlays",
-      "captionDesc": "Spielernamen, Distanzen und Klammern in einem Dachkampf in Modern Warfare 4."
+      "alt": "Modern Warfare 4 Zielfernrohr-Ansicht mit grünen ESP-Boxen auf Gegnern in einem Holzflur.",
+      "caption": "ESP im Match",
+      "captionDesc": "Ego-Sicht mit Gegnerboxen und Minimap während Modern Warfare 4."
     },
     {
-      "alt": "Aimbot-Panel mit Aim Key M2, Knochen Nearest, Check Visibility an, FOV 100 und Glättung.",
-      "caption": "Aimbot-Menü",
-      "captionDesc": "Zieltaste, Knochenwahl, Glättung, FOV und Maximaldistanz auf der Aimbot-Registerkarte."
+      "alt": "Modern Warfare 4 Visuals-Tab mit Spielerbox, Skelett, Lebensbalken und Distanzreglern auf violettem Menü.",
+      "caption": "Visuals-Panel",
+      "captionDesc": "Character-ESP-Schalter, Skelettstärke und Maximaldistanz im Visuals-Tab für Modern Warfare 4."
     },
     {
-      "alt": "ESP-Register Players mit Enable ESP und Show Team, plus Name, Distanz, Leben, Knochen und Box.",
-      "caption": "ESP-Menü",
-      "captionDesc": "Name, Distanz, Gesundheitsbalken, Knochen und Box-Schalter auf der Spieler-Registerkarte."
+      "alt": "Modern Warfare 4 Visuals-Menü mit Portal-, Erz-, Fallen-, Truhen- und Item-Distanzen in drei Spalten.",
+      "caption": "Welt-ESP-Ebenen",
+      "captionDesc": "Portal-, Fallen-, Truhen- und Item-Distanzen neben der Visuals-Navigation für Modern Warfare 4."
     }
   ],
   "tiers": {

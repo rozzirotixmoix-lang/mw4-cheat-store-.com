@@ -71,9 +71,14 @@ export function validateSite(distDir, config) {
     const { nodes, meta, links, html } = page;
     const checkout = !!config.checkouts[route];
     const expected = config.pages[route];
-    if (!checkout && !expected) error(route, 'unexpected generated page; add it to site validation config');
     const titleNodes = nodes.filter((n) => n.tagName === 'title');
     const title = titleNodes[0] ? textContent(titleNodes[0]) : '';
+    const noindexStub =
+      meta('robots').some((v) => /\bnoindex\b/i.test(v)) && /Redirecting/i.test(title);
+    if (!checkout && !expected) {
+      if (noindexStub) continue;
+      error(route, 'unexpected generated page; add it to site validation config');
+    }
     if (titleNodes.length !== 1 || !title.trim()) error(route, 'requires one nonempty title');
     const singleMeta = (key) => {
       const values = meta(key);

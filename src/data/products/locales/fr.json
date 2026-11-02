@@ -29,19 +29,19 @@
   ],
   "gallery": [
     {
-      "alt": "Vue fusil à la première personne sur un toit enneigé, avec noms, distances et crochets verts.",
-      "caption": "Overlays en match",
-      "captionDesc": "Noms, distances et crochets pendant un combat sur un toit Modern Warfare 4."
+      "alt": "Vue lunette Modern Warfare 4 avec boîtes ESP vertes sur des ennemis dans un couloir en bois.",
+      "caption": "ESP en match",
+      "captionDesc": "Vue à la première personne avec boîtes ennemies et mini-carte pendant Modern Warfare 4."
     },
     {
-      "alt": "Panneau aimbot avec Aim Key M2, os Nearest, Check Visibility actif, FOV 100 et lissage.",
-      "caption": "Menu aimbot",
-      "captionDesc": "Touche de visée, os, lissage, FOV et distance max sur l'onglet aimbot."
+      "alt": "Onglet Visuals Modern Warfare 4 avec boîte joueur, squelette, barre de vie et distance sur menu violet.",
+      "caption": "Panneau Visuals",
+      "captionDesc": "Bascules ESP personnage, épaisseur du squelette et distance max sur Visuals pour Modern Warfare 4."
     },
     {
-      "alt": "Onglet Players ESP avec Enable ESP et Show Team, plus nom, distance, santé, os et boîte.",
-      "caption": "Menu ESP",
-      "captionDesc": "Nom, distance, barre de santé, os et bascules de boîte sur l'onglet joueurs."
+      "alt": "Menu Visuals Modern Warfare 4 avec portal, minerais, pièges, coffres et objets en trois colonnes de distance.",
+      "caption": "Couches ESP monde",
+      "captionDesc": "Distances portal, piège, coffre et objet à côté de la navigation Visuals pour Modern Warfare 4."
     }
   ],
   "tiers": {

@@ -6,12 +6,13 @@ export const PRIMARY_KEYWORD = 'Modern Warfare 4 Cheats';
 
 /** One representative angle per page that has one. */
 export const SECONDARY_KEYWORD_BY_PATH: Record<string, string> = {
-  '/': 'mw4 cheats',
+  '/': 'MW4 Cheats',
   '/cheats/': 'best mw4 aimbot',
 };
 
 /** Each mapped angle points at one existing page. Unsupported angles are included so later copy does not invent a page. */
 export const SECONDARY_KEYWORD_HOME: Record<string, string> = {
+  'MW4 Cheats': '/',
   'mw4 cheats': '/',
   'buy mw4 cheats': '/',
   'mw4 cheat shop': '/',

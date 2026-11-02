@@ -1,678 +1,702 @@
 import type { ForumPost } from './types';
 
-const toneByCategory: Record<string, ForumPost['categoryTone']> = {
-  'MW4 Discussion': 'purple',
-  'Gameplay Questions': 'blue',
-  'Product Questions': 'purple',
-  'Setup & Support': 'green',
-  'Game Updates': 'orange',
-  'Features & Customization': 'blue',
-  'Account & PC Questions': 'green',
-  'PC Performance & Support': 'orange',
-};
-
-function post(input: Omit<ForumPost, 'categoryTone'>): ForumPost {
-  return { ...input, categoryTone: toneByCategory[input.category] ?? 'purple' };
-}
-
 export const deForumPosts: ForumPost[] = [
-  post({
-    slug: 'modern-warfare-4-cheats-working-after-launch',
-    category: 'MW4 Discussion',
-    title: 'Gibt es bestätigte Modern Warfare 4 Cheats, die nach dem Launch funktionieren?',
-    excerpt:
-      'Updates in der Launch-Woche machen alte Screenshots und Behauptungen schwer beurteilbar. Diese Checks helfen, bevor man einer Kompatibilitätsaussage vertraut.',
-    author: 'QueueGoblin',
-    age: '',
-    published: '2026-10-26',
-    commentsCount: 5,
-    upvotes: 41,
-    body: [
-      'Hat jemand herausgefunden, wie man erkennt, ob ein MW4-Tool-Listing wirklich aktuell ist? Das Spiel ist gerade erschienen und fast jede Seite zeigt einen Screenshot mit großem "working"-Label. Das sagt nicht, wann getestet wurde oder auf welcher Version.',
-      'Ich bitte niemanden um Versprechen. Mich interessiert nur, was ihr prüft, bevor ihr einer Statusseite vertraut, statt einen Abend mit veralteter Software zu verlieren.',
+  {
+    "slug": "what-features-to-look-for-in-mw4-cheats",
+    "category": "MW4-Diskussion",
+    "categoryTone": "purple",
+    "title": "Welche Funktionen sollte man bei MW4-Software wirklich vergleichen?",
+    "excerpt": "Für MW4-Software werden viele Funktionen beworben, aber welche lohnen sich beim Vergleich? ESP, Radar, Zieloptionen und Anpassung im Gespräch.",
+    "author": "GuestPoster",
+    "age": "",
+    "published": "2026-10-30",
+    "commentsCount": 6,
+    "upvotes": 0,
+    "body": [
+      "Ich habe mir verschiedene MW4-Cheat-Menüs angesehen, und manche Feature-Listen sind wirklich riesig lol.",
+      "Auf einigen Produktseiten stehen ESP, Skeleton, Radar, Aimbot, Triggerbot, No Recoil und noch etwa 20 weitere Punkte.",
+      "Welche Funktionen halten Leute beim Software-Vergleich für wichtig?",
+      "Das MW4-Angebot, das ich mir angesehen habe, nennt Spielerboxen, Gesundheit, Panzerung, Distanz, Waffeninfos und ein separates Radar. Außerdem verschiedene Zieloptionen.",
+      "Ich möchte ein Produkt nicht nur wegen der längsten Feature-Liste bewerten.",
+      "Womit würdet ihr anfangen?"
     ],
-    comments: [
+    "comments": [
       {
-        author: 'packetloss',
-        age: '',
-        score: 0,
-        body: 'Datum des letzten Updates, unterstützte Spielversion und ein echtes Changelog wären meine ersten drei Checks. Ein statischer Screenshot kann von einem völlig anderen Build stammen.',
+        "author": "PixelRush",
+        "age": "",
+        "score": 0,
+        "body": "Ehrlich gesagt zählen die Beschreibungen mehr als die Anzahl. Manche Menüs listen alles auf, erklären aber kaum, was etwas bewirkt."
       },
       {
-        author: 'lowammo',
-        age: '',
-        score: 0,
-        body: 'Außerdem ist "undetected" nicht dasselbe wie "funktioniert". Viele mischen die beiden, als wären sie austauschbar.',
+        "author": "FragDealer",
+        "age": "",
+        "score": 0,
+        "body": "Radar und Spielerinformationen sind vermutlich die interessantesten Kategorien. Besonders wenn ein Spiel verschiedene Modi hat."
       },
       {
-        author: 'QueueGoblin',
-        age: '',
-        score: 0,
-        body: 'Genau. Dass ein Tool startet, beweist auch nicht den wichtigen Teil.',
+        "author": "OldManFPS",
+        "age": "",
+        "score": 0,
+        "body": "Ich will einfach ein Menü, das nicht wie ein Raumschiff-Cockpit aussieht lmao."
       },
       {
-        author: 'SundayGrind',
-        age: '',
-        score: 0,
-        body: 'Ich würde vor dem Bezahlen ein [aktuelles Status- und bekanntes Probleme](/cheats/) Listing und [Support-Kontakt](/support/) suchen. Wenn das Listing nicht sagt, was es unterstützt, mache ich nicht die Detektivarbeit.',
+        "author": "PixelRush",
+        "age": "",
+        "score": 0,
+        "body": "Genau. Prüft auch, ob die Funktionen für das Spiel unterstützt werden, für das ihr kauft. Ältere COD-Kompatibilität heißt nicht automatisch MW4."
       },
       {
-        author: 'packetloss',
-        age: '',
-        score: 0,
-        body: 'Und prüft separat die [Modern Warfare 4 Launch Patch Notes](https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes). Ein Patch kann normale Spielbugs fixen, ohne Drittanbieter-Tools zu erwähnen. Lest nicht zu viel hinein.',
+        "author": "AimTheory",
+        "age": "",
+        "score": 0,
+        "body": "Die getrennten 6v6- und DMZ-Konfigurationen sind bei genau diesem Listing erwähnenswert. Die Produktbeschreibung erklärt wenigstens, wofür die Profile gedacht sind."
       },
+      {
+        "author": "FragDealer",
+        "age": "",
+        "score": 0,
+        "body": "Stimmt. Klare Dokumentation schlägt noch 15 unklare Buttons."
+      }
     ],
-  }),
-  post({
-    slug: 'mw4-esp-vs-minimap',
-    category: 'Gameplay Questions',
-    title: 'ESP vs. normale Minimap in MW4: Was ist der echte Unterschied?',
-    excerpt:
-      'Eine verständliche Diskussion über ESP-Begriffe, Spielinformationen und warum Drittanbieter-Overlays nicht mit eingebauten HUD-Funktionen verwechselt werden sollten.',
-    author: 'minimapEnjoyer',
-    age: '',
-    published: '2026-08-14',
-    commentsCount: 5,
-    upvotes: 28,
-    body: [
-      'Ich sehe ESP und Wallhack oft wie dasselbe verwendet. Ist ESP im Grunde die Minimap mit Extra-Infos, oder bedeutet der Begriff etwas anderes? Ich weiß, dass die Worte in Clips locker genutzt werden; ich versuche, das normale HUD vom Spiel von dem zu trennen, was Drittanbieter-Tools bewerben.',
+    "sourceTitle": "Modern Warfare 4 Cheats: Was vor der Tool-Wahl wissen",
+    "sourcePath": "/blog/modern-warfare-4-cheats-buying-guide/"
+  },
+  {
+    "slug": "mw4-esp-vs-player-radar",
+    "category": "MW4-Funktionen",
+    "categoryTone": "blue",
+    "title": "Unterscheidet sich MW4-ESP vom normalen Spieler-Radar?",
+    "excerpt": "Was ist der Unterschied zwischen Spieler-ESP und einem 2D-Radar? Begriffe, Spielerinfos und Beschreibungen in MW4-Software.",
+    "author": "GuestPoster",
+    "age": "",
+    "published": "2026-10-21",
+    "commentsCount": 6,
+    "upvotes": 0,
+    "body": [
+      "Kurze Frage, weil ich ESP und Radar ständig zusammen sehe.",
+      "Sind das im Grunde dieselbe Funktion oder erfüllen sie unterschiedliche Zwecke?",
+      "Eine MW4-Feature-Liste nennt Spielerboxen, Skeleton, Gesundheit, Panzerung, Distanz und Waffeninfos. Dazu ein separates 2D-Radar mit Operator-Markern und Zoom.",
+      "Warum braucht ein Produkt beides?",
+      "Vielleicht verstehe ich die Begriffe falsch."
     ],
-    comments: [
+    "comments": [
       {
-        author: 'oldschoolFPS',
-        age: '',
-        score: 0,
-        body: 'Grundsätzlich bedeutet ESP meist ein Overlay, das Informationen über Spieler oder Objekte jenseits der normalen Sicht zeigt. Wallhack bezieht sich meist auf Informationen durch Geometrie. Die Begriffe überlappen oft, sind aber keine perfekten Synonyme.',
+        "author": "ScopeCheck",
+        "age": "",
+        "score": 0,
+        "body": "Das sind verschiedene Interface-Konzepte. ESP zeigt Infos in der Spielansicht. Radar setzt Marker auf eine separate Kartenansicht."
       },
       {
-        author: 'minimapEnjoyer',
-        age: '',
-        score: 0,
-        body: 'Verstanden. Der normale rote Punkt oder Ping ist also nicht automatisch "ESP", nur weil er Info liefert?',
+        "author": "MiniMapMain",
+        "age": "",
+        "score": 0,
+        "body": "Also im Wesentlichen eins auf dem Hauptbildschirm und eins als kleine Karte?"
       },
       {
-        author: 'oldschoolFPS',
-        age: '',
-        score: 0,
-        body: 'Richtig. Nehmt das HUD des Spiels und offizielle Beschreibungen als Basis. Drittanbieter-Overlays sind eine eigene Kategorie und können gegen die Regeln verstoßen.',
+        "author": "ScopeCheck",
+        "age": "",
+        "score": 0,
+        "body": "Genau, so ist die grobe Trennung."
       },
       {
-        author: 'scopeGremlin',
-        age: '',
-        score: 0,
-        body: 'Gaming-Vokabular ist schon ewig chaotisch. Jedes Thumbnail nennt jetzt alles Wallhack.',
+        "author": "NoScopeNate",
+        "age": "",
+        "score": 0,
+        "body": "ESP wird heute für alles Mögliche als Sammelbegriff benutzt. Marketing hat das Vokabular ruiniert lol."
       },
       {
-        author: 'fairplayfirst',
-        age: '',
-        score: 0,
-        body: 'Wichtig: Eine Feature-Liste beweist nicht, dass ein Tool wie beworben funktioniert oder für den Account unbedenklich ist. Das sind getrennte Fragen.',
+        "author": "TacticalTom",
+        "age": "",
+        "score": 0,
+        "body": "Hilfreich ist, genau nachzulesen, welche Infos gelistet sind. „ESP“ allein sagt nicht, ob Gesundheit, Distanz, Ausrüstung dabei ist."
       },
+      {
+        "author": "MiniMapMain",
+        "age": "",
+        "score": 0,
+        "body": "Verstanden. Die Feature-Dokumentation zählt also, nicht nur das Wort ESP überall."
+      }
     ],
-  }),
-  post({
-    slug: 'compare-mw4-cheat-listings',
-    category: 'Product Questions',
-    title: 'Wie vergleicht man MW4-Cheat-Listings ohne "undetected"-Banner zu vertrauen?',
-    excerpt:
-      'Vergleicht Dokumentation, Kompatibilitätshinweise, Support, Abrechnungsbedingungen und Update-Historie statt eines einzelnen Marketing-Badges.',
-    author: 'tabbedOut',
-    age: '',
-    published: '2026-09-19',
-    commentsCount: 5,
-    upvotes: 33,
-    body: [
-      'Ich vergleiche Listings und das größte Warnsignal ist riesiger "undetected"-Text ohne Details. Wonach schaut ihr wirklich beim Vergleichen? Ich lese lieber langweilige Dokumentation als einem auffälligen Banner zu vertrauen, bin mir aber unsicher, was noch auf die Checkliste gehört.',
+    "sourceTitle": "MW4 ESP vs. Wallhack: Unterschiede in Modern Warfare 4",
+    "sourcePath": "/blog/mw4-esp-vs-wallhack-differences/"
+  },
+  {
+    "slug": "mw4-cheats-monthly-vs-lifetime",
+    "category": "Kaufberatung",
+    "categoryTone": "purple",
+    "title": "MW4-Cheats: Monatsabo oder Lifetime, was passt besser?",
+    "excerpt": "Ein MW4-Angebot hat Monats- und Lifetime-Zugang. Kurzes Abo testen oder gleich Lifetime wählen?",
+    "author": "GuestPoster",
+    "age": "",
+    "published": "2026-10-12",
+    "commentsCount": 6,
+    "upvotes": 0,
+    "body": [
+      "Ich schaue mir die MW4-Preise an und überlege, welche Option sinnvoller ist.",
+      "Das Listing zeigt:",
+      "Monatlich: $35 für 31 Tage.",
+      "Lifetime: $150.",
+      "Beide Optionen werben mit derselben Feature-Liste.",
+      "Monatlich wirkt einfacher zum Testen, Lifetime ist langfristig günstiger, wenn man die Software lange nutzt.",
+      "Was würdet ihr vor der Entscheidung vergleichen?",
+      "Heißt Lifetime normalerweise dauerhafter Softwarezugang, auch wenn ein Game-Update die Kompatibilität kurz stört? Ich nehme an, das sind zwei verschiedene Dinge."
     ],
-    comments: [
+    "comments": [
       {
-        author: 'termsAndConditions',
-        age: '',
-        score: 0,
-        body: 'Update-Historie, Rückerstattung, Abo-Laufzeit, unterstütztes OS/Spielversion und echter Support-Weg. Vergleicht [vollständige Feature- und Kompatibilitätsdetails](/cheats/), bevor ihr einem Badge vertraut. Ich prüfe auch, ob Limitierungen erklärt werden, nicht nur Vorteile.',
+        "author": "BudgetLoadout",
+        "age": "",
+        "score": 0,
+        "body": "Ich würde $150 nicht ausgeben, bevor ich das Produkt ordentlich geprüft habe. Nur meine Meinung."
       },
       {
-        author: 'tabbedOut',
-        age: '',
-        score: 0,
-        body: 'Zählt eine Discord-Einladung als Support? Manche Seiten haben fast nichts anderes.',
+        "author": "LootGoblin",
+        "age": "",
+        "score": 0,
+        "body": "Erst monatlich. Nach vier Monaten hast du ungefähr den Lifetime-Preis, heißt aber nicht, dass man hetzen sollte."
       },
       {
-        author: 'termsAndConditions',
-        age: '',
-        score: 0,
-        body: 'Nicht allein. Ein Chat-Link sagt, wo ein Chat sein könnte, nicht wie schnell geantwortet wird oder was Support umfasst.',
+        "author": "AimTheory",
+        "age": "",
+        "score": 0,
+        "body": "Entscheidend ist, was Lifetime wirklich abdeckt. Das heißt nicht automatisch dauerhafte Kompatibilität mit jedem künftigen Update."
       },
       {
-        author: 'oneMoreRound',
-        age: '',
-        score: 0,
-        body: 'Preis zählt auch, aber vergleicht dieselbe Laufzeit. Ein günstiger Monatspreis ist nicht dasselbe wie ein Lifetime-Preis. Lest auch, was "lifetime" in den [FAQ](/faq/) bedeutet.',
+        "author": "BudgetLoadout",
+        "age": "",
+        "score": 0,
+        "body": "Genau. Die Service-Bedingungen lesen, nicht nur den großen LIFETIME-Hinweis."
       },
       {
-        author: 'packetloss',
-        age: '',
-        score: 0,
-        body: 'Wichtig: Kein Verkäufer kann ehrlich null Risiko garantieren, nur weil "undetected" draufsteht. Das Enforcement-System kann sich ändern, Marketing-Text ist keine unabhängige Prüfung.',
+        "author": "FragDealer",
+        "age": "",
+        "score": 0,
+        "body": "Prüft auch, ob beide Optionen dieselben Funktionen haben. Manche Abos haben unterschiedliche Stufen."
       },
+      {
+        "author": "LootGoblin",
+        "age": "",
+        "score": 0,
+        "body": "Hier steht, die Feature-Liste sei gleich. Vor dem Checkout trotzdem die aktuellen Bedingungen checken."
+      }
     ],
-  }),
-  post({
-    slug: 'before-buying-modern-warfare-4-tool',
-    category: 'Product Questions',
-    title: 'Vor dem Kauf eines Modern Warfare 4 Tools: Was sollte ich zuerst prüfen?',
-    excerpt:
-      'Eine praktische Checkliste vor dem Kauf, um Umfang und Bedingungen zu prüfen, bevor Geld für ein Drittanbieter-Gaming-Tool ausgegeben wird.',
-    author: 'heldForReview',
-    age: '',
-    published: '2026-10-06',
-    commentsCount: 5,
-    upvotes: 36,
-    body: [
-      'Was ist eure Must-Check-Liste vor dem Kauf eines Drittanbieter-MW4-Tools? Kein Verkaufstext, nur das, was euch vor einem Kauf rettet, der nicht zu eurem Setup passt, oder vor anderen Bedingungen als angenommen.',
+    "sourceTitle": "Modern Warfare 4 Cheats Preisguide: Was den Preis bestimmt",
+    "sourcePath": "/blog/modern-warfare-4-cheats-price-guide/"
+  },
+  {
+    "slug": "mw4-cheats-supported-game-modes",
+    "category": "MW4-Funktionen",
+    "categoryTone": "blue",
+    "title": "In welchen MW4-Modi unterscheidet sich der Feature-Support?",
+    "excerpt": "Nicht jede MW4-Funktion ist für jeden Multiplayer-Modus gedacht. Unterschiede bei 6v6, Ground War, Gunfight und Hajin DMZ.",
+    "author": "GuestPoster",
+    "age": "",
+    "published": "2026-10-07",
+    "commentsCount": 6,
+    "upvotes": 0,
+    "body": [
+      "Findet ihr auch, dass Spielmodus-Support eine eigene Sektion auf Cheat-Produktseiten verdient?",
+      "Ein MW4-Listing trennt 6v6, Ground War, Gunfight und Hajin DMZ.",
+      "Loot-Infos gelten nur für Hajin DMZ und sind in 6v6 deaktiviert.",
+      "Das ergibt Sinn, weil irrelevante Loot-Anzeigen in normalem Multiplayer nur das Interface vollmachen.",
+      "Prüft ihr einzelne Modi vor dem Kauf, oder geht ihr davon aus, dass überall alles funktioniert?"
     ],
-    comments: [
+    "comments": [
       {
-        author: 'ctrlAltDefeat',
-        age: '',
-        score: 0,
-        body: 'Plattform zuerst. PC- und Konsolen-Support sind nicht austauschbar, und "Call of Duty supported" ist zu vage. Sucht exakten Titel und Version.',
+        "author": "DMZEnjoyer",
+        "age": "",
+        "score": 0,
+        "body": "Ich schaue definitiv auf Modi. DMZ und normales Multiplayer sind völlig andere Erlebnisse."
       },
       {
-        author: 'heldForReview',
-        age: '',
-        score: 0,
-        body: 'Ja, die Seite, die ich ansehe, ist bei Versionsdetails nicht klar.',
+        "author": "QuickScopeKid",
+        "age": "",
+        "score": 0,
+        "body": "Moment, Gunfight ist auch dabei?"
       },
       {
-        author: 'ctrlAltDefeat',
-        age: '',
-        score: 0,
-        body: 'Dann fragt vor dem Kauf den [Support](/support/). Ist die Antwort vage, ist das auch eine Antwort.',
+        "author": "DMZEnjoyer",
+        "age": "",
+        "score": 0,
+        "body": "Das Listing sagt ja, Gunfight wird unterstützt. Immer die aktuelle Produkt-Doku prüfen."
       },
       {
-        author: 'menuDiver',
-        age: '',
-        score: 0,
-        body: 'Prüft auch Auto-Renewal, Lizenzdauer, was passiert wenn das Produkt vorübergehend nicht verfügbar ist, und wie man Support erreicht. Langweilig, kostet aber Geld.',
+        "author": "OldManFPS",
+        "age": "",
+        "score": 0,
+        "body": "Stell dir vor, du suchst Extraction-Loot auf einer winzigen Gunfight-Map lmao."
       },
       {
-        author: 'fairplayfirst',
-        age: '',
-        score: 0,
-        body: 'Ich würde Kontorisiko ergänzen. Selbst eine detaillierte Verkäuferseite garantiert kein Enforcement-freies Spiel. Lest die offiziellen Regeln und entscheidet, ob ihr das Risiko akzeptiert, bevor ihr etwas installiert.',
+        "author": "TacticalTom",
+        "age": "",
+        "score": 0,
+        "body": "Die getrennten gespeicherten Konfigurationen sind auch interessant. Eine für 6v6, eine für DMZ."
       },
+      {
+        "author": "QuickScopeKid",
+        "age": "",
+        "score": 0,
+        "body": "Das ist nützlicher als noch eine generische Feature-Checkliste."
+      }
     ],
-  }),
-  post({
-    slug: 'mw4-third-party-tool-not-launching',
-    category: 'Setup & Support',
-    title: 'Ein Drittanbieter-MW4-Tool startet nicht. Was prüfen, ohne Windows-Sicherheit abzuschalten?',
-    excerpt:
-      'Beginnt mit Version und Dokumentation, sammelt dann Fehlerdetails. Vermeidet riskante "Fixes", die Sicherheit deaktivieren oder Anti-Cheat-Schutz ändern.',
-    author: 'rebootEnjoyer',
-    age: '',
-    published: '2026-07-31',
-    commentsCount: 5,
-    upvotes: 22,
-    body: [
-      'Allgemeine Support-Frage: Ein Drittanbieter-MW4-Tool öffnet sich nicht und liefert fast keinen brauchbaren Fehler. Was ist die sinnvolle Check-Reihenfolge? Ich suche keinen Workaround mit ausgeschaltetem Defender oder Anti-Cheat-Diensten. Das klingt nach einem schnellen Weg, ein normales Problem zu verschlimmern.',
+    "sourceTitle": "Modern Warfare 4 Cheats: Was vor der Tool-Wahl wissen",
+    "sourcePath": "/blog/modern-warfare-4-cheats-buying-guide/"
+  },
+  {
+    "slug": "mw4-cheats-not-opening-windows-11",
+    "category": "Technischer Support",
+    "categoryTone": "green",
+    "title": "MW4-Software startet unter Windows 11 nicht: Was zuerst prüfen?",
+    "excerpt": "Probleme beim Öffnen von MW4-Software? Windows-Kompatibilität, Systemanforderungen, Cloud DMA und Infos für den Support.",
+    "author": "GuestPoster",
+    "age": "",
+    "published": "2026-09-28",
+    "commentsCount": 6,
+    "upvotes": 0,
+    "body": [
+      "Ich möchte verstehen, was man prüfen sollte, wenn MW4-Software nicht startet.",
+      "Keine random Fixes von YouTube, die einem sagen, man solle jede Windows-Sicherheitsfunktion abschalten.",
+      "Die Produktanforderungen nennen Windows 10 oder 11, HVCI, Core Isolation, TPM, Secure Boot und Cloud DMA für volle Funktionalität.",
+      "Das sind einige Punkte.",
+      "Bei Initialisierungsproblemen: Welche Infos sollte man vor dem Support-Kontakt sammeln?"
     ],
-    comments: [
+    "comments": [
       {
-        author: 'logsPls',
-        age: '',
-        score: 0,
-        body: 'Notiert den exakten Fehler und prüft dokumentierte OS- und Spielversions-Anforderungen. "Geht nicht" ist schwer zu diagnostizieren; die echte Meldung zählt.',
+        "author": "TechLoadout",
+        "age": "",
+        "score": 0,
+        "body": "Mit der genauen Fehlermeldung anfangen. Nicht nur „geht nicht“. Das reicht zum Troubleshooting nicht."
       },
       {
-        author: 'rebootEnjoyer',
-        age: '',
-        score: 0,
-        body: 'Es schließt sich praktisch direkt nach dem Start. Keine Meldung.',
+        "author": "KernelPanic",
+        "age": "",
+        "score": 0,
+        "body": "Windows-Version, Spielversion und ob die gelisteten Anforderungen aktiv sind. Auch, ob sich kürzlich etwas geändert hat."
       },
       {
-        author: 'logsPls',
-        age: '',
-        score: 0,
-        body: 'Dann prüft die offiziellen Produktanweisungen und das [Status-Listing](/cheats/), und bestätigt, dass der Installer von der legitimen Quelle stammt. Holt keine zufälligen DLLs oder "fixed loader" von File-Hostern.',
+        "author": "PCMedic",
+        "age": "",
+        "score": 0,
+        "body": "Guter Rat. BIOS-Einstellungen nicht wahllos ändern. Man kann größere Probleme schaffen als man löst."
       },
       {
-        author: 'quietPC',
-        age: '',
-        score: 0,
-        body: 'Schaut auch in die Windows-Ereignisanzeige, wenn ihr euch damit auskennt, und notiert die Schließzeit. Das kann einen Fehler für den Support liefern. Ladet persönliche Logs nicht öffentlich hoch, ohne sie zu prüfen.',
+        "author": "TechLoadout",
+        "age": "",
+        "score": 0,
+        "body": "Ja. Cloud DMA steht auf der Produktseite als für volle Funktionalität nötig, also beim Support nachfragen, wenn das für euer Setup relevant ist."
       },
       {
-        author: 'fairplayfirst',
-        age: '',
-        score: 0,
-        body: 'Wenn es erfordert, Sicherheitsfunktionen abzuschalten oder Spielschutz zu manipulieren, würde ich dort stoppen. Mindestens ein Sicherheitsrisiko, und nichts, was ich blind weiterempfehlen würde.',
+        "author": "NoScopeNate",
+        "age": "",
+        "score": 0,
+        "body": "Mein Lieblings-Tipp bleibt „mal aus- und wieder anmachen“ lol."
       },
+      {
+        "author": "KernelPanic",
+        "age": "",
+        "score": 0,
+        "body": "Funktioniert öfter, als Leute zugeben wollen."
+      }
     ],
-  }),
-  post({
-    slug: 'mw4-october-25-update-tool-compatibility',
-    category: 'Game Updates',
-    title: 'Hat der MW4-Patch vom 25. Oktober etwas an Drittanbieter-Tool-Kompatibilität geändert?',
-    excerpt:
-      'Die Patch Notes vom 25. Oktober beschreiben Spiel-Fixes, stellen aber nicht fest, ob ein Drittanbieter-Tool kompatibel oder unentdeckt ist.',
-    author: 'PatchGoblin',
-    age: '',
-    published: '2026-10-27',
-    commentsCount: 5,
-    upvotes: 39,
-    body: [
-      'Ich sah die [Launch Patch Notes vom 25. Oktober](https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes) und jetzt posten einige Seiten vage "updated"-Labels. Sagen die offiziellen Notes etwas über Drittanbieter-Tool-Support, oder verbinden Leute nur Punkte, weil die Daten passen?',
+    "sourceTitle": "Modern Warfare 4 Cheats: Was vor der Tool-Wahl wissen",
+    "sourcePath": "/blog/modern-warfare-4-cheats-buying-guide/"
+  },
+  {
+    "slug": "what-is-cloud-dma-mw4",
+    "category": "Technische Diskussion",
+    "categoryTone": "blue",
+    "title": "Was ist Cloud DMA und warum verlangt das MW4-Listing danach?",
+    "excerpt": "Cloud DMA steht in den MW4-Anforderungen. Was bedeutet das für Käufer? Was beim Anbieter nachfragen.",
+    "author": "GuestPoster",
+    "age": "",
+    "published": "2026-09-16",
+    "commentsCount": 5,
+    "upvotes": 0,
+    "body": [
+      "In den MW4-Systemanforderungen fiel mir Cloud DMA neben den Windows-Anforderungen auf.",
+      "Die Seite sagt, es sei für volle Funktionalität nötig.",
+      "Windows, TPM und Secure Boot kenne ich, aber Cloud DMA wird auf dem Listing nicht richtig erklärt.",
+      "Gibt es eine Doku, die genau erklärt, was es bedeutet, ob es Zusatzanforderungen gibt und was Käufer prüfen müssen?",
+      "Lieber die Anforderung verstehen, bevor ich kaufe."
     ],
-    comments: [
+    "comments": [
       {
-        author: 'changelogReader',
-        age: '',
-        score: 0,
-        body: 'Die offiziellen Notes listen Spiel-Fixes und Anpassungen. Das ist nicht dasselbe wie die Aussage, dass ein externes Tool funktioniert. Ich würde Kompatibilität nicht allein vom Patch-Datum ableiten.',
+        "author": "ByteHunter",
+        "age": "",
+        "score": 0,
+        "body": "Ich würde den Anbieter direkt fragen. Die Produktseite nennt die Anforderung, aber zu wenig Technik für Annahmen über das Setup."
       },
       {
-        author: 'PatchGoblin',
-        age: '',
-        score: 0,
-        body: 'Das dachte ich auch. "Heute aktualisiert" kann heißen, dass sie eine Webseite geändert haben.',
+        "author": "PCMedic",
+        "age": "",
+        "score": 0,
+        "body": "Stimmt. Hardware-Anforderung nicht mit einer Windows-Einstellung verwechseln."
       },
       {
-        author: 'smallPrintEnjoyer',
-        age: '',
-        score: 0,
-        body: 'Genau. Sucht eine konkrete Versionsnummer und eine klare Erklärung, was getestet wurde. Fehlen die, bleibt der Status aus Lesersicht unbestätigt.',
+        "author": "KernelPanic",
+        "age": "",
+        "score": 0,
+        "body": "Deswegen zählt ausführliche Doku. Eine Anforderungsliste sollte erklären, wofür jeder Punkt da ist."
       },
       {
-        author: 'pingSpikes',
-        age: '',
-        score: 0,
-        body: 'Und lest die offiziellen Notes für echte Spieländerungen. Die [aktuelle Produktstatus](/cheats/) Seite eines Tool-Verkäufers ist eine andere Quelle mit anderem Anreiz.',
+        "author": "ByteHunter",
+        "age": "",
+        "score": 0,
+        "body": "Genau. Nachfragen, ob noch etwas nötig ist, und aktuelle Anleitung schriftlich bekommen."
       },
       {
-        author: 'changelogReader',
-        age: '',
-        score: 0,
-        body: 'Selbst ein behaupteter Kompatibilitätstest beweist kein fehlendes Kontorisiko. Das sind getrennte Dinge.',
-      },
+        "author": "FragDealer",
+        "age": "",
+        "score": 0,
+        "body": "Wenigstens hast du vor dem Kauf geprüft, statt hinterher eine fehlende Anforderung zu entdecken lol."
+      }
+    ]
+  },
+  {
+    "slug": "mw4-cheat-menu-customization-and-settings",
+    "category": "MW4-Funktionen",
+    "categoryTone": "blue",
+    "title": "Wie bleibt ein MW4-Menü lesbar ohne Überladung?",
+    "excerpt": "Große Menüs werden schnell unübersichtlich. Lesbarkeit, Visual-Einstellungen, Crosshairs und gespeicherte Konfigurationen.",
+    "author": "GuestPoster",
+    "age": "",
+    "published": "2026-09-05",
+    "commentsCount": 6,
+    "upvotes": 0,
+    "body": [
+      "Bei komplexen Software-Menüs nervt mich, wenn zu viele Optionen gleichzeitig sichtbar sind.",
+      "Manche MW4-Menüs haben getrennte Bereiche für Visuals, Zielhilfe und Sonstiges.",
+      "Die Feature-Liste, die ich geprüft habe, nennt Boxen, Skeleton, Gesundheit, Panzerung, Distanz, Namen, Waffeninfos, Snaplines und Crosshair-Optionen.",
+      "Dazu gespeicherte Konfigurationen für verschiedene Modi.",
+      "Ich will ein Menü verstehen, ohne 15 Tabs zu öffnen.",
+      "Was macht für euch ein Interface übersichtlich?"
     ],
-  }),
-  post({
-    slug: 'mw4-skin-changer-cosmetic-visibility',
-    category: 'Features & Customization',
-    title: 'Machen Skin Changer Kosmetik für alle sichtbar oder nur auf dem eigenen Bildschirm?',
-    excerpt:
-      'Eine Diskussion über lokale Anzeige vs. Sicht anderer Spieler, mit dem Hinweis, keinen Support für ein Spiel anzunehmen, das die Produktseite nicht explizit nennt.',
-    author: 'camoCollector',
-    age: '',
-    published: '2026-09-08',
-    commentsCount: 5,
-    upvotes: 26,
-    body: [
-      'Frage zu Skin Changern allgemein: Wenn ein Cosmetic auf eurem Bildschirm erscheint, sehen das dann alle im Match? Oder kann es nur clientseitig sein? Ich nehme nicht an, dass jedes Tool gleich funktioniert; ich will verstehen, was ein Listing erklären sollte, bevor jemand kauft.',
+    "comments": [
+      {
+        "author": "UIEnjoyer",
+        "age": "",
+        "score": 0,
+        "body": "Logische Abschnitte. Visuals zusammen, Zieloptionen zusammen, Rest woanders. Schon ein guter Start."
+      },
+      {
+        "author": "FragDealer",
+        "age": "",
+        "score": 0,
+        "body": "Suchfelder. Bitte, mehr Software braucht Suchfelder."
+      },
+      {
+        "author": "OldManFPS",
+        "age": "",
+        "score": 0,
+        "body": "Suchfeld in einem Menü mit 12 Optionen ist verrückt lmao."
+      },
+      {
+        "author": "UIEnjoyer",
+        "age": "",
+        "score": 0,
+        "body": "Das sagst du, bis das Menü 70 Optionen hat."
+      },
+      {
+        "author": "TacticalTom",
+        "age": "",
+        "score": 0,
+        "body": "Gespeicherte Profile helfen, wenn Modi unterschiedliche Einstellungen brauchen. Das MW4-Listing nennt getrennte 6v6- und DMZ-Konfigurationen."
+      },
+      {
+        "author": "FragDealer",
+        "age": "",
+        "score": 0,
+        "body": "Wenn nur jedes Spielmenü so organisiert wäre."
+      }
     ],
-    comments: [
-      {
-        author: 'localOnlyMaybe',
-        age: '',
-        score: 0,
-        body: 'Das hängt vom Spiel und der Implementierung ab. Eine lokale visuelle Änderung beweist nicht, dass Server oder andere Spieler dasselbe sehen.',
-      },
-      {
-        author: 'camoCollector',
-        age: '',
-        score: 0,
-        body: 'Ein Screenshot klärt es also nicht, im Grunde.',
-      },
-      {
-        author: 'localOnlyMaybe',
-        age: '',
-        score: 0,
-        body: 'Richtig. Er zeigt, was in dem Moment auf dem Bildschirm war. Er belegt nicht automatisch Multiplayer-Sichtbarkeit oder unterstützte Titel.',
-      },
-      {
-        author: 'patchNotesDad',
-        age: '',
-        score: 0,
-        body: 'Ich würde das exakte Spiel auf der Seite [Skin Changer Feature-Details](/skin-changer/) und eine klare Limitierungs-Erklärung suchen. Steht nur "all games" ohne echte Liste, Support fragen, bevor Geld ausgegeben wird.',
-      },
-      {
-        author: 'fairplayfirst',
-        age: '',
-        score: 0,
-        body: 'Und kosmetische Manipulation in Online-Spielen kann trotzdem gegen Regeln verstoßen. "Nur Skins" ist keine universelle Ausnahme.',
-      },
+    "sourceTitle": "Modern Warfare 4 Cheats: Was vor der Tool-Wahl wissen",
+    "sourcePath": "/blog/modern-warfare-4-cheats-buying-guide/"
+  },
+  {
+    "slug": "mw4-hwid-spoofer-ricochet-compatibility",
+    "category": "Technische Diskussion",
+    "categoryTone": "blue",
+    "title": "Unterstützt ein MW4-HWID-Spoofer automatisch jedes Ricochet-Spiel?",
+    "excerpt": "Ein HWID-Spoofer kann mehrere Ricochet-Spiele listen. Heißt das Modern Warfare 4? Kompatibilität vor dem Kauf prüfen.",
+    "author": "GuestPoster",
+    "age": "",
+    "published": "2026-08-29",
+    "commentsCount": 6,
+    "upvotes": 0,
+    "body": [
+      "Frage zu Hardware-Spoofern.",
+      "Manche Produktseiten listen mehrere Call-of-Duty-Titel unter Ricochet-Kompatibilität.",
+      "Wenn ein Spoofer Warzone, Modern Warfare II, Modern Warfare III und Black Ops 6 unterstützt, sollte man MW4 mit annehmen?",
+      "Vermutlich nein, aber warum nutzen Verkäufer manchmal so breite Formulierungen?",
+      "Gibt es einen zuverlässigen Weg, Support für ein bestimmtes Spiel zu prüfen?"
     ],
-  }),
-  post({
-    slug: 'skin-changer-hvci-core-isolation-tpm-secure-boot',
-    category: 'Setup & Support',
-    title: 'HVCI, Core Isolation, TPM und Secure Boot sind als Anforderungen gelistet. Soll ich sie ändern?',
-    excerpt:
-      'Wenn ein Produkt Windows-Sicherheitsanforderungen listet, in offizieller Dokumentation prüfen und Schutz nicht abschalten, nur um Kompatibilität zu erzwingen.',
-    author: 'settingsMenuMaze',
-    age: '',
-    published: '2026-08-27',
-    commentsCount: 5,
-    upvotes: 24,
-    body: [
-      'Die [Skin Changer](/skin-changer/) Seite listet HVCI, Core Isolation, TPM und Secure Boot. Ich weiß, das ist Windows/Sicherheit, aber ich will BIOS oder Sicherheitseinstellungen nicht blind umstellen, weil ein Tool es sagt. Ist der richtige Schritt, Anforderungen zu prüfen und Support zu fragen, wenn mein PC sie nicht erfüllt?',
+    "comments": [
+      {
+        "author": "TechLoadout",
+        "age": "",
+        "score": 0,
+        "body": "Nie Kompatibilität annehmen, nur weil zwei Spiele dieselbe Anti-Cheat-Familie nutzen. Der exakte Titel zählt."
+      },
+      {
+        "author": "ByteHunter",
+        "age": "",
+        "score": 0,
+        "body": "Richtig. Das Spiel sollte explizit gelistet sein oder schriftliche Bestätigung vom Anbieter."
+      },
+      {
+        "author": "NoScopeNate",
+        "age": "",
+        "score": 0,
+        "body": "Marketing: unterstützt alles.\n\nEchte Doku: drei Spiele und Hoffnung lol."
+      },
+      {
+        "author": "KernelPanic",
+        "age": "",
+        "score": 0,
+        "body": "Hardware-Anforderungen und Spiel-Kompatibilität sind getrennte Fragen. Ein PC, der die Anforderungen erfüllt, heißt nicht, dass jedes Spiel unterstützt wird."
+      },
+      {
+        "author": "TechLoadout",
+        "age": "",
+        "score": 0,
+        "body": "Genau. Die HWID-Produktliste direkt prüfen. MW4 steht in der aktuellen COD-Kompatibilität nicht explizit."
+      },
+      {
+        "author": "ByteHunter",
+        "age": "",
+        "score": 0,
+        "body": "Das wollte ich hören. Lieber vorher fragen als annehmen."
+      }
     ],
-    comments: [
-      {
-        author: 'biosIsNotAPlayground',
-        age: '',
-        score: 0,
-        body: 'Ja. Zuerst die exakte Anforderung in offizieller Dokumentation prüfen. Firmware-Einstellungen nicht ändern, es sei denn, ihr versteht, was ihr ändert und warum.',
-      },
-      {
-        author: 'settingsMenuMaze',
-        age: '',
-        score: 0,
-        body: 'Das musste ich hören. Anleitungen online gehen in alle Richtungen.',
-      },
-      {
-        author: 'supportTicket42',
-        age: '',
-        score: 0,
-        body: 'Die gelisteten Anforderungen sind eine Kompatibilitätsaussage, kein Grund, Sicherheit auszuschalten. Wenn das Tool mit aktivem Schutz kollidiert, beim Anbieter nachfragen, was unterstützt wird, statt einem zufälligen Forum-Post zu folgen.',
-      },
-      {
-        author: 'windowedMode',
-        age: '',
-        score: 0,
-        body: 'Trennt auch "mein PC erfüllt die Anforderung" von "das Produkt unterstützt dieses Spiel". Zwei verschiedene Checks.',
-      },
-      {
-        author: 'fairplayfirst',
-        age: '',
-        score: 0,
-        body: 'Und wenn der einzige vorgeschlagene Fix ein Sicherheitsfeature abzuschalten ist, würde ich das nicht als normalen Setup-Schritt behandeln.',
-      },
+    "sourceTitle": "Modern Warfare 4 HWID-Ban: Was ein Hardware-Spoofer kann und nicht kann",
+    "sourcePath": "/blog/modern-warfare-4-hwid-ban-spoofer-guide/"
+  },
+  {
+    "slug": "are-mw4-cheats-worth-buying-for-casual-players",
+    "category": "Kaufberatung",
+    "categoryTone": "purple",
+    "title": "Lohnen sich MW4-Cheats, wenn man nur casual spielt?",
+    "excerpt": "Casual-Spieler haben andere Prioritäten als Competitive-Spieler. Preise, Funktionen, Kompatibilität und Risiken unautorisierter Software.",
+    "author": "GuestPoster",
+    "age": "",
+    "published": "2026-08-18",
+    "commentsCount": 6,
+    "upvotes": 0,
+    "body": [
+      "Was meint ihr dazu?",
+      "Wenn jemand MW4 nur ein paar Abende pro Woche spielt, lohnt sich Third-Party-Software überhaupt?",
+      "Ich sehe Monats- und Lifetime-Optionen, die Antwort hängt vermutlich davon ab, wie viel man wirklich spielt.",
+      "Die Produktseite, die ich ansehe, hat Monatlich für $35 und Lifetime für $150.",
+      "Neben dem Preis gibt es Kompatibilität und Kontorisiken.",
+      "Würdet ihr das überhaupt in Betracht ziehen, wenn ihr nicht täglich spielt?"
     ],
-  }),
-  post({
-    slug: 'hwid-spoofer-what-it-changes',
-    category: 'Account & PC Questions',
-    title: 'Was ändert ein HWID Spoofer wirklich, und entfernt er einen Account-Ban?',
-    excerpt:
-      'Ein HWID Spoofer wird oft als Änderung von Geräte-IDs beschrieben, darf aber nicht mit Aufhebung einer Account-Sanktion oder garantiertem Wiederzugang verwechselt werden.',
-    author: 'hardwareCurious',
-    age: '',
-    published: '2026-10-12',
-    commentsCount: 5,
-    upvotes: 31,
-    body: [
-      'Kann jemand HWID Spoofing in normaler Sprache erklären? Listings sprechen von Hardware-IDs und "Ban Recovery", aber das klingt, als würden Leute Gerätebeschränkung und Account-Ban vermischen. Sind das dasselbe?',
+    "comments": [
+      {
+        "author": "BudgetLoadout",
+        "age": "",
+        "score": 0,
+        "body": "Ich wäre vorsichtiger mit Geld, wenn ich nur gelegentlich spiele."
+      },
+      {
+        "author": "WeekendWarrior",
+        "age": "",
+        "score": 0,
+        "body": "Genau. Ich spiele am Wochenende. Kaufe nicht jedes Gaming-Abo lol."
+      },
+      {
+        "author": "FragDealer",
+        "age": "",
+        "score": 0,
+        "body": "Der Abo-Preis ist nur ein Teil. Feature-Liste verstehen und ob das Produkt eure Spielversion unterstützt."
+      },
+      {
+        "author": "OldManFPS",
+        "age": "",
+        "score": 0,
+        "body": "Überlegt auch, ob ihr die beworbenen Funktionen braucht. Nicht kaufen, nur weil die Produktseite beeindruckend aussieht."
+      },
+      {
+        "author": "WeekendWarrior",
+        "age": "",
+        "score": 0,
+        "body": "Und Kontorisiko. Das vergessen viele in der Diskussion."
+      },
+      {
+        "author": "BudgetLoadout",
+        "age": "",
+        "score": 0,
+        "body": "Genau. Ein günstiger Kauf kann trotzdem schlecht sein, wenn man nicht versteht, was man bekommt."
+      }
     ],
-    comments: [
-      {
-        author: 'plainEnglishPC',
-        age: '',
-        score: 0,
-        body: 'Nein, nicht automatisch dasselbe. HWID bezieht sich meist auf Hardware- oder Geräte-IDs. Eine Account-Sanktion ist eine separate Enforcement-Maßnahme; eine ID-Änderung hebt die Account-Entscheidung nicht von selbst auf.',
-      },
-      {
-        author: 'hardwareCurious',
-        age: '',
-        score: 0,
-        body: 'Also ist "macht dich unbanned" zu breit, es sei denn, sie spezifizieren, welche Art Beschränkung?',
-      },
-      {
-        author: 'plainEnglishPC',
-        age: '',
-        score: 0,
-        body: 'Ich würde es als zu prüfende Behauptung behandeln und bei echter Account-Sanktion mit offiziellen Appeal/Support-Kanälen starten. Nicht annehmen, dass ein Device-Tool eine Account-Maßnahme rückgängig macht.',
-      },
-      {
-        author: 'termsAndConditions',
-        age: '',
-        score: 0,
-        body: 'Prüft auch, welche Spiele und Anti-Cheat-Systeme die [HWID Spoofer](/hwid-spoofer/) Seite explizit unterstützt. Eine Liste anderer Titel beweist keinen MW4-Support.',
-      },
-      {
-        author: 'fairplayfirst',
-        age: '',
-        score: 0,
-        body: 'Enforcement zu umgehen kann mehr Ärger bringen. Offizielle Appeal-Wege sind sinnvoll, wenn ihr die Sanktion für falsch haltet.',
-      },
+    "sourceTitle": "Modern Warfare 4 Cheats Preisguide: Was den Preis bestimmt",
+    "sourcePath": "/blog/modern-warfare-4-cheats-price-guide/"
+  },
+  {
+    "slug": "mw4-6v6-and-dmz-saved-configurations",
+    "category": "MW4-Funktionen",
+    "categoryTone": "blue",
+    "title": "Hat das MW4-Menü getrennte 6v6- und DMZ-Konfigurationen?",
+    "excerpt": "Die MW4-Doku nennt gespeicherte Konfigurationen für 6v6 und DMZ. Was das bedeutet und warum modusspezifische Profile wichtig sind.",
+    "author": "GuestPoster",
+    "age": "",
+    "published": "2026-08-10",
+    "commentsCount": 5,
+    "upvotes": 0,
+    "body": [
+      "In einer MW4-Produktbeschreibung stand, man kann eine Konfiguration für 6v6 und eine zweite für DMZ speichern.",
+      "Ist das im Grunde ein Profilsystem?",
+      "Sinnvoll, weil DMZ Loot-Infos hat, normales 6v6 das nicht braucht.",
+      "Findet ihr modusspezifische Einstellungen generell sinnvoll in Gaming-Software?"
     ],
-  }),
-  post({
-    slug: 'ugc-tool-account-recovery-or-mw4-cheat',
-    category: 'Product Questions',
-    title: 'Was ist "UGC" auf dieser Produktseite: MW4-Gameplay-Tool oder Account-Appeal-Bereich?',
-    excerpt:
-      'Wenn ein Listing Account-Recovery und Gameplay-Features beschreibt, klaren Umfang verlangen statt an ein MW4-kompatibles Produkt zu glauben.',
-    author: 'whatEvenIsUGC',
-    age: '',
-    published: '2026-07-29',
-    commentsCount: 5,
-    upvotes: 19,
-    body: [
-      'Der Begriff UGC auf einem Listing verwirrt mich. Die Beschreibung spricht von Account Recovery und Appeal-Workflows, aber dieselbe Seite hat Gameplay-Tool-Sprache. Soll das ein Modern Warfare 4 Cheat sein oder etwas anderes? Ich will nicht aus dem Produktnamen raten.',
+    "comments": [
+      {
+        "author": "DMZEnjoyer",
+        "age": "",
+        "score": 0,
+        "body": "Ja, getrennte Profile machen Sinn, wenn Modi unterschiedliche Infos brauchen."
+      },
+      {
+        "author": "PixelRush",
+        "age": "",
+        "score": 0,
+        "body": "Ich hasse es, beim Moduswechsel alles manuell umzustellen. Also ja."
+      },
+      {
+        "author": "OldManFPS",
+        "age": "",
+        "score": 0,
+        "body": "Ich vergesse manchmal schon meine normale Sensitivität. Stell dir 50 Einstellungen manuell vor lol."
+      },
+      {
+        "author": "TacticalTom",
+        "age": "",
+        "score": 0,
+        "body": "Die Doku sagt ausdrücklich, das MW4-Listing hat getrennte gespeicherte Konfigurationen für 6v6 und DMZ."
+      },
+      {
+        "author": "PixelRush",
+        "age": "",
+        "score": 0,
+        "body": "Das ist mir auch aufgefallen. Nützliches Detail in der Doku statt in einer generischen Feature-Liste."
+      }
     ],
-    comments: [
-      {
-        author: 'readTheFinePrint',
-        age: '',
-        score: 0,
-        body: 'Ich würde den Anbieter um eine klare Liste bitten, was das Produkt tut und welche Spiele es unterstützt. Die Account-Recovery-Beschreibung der [UGC](/ugc/) Seite allein belegt keine MW4-Kompatibilität.',
-      },
-      {
-        author: 'whatEvenIsUGC',
-        age: '',
-        score: 0,
-        body: 'Ja, genau das verwirrte mich. Der Name erklärt den Use Case gar nicht.',
-      },
-      {
-        author: 'readTheFinePrint',
-        age: '',
-        score: 0,
-        body: 'Dann nicht als MW4-Gameplay-Tool behandeln, bis Produktseite oder Support das direkt bestätigen. Anforderungen und Kompatibilität sind separate Felder.',
-      },
-      {
-        author: 'menuDiver',
-        age: '',
-        score: 0,
-        body: 'Eine klare Produktseite sollte den Zweck in einem Satz sagen, dann Features, unterstützte Produkte, Anforderungen und Limitierungen listen. Wenn man decodieren muss, braucht die Seite Arbeit.',
-      },
-      {
-        author: 'accountHelpFirst',
-        age: '',
-        score: 0,
-        body: 'Bei echter Account-Beschränkung den offiziellen Appeal-Prozess des Spiels nutzen. Automatisierungstools garantieren keinen erfolgreichen Appeal.',
-      },
+    "sourceTitle": "Modern Warfare 4 Cheats: Was vor der Tool-Wahl wissen",
+    "sourcePath": "/blog/modern-warfare-4-cheats-buying-guide/"
+  },
+  {
+    "slug": "mw4-skin-changer-vs-gameplay-features",
+    "category": "Software-Diskussion",
+    "categoryTone": "purple",
+    "title": "Ist ein Skin Changer getrennt von MW4-Gameplay-Funktionen?",
+    "excerpt": "Sind Cosmetic-Tools und Gameplay-Modifikationen dieselbe Kategorie? Skin-Changer, unterstützte Spiele und separate Kompatibilitätsprüfung.",
+    "author": "GuestPoster",
+    "age": "",
+    "published": "2026-08-05",
+    "commentsCount": 6,
+    "upvotes": 0,
+    "body": [
+      "Vielleicht eine Basics-Frage: Sind Skin Changer normalerweise getrennt von Gameplay-Software?",
+      "Cosmetic-Tools werden oft neben anderer Gaming-Software beworben, ich bin unsicher, ob man sie in dieselbe Kategorie steckt.",
+      "Ein Skin-Changer-Listing spricht von Waffenskins und Operator-Cosmetics, ein MW4-Listing von Spielerinfos, Radar und Zieloptionen.",
+      "Das klingt nach völlig unterschiedlichen Zwecken.",
+      "Sollte man MW4-Support für einen Skin Changer annehmen, nur weil andere Spiele unterstützt werden?"
     ],
-  }),
-  post({
-    slug: 'mw4-aim-assist-vs-aimbot',
-    category: 'Gameplay Questions',
-    title: 'Aim Assist vs. Aimbot in MW4: Warum werden die Begriffe austauschbar verwendet?',
-    excerpt:
-      'Aim Assist ist eine vom Spiel designede Eingabe-Hilfe; ein Aimbot ist eine Drittanbieter-Kategorie, die zielt. Die Begriffe sind nicht austauschbar.',
-    author: 'stickDriftEnjoyer',
-    age: '',
-    published: '2026-09-29',
-    commentsCount: 5,
-    upvotes: 30,
-    body: [
-      'Können wir aufhören, jeden guten Controller-Clip Aimbot zu nennen? Ich kenne die Bedeutung theoretisch, aber die Worte fliegen, sobald jemand ein Gunfight gewinnt. Was ist die klare Unterscheidung, und wo sollte ein normaler Spieler anfangen, wenn die Aim sich weniger schrecklich anfühlen soll?',
+    "comments": [
+      {
+        "author": "CosmeticMain",
+        "age": "",
+        "score": 0,
+        "body": "Völlig anderer Zweck. Eins ist Kosmetik, das andere Gameplay-bezogene Software."
+      },
+      {
+        "author": "PixelRush",
+        "age": "",
+        "score": 0,
+        "body": "Und nein, Spiel-Kompatibilität nie annehmen. Das ist vermutlich der wichtigste Teil der Frage."
+      },
+      {
+        "author": "FragDealer",
+        "age": "",
+        "score": 0,
+        "body": "Stell dir vor, du kaufst ein Skin-Tool und dein Spiel ist nicht unterstützt. Schmerzhaft."
+      },
+      {
+        "author": "CosmeticMain",
+        "age": "",
+        "score": 0,
+        "body": "Genau. Zuerst die Liste unterstützter Titel lesen."
+      },
+      {
+        "author": "TechLoadout",
+        "age": "",
+        "score": 0,
+        "body": "Prüft auch, ob Cosmetic-Änderungen nur lokal sichtbar sind oder offiziell im Spiel anerkannt werden. Das ist nicht dasselbe."
+      },
+      {
+        "author": "PixelRush",
+        "age": "",
+        "score": 0,
+        "body": "Guter Punkt. Ein Screenshot in der Werbung beantwortet nicht jede Kompatibilitätsfrage."
+      }
+    ]
+  },
+  {
+    "slug": "mw4-cheats-update-status-and-compatibility",
+    "category": "Ankündigungen und Updates",
+    "categoryTone": "orange",
+    "title": "MW4-Software-Update-Status: Was sollten Anbieter veröffentlichen?",
+    "excerpt": "Game-Updates können die Kompatibilität von Third-Party-Software beeinflussen. Was eine nützliche MW4-Statusseite kommunizieren sollte.",
+    "author": "GuestPoster",
+    "age": "",
+    "published": "2026-11-01",
+    "commentsCount": 6,
+    "upvotes": 0,
+    "body": [
+      "Beim Kauf von Gaming-Software unterschätze ich oft die Update-Kommunikation.",
+      "Ein Game-Update kommt, etwas funktioniert nicht, und niemand weiß, ob es vorübergehend ist oder das Produkt nicht mehr unterstützt wird.",
+      "Was würdet ihr auf einer ordentlichen MW4-Statusseite sehen wollen?",
+      "Persönlich:",
+      "- Aktueller Kompatibilitätsstatus.\n- Datum des letzten Updates.\n- Bekannte Probleme.\n- Ob der Support das Problem kennt.\n- Relevante Anweisungen für Kunden.",
+      "Ein simples „funktioniert“ oder „funktioniert nicht“ reicht nicht immer."
     ],
-    comments: [
+    "comments": [
       {
-        author: 'settingsNerd',
-        age: '',
-        score: 0,
-        body: 'Aim Assist ist im Spiel eingebaut, damit Controller-Eingabe konsistenter wirkt. Ein Aimbot ist ein Drittanbieter-Automatisierungstool, das für den Spieler zielt. Nicht dasselbe.',
+        "author": "KernelPanic",
+        "age": "",
+        "score": 0,
+        "body": "Definitiv ein Zeitstempel. Eine Statusseite, die seit drei Monaten nicht aktualisiert wurde, ist Deko."
       },
       {
-        author: 'stickDriftEnjoyer',
-        age: '',
-        score: 0,
-        body: 'Danke. Manchmal schaue ich einen Clip und die Kommentare schreiben schon ein Gerichtsverfahren.',
+        "author": "ByteHunter",
+        "age": "",
+        "score": 0,
+        "body": "Bekannte Probleme auch. Selbst eine kurze Erklärung ist besser als Schweigen."
       },
       {
-        author: 'settingsNerd',
-        age: '',
-        score: 0,
-        body: 'Für normales Tuning: Spieleinstellungen, Übungsbereich falls vorhanden, eine Änderung nach der anderen. Kopiert keine zufällige "best settings" Liste ohne Test auf eurem Setup.',
+        "author": "NoScopeNate",
+        "age": "",
+        "score": 0,
+        "body": "Meine Lieblings-Statusseite sagt, alles ist okay, während alles brennt lol."
       },
       {
-        author: 'keyboardEnjoyer',
-        age: '',
-        score: 0,
-        body: 'Und ein Killcam ist nicht allein perfekter Beweis. Es kann wegen Latenz, Perspektive oder weil der Clip mitten im Fight startet, seltsam aussehen.',
+        "author": "TechLoadout",
+        "age": "",
+        "score": 0,
+        "body": "Eine gute Statusseite trennt Spiel-Kompatibilität vom Software-Service. Das sind verschiedene Dinge."
       },
       {
-        author: 'fairplayfirst',
-        age: '',
-        score: 0,
-        body: 'Wenn ihr eure Aim mit einem [Drittanbieter-Tool](/blog/are-modern-warfare-4-cheats-safe/) vergleicht, denkt daran, dass Automatisierung gegen Regeln verstoßen kann. Ihr braucht keins, um mit Sensitivität und Recoil-Übung zu starten.',
+        "author": "FragDealer",
+        "age": "",
+        "score": 0,
+        "body": "Kompatibilität nicht ankündigen, bevor sie wirklich geprüft ist. Das erzeugt nur Verwirrung."
       },
+      {
+        "author": "KernelPanic",
+        "age": "",
+        "score": 0,
+        "body": "Stimmt. Ehrliche Updates sind besser als falsche grüne Häkchen."
+      }
     ],
-  }),
-  post({
-    slug: 'mw4-third-party-cheat-ban-risk',
-    category: 'Account & PC Questions',
-    title: 'Können Drittanbieter-MW4-Cheats ein Konto markieren, auch wenn der Verkäufer "safe" sagt?',
-    excerpt:
-      'Kein Drittanbieter-Banner kann garantieren, dass ein Konto nie markiert wird. Offizielle Regeln prüfen und Risiko verstehen, bevor etwas installiert wird.',
-    author: 'lastMatchMaybe',
-    age: '',
-    published: '2026-10-24',
-    commentsCount: 5,
-    upvotes: 44,
-    body: [
-      'Ehrliche Frage: Wenn ein Verkäufer ein MW4-Tool "safe" oder "undetected" nennt, wie viel Vertrauen sollte das geben? Ich sehe absolute Formulierungen, aber Anti-Cheat aktualisiert sich und Bedingungen können vage sein. Kein Bypass gesucht, nur Risikoseite verstehen, bevor ich dumm entscheide.',
-    ],
-    comments: [
-      {
-        author: 'policyReader',
-        age: '',
-        score: 0,
-        body: 'Dem Banner würde ich sehr wenig Gewicht geben. Es ist eine Verkäuferbehauptung, keine Garantie des Publishers und kein Beweis, dass euer Konto später nicht sanktioniert werden kann.',
-      },
-      {
-        author: 'lastMatchMaybe',
-        age: '',
-        score: 0,
-        body: 'Das dachte ich. "Noch keine Reports" und "kann nicht erkannt werden" sind nicht dieselbe Aussage.',
-      },
-      {
-        author: 'policyReader',
-        age: '',
-        score: 0,
-        body: 'Genau. Selbst ein Produkt, das normal startet, kann gegen Spielregeln verstoßen. Offizielle Policy und [genannte Limitierungen auf der Produktseite](/cheats/) prüfen und Risiko annehmen statt Marketing-Label als Versicherung zu sehen.',
-      },
-      {
-        author: 'saltyLobby',
-        age: '',
-        score: 0,
-        body: 'Wenn eine Seite literal null Bans für immer garantiert, schließe ich den Tab. So funktioniert nichts online.',
-      },
-      {
-        author: 'accountHelpFirst',
-        age: '',
-        score: 0,
-        body: 'Bei Sorge über bestehende Sanktion: offiziellen Support oder Appeals nutzen. Tools oder Verkäufer meiden, die jeden Ban-Typ löschen versprechen.',
-      },
-    ],
-  }),
-  post({
-    slug: 'monthly-vs-lifetime-cheat-license',
-    category: 'Product Questions',
-    title: 'Monatliche vs. Lifetime-Lizenzen: Was vor der Wahl vergleichen?',
-    excerpt:
-      'Lizenzbedingungen und Folgen bei Support- oder Kompatibilitätsänderungen vergleichen; "lifetime" nicht als garantiert für immer unter allen Bedingungen annehmen.',
-    author: 'invoicePending',
-    age: '',
-    published: '2026-08-03',
-    commentsCount: 5,
-    upvotes: 27,
-    body: [
-      'Wenn ein Tool monatlichen und Lifetime-Zugang anbietet, wie entscheidet ihr? Ich weiß, es hängt von der Person ab, aber mich interessiert vor allem das Kleingedruckte. "Lifetime" klingt einfach, bis man fragt, wessen Lifetime und was nach einem Update passiert.',
-    ],
-    comments: [
-      {
-        author: 'oneMonthAtATime',
-        age: '',
-        score: 0,
-        body: 'Zuerst die tatsächliche Laufzeit vergleichen. Monatlich sollte sagen, wann verlängert oder abläuft. Lifetime sollte erklären, was abgedeckt ist und ob Support/Updates enthalten sind.',
-      },
-      {
-        author: 'invoicePending',
-        age: '',
-        score: 0,
-        body: 'Würdet ihr Lifetime im Voraus für ein kürzlich gelauchtes Produkt zahlen?',
-      },
-      {
-        author: 'oneMonthAtATime',
-        age: '',
-        score: 0,
-        body: 'Persönlich wäre ich vorsichtig. Eine längere Lizenz entfernt weder Kompatibilitäts-Unsicherheit noch Kontorisiko. Monatlich ist auch nicht automatisch gut; Bedingungen zählen mehr als das Label.',
-      },
-      {
-        author: 'spreadsheetWarrior',
-        age: '',
-        score: 0,
-        body: 'Break-even berechnen, dann fragen, ob ihr es noch wählen würdet, wenn Updates pausieren oder euer Setup nicht mehr unterstützt wird. Wenn nein, wenigstens in die Entscheidung einbeziehen.',
-      },
-      {
-        author: 'quietPC',
-        age: '',
-        score: 0,
-        body: 'Und eine Kopie der Bedingungen speichern, unter denen ihr gekauft habt. Bei Abrechnungsverwirrung hilft der exakte Wortlaut.',
-      },
-    ],
-  }),
-  post({
-    slug: 'mw4-overlay-stutter-troubleshooting',
-    category: 'PC Performance & Support',
-    title: 'MW4 ruckelt nach Installation eines Overlays. Wie die Ursache eingrenzen?',
-    excerpt:
-      'Problem methodisch isolieren: Einstellungen notieren, eine Änderung nach der anderen testen, Spiel- und Treiber-Updates prüfen, unvertrauenswürdige Overlays entfernen wenn es bleibt.',
-    author: 'frametimeFan',
-    age: '',
-    published: '2026-10-18',
-    commentsCount: 5,
-    upvotes: 29,
-    body: [
-      'Mein Frame-Pacing wurde spürbar schlechter, nachdem ich ein Overlay zu meinem PC-Setup hinzugefügt habe. Ich gebe MW4 noch nicht die Schuld, weil ich mehrere Dinge gleichzeitig geändert habe. Was ist der saubere Weg zur Isolation, statt zufällig Grafikeinstellungen zu drehen und zu vergessen, was ich tat?',
-    ],
-    comments: [
-      {
-        author: 'graphPaperGPU',
-        age: '',
-        score: 0,
-        body: 'Zuerst aktuelle Einstellungen aufschreiben. Dann mit entferntem oder deaktiviertem Overlay per normaler Deinstallation/Exit testen, Spiel neu starten, gleiche Map oder Last vergleichen. Eine Variable nach der anderen ändern.',
-      },
-      {
-        author: 'frametimeFan',
-        age: '',
-        score: 0,
-        body: 'Ich habe definitiv drei Dinge auf einmal geändert, also meine Schuld.',
-      },
-      {
-        author: 'graphPaperGPU',
-        age: '',
-        score: 0,
-        body: 'Hat jeder schon mal gemacht. Auch [Modern Warfare 4 Performance-Hilfe](https://support.activision.com/uk/en/modern-warfare-4) und GPU-Treiberversion prüfen. Frametime im Blick behalten, nicht nur durchschnittliche FPS.',
-      },
-      {
-        author: 'safeModePlease',
-        age: '',
-        score: 0,
-        body: 'Wenn das Overlay aus unbekanntem Download kam oder unbekannte Treiber verlangt, entfernen und System scannen. Ein paar Frames sind es nicht wert, einer mysteriösen EXE zu vertrauen.',
-      },
-      {
-        author: 'queueGoblin',
-        age: '',
-        score: 0,
-        body: 'Auch sicherstellen, dass ihr keine ruhige Trainingszone mit chaotischem Multiplayer-Match vergleicht. Gleiche Testbedingungen, sonst sind die Zahlen im Grunde nur Gefühl.',
-      },
-    ],
-  }),
+    "sourceTitle": "Modern Warfare 4 RICOCHET Anti-Cheat erklärt: Erkennung, TPM und Secure Boot",
+    "sourcePath": "/blog/modern-warfare-4-ricochet-anti-cheat-explained/"
+  }
 ];

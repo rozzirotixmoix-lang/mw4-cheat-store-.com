@@ -3,10 +3,10 @@
  * Visible buy buttons use `/go/…` from `checkout.ts`. These URLs are the 302 targets only.
  */
 export const CHECKOUT_URLS = {
-  wardogs: 'https://zadeyo.com/go/BASIT?to=%2Fproducts%2Fmw4-cheats',
-  hwidSpoofer: 'https://zadeyo.com/go/BASIT?to=%2Fproducts%2Fhwid-spoofer',
-  skinChanger: 'https://zadeyo.com/go/BASIT?to=%2Fproducts%2Fskin-changer',
-  ugc: 'https://zadeyo.com/go/BASIT?to=%2Fproducts%2Fugc',
+  wardogs: 'https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fmw4',
+  hwidSpoofer: 'https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fhwid-spoofer',
+  skinChanger: 'https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fskin-changer',
+  ugc: 'https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fugc',
 };
 
 const MAIN_CHECKOUT = CHECKOUT_URLS.wardogs;
@@ -15,6 +15,8 @@ const PREFIXED_LOCALES = ['es', 'de', 'fr'];
 
 /** Checkout paths → external product URLs (Node serve, Astro middleware, static `_redirects`). */
 export const CHECKOUT_PATH_REDIRECTS = new Map([
+  ['/go/mw4', MAIN_CHECKOUT],
+  ['/go/mw4/', MAIN_CHECKOUT],
   ['/go/mw4-cheats', MAIN_CHECKOUT],
   ['/go/mw4-cheats/', MAIN_CHECKOUT],
   ['/go/wardogs', MAIN_CHECKOUT],

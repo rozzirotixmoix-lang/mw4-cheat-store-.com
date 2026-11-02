@@ -96,7 +96,7 @@ if (sm.includes('/go/') || sm.includes('/privacy/') || sm.includes('/terms/')) {
   failures.push('sitemap contains non-indexable URL');
 }
 const smCount = (sm.match(/<loc>/g) ?? []).length;
-if (smCount !== 128) failures.push(`sitemap URL count ${smCount} expected 128`);
+if (smCount !== 112) failures.push(`sitemap URL count ${smCount} expected 112`);
 
 const vendorHost = new URL(CHECKOUT_URLS.wardogs).host;
 
@@ -118,26 +118,26 @@ function readHtml(rel) {
 }
 
 const corePages = [
-  { path: '/', title: 'Modern Warfare 4 Cheats | Aimbot, ESP and Radar on PC', h1: 'Modern Warfare 4 Cheats' },
+  { path: '/', title: 'Buy mw4 Hacks | Plans and Modules', h1: 'MW4 Cheats for PC' },
   {
     path: '/cheats/',
-    title: 'Modern Warfare 4 Hacks | Menu Modules and Checkout Plans',
-    h1: 'Modern Warfare 4 Hacks for Windows',
+    title: 'mw4 Wallhack 2026 | Aimbot and ESP Menu',
+    h1: 'MW4 Cheats',
   },
   {
     path: '/hwid-spoofer/',
-    title: 'Modern Warfare 4 HWID Spoofer | Rotate Disk and MAC IDs',
-    h1: 'HWID Spoofer for Modern Warfare 4 PCs',
+    title: 'mw4 Spoofing Tool | HWID Refresh',
+    h1: 'HWID Spoofer',
   },
   {
     path: '/ugc/',
-    title: 'Modern Warfare 4 Account Recovery | UGC Appeal Automation',
-    h1: 'Account Recovery Workflows with UGC',
+    title: 'Modern Warfare 4 UGC | Appeal Workflow Automation',
+    h1: 'UGC',
   },
   {
     path: '/skin-changer/',
-    title: 'Modern Warfare 4 Skin Changer | Local Cosmetic Previews',
-    h1: 'Client Skin Changer for Supported Titles',
+    title: 'Modern Warfare 4 Skin Changer | Local Finishes',
+    h1: 'Skin Changer',
   },
 ];
 
@@ -179,7 +179,7 @@ const buyHtml = [
   readHtml('/ugc/'),
   readHtml('/skin-changer/'),
 ].join('');
-if (!/href="\/go\/mw4-cheats(\/|")/.test(buyHtml)) failures.push('main product missing /go/ CTA');
+if (!/href="\/go\/mw4\//.test(buyHtml)) failures.push('main product missing /go/ CTA');
 if (!/href="\/go\/hwid-spoofer\//.test(buyHtml)) failures.push('hwid missing /go/ CTA');
 
 const goConfig = fs.readFileSync(path.join(root, 'src/config/checkout-redirects.mjs'), 'utf8');

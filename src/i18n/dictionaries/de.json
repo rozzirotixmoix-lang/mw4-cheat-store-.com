@@ -2,8 +2,8 @@
   "site": {
     "name": "{siteName}",
     "domain": "{siteDomain}",
-    "title": "Modern Warfare 4 Cheats | Aimbot, Player ESP und Radar",
-    "description": "Aimbot, Silent Aimbot, ESP, Wallhack, kein Rückstoß, God Mode, unendliche Munition und Speedhack für Modern Warfare 4."
+    "title": "MW4 Cheats | Modern Warfare 4 Menü-Katalog",
+    "description": "Aimbot, Silent Aimbot, ESP, Wallhack, kein Rückstoß, God Mode, unendliche Munition und Speedhack für Modern Warfare 4 unter Windows."
   },
   "nav": [
     {
@@ -41,9 +41,9 @@
   "hero": {
     "status": "Lesen Sie das Modern Warfare 4-Banner auf dieser Seite, bevor Sie starten.",
     "eyebrow": "Dominiere jedes Match",
-    "titleLead": "Aimbot: Modern Warfare 4 ",
-    "titleAccent": "Cheats für PC",
-    "subtitle": "Aimbot, ESP und Radar für Modern Warfare 4 auf dem PC, plus Wallhack. Vergleichen Sie unten Produkte, Module und Monats- oder Lifetime-Tarife vor dem Checkout.",
+    "titleLead": "MW4 Cheats ",
+    "titleAccent": "für PC",
+    "subtitle": "Für ein legit mw4 assist Profil starten Sie mit Glättung und Knochenpriorität statt maximalem Snap. Öffnen Sie das Status-Banner auf {siteDomain}, bevor Sie einen Tarif wählen.",
     "ctaPrimary": "Produkte ansehen",
     "metrics": [
       {
@@ -80,7 +80,7 @@
   "features": {
     "eyebrow": "Funktionen",
     "title": "Alles, was Sie brauchen, in einem Paket",
-    "subtitle": "mw4 cheats listet Aimbot, Silent Aimbot, ESP, Wallhack, kein Rückstoß, God Mode, unendliche Munition und Speedhack für Modern Warfare 4.",
+    "subtitle": "Die neun Menügruppen unten spiegeln die Modern Warfare 4-Produktseite. Jeder Block erklärt eine Schalterfamilie, bevor Sie den Checkout öffnen.",
     "items": [
       {
         "title": "ESP",
@@ -112,7 +112,7 @@
       {
         "title": "Aimbot",
         "subtitle": "Zielsteuerung.",
-        "desc": "Der Aimbot-Tab legt Glättung, bevorzugten Knochen und maximale Zieldistanz fest.",
+        "desc": "Der Aimbot-Tab legt Glättung, bevorzugten Knochen und maximale Zieldistanz fest. Geringere Glättung hält die Fadenkreuzbewegung näher an manueller Eingabe.",
         "bullets": [
           "Silent Aimbot",
           "Glättungsregler",
@@ -205,7 +205,7 @@
   "whyUs": {
     "eyebrow": "Warum wir",
     "title": "Modern Warfare 4-Tools, die Patches statt Versprechen liefern",
-    "subtitle": "{siteDomain} liefert Loader-Builds am Patch-Tag. ESP zeigt Position, Gesundheit und Distanz. Operatoren arbeiten im 24/7-Dienst.",
+    "subtitle": "Loader-Builds am Patch-Tag, live ESP-Ausgaben und Operatoren im 24/7-Dienst sind hier gelistet, damit Sie {siteDomain} mit einem typischen Wiederverkäufer vergleichen können.",
     "usLabel": "{siteName}",
     "otherLabel": "Typischer Anbieter",
     "rows": [
@@ -256,7 +256,7 @@
     "eyebrow": "Einrichtungsanleitung",
     "titleLead": "Vom Checkout bis zu Ihrem ersten Match in nur",
     "titleHighlight": "drei einfachen Schritten",
-    "intro": "Der mw4 private cheat kommt im Operator-Portal an. Loader herunterladen, Menü einstellen, dann Modern Warfare 4 starten.",
+    "intro": "Der Checkout öffnet das Operator-Portal für Modern Warfare 4. Loader herunterladen, Menü einstellen, dann das Banner lesen, bevor Sie den Spielclient starten.",
     "ctaPrimary": "Tarife vergleichen",
     "ctaSecondary": "Setup-FAQ lesen",
     "ctaPrimaryHref": "/cheats/",
@@ -296,18 +296,18 @@
   "cheats": {
     "eyebrow": "Hauptprodukt",
     "title": "Modern Warfare 4 Cheats",
-    "subtitle": "Aimbot, Silent Aimbot, ESP, Wallhack und die übrigen gelisteten Optionen.",
+    "subtitle": "Eine Lizenz deckt die Kampfschalter auf der Produktseite ab. Utilities bleiben getrennt, wenn das Problem Hardware oder ein Kontolimit ist.",
     "viewAll": "Produktdetails ansehen",
     "explore": "Entdecken",
     "items": [
       {
         "badge": "Begrenzte Slots",
         "tier": "Privat",
-        "name": "Modern Warfare 4 Cheats",
-        "title": "Modern Warfare 4 Hacks für Windows",
-        "desc": "Aimbot, Silent Aimbot, ESP, Wallhack, kein Rückstoß, God Mode, unendliche Munition und Speedhack. Monatlich 35 $ für 30 Tage. Lifetime 150 $.",
-        "homeDesc": "Beim Kauf von mw4 cheats erhalten Sie Aimbot, Silent Aimbot, ESP, Wallhack, kein Rückstoß, God Mode, unendliche Munition und Speedhack. Monatlich 35 $ für 30 Tage. Lifetime 150 $.",
-        "heroDesc": "Aimbot-Regler hier sind Glättung, Knochenpriorität und maximale Distanz. Silent Aimbot liegt auf derselben Registerkarte. Spiel-Build auf {siteDomain} prüfen, bevor Sie starten.",
+        "name": "MW4 Cheats",
+        "title": "MW4 Cheats",
+        "desc": "Aimbot, Silent Aimbot, ESP, Wallhack, kein Rückstoß, God Mode, unendliche Munition und Speedhack. Monatlich $35 für 30 Tage. Lifetime $150.",
+        "homeDesc": "Das Windows-Menü listet Aimbot, Silent Aimbot, ESP, Wallhack, kein Rückstoß, God Mode, unendliche Munition und Speedhack. Monatlich $35 für 30 Tage. Lifetime $150.",
+        "heroDesc": "Menüschalter decken Aimbot, Silent Aimbot, ESP, Wallhack und die gelisteten Kampfoptionen ab. Prüfen Sie, ob der Spiel-Build zum Banner auf {siteDomain} passt, bevor Sie starten.",
         "features": [
           "Aimbot",
           "Silent Aimbot",
@@ -328,10 +328,10 @@
     "subtitle": "Vergleichen Sie Cheat-Menü und Utilities in dieser Übersicht. Öffnen Sie eine Produktseite für Funktionsliste und Checkout.",
     "viewAll": "Alle Cheats ansehen",
     "backToCheats": "Zurück zum Produkt",
-    "showcaseHeading": "Produktübersicht",
+    "showcaseHeading": "Warfare 4 Hacks: Produktübersicht",
     "experience": {
       "eyebrow": "Ablauf",
-      "title": "Menüebenen · Nach dem Checkout",
+      "title": "Menüebenen, nach dem Checkout",
       "subtitle": "Die Aufnahmen oben zeigen das Modern Warfare 4-Menü. Die Notizen unten erklären jede Gruppe und wie das Portal nach dem Checkout öffnet.",
       "previewLabel": "Ebenen im Spiel",
       "accessDividerTop": "Vorschau",
@@ -339,26 +339,26 @@
     },
     "hwidPage": {
       "showcaseHeading": "Panel-Aufnahmen",
-      "overviewSubtitle": "Welche IDs das Panel umschreibt, welche Anti-Cheat-Familien gelistet sind und wie ein Maschinen-Flag von einer Kontosanktion abweicht.",
+      "overviewSubtitle": "Panel-Felder, die rotieren, hier genannte Anti-Cheat-Familien, und warum ein Tower-Block nicht dasselbe ist wie eine Kontosanktion.",
       "highlights": {
-        "eyebrow": "Kurzüberblick",
-        "title": "Was eine Hardware-Aktualisierung abdeckt",
-        "desc": "Nach einem Hardware-Flag kann das Panel Disk-IDs umschreiben. Es kann MAC-IDs und GPU-IDs sowie verwandte IDs umschreiben. Ziel ist eine Anmeldung auf diesem PC. Tabellen weiter unten listen die Zeilen."
+        "eyebrow": "Kurz lesen",
+        "title": "Fingerabdruck-Refresh auf diesem Tower",
+        "desc": "Disk, MAC, GPU und verknüpfte IDs rotieren aus der Operator-Ansicht. Ziel: Anmeldung auf diesem PC nach einem Hardware-Flag. Weitere Zeilen stehen in der Tabelle unten."
       },
       "featuresSection": {
-        "eyebrow": "Gelistete Zeilen",
-        "title": "IDs und veröffentlichte Familien",
-        "desc": "Eine Zeile nennt ein Fingerabdruckfeld, das das Panel bearbeitet, oder eine Anti-Cheat-Familie auf dieser Seite."
+        "eyebrow": "Tabellenzeilen",
+        "title": "Felder und Anti-Cheat-Hinweise",
+        "desc": "Jede Zeile ist ein bearbeitbarer Fingerabdruck oder eine auf dieser Seite genannte Anti-Cheat-Familie."
       },
       "experience": {
         "eyebrow": "Nach dem Checkout",
-        "title": "Panel-Notizen, dann Portal-Ablauf",
-        "subtitle": "Hinweise zum Panel stehen links. Lizenzlieferung und Setup-Reihenfolge stehen rechts.",
+        "title": "Screens zuerst, Portal-Schritte danach",
+        "subtitle": "Die linke Spalte erklärt die Panel-Aufnahmen. Die rechte Spalte deckt Lizenzlieferung und Setup-Reihenfolge ab.",
         "previewLabel": "Panel-Aufnahmen",
         "accessDividerTop": "Panel",
         "accessDividerBottom": "Ablauf"
       },
-      "highlightsMore": "{count} weitere Zeilen stehen in der Funktionstabelle weiter unten."
+      "highlightsMore": "{count} zusätzliche Zeilen erscheinen in der Funktionstabelle weiter unten."
     },
     "utilityPages": {
       "ugc": {
@@ -370,42 +370,42 @@
           "desc": "Gaming-, Social- und Marktplatz-Limits erhalten jeweils einen Streit-Workflow, den Sie wiederholen können. Derselbe Text wird nicht von Hand eingefügt."
         },
         "featuresSection": {
-          "eyebrow": "Enthalten",
-          "title": "Was mit der Lizenz aktiv wird",
-          "desc": "Diese Funktionen stehen bereit, sobald die UGC-Lizenz aktiv ist."
+          "eyebrow": "Lizenzumfang",
+          "title": "Funktionen nach der Aktivierung",
+          "desc": "Alles unten Aufgeführte schaltet sich frei, sobald Ihre UGC-Lizenz aktiv ist."
         },
         "experience": {
-          "eyebrow": "Sobald die Lizenz live ist",
-          "title": "Rahmen, dann Portal-Ablauf",
-          "subtitle": "Links die Rahmen. Rechts: Lizenzlieferung und Setup-Reihenfolge.",
+          "eyebrow": "Lizenz live",
+          "title": "Vorschau links, Checkout-Schritte rechts",
+          "subtitle": "Workflow-Vorschauen stehen links. Lieferung und Setup-Anweisungen stehen rechts.",
           "previewLabel": "Rahmen",
           "accessDividerTop": "Rahmen",
           "accessDividerBottom": "Ablauf"
         },
-        "highlightsMore": "{count} weitere Funktionszeilen stehen weiter unten auf dieser Seite."
+        "highlightsMore": "{count} zusätzliche Funktionszeilen stehen weiter unten auf der Seite."
       },
       "skin-changer": {
         "showcaseHeading": "Client-Rahmen",
         "overviewSubtitle": "Wo der Finish gezeichnet wird, was nicht in Ihr Inventar geht und wie Sie einen Titel vor dem Checkout prüfen.",
         "highlights": {
-          "eyebrow": "Bibliothek",
-          "title": "Die Finish-Bibliothek auf diesem PC",
-          "desc": "Premium-Waffen-Skins sind in der Bibliothek. Outfits und Messer-Stile in unterstützten Spielen ebenfalls. Jeder Einzelkauf entfällt."
+          "eyebrow": "Katalog",
+          "title": "Finish-Katalog auf dem Bildschirm",
+          "desc": "Waffen-Skins, Outfits und Messer-Stile laden aus einer Bibliothek in unterstützten Spielen ohne separate Kosmetik-Käufe."
         },
         "featuresSection": {
-          "eyebrow": "Gruppen",
-          "title": "Kosmetik-Gruppen",
-          "desc": "Diese Finish-Typen stehen bereit, sobald die Kosmetik-Lizenz aktiv ist."
+          "eyebrow": "Kategorien",
+          "title": "Finish-Kategorien",
+          "desc": "Diese Kosmetik-Gruppen schalten sich frei, sobald die Skin-Changer-Lizenz aktiv ist."
         },
         "experience": {
-          "eyebrow": "Wenn der Zugang da ist",
-          "title": "Aufnahmen, dann Portal-Zugang",
-          "subtitle": "Aufnahme-Notizen links. Rechts Portal-Zugang und Menü-Setup.",
+          "eyebrow": "Zugang bereit",
+          "title": "Galerie links, Portal-Schritte rechts",
+          "subtitle": "Vorschau-Notizen bleiben links. Portal-Zugang und Menü-Setup bleiben rechts.",
           "previewLabel": "Aufnahmen",
           "accessDividerTop": "Rahmen",
           "accessDividerBottom": "Ablauf"
         },
-        "highlightsMore": "{count} weitere Kosmetik-Zeilen stehen weiter unten auf dieser Seite."
+        "highlightsMore": "{count} weitere Kosmetik-Zeilen setzen unten fort."
       }
     },
     "swipeHint": "Wischen für weitere Screenshots",
@@ -428,45 +428,45 @@
     "items": [
       {
         "badge": "Verfügbar",
-        "category": "Hardware-Utility",
-        "title": "HWID Spoofer für Modern Warfare 4-PCs",
-        "subtitle": "Disk-Seriennummern, MAC-Adressen und GPU-IDs erhalten einen neuen Durchlauf. Der Cleaner in der Lizenz läuft vor der nächsten Anmeldung.",
-        "desc": "Nach einem Hardware-Flag schreibt diese Lizenz Disk-Seriennummern um. Sie schreibt auch MAC-Adressen, GPU-IDs und verwandte Fingerabdrücke um. Trace-Bereinigung liegt in derselben Lizenz.",
+        "category": "Maschinen-ID-Utility",
+        "title": "HWID Spoofer",
+        "subtitle": "Das Panel schreibt gelistete Fingerabdrücke um und führt Trace-Bereinigung vor der nächsten Anmeldung aus. TPM, Secure Boot und HVCI bleiben, wie Ihr Windows-Profil es verlangt.",
+        "desc": "Die Lizenz deckt Rotation von Disk-Serial, MAC, GPU und verknüpften Fingerabdrücken plus den gebündelten Trace-Cleaner nach einem Hardware-Block auf diesem PC ab.",
         "features": [
-          "Disk-Serien-Umschreibung",
-          "MAC-Umschreibung",
-          "GPU-ID-Umschreibung",
-          "Cleaner in der Lizenz"
+          "Disk-Serial-Pass",
+          "MAC-Pass",
+          "GPU-Pass",
+          "Gebündelter Cleaner"
         ],
         "more": 0,
         "href": "/hwid-spoofer/"
       },
       {
         "badge": "Verfügbar",
-        "category": "Konto-Einsprüche",
-        "title": "Account Recovery Workflows mit UGC",
-        "subtitle": "Vorlagen-Einsprüche und Streit-Schritte, die Sie wiederholen können, für ein eingeschränktes Profil in Spiel, Social oder Marktplatz.",
-        "desc": "Unban & Governance Control (UGC) enthält Vorlagen-Einsprüche. Es reicht Streitfälle automatisch ein, wenn eine Anmeldung limitiert ist, unabhängig von einer Plattform.",
+        "category": "Einspruch-Automatisierung",
+        "title": "UGC",
+        "subtitle": "Einen Workflow bauen, Eigentumsnachweis und Timeline anhängen, dann Streitfälle ohne Copy-Paste erneut einreichen lassen.",
+        "desc": "Unban & Governance Control (UGC) speichert Einspruchsvorlagen und wiederholt Streit-Einreichungen, wenn Gaming-, Social- oder Marktplatz-Logins limitiert bleiben.",
         "features": [
-          "Workflow-Einsprüche",
-          "Automatisierte Streit-Einreichungen",
-          "Mehrere Plattformen",
-          "Spiele, Social, Marktplätze"
+          "Vorlagen-Workflows",
+          "Automatische Streit-Wiederholung",
+          "Plattformübergreifender Umfang",
+          "Spiel-, Social- und Shop-Profile"
         ],
         "more": 0,
         "href": "/ugc/"
       },
       {
         "badge": "Verfügbar",
-        "category": "Bildschirm-Kosmetik",
-        "title": "Client Skin Changer für unterstützte Titel",
-        "subtitle": "Waffen-Skins und Outfits, auf diesem PC gezeichnet, ohne separaten Kauf je Cosmetic.",
-        "desc": "Ein kleiner Client malt Premium-Waffen-Skins auf Ihren Bildschirm. Outfits und Messer-Varianten sind in den großen Titeln der Liste enthalten.",
+        "category": "Lokale Kosmetik",
+        "title": "Skin Changer",
+        "subtitle": "Finishes rendern nur auf Ihrem Bildschirm und fügen dem Inventar nichts hinzu. Fragen Sie den Support, ob Ihre Spielversion noch auf der unterstützten Liste steht.",
+        "desc": "Ein leichtgewichtiger Client zeigt Premium-Waffen-Skins, Outfits und Messer-Stile lokal in den großen Titeln, die auf seiner Seite gelistet sind.",
         "features": [
-          "Waffen-Finish-Looks",
-          "Outfit-Looks",
-          "Messer-Stil-Looks",
-          "Wichtige Titel abgedeckt"
+          "Waffen-Finish-Vorschauen",
+          "Outfit-Vorschauen",
+          "Messer-Vorschauen",
+          "Liste wichtiger Titel"
         ],
         "more": 0,
         "href": "/skin-changer/"
@@ -477,7 +477,7 @@
     "eyebrow": "Blog",
     "title": "Guides und Updates",
     "subtitle": "ESP- und Aimbot-Setup, Menü-Tuning und Patch-Day-Checks für Modern Warfare 4.",
-    "latestTitle": "Modern Warfare 4 Cheat Guides und Patch-Day-Notizen",
+    "latestTitle": "Guides: Modern Warfare 4 Cheat und Patch-Day-Notizen",
     "latestSubtitle": "Nach Thema filtern: Setup-Guides, Feature-Tiefen und Patch-Day-Notizen.",
     "filterAll": "Alle Artikel",
     "emptyFilter": "Keine Artikel passen zu diesem Filter.",
@@ -486,7 +486,7 @@
     "read": "Ganzen Artikel lesen",
     "articleActionsAria": "Weiterlesen",
     "buyCta": "Modern Warfare 4 Cheats kaufen",
-    "buyHwidCta": "HWID-Lizenz kaufen",
+    "buyHwidCta": "HWID Spoofer kaufen",
     "moreArticles": "Weitere Artikel",
     "sidebarAria": "Artikel-Seitenleiste",
     "tocTitle": "In diesem Artikel",
@@ -541,7 +541,7 @@
         "title": "Chat vor dem Checkout",
         "desc": "Fragen Sie zum 30-Tage-Tarif, Lifetime-Tarif oder welches Produkt passt.",
         "linkLabel": "Checkout starten",
-        "href": "/go/mw4-cheats/"
+        "href": "/go/mw4/"
       },
       {
         "icon": "headphones",
@@ -592,8 +592,8 @@
       {
         "heading": "Was die Seite listet",
         "paragraphs": [
-          "Modern Warfare 4 Cheats decken die gelisteten Menümodule ab. HWID Spoofer ist für einen PC, der den Login verweigert, während andere PCs funktionieren.",
-          "UGC formatiert Appeal-Workflows. Skin Changer zeichnet Cosmetics nur auf Ihrem Client. Jede Produktseite hat Funktionsliste und Tarife."
+          "Modern Warfare 4 Cheats decken die gelisteten Menümodule ab. HWID Spoofer zielt auf Tower-Level-Login-Blocks, wenn andere Maschinen noch funktionieren.",
+          "UGC automatisiert Appeal-Workflows für limitierte Profile. Skin Changer rendert Cosmetics lokal ohne Inventaränderungen. Jede Seite listet Funktionen und Tarife."
         ]
       },
       {
@@ -670,19 +670,19 @@
       {
         "id": "hwidSpoofer",
         "href": "/hwid-spoofer/",
-        "label": "HWID-Panel",
+        "label": "Fingerabdruck-Tool",
         "ariaLabel": "HWID Spoofer"
       },
       {
         "id": "products",
         "href": "/ugc/",
-        "label": "UGC-Einsprüche",
+        "label": "Appeal-Workflows",
         "ariaLabel": "UGC"
       },
       {
         "id": "products",
         "href": "/skin-changer/",
-        "label": "Skin-Client",
+        "label": "Lokale Finishes",
         "ariaLabel": "Skin Changer"
       },
       {
@@ -722,7 +722,7 @@
       "description": "{siteName} veröffentlicht {cheatProduct}, die Utility-Seiten und Support-Notizen auf {siteDomain}.",
       "sections": [
         {
-          "heading": "Wer wir sind",
+          "heading": "Modern Warfare 4 Katalog: Wer wir sind",
           "paragraphs": [
             "{siteName} ist ein PC-Katalog für Modern Warfare 4-Tools. Die Seite listet das Cheat-Menü, HWID Spoofer, UGC und Skin Changer.",
             "Setup-Notizen und das Status-Banner helfen bei der Einschätzung von {cheatProduct} vor dem Kauf. Produktnamen identifizieren die Software. Sie behaupten kein Eigentum."
@@ -731,7 +731,7 @@
         {
           "heading": "Was wir veröffentlichen",
           "paragraphs": [
-            "Das Hauptprodukt listet Aimbot, Silent Aimbot, ESP, Wallhack, No Recoil, God Mode, Infinite Ammo und Speedhack. Der 30-Tage-Tarif kostet 35 $. Lifetime kostet 150 $. Diese Preise stehen auf der Produktseite.",
+            "Das Hauptprodukt listet Aimbot, Silent Aimbot, ESP, Wallhack, kein Rückstoß, God Mode, unendliche Munition und Speedhack. Der 30-Tage-Tarif kostet $35. Lifetime kostet $150. Diese Preise stehen auf der Produktseite.",
             "Utility-Preise stehen auf den eigenen Seiten. Artikel behandeln Menü-Setup, Patch-Day-Checks und Anti-Cheat-Updates.",
             "Seiten ändern sich, wenn ein Patch landet oder eine Menüoption wandert. Homepage-Banner vor einer Session lesen."
           ]
@@ -877,15 +877,15 @@
   "pages": {
     "faq": {
       "eyebrow": "Hilfe-Center",
-      "title": "Modern Warfare 4 Cheats FAQ: Setup, Tarife und Anti-Cheat",
+      "title": "FAQ: Setup, Tarife und Anti-Cheat-Antworten",
       "description": "Setup-Schritte, 30-Tage- und Lifetime-Tarife, ESP- und Aim-Optionen und Vorgehen nach einem Anti-Cheat-Update.",
       "schemaName": "Modern Warfare 4 Cheats FAQ",
       "schemaDescription": "Setup, Tariflänge, ESP, Aimbot, Loader-Lieferung und Checkout-Antworten für Modern Warfare 4 auf {siteDomain}."
     },
     "forum": {
       "eyebrow": "Modern Warfare 4 Community-Forum",
-      "title": "Modern Warfare 4 Community-Forum",
-      "description": "Archivierte, schreibgeschützte Threads zu Loader-Setup, ESP-Configs, Patch-Status und HWID-Sperren. Antworten sind geschlossen.",
+      "title": "Forum: Modern Warfare 4 Community-Archiv",
+      "description": "Forum: Archivierte, schreibgeschützte Threads zu Loader-Setup, ESP-Configs, Patch-Status und HWID-Sperren. Antworten sind geschlossen.",
       "exploreGuides": "Guides entdecken",
       "postsAria": "Community-Beiträge",
       "sortAria": "Beitragssortierung",
@@ -914,6 +914,12 @@
       "categoryCommunity": "Community",
       "categoryLabels": {
         "MW4 Discussion": "MW4-Diskussion",
+        "MW4 Features": "MW4-Funktionen",
+        "Buying Advice": "Kaufberatung",
+        "Technical Support": "Technischer Support",
+        "Technical Discussion": "Technische Diskussion",
+        "Software Discussion": "Software-Diskussion",
+        "Announcements and Updates": "Ankündigungen und Updates",
         "Gameplay Questions": "Gameplay-Fragen",
         "Product Questions": "Produktfragen",
         "Setup & Support": "Setup und Support",
@@ -942,16 +948,18 @@
     },
     "utilities": {
       "title": "HWID Spoofer",
-      "description": "Hardware-Kennungen werden aktualisiert, wenn andere PCs Anmeldungen annehmen und dieser PC sie sofort ablehnt.",
-      "viewDetails": "Utility-Seite öffnen",
-      "includes": "In der Lizenz:",
-      "schemaName": "HWID Spoofer"
+      "description": "Hardware-Kennungen rotieren, wenn jeder andere PC sich anmeldet, dieser Tower aber neue Konten sofort stoppt.",
+      "viewDetails": "HWID-Details ansehen",
+      "includes": "Die Lizenz umfasst:",
+      "schemaName": "HWID Spoofer Utility"
     }
   },
   "ui": {
     "skipLink": "Zum Hauptinhalt springen",
     "browseCheatsNav": "Jetzt testen",
     "browseCheatsNavMobile": "Produkt ansehen",
+    "navHome": "Start",
+    "navProduct": "Produkt",
     "homeAria": "Modern Warfare 4 Cheats Startseite",
     "menuOpen": "Menü öffnen",
     "themeLight": "Zum hellen Modus wechseln",

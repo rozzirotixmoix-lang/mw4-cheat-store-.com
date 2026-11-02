@@ -30,7 +30,7 @@ test('loopback and LAN hosts stay local', () => {
 });
 
 test('public hosts are not treated as local preview', () => {
-  for (const host of ['example.com', 'www.example.com', 'mw4cheat.net', 'www.mw4cheat.net']) {
+  for (const host of ['example.com', 'www.example.com', 'mw4cheatstore.com', 'www.mw4cheatstore.com']) {
     assert.equal(isLocalPreviewHost(host), false, host);
   }
 });

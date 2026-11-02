@@ -147,16 +147,18 @@
 /fr/sitemap-0.xml  /sitemap.xml  301
 /en/sitemap-0.xml  /sitemap.xml  301
 /en/sitemap-0.xml/  /sitemap.xml  301
-/go/mw4-cheats  https://zadeyo.com/go/BASIT?to=%2Fproducts%2Fmw4-cheats  302
-/go/mw4-cheats/  https://zadeyo.com/go/BASIT?to=%2Fproducts%2Fmw4-cheats  302
-/go/wardogs  https://zadeyo.com/go/BASIT?to=%2Fproducts%2Fmw4-cheats  302
-/go/wardogs/  https://zadeyo.com/go/BASIT?to=%2Fproducts%2Fmw4-cheats  302
-/go/hwid-spoofer  https://zadeyo.com/go/BASIT?to=%2Fproducts%2Fhwid-spoofer  302
-/go/hwid-spoofer/  https://zadeyo.com/go/BASIT?to=%2Fproducts%2Fhwid-spoofer  302
-/go/skin-changer  https://zadeyo.com/go/BASIT?to=%2Fproducts%2Fskin-changer  302
-/go/skin-changer/  https://zadeyo.com/go/BASIT?to=%2Fproducts%2Fskin-changer  302
-/go/ugc  https://zadeyo.com/go/BASIT?to=%2Fproducts%2Fugc  302
-/go/ugc/  https://zadeyo.com/go/BASIT?to=%2Fproducts%2Fugc  302
+/go/mw4  https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fmw4  302
+/go/mw4/  https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fmw4  302
+/go/mw4-cheats  https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fmw4  302
+/go/mw4-cheats/  https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fmw4  302
+/go/wardogs  https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fmw4  302
+/go/wardogs/  https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fmw4  302
+/go/hwid-spoofer  https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fhwid-spoofer  302
+/go/hwid-spoofer/  https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fhwid-spoofer  302
+/go/skin-changer  https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fskin-changer  302
+/go/skin-changer/  https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fskin-changer  302
+/go/ugc  https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fugc  302
+/go/ugc/  https://zadeyo.com/go/MOIX?to=%2Fproducts%2Fugc  302
 /forum/  /forum/  301  query=category
 /es/forum/  /es/forum/  301  query=category
 /de/forum/  /de/forum/  301  query=category

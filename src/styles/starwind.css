@@ -1,4 +1,4 @@
-﻿@import "./fonts.css";
+@import "./fonts.css";
 @import "tailwindcss";
 @import "tw-animate-css";
 @plugin "@tailwindcss/forms";
@@ -81,6 +81,7 @@
   --font-outfit: "outfit", "outfit Fallback", ui-sans-serif, system-ui, sans-serif;
   --font-sans: var(--font-outfit), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-heading: var(--font-outfit), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-brand: "Orbitron", var(--font-heading);
   --background: #f4f0fb;
   --foreground: #0a0614;
   --card: #ffffff;

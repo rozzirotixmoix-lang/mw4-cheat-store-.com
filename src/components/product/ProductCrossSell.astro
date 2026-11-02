@@ -46,13 +46,34 @@ const localeCopy = {
 };
 
 const copy = { ...localeCopy[locale] };
-const enCrossSellDesc: Record<string, string> = {
-  'hwid-spoofer': 'The other licenses sold here. Open one to see its page and its checkout.',
-  ugc: 'UGC sits beside three other licenses. Each of those has its own write-up.',
-  'skin-changer': 'The catalog beside this cosmetic client, with a separate page for each license.',
-  elite: 'Utilities sold beside the cheat. Each one keeps a separate page.',
+const crossSellDescByLocale: Record<typeof locale, Record<string, string>> = {
+  en: {
+    'hwid-spoofer': 'The other licenses sold here. Open one to see its page and its checkout.',
+    ugc: 'UGC sits beside three other licenses. Each of those has its own write-up.',
+    'skin-changer': 'The catalog beside this cosmetic client, with a separate page for each license.',
+    elite: 'Utilities sold beside the cheat. Each one keeps a separate page.',
+  },
+  es: {
+    'hwid-spoofer': 'Las otras licencias que se venden aquí. Abre una para ver su página y su pago.',
+    ugc: 'UGC está junto a otras tres licencias. Cada una tiene su propia ficha.',
+    'skin-changer': 'El catálogo junto a este cliente cosmético, con una página aparte para cada licencia.',
+    elite: 'Utilidades vendidas junto al cheat. Cada una mantiene una página separada.',
+  },
+  de: {
+    'hwid-spoofer': 'Die anderen Lizenzen, die hier verkauft werden. Öffnen Sie eine, um ihre Seite und den Checkout zu sehen.',
+    ugc: 'UGC steht neben drei weiteren Lizenzen. Jede davon hat einen eigenen Text.',
+    'skin-changer': 'Der Katalog neben diesem Kosmetik-Client, mit einer separaten Seite pro Lizenz.',
+    elite: 'Utilities neben dem Cheat verkauft. Jede behält eine eigene Seite.',
+  },
+  fr: {
+    'hwid-spoofer': 'Les autres licences vendues ici. Ouvrez-en une pour voir sa page et son paiement.',
+    ugc: 'UGC est à côté de trois autres licences. Chacune a sa propre fiche.',
+    'skin-changer': 'Le catalogue à côté de ce client cosmétique, avec une page séparée pour chaque licence.',
+    elite: 'Utilitaires vendus à côté du cheat. Chacun garde une page distincte.',
+  },
 };
-if (locale === 'en' && enCrossSellDesc[currentSlug]) copy.desc = enCrossSellDesc[currentSlug];
+const slugCrossSellDesc = crossSellDescByLocale[locale]?.[currentSlug];
+if (slugCrossSellDesc) copy.desc = slugCrossSellDesc;
 ---
 
 {
@@ -82,9 +103,8 @@ if (locale === 'en' && enCrossSellDesc[currentSlug]) copy.desc = enCrossSellDesc
                   </span>
                 </span>
                 <span class="text-sm leading-relaxed text-muted-foreground">{entry.page.desc}</span>
-                <span class="mt-auto inline-flex max-w-full min-w-0 items-center gap-1.5 text-sm font-semibold text-primary-text">
-                  {t.products.viewDetails}: {entry.shortName}
-                  <Icon name="arrowRight" size={15} />
+                <span class="mt-auto inline-flex max-w-full min-w-0 items-center text-sm font-semibold text-primary-text">
+                  {t.products.viewDetails}
                 </span>
               </a>
             </li>

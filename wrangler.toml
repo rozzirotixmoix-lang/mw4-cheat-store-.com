@@ -1,6 +1,6 @@
 # Cloudflare Workers + static assets. The dashboard deploy command is
 # `npx wrangler deploy`, which runs the build below first.
-name = "mw4cheat-net"
+name = "mw4cheatstore-com"
 main = "workers/site.js"
 compatibility_date = "2026-09-12"
 
@@ -8,11 +8,11 @@ compatibility_date = "2026-09-12"
 command = "npm run build"
 
 [[routes]]
-pattern = "mw4cheat.net"
+pattern = "mw4cheatstore.com"
 custom_domain = true
 
 [[routes]]
-pattern = "www.mw4cheat.net"
+pattern = "www.mw4cheatstore.com"
 custom_domain = true
 
 [assets]

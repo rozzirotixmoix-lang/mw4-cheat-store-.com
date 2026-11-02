@@ -13,7 +13,7 @@ test('Astro development checkout middleware preserves every destination, plan an
     .replace(/^import .*;\r?\n/gm, '').replace('export const onRequest', 'const onRequest');
   const context = { URL, Response, defineMiddleware: (handler) => handler, ...checkout, ...locale, ...paths };
   vm.runInNewContext(js + '\nglobalThis.handler = onRequest;', context);
-  for (const route of ['/go/mw4-cheats/', '/go/wardogs/', '/go/hwid-spoofer/', '/go/ugc/', '/go/skin-changer/']) {
+  for (const route of ['/go/mw4/', '/go/wardogs/', '/go/hwid-spoofer/', '/go/ugc/', '/go/skin-changer/']) {
     for (const prefix of ['', '/es', '/de', '/fr']) for (const plan of ['monthly', 'lifetime']) {
       const pathname = prefix + route;
       const response = await context.handler({ request: new Request(`https://example.test${pathname}?plan=${plan}&campaign=keep`) }, () => assert.fail('Checkout must redirect'));

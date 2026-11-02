@@ -37,14 +37,17 @@ function escapeHtml(value) {
   return value.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
 }
 
+const mainGoCopy = {
+  title: 'Continue to Modern Warfare 4 Cheats checkout',
+  description:
+    'This noindex page sends you to partner checkout for Modern Warfare 4 Cheats. It is not listed in search.',
+  h1: 'Continue to Modern Warfare 4 Cheats',
+  h2: 'Partner checkout for Modern Warfare 4 Cheats',
+};
+
 const GO_PAGE_COPY = {
-  '/go/mw4-cheats/': {
-    title: 'Continue to Modern Warfare 4 Cheats checkout',
-    description:
-      'This noindex page sends you to partner checkout for Modern Warfare 4 Cheats. It is not listed in search.',
-    h1: 'Continue to Modern Warfare 4 Cheats',
-    h2: 'Partner checkout for Modern Warfare 4 Cheats',
-  },
+  '/go/mw4/': mainGoCopy,
+  '/go/mw4-cheats/': mainGoCopy,
   '/go/wardogs/': {
     title: 'Continue to MW4 Cheats alternate checkout',
     description:
@@ -53,25 +56,25 @@ const GO_PAGE_COPY = {
     h2: 'Partner checkout on the alternate path',
   },
   '/go/hwid-spoofer/': {
-    title: 'Continue to HWID Spoofer checkout',
+    title: 'HWID Spoofer partner checkout',
     description:
-      'This noindex page sends you to partner checkout for the HWID Spoofer. It is not listed in search.',
-    h1: 'Continue to HWID Spoofer checkout',
-    h2: 'Partner checkout for the HWID Spoofer',
+      'Noindex handoff to partner checkout for the HWID Spoofer license. Search engines do not index this URL.',
+    h1: 'HWID Spoofer partner checkout',
+    h2: 'External checkout for HWID Spoofer',
   },
   '/go/skin-changer/': {
-    title: 'Continue to Skin Changer checkout',
+    title: 'Skin Changer partner checkout',
     description:
-      'This noindex page sends you to partner checkout for the Skin Changer. It is not listed in search.',
-    h1: 'Continue to Skin Changer checkout',
-    h2: 'Partner checkout for the Skin Changer',
+      'Noindex handoff to partner checkout for the Skin Changer license. Search engines do not index this URL.',
+    h1: 'Skin Changer partner checkout',
+    h2: 'External checkout for Skin Changer',
   },
   '/go/ugc/': {
-    title: 'Continue to the UGC checkout page',
+    title: 'UGC partner checkout',
     description:
-      'This noindex page sends you to partner checkout for UGC recovery tools. It is not listed in search.',
-    h1: 'Continue to the UGC checkout page',
-    h2: 'Partner checkout for UGC recovery',
+      'Noindex handoff to partner checkout for UGC appeal tools. Search engines do not index this URL.',
+    h1: 'UGC partner checkout',
+    h2: 'External checkout for UGC',
   },
 };
 

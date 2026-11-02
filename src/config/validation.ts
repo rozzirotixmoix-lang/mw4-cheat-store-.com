@@ -15,7 +15,7 @@ import { isProductHrefEnabled } from './catalog';
 import protectedMedia from './protected-media.json';
 
 export const validationPolicy = {
-  forbiddenReferences: ['the-isle-novaxware', 'eft-esp-menu-jungle', 'Evrima', 'dota-2', 'cloud-dma'],
+  forbiddenReferences: ['the-isle-novaxware', 'eft-esp-menu-jungle', 'Evrima', 'dota-2'],
   // Intentional migration aliases stay in redirect configuration, never in visible page content.
   maxImageBytes: 500_000,
 };

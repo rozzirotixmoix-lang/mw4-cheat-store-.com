@@ -6,13 +6,8 @@ interface Props {
 }
 
 const { class: className } = Astro.props;
-const trimmed = SITE_NAME.trim();
-const lastSpace = trimmed.lastIndexOf(' ');
-const lead = lastSpace > 0 ? `${trimmed.slice(0, lastSpace)} ` : trimmed;
-const accent = lastSpace > 0 ? trimmed.slice(lastSpace + 1) : '';
 ---
 
-<span class:list={['tracking-normal', className]} aria-hidden="true">
-  {lead}
-  {accent ? <span class="text-inherit">{accent}</span> : null}
+<span class:list={['brand-wordmark', className]} aria-hidden="true">
+  {SITE_NAME.trim()}
 </span>

@@ -11,7 +11,7 @@ export type CheckoutProduct = keyof typeof CHECKOUT;
 
 /** URL slug for /go/[slug]/ checkout redirect pages. */
 export const CHECKOUT_SLUGS: Record<CheckoutProduct, string> = {
-  wardogs: 'mw4-cheats',
+  wardogs: 'mw4',
   hwidSpoofer: 'hwid-spoofer',
   skinChanger: 'skin-changer',
   ugc: 'ugc',
@@ -58,6 +58,7 @@ export function resolveCheckoutHref(href: string): string {
       const slug = goMatch[1];
       if (
         slug === 'wardogs' ||
+        slug === 'mw4-cheats' ||
         slug === 'dota-2' ||
         slug === 'escape-from-tarkov' ||
         slug === 'the-isle-novaxware'
@@ -91,6 +92,8 @@ export function resolveCheckoutHref(href: string): string {
     href.includes('/products/wardogs') ||
     href.includes('%2Fproducts%2Fmw4-cheats') ||
     href.includes('/products/mw4-cheats') ||
+    /(?:^|[?&])to=%2Fproducts%2Fmw4(?:&|$)/.test(href) ||
+    /\/products\/mw4(?:\/|[?#]|$)/.test(href) ||
     href.includes('%2Fproducts%2Fthe-isle-novaxware') ||
     href.includes('/products/the-isle-novaxware') ||
     href.includes('%2Fproducts%2Fescape-from-tarkov') ||

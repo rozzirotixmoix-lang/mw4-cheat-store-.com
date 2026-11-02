@@ -39,7 +39,7 @@ const en: CatalogCopy = {
   eyebrow: 'Store',
   title: '{gameName} cheats and utilities',
   subtitle:
-    'Four products for {gameName}. The cheat page lists the menu. Each utility page lists its own license.',
+    'Four licenses for {gameName} on Windows. Open the cheat page for menu modules or a utility page when the block is account or hardware related.',
   trust: ['Portal delivery', '24/7 support', 'Monthly or lifetime plans', 'Partner checkout'],
   featuredEyebrow: 'Main product',
   from: 'From',
@@ -48,15 +48,15 @@ const en: CatalogCopy = {
   perMonth: '/ month',
   utilitiesEyebrow: 'Utilities',
   utilitiesTitle: 'More tools we sell',
-  utilitiesDesc: 'Each utility is a separate license, with its own page and its own checkout.',
+  utilitiesDesc: 'Utilities sell as standalone licenses, each with a dedicated page and checkout path.',
   chooserEyebrow: 'Not sure?',
   chooserTitle: 'Which product do I need?',
   chooserDesc: 'Start from the situation. Each line opens the product that matches it.',
   scenarios: [
     { slug: CHEATS_PRIMARY_SLUG, need: 'I want aimbot, silent aimbot, ESP, wallhack, and no recoil in {gameShort}.', answer: '{cheatProduct}' },
-    { slug: HWID_SPOOFER_SLUG, need: 'A new account signs in on other PCs and fails at once on this one.', answer: 'HWID Spoofer' },
-    { slug: UGC_SLUG, need: 'A gaming or social profile is limited, and I need help filing an appeal.', answer: 'UGC' },
-    { slug: SKIN_CHANGER_SLUG, need: 'I want premium finishes on my screen, and I do not want to pay for each cosmetic.', answer: 'Skin Changer' },
+    { slug: HWID_SPOOFER_SLUG, need: 'Fresh accounts work on other towers but this PC rejects them instantly.', answer: 'HWID Spoofer' },
+    { slug: UGC_SLUG, need: 'My gaming, social, or shop profile is restricted and I need structured appeals.', answer: 'UGC' },
+    { slug: SKIN_CHANGER_SLUG, need: 'I want premium looks on screen without buying every cosmetic separately.', answer: 'Skin Changer' },
   ],
   compareEyebrow: 'Compare',
   compareTitle: 'Compare products side by side',
@@ -65,19 +65,19 @@ const en: CatalogCopy = {
     {
       label: 'Best for',
       values: {
-        [CHEATS_PRIMARY_SLUG]: 'Aimbot, ESP, and the other listed combat options',
-        [HWID_SPOOFER_SLUG]: 'A PC blocked at the hardware layer',
-        [UGC_SLUG]: 'A limit on the account or the profile',
-        [SKIN_CHANGER_SLUG]: 'Cosmetic previews on this client',
+        [CHEATS_PRIMARY_SLUG]: 'Combat menu modules such as aimbot, ESP, and wallhack',
+        [HWID_SPOOFER_SLUG]: 'Tower-level hardware login blocks',
+        [UGC_SLUG]: 'Profile or account restriction appeals',
+        [SKIN_CHANGER_SLUG]: 'Local cosmetic previews only',
       },
     },
     {
       label: 'Delivery',
       values: {
         [CHEATS_PRIMARY_SLUG]: 'Portal, right after checkout',
-        [HWID_SPOOFER_SLUG]: 'Right away, through the portal',
-        [UGC_SLUG]: 'Through the portal, immediately',
-        [SKIN_CHANGER_SLUG]: 'Portal delivery, immediate',
+        [HWID_SPOOFER_SLUG]: 'Portal access right after checkout',
+        [UGC_SLUG]: 'Portal access right after checkout',
+        [SKIN_CHANGER_SLUG]: 'Portal access right after checkout',
       },
     },
     {
@@ -106,9 +106,9 @@ const en: CatalogCopy = {
   menuViewAll: 'Compare all products',
   menuTaglines: {
     [CHEATS_PRIMARY_SLUG]: 'Aim, ESP, wallhack, and movement',
-    [HWID_SPOOFER_SLUG]: 'Disk, MAC, and GPU identifier pass',
-    [UGC_SLUG]: 'Appeal templates and dispute runs',
-    [SKIN_CHANGER_SLUG]: 'Skins, outfits, and knives on screen',
+    [HWID_SPOOFER_SLUG]: 'Fingerprint rotation plus cleaner',
+    [UGC_SLUG]: 'Template appeals with auto replay',
+    [SKIN_CHANGER_SLUG]: 'On-screen guns, outfits, knives',
   },
 };
 

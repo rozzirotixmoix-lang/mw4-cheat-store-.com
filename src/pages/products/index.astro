@@ -135,8 +135,7 @@ const compareRows = [copy.compareRows[0]!, priceRow, ...copy.compareRows.slice(1
               </div>
               <div>
                 <Button as="a" href={lp(featured.path)} variant="primary" size="lg" class="w-full rounded-xl">
-                  {t.products.viewDetails}: {featured.shortName}
-                  <Icon name="arrowRight" size={17} />
+                  {t.products.viewDetails}
                 </Button>
               </div>
             </div>
@@ -189,7 +188,7 @@ const compareRows = [copy.compareRows[0]!, priceRow, ...copy.compareRows.slice(1
                   <span class="catalog-price__unit">{copy.perMonth}</span>
                 </div>
                 <Button as="a" href={lp(entry.path)} variant="primary" size="sm" class="w-full rounded-lg">
-                  {t.products.viewDetails}: {entry.shortName}
+                  {t.products.viewDetails}
                 </Button>
               </div>
             </article>
@@ -256,7 +255,7 @@ const compareRows = [copy.compareRows[0]!, priceRow, ...copy.compareRows.slice(1
                 <tr>
                   <th scope="row">{row.label}</th>
                   {catalog.map((entry) => (
-                    <td>{row.values[entry.slug] ?? '—'}</td>
+                    <td>{row.values[entry.slug] ?? 'N/A'}</td>
                   ))}
                 </tr>
               ))
@@ -267,7 +266,7 @@ const compareRows = [copy.compareRows[0]!, priceRow, ...copy.compareRows.slice(1
                 catalog.map((entry) => (
                   <td>
                     <a href={lp(entry.path)} class="catalog-compare__buy">
-                      {t.products.viewDetails}: {entry.shortName}
+                      {t.products.viewDetails}
                     </a>
                   </td>
                 ))

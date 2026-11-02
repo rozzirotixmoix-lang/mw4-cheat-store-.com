@@ -89,47 +89,60 @@ export interface ProductPage {
 /** Guides paired with each product detail page */
 export const productRelatedBlogSlugs: Record<string, string[]> = {
   elite: [
-    'buy-modern-warfare-4-cheats',
-    'are-modern-warfare-4-cheats-safe',
-    'modern-warfare-4-anti-cheat-explained',
-    'how-to-enable-tpm-2-and-secure-boot-for-modern-warfare-4',
-    'modern-warfare-4-ban-appeal-account-recovery',
-    'modern-warfare-4-hwid-spoofer',
+    'modern-warfare-4-cheats-buying-guide',
+    'modern-warfare-4-cheats-price-guide',
+    'mw4-esp-vs-wallhack-differences',
+    'modern-warfare-4-ricochet-anti-cheat-explained',
+    'modern-warfare-4-hwid-ban-spoofer-guide',
   ],
   'hwid-spoofer': [
-    'modern-warfare-4-hwid-spoofer',
-    'modern-warfare-4-anti-cheat-explained',
-    'are-modern-warfare-4-cheats-safe',
-    'how-to-enable-tpm-2-and-secure-boot-for-modern-warfare-4',
+    'modern-warfare-4-hwid-ban-spoofer-guide',
+    'modern-warfare-4-ricochet-anti-cheat-explained',
+    'modern-warfare-4-cheats-buying-guide',
+    'modern-warfare-4-cheats-price-guide',
+    'mw4-esp-vs-wallhack-differences',
   ],
   ugc: [
-    'modern-warfare-4-ban-appeal-account-recovery',
-    'are-modern-warfare-4-cheats-safe',
-    'buy-modern-warfare-4-cheats',
+    'modern-warfare-4-cheats-buying-guide',
+    'modern-warfare-4-hwid-ban-spoofer-guide',
+    'modern-warfare-4-ricochet-anti-cheat-explained',
+    'modern-warfare-4-cheats-price-guide',
+    'mw4-esp-vs-wallhack-differences',
   ],
   'skin-changer': [
-    'modern-warfare-4-skin-changer',
-    'buy-modern-warfare-4-cheats',
-    'how-to-enable-tpm-2-and-secure-boot-for-modern-warfare-4',
+    'mw4-esp-vs-wallhack-differences',
+    'modern-warfare-4-cheats-buying-guide',
+    'modern-warfare-4-cheats-price-guide',
+    'modern-warfare-4-ricochet-anti-cheat-explained',
+    'modern-warfare-4-hwid-ban-spoofer-guide',
   ],
 };
 
 /** Community threads paired with each product detail page */
 export const productRelatedForumSlugs: Record<string, string[]> = {
   elite: [
-    'modern-warfare-4-cheats-working-after-launch',
-    'before-buying-modern-warfare-4-tool',
-    'compare-mw4-cheat-listings',
-    'mw4-third-party-cheat-ban-risk',
-    'mw4-october-25-update-tool-compatibility',
-    'mw4-esp-vs-minimap',
+    'what-features-to-look-for-in-mw4-cheats',
+    'mw4-cheats-monthly-vs-lifetime',
+    'mw4-cheats-supported-game-modes',
+    'mw4-cheats-update-status-and-compatibility',
   ],
-  'hwid-spoofer': ['hwid-spoofer-what-it-changes'],
-  ugc: ['ugc-tool-account-recovery-or-mw4-cheat'],
+  'hwid-spoofer': [
+    'mw4-hwid-spoofer-ricochet-compatibility',
+    'what-is-cloud-dma-mw4',
+    'mw4-cheats-not-opening-windows-11',
+    'mw4-cheats-update-status-and-compatibility',
+  ],
+  ugc: [
+    'mw4-cheats-monthly-vs-lifetime',
+    'are-mw4-cheats-worth-buying-for-casual-players',
+    'mw4-cheats-update-status-and-compatibility',
+    'mw4-cheats-not-opening-windows-11',
+  ],
   'skin-changer': [
-    'mw4-skin-changer-cosmetic-visibility',
-    'skin-changer-hvci-core-isolation-tpm-secure-boot',
-    'monthly-vs-lifetime-cheat-license',
+    'mw4-skin-changer-vs-gameplay-features',
+    'mw4-cheat-menu-customization-and-settings',
+    'mw4-6v6-and-dmz-saved-configurations',
+    'mw4-cheats-supported-game-modes',
   ],
 };
 
@@ -138,69 +151,92 @@ const productBase = PRODUCT_BASE;
 const hwidAcquisitionSteps: AcquisitionStep[] = [
   {
     num: '01',
-    title: 'Match your title to the list',
-    desc: 'Published coverage names Riot Vanguard. Easy Anti-Cheat sits with BattlEye on that list. Ricochet is there with related families. Compare your title with the list and with the banner on {siteDomain} before you pay.',
+    title: 'Confirm anti-cheat notes',
+    desc: 'Coverage on this page names Riot Vanguard, Easy Anti-Cheat, BattlEye, and Ricochet with ACE and Javelin. Line up your title with that list and with the banner on {siteDomain} before checkout.',
   },
   {
     num: '02',
-    title: 'Pick 31 days or lifetime',
-    desc: 'Monthly is $50 and it lasts 31 days. Lifetime at $150 means unlimited access. Either license includes the operator panel and the trace cleaner.',
+    title: 'Choose 31 days or lifetime',
+    desc: '$50 covers 31 days. $150 buys unlimited access. Both tiers ship the operator panel plus the bundled trace cleaner.',
   },
   {
     num: '03',
-    title: 'Set Windows before the first spoof',
-    desc: 'In Windows Security, turn HVCI and Core Isolation on. In firmware, turn TPM and Secure Boot on. Do both before the first session. Administrator rights on this PC are also required for the spoof and the cleaner.',
+    title: 'Lock down Windows first',
+    desc: 'Enable HVCI and Core Isolation in Windows Security. Enable TPM and Secure Boot in firmware before session one. Administrator rights on this PC are required for spoofing and cleanup.',
   },
   {
     num: '04',
-    title: 'Change IDs, clean, then launch',
-    desc: 'The portal guide order is the identifier change, then the bundled cleanup, then the game client.',
+    title: 'Spoof, scrub, then play',
+    desc: 'Follow the portal guide: rotate identifiers, run the cleaner, then open the game client.',
   },
 ];
 
 const ugcAcquisitionSteps: AcquisitionStep[] = [
   {
     num: '01',
-    title: 'Separate an account limit from a PC block',
-    desc: 'UGC is aimed at account limits on gaming profiles, social profiles, or marketplace profiles. A failure that hits new accounts on only one machine belongs on the HWID path.',
+    title: 'Profile limit vs PC block',
+    desc: 'Pick UGC when a gaming, social, or marketplace profile is restricted. When only this tower rejects fresh logins, use the HWID product instead.',
   },
   {
     num: '02',
-    title: 'Select the UGC term',
-    desc: 'You can take 31 days for $35. Or you can take unlimited access for $150. The automation workspace is the same on both.',
+    title: 'Pick monthly or lifetime',
+    desc: '31 days costs $35. Lifetime is $150 with unlimited access. The appeal workspace matches on both plans.',
   },
   {
     num: '03',
-    title: 'Ready Windows for the appeal client',
-    desc: 'Windows Security should have HVCI and Core Isolation on. Firmware should have TPM and Secure Boot on. Finish that before the first session.',
+    title: 'Harden Windows pre-launch',
+    desc: 'Turn on HVCI and Core Isolation in Windows Security. Turn on TPM and Secure Boot in firmware before the first appeal session.',
   },
   {
     num: '04',
-    title: 'Build the appeal, then repeat it',
-    desc: 'Put the platform rules into a UGC workflow. The automation replays the dispute steps so the ticket is not typed again.',
+    title: 'Save the workflow, run repeats',
+    desc: 'Translate platform rules into a UGC template. The client replays dispute steps so you do not retype the packet.',
   },
 ];
 
 const skinChangerAcquisitionSteps: AcquisitionStep[] = [
   {
     num: '01',
-    title: 'Ask if your game is still listed',
-    desc: 'Major titles are covered, and a patch can move that list. Email support the game name before checkout and ask if those cosmetics are still listed.',
+    title: 'Verify title support',
+    desc: 'Major games appear on the list today, yet patches can remove entries. Email support with your game name before you pay.',
   },
   {
     num: '02',
-    title: 'Choose how long the cosmetic license lasts',
-    desc: 'A month of cosmetics is $35 across 31 days. Paying $150 once is unlimited access. The library itself does not change with the term.',
+    title: 'Select plan length',
+    desc: '$35 buys 31 days of cosmetic access. $150 is a one-time unlimited license. The on-screen library is identical on both.',
   },
   {
     num: '03',
-    title: 'Prepare Windows for the cosmetic client',
-    desc: 'Before the first session, Windows Security needs HVCI and Core Isolation. Firmware needs TPM and Secure Boot.',
+    title: 'Enable security toggles',
+    desc: 'Before first launch, enable HVCI and Core Isolation in Windows Security and TPM plus Secure Boot in firmware.',
   },
   {
     num: '04',
-    title: 'Choose looks inside the client',
-    desc: 'When the portal has delivered access, open the lightweight client. For that session, choose a weapon skin, an outfit, or a knife variant.',
+    title: 'Pick finishes in the menu',
+    desc: 'After portal delivery, open the lightweight client and select a weapon finish, outfit, or knife style for that session.',
+  },
+];
+
+const eliteAcquisitionSteps: AcquisitionStep[] = [
+  {
+    num: '01',
+    title: 'Review current status',
+    desc: 'Read the banner on {siteDomain} before you pay, and again after a Modern Warfare 4 or anti-cheat update.',
+  },
+  {
+    num: '02',
+    title: 'Pick monthly or lifetime',
+    desc: 'When you buy mw4 hacks, partner checkout keeps the same menu list for the 30 day plan or the lifetime plan. Confirm prices on this page first.',
+  },
+  {
+    num: '03',
+    title: 'Contact the team',
+    desc: 'Write to support with the order email ready if you need availability, Windows setup, or payment details confirmed.',
+  },
+  {
+    num: '04',
+    title: 'Follow guided setup',
+    desc: 'Follow the setup guide after you pay. Ask support if the install stalls. Match the current game build before you launch.',
   },
 ];
 
@@ -249,27 +285,26 @@ const galleryRaw = {
   gpMatchEsp: {
     width: 1024,
     height: 576,
-    src: '/images/gameplay/modern-warfare-4-match-esp.webp',
-    alt: 'First-person rifle view on a snowy rooftop, with player names, distances, and green brackets.',
-    caption: 'Match overlays',
-    captionDesc: 'Player names, distances, and brackets on a Modern Warfare 4 rooftop fight.',
+    src: '/images/gameplay/modern-warfare-4-esp-scope-gameplay.webp',
+    alt: 'Modern Warfare 4 scoped rifle view with green enemy ESP boxes in a wooden warehouse corridor.',
+    caption: 'In-match ESP',
+    captionDesc: 'Scoped first-person view with enemy boxes and minimap callouts during Modern Warfare 4 matches.',
   },
   gpAimbotMenu: {
     width: 1024,
-    height: 627,
-    src: '/images/gameplay/modern-warfare-4-aimbot-menu.webp',
-    alt: 'Aimbot panel with Aim Key M2, Nearest bone, Check Visibility on, FOV 100, and smoothing sliders.',
-    caption: 'Aimbot menu',
-    captionDesc: 'Aim key, bone choice, smoothing, FOV, and max distance on the aimbot tab.',
+    height: 576,
+    src: '/images/gameplay/modern-warfare-4-visuals-settings-panel.webp',
+    alt: 'Modern Warfare 4 Visuals tab with player box, skeleton, health bar, and distance sliders on a dark purple menu.',
+    caption: 'Visuals panel',
+    captionDesc: 'mw4 wallhack 2026 style Visuals toggles for skeleton thickness and max distance on Modern Warfare 4.',
   },
   gpEspMenu: {
     width: 1024,
-    height: 627,
-    src: '/images/gameplay/modern-warfare-4-esp-menu.webp',
-    alt: 'ESP Players tab with Enable ESP and Show Team on, plus name, distance, health, bones, and box.',
-    caption: 'ESP menu',
-    captionDesc:
-      'Name, distance, health bar, bones, and box toggles on the players tab.',
+    height: 576,
+    src: '/images/gameplay/modern-warfare-4-visuals-settings-interface.webp',
+    alt: 'Modern Warfare 4 Visuals menu showing portal, ores, traps, chests, and items distance controls in three columns.',
+    caption: 'World ESP layers',
+    captionDesc: 'Portal, trap, chest, and item distance sliders beside the Visuals navigation for Modern Warfare 4.',
   },
 } satisfies Record<
   string,
@@ -310,17 +345,17 @@ const hwidGalleryRaw = {
     src: '/images/hwid-spoofer/hwid-spoofer-serial-check-panel.webp',
     width: 1024,
     height: 576,
-    alt: 'Device window listing DISK, MOBO, Display, UUID, GPU, and Network as changed or unchanged.',
-    caption: 'Serial check rows',
-    captionDesc: 'After a spoof cycle, each row says whether that hardware value changed.',
+    alt: 'Table of DISK, MOBO, Display, UUID, GPU, and Network rows marked changed or unchanged.',
+    caption: 'ID status grid',
+    captionDesc: 'Each line shows if that hardware field flipped after the last pass.',
   },
   hwidUefiSpoof: {
     src: '/images/hwid-spoofer/hwid-spoofer-uefi-spoof-panel.webp',
     width: 1024,
     height: 576,
-    alt: 'Device window with Permanent Spoof, GPU spoof on, ethernet spoof off, and a seed field.',
-    caption: 'Firmware controls',
-    captionDesc: 'From this firmware screen you can switch GPU or ethernet spoofing, type a seed, and apply a permanent change.',
+    alt: 'UEFI panel with Permanent Spoof, GPU on, ethernet off, and a seed input.',
+    caption: 'Firmware panel',
+    captionDesc: 'Toggle GPU or ethernet spoofing, set a seed, and commit a permanent swap here.',
   },
 } satisfies Record<
   string,
@@ -352,9 +387,9 @@ const ugcShowcaseSlides: ProductSlide[] = [
     src: '/images/ugc/ugc.webp',
     width: 960,
     height: 540,
-    alt: 'UGC product mark: a crimson gear, a clock face, and speed lines.',
-    caption: 'UGC mark',
-    captionDesc: 'The mark stands in for the template library and the dispute runners used on limited profiles.',
+    alt: 'UGC badge with a red gear icon, clock dial, and motion streaks on a dark field.',
+    caption: 'Workflow badge',
+    captionDesc: 'Icon for the template store and the automated dispute runners tied to limited profiles.',
   },
 ];
 
@@ -363,9 +398,9 @@ const skinChangerShowcaseSlides: ProductSlide[] = [
     src: '/images/skin-changer/skin-changer.webp',
     width: 1213,
     height: 682,
-    alt: 'Shield mark labeled Skin Changer, with crossed rifles, revolvers, and star highlights.',
-    caption: 'Cosmetic mark',
-    captionDesc: 'Weapon finishes, character outfits, and knife styles are drawn on your screen alone.',
+    alt: 'Shield logo reading Skin Changer above crossed rifles, revolvers, and star accents.',
+    caption: 'Client badge',
+    captionDesc: 'Marks the on-screen library for guns, outfits, and knife styles you preview locally.',
   },
 ];
 
@@ -385,12 +420,12 @@ const tierAbout: Record<string, ProductPage['about']> = {
   elite: [
     {
       type: 'p',
-      text: 'Each menu switch covers one option: aimbot or silent aimbot, ESP or wallhack, God Mode, infinite ammo, no recoil, or speedhack.',
+      text: 'The Modern Warfare 4 menu lists separate switches for aimbot, silent aimbot, ESP, wallhack, God Mode, infinite ammo, no recoil, and speedhack. Smoothness, bone priority, and distance caps sit on the aim tab.',
     },
     { type: 'h2', text: 'Configuration and support' },
     {
       type: 'p',
-      text: 'The menu turns each option on or off and shows the settings that option has. Setup notes ship in the portal. A patch can change which settings remain.',
+      text: 'Portal notes explain loader order and which tab holds each option. After a patch, reopen the menu and confirm which switches still respond before you queue.',
     },
   ],
 };
@@ -400,12 +435,12 @@ const tierBodies: Record<string, ProductPage['body']> = {
     { type: 'h2', text: 'Plans and delivery' },
     {
       type: 'p',
-      text: 'Monthly is $35 and lasts 30 days. Lifetime is $150 with unlimited access. Both plans use the same option list. The portal delivers the loader after checkout. Read the status banner before a session.',
+      text: 'Monthly access is $35 for 30 days. Lifetime access is $150 with no end date on the license. Both tiers share one module list. Checkout sends you to the partner flow, then the portal hosts the Windows loader.',
     },
     { type: 'h2', text: 'Updates and compatibility' },
     {
       type: 'p',
-      text: 'Compatibility can shift after a Modern Warfare 4 update or an anti-cheat change. Check the game version and the banner on {siteDomain} before you launch.',
+      text: 'Game builds and anti-cheat updates can retire options without this page updating first. Match your client version to the banner on {siteDomain} before every session.',
     },
   ],
 };
@@ -415,61 +450,61 @@ const utilityBodies: Record<string, ProductPage['body']> = {
     { type: 'h2', text: 'Flags that stay with the machine' },
     {
       type: 'p',
-      text: 'A hardware flag follows the PC. Changing the username does not move it. If other rigs accept a sign-in and this one rejects every new account, refresh the identifiers. Disk serials are rewritten in the panel. MAC addresses, GPU IDs, and related fingerprints are in that same pass. Sign-in can then use a clean hardware profile. A sanction that remains on the account is not lifted.',
+      text: 'Hardware blocks stick to the tower, not the Windows username. Friends log in elsewhere while this box refuses every fresh account. The operator panel rotates disk serials, MAC addresses, GPU IDs, and linked fingerprints in one pass so sign-in can proceed on a refreshed profile. Active account sanctions on the record are untouched.',
     },
     { type: 'h2', text: 'Anti-cheat families written on this page' },
     {
       type: 'p',
-      text: 'Riot Vanguard (Valorant) is one note on this page. Easy Anti-Cheat is another. BattlEye is listed too. Ricochet (Call of Duty) is listed with ACE and with Javelin. Comparable stacks are included. Spoofing can conflict with publisher terms. It can bring new penalties. After a vendor update, a listed anti-cheat note can end without notice. Detection rules change at the vendor. Read this page and confirm the title before checkout.',
+      text: 'Notes here call out Riot Vanguard (Valorant), Easy Anti-Cheat, BattlEye, and Ricochet (Call of Duty) alongside ACE and Javelin, plus comparable stacks. Spoofing may conflict with publisher terms and can trigger new penalties. Vendor patches can retire a listed family without a warning on this page. Confirm your title against the list and the live banner before you pay.',
     },
     { type: 'h2', text: 'Cleanup that ships with the license' },
     {
       type: 'p',
-      text: 'A cleaner is included and it removes leftover traces after the spoof. Finish the identifier changes, run that cleanup, and start the game in the order the current portal guide gives.',
+      text: 'The license bundles a trace cleaner that scrubs leftovers after the spoof. Run identifier changes first, launch the cleaner second, and open the game last, exactly as the portal guide lists today.',
     },
     { type: 'h2', text: 'Requirements on this PC' },
     {
       type: 'p',
-      text: 'Windows 10 or 11, 64-bit, is the OS here. The spoof and the cleaner need administrator rights. In Windows Security, HVCI and Core Isolation stay on. Internet stays up for activation and updates. In firmware, TPM and Secure Boot stay on.',
+      text: 'Run Windows 10 or 11, 64-bit, on this box. Spoofing and cleanup require administrator rights. Leave HVCI and Core Isolation on in Windows Security. Leave TPM and Secure Boot on in firmware. Keep internet online for activation and updates.',
     },
   ],
   ugc: [
     { type: 'h2', text: 'What Unban & Governance Control prepares' },
     {
       type: 'p',
-      text: 'Appeals in UGC, also called Unban & Governance Control, cover a limited gaming profile. A social handle is covered. A marketplace storefront is covered. You build one workflow template. The software then resubmits the dispute packet. That message is not copied by hand. Collect proof you own the account, plus a timeline, before those filings run.',
+      text: 'Unban & Governance Control (UGC) turns platform restrictions into reusable appeal workflows for a gaming account, a social handle, or a marketplace storefront. You draft the template once, attach ownership proof and a timeline, and the client resubmits dispute packets without manual copy paste.',
     },
     { type: 'h2', text: 'The platform still decides' },
     {
       type: 'p',
-      text: 'The platform decides each case, and the reviewer has the last word. Some penalties never expire. A permanent suspension stays in place. UGC arranges the evidence and the wording. Hardware IDs are not changed. Security controls are not bypassed. A machine-level ban stays outside this product. Thin evidence weakens the case.',
+      text: 'Reviewers keep final say on every case. Permanent suspensions may never lift. UGC only organizes evidence and wording. It does not alter hardware IDs, bypass security controls, or cover machine-level bans. Weak proof makes appeals harder to defend.',
     },
     { type: 'h2', text: 'Windows setup for UGC' },
     {
       type: 'p',
-      text: 'The client runs on Windows 10 or 11. Before the first launch, HVCI and Core Isolation are on, and TPM and Secure Boot are on.',
+      text: 'Run the appeal client on Windows 10 or 11 with HVCI and Core Isolation enabled in Windows Security and TPM plus Secure Boot enabled in firmware before the first session.',
     },
   ],
   'skin-changer': [
     { type: 'h2', text: 'What the client draws' },
     {
       type: 'p',
-      text: 'This lightweight client draws premium weapon skins. Character outfits are drawn too. Rare knife variants are drawn in supported games. Those cosmetics do not each need a separate purchase. A finish is not a real good.',
+      text: 'Skin Changer overlays premium weapon finishes, character outfits, and rare knife styles inside supported games from one lightweight menu. You are not buying each cosmetic as a separate good.',
     },
     { type: 'h2', text: 'Seen on your display alone' },
     {
       type: 'p',
-      text: 'The look stays on your display. Inventories do not gain items. Trading stays impossible. Closing the client removes the visuals. Other players are not expected to see the finish.',
+      text: 'Finishes render locally on your monitor. Inventories never receive items, trades stay blocked, and quitting the client removes the visuals. Opponents should not see the look.',
     },
     { type: 'h2', text: 'The supported list can move' },
     {
       type: 'p',
-      text: 'Major games are listed today. A patch can take an entry off that list. A Windows update can change that list too. Before a purchase, ask support whether your title is still on that list. A cosmetic client can still conflict with game terms. It can lead to account action.',
+      text: "Today's list covers major titles, yet game patches or Windows updates can drop support. Ask support to confirm your title before checkout. Using the client may still break game terms and invite account action.",
     },
     { type: 'h2', text: 'PC setup for the cosmetic client' },
     {
       type: 'p',
-      text: 'Windows 10 or 11 is required, with HVCI and Core Isolation on, and with TPM and Secure Boot on. After purchase you also need loader access.',
+      text: 'Install on Windows 10 or 11 with HVCI and Core Isolation enabled plus TPM and Secure Boot enabled in firmware. Portal loader access is required after purchase.',
     },
   ],
 };
@@ -503,17 +538,17 @@ const productContent: Record<
     overview: {
       title: 'Modern Warfare 4 cheat suite',
       paragraphs: [
-        'These warfare 4 hacks group aimbot with silent aimbot, then ESP with wallhack. God Mode sits with infinite ammo. No recoil sits with speedhack.',
-        'Wallhack and ESP print enemy position with health and distance. The 30 day plan is $35. Lifetime is $150. After a patch, read the banner on {siteDomain} before you start the game.',
+        'The best mw4 ESP readouts show enemy position, health, and distance beside the aim tab. Wallhack reuses those values when a target sits behind cover on the 2026 client builds we track.',
+        'Combat switches cover God Mode, infinite ammo, no recoil, and speedhack. Monthly is $35 for 30 days and lifetime is $150. Read the banner on {siteDomain} before you attach the loader.',
       ],
     },
   },
   'hwid-spoofer': {
     images: hwidShowcaseSlides,
     goodToKnow:
-      'Run the identifier change and the cleaner, in the portal guide order, before you open the game that raised the hardware flag. Read the anti-cheat notes on the status banner again before you pay.',
+      'Complete the spoof and bundled cleaner in portal order before launching the game that flagged this tower. Re-read anti-cheat notes on the status banner prior to checkout.',
     limitations:
-      'This product is for hardware ID flags. An account sanction that is still active stays active. Spoofing can conflict with publisher terms and can bring new penalties. A vendor update can end a listed anti-cheat note without a warning on this page first.',
+      'Built for hardware ID blocks only. Active account penalties remain. Spoofing may violate publisher terms and invite new sanctions. A vendor patch can remove a listed anti-cheat family without prior notice here.',
     systemRequirements: [
       { icon: 'reqWindows', text: 'Windows 10 or 11, 64-bit.' },
       { icon: 'reqShieldGuide', text: 'In Windows Security, HVCI and Core Isolation on.' },
@@ -522,31 +557,31 @@ const productContent: Record<
       { icon: 'reqSettings', text: 'TPM and Secure Boot on, in BIOS/UEFI.' },
     ],
     fullFeatures: [
-      'Disk serial rewrite',
-      'MAC address rewrite',
-      'GPU identifier rewrite',
-      'Related hardware fingerprints',
-      'Trace cleaner in the license',
-      'ACE, Javelin, and comparable stacks',
+      'Disk serial rotation',
+      'MAC address rotation',
+      'GPU ID rotation',
+      'Linked fingerprint fields',
+      'Bundled trace cleaner',
+      'ACE, Javelin, and peer stacks',
       'Riot Vanguard (Valorant)',
       'BattlEye',
       'Easy Anti-Cheat',
       'Ricochet (Call of Duty)',
     ],
     overview: {
-      title: 'A refresh when the block is this PC',
+      title: 'Hardware refresh for a blocked tower',
       paragraphs: [
-        'Start here after a hardware flag. Refresh disk serials on this machine. The same work covers MAC addresses and GPU IDs, plus related fingerprints, so sign-in can proceed. The coverage notes name Vanguard. They also name Easy Anti-Cheat and BattlEye. Ricochet is named with similar stacks. A cleaner is in the package.',
-        'Other computers can take a new login while this one stops it at once. That is the case for this product. A sanction stored on the account record stays. The 31 day price is $50. Lifetime stays $150. Tooling on the two licenses is the same.',
+        'Use this mw4 spoofing tool when login fails on one PC yet works on others. The panel refreshes disk serials, MAC addresses, GPU IDs, and related fingerprints, then the bundled cleaner clears traces. Published notes reference Vanguard, Easy Anti-Cheat, BattlEye, and Ricochet with ACE and Javelin.',
+        'Account-level bans stay in place. Monthly access is $50 for 31 days. Lifetime is $150 with unlimited access. Both plans include the same panel and cleaner.',
       ],
     },
   },
   ugc: {
     images: ugcShowcaseSlides,
     goodToKnow:
-      'Collect proof you own the account, and write a timeline, before filings run on their own. The reviewer on the platform has the last word on each appeal.',
+      'Gather ownership proof and a dated timeline before automated filings start. Platform reviewers still decide every outcome.',
     limitations:
-      'An outcome is not promised. A permanent suspension stays in place. UGC does not change hardware IDs. It does not bypass security controls. Thin evidence weakens the case.',
+      'No guaranteed reversal. Permanent suspensions may remain. UGC never edits hardware IDs or bypasses security controls. Sparse evidence hurts the appeal.',
     systemRequirements: [
       { icon: 'reqWindows', text: 'Windows 10 or 11, 64-bit.' },
       { icon: 'reqShieldGuide', text: 'Windows Security with HVCI and Core Isolation on.' },
@@ -554,29 +589,29 @@ const productContent: Record<
       { icon: 'reqWifi', text: 'Internet after the purchase, for the appeal client.' },
     ],
     fullFeatures: [
-      'Appeal packets built as workflows',
-      'Dispute steps that can repeat',
-      'Accounts on more than one platform',
-      'Appeals for a gaming profile',
-      'Appeals for a social handle',
-      'Appeals for a marketplace storefront',
-      'Monthly and lifetime licenses',
+      'Workflow-based appeal packets',
+      'Repeatable dispute automation',
+      'Multi-platform account coverage',
+      'Gaming profile appeals',
+      'Social handle appeals',
+      'Marketplace storefront appeals',
+      'Monthly and lifetime plans',
       'Windows 10 and Windows 11',
     ],
     overview: {
-      title: 'Appeals for gaming, social, and shop accounts',
+      title: 'Automated appeals across platforms',
       paragraphs: [
-        'UGC (Unban & Governance Control) pairs appeal workflows you set up with dispute handling that runs on its own. In scope: a restricted gaming account, a social account, or a marketplace account.',
-        'The reviewer on that platform decides the case. A ban tied to the hardware is outside this product. Pay $35 for the 31 day term. Lifetime stays at $150. The capability set does not change between them.',
+        'UGC (Unban & Governance Control) maps restrictions on gaming, social, or marketplace accounts into templates that resubmit dispute packets for you.',
+        'Hardware bans sit outside this scope. Reviewers retain control. The 31 day plan is $35. Lifetime is $150. Feature access is identical on both plans.',
       ],
     },
   },
   'skin-changer': {
     images: skinChangerShowcaseSlides,
     goodToKnow:
-      'The cosmetic shows inside your local client only. The inventory does not receive the item. Ask staff whether the title is covered before checkout.',
+      'Cosmetics appear only inside your local client. Nothing lands in inventory. Confirm title support with staff before paying.',
     limitations:
-      'A cosmetic client can still conflict with game terms and can lead to account action. A finish is not a real good. It cannot be traded. It leaves when the client exits. A patch or a Windows update can change which games and items are listed.',
+      'Clients like this can breach game terms and cause account action. Finishes are not real goods, cannot be traded, and vanish when you exit. Patches or Windows updates may shrink the supported list.',
     systemRequirements: [
       { icon: 'reqWindows', text: 'Windows 10 or 11, 64-bit.' },
       { icon: 'reqShieldGuide', text: 'Core Isolation and HVCI enabled in Windows Security.' },
@@ -584,20 +619,20 @@ const productContent: Record<
       { icon: 'reqWifi', text: 'Internet, plus loader access, after you purchase.' },
     ],
     fullFeatures: [
-      'Presets for premium weapon finishes',
-      'Presets for character outfits',
-      'Presets for rare knife styles',
-      'Coverage across major titles',
-      'A lightweight client on this PC',
-      'Cosmetic drawing on this screen only',
-      'Monthly and lifetime cosmetic licenses',
+      'Premium weapon finish presets',
+      'Character outfit presets',
+      'Rare knife style presets',
+      'Major-title coverage list',
+      'Lightweight local client',
+      'On-screen-only rendering',
+      'Monthly and lifetime licenses',
       'Windows 10 and Windows 11 support',
     ],
     overview: {
-      title: 'Finishes drawn here, not bought one by one',
+      title: 'Local cosmetic library',
       paragraphs: [
-        'Skin Changer draws premium weapon skins onto supported games. Outfits and knife variants are in that same library. You do not buy each cosmetic on its own.',
-        'The picture stays on your machine. It is not written to the account inventory. The 31 day cosmetic plan is $35. Lifetime for that library is $150. One library is shared by both plans. Before you purchase, ask support to confirm the title.',
+        'Preview premium weapon skins, outfits, and knife variants from one menu across supported games without paying per item.',
+        'Visuals never sync to inventory. The 31 day license is $35. Lifetime access is $150 for the same library. Email support to verify your game before purchase.',
       ],
     },
   },
@@ -610,9 +645,9 @@ const utilityAcquisitionSteps: Record<UtilityProductSlug, AcquisitionStep[]> = {
 };
 
 const utilityAcquisitionTitles: Record<UtilityProductSlug, string> = {
-  [HWID_SPOOFER_SLUG]: 'Order for this HWID license',
-  [UGC_SLUG]: 'Starting the UGC license',
-  [SKIN_CHANGER_SLUG]: 'Before the cosmetic client',
+  [HWID_SPOOFER_SLUG]: 'HWID license checkout path',
+  [UGC_SLUG]: 'UGC license checkout path',
+  [SKIN_CHANGER_SLUG]: 'Skin Changer license checkout path',
 };
 
 function buildTierPages(t: Translations): ProductPage[] {
@@ -635,7 +670,10 @@ function buildTierPages(t: Translations): ProductPage[] {
       buyUrl: checkoutForSlug(slug),
       images: content.images,
       overview: content.overview,
-      acquisition: acquisitionFor(displayName),
+      acquisition: {
+        title: acquisitionFor(displayName).title,
+        steps: slug === CHEATS_PRIMARY_SLUG ? eliteAcquisitionSteps : acquisitionFor(displayName).steps,
+      },
       goodToKnow: content.goodToKnow,
       limitations: content.limitations,
       fullFeatures: content.fullFeatures,

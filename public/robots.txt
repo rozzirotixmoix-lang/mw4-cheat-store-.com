@@ -5,4 +5,4 @@ Disallow: /es/go/
 Disallow: /de/go/
 Disallow: /fr/go/
 
-Sitemap: https://mw4cheat.net/sitemap.xml
+Sitemap: https://mw4cheatstore.com/sitemap.xml

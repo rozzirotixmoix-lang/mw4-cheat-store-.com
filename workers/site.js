@@ -68,10 +68,6 @@ function splitUrl(url) {
   };
 }
 
-function normalizePath(pathname) {
-  return pathname.replace(/\/+$/, '') || '/';
-}
-
 function locationPath(response) {
   const location = response.headers.get('Location');
   if (!location) return '';

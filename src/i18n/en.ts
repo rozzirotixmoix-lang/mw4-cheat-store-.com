@@ -16,9 +16,9 @@ export const en: Translations = {
   site: {
     name: SITE_NAME,
     domain: SITE_DOMAIN,
-    title: 'Modern Warfare 4 Cheats | Aimbot, Player ESP and Radar',
+    title: 'MW4 Cheats | Modern Warfare 4 menu catalog',
     description:
-      'Aimbot, silent aimbot, ESP, wallhack, no recoil, God Mode, infinite ammo, and speedhack for Modern Warfare 4.',
+      'Aimbot, silent aimbot, ESP, wallhack, no recoil, God Mode, infinite ammo, and speedhack for Modern Warfare 4 on Windows.',
   },
   nav: [
     {
@@ -36,10 +36,10 @@ export const en: Translations = {
   hero: {
     status: 'Read the Modern Warfare 4 banner on this site before you launch.',
     eyebrow: 'Dominate Every Match',
-    titleLead: 'Modern Warfare 4 ',
-    titleAccent: 'Cheats',
+    titleLead: 'MW4 Cheats ',
+    titleAccent: 'for PC',
     subtitle:
-      'Aimbot, ESP, and radar tools for Modern Warfare 4 on PC, plus wallhack. Browse products below to compare modules and monthly or lifetime plans before checkout.',
+      'For a legit mw4 assist profile, start with smoothness and bone priority instead of max snap. Open the status banner on {siteDomain} before you pick a plan.',
     ctaPrimary: 'View products',
     metrics: [
       { label: 'Silent aimbot', strong: 'Listed' },
@@ -65,7 +65,7 @@ export const en: Translations = {
     eyebrow: 'Features',
     title: 'Everything you need in one package',
     subtitle:
-      'mw4 cheats lists aimbot, silent aimbot, ESP, wallhack, no recoil, God Mode, infinite ammo, and speedhack for Modern Warfare 4.',
+      'Nine menu groups below mirror what the Modern Warfare 4 product page lists. Each block explains one switch family before you open checkout.',
     items: [
       {
         title: 'ESP',
@@ -86,7 +86,7 @@ export const en: Translations = {
       {
         title: 'Aimbot',
         subtitle: 'Target controls.',
-        desc: 'The aimbot tab sets smoothness, which bone to prefer, and how far a target can be.',
+        desc: 'The aimbot tab sets smoothness, which bone to prefer, and how far a target can be. Lower smoothness keeps crosshair movement closer to manual input.',
         bullets: ['Silent aimbot', 'Smoothness slider', 'Bone choice', 'Distance cap'],
         tags: ['aimbot', 'silent aimbot', 'smoothness'],
         bento: 'sm:col-span-2 lg:col-span-6 lg:col-start-1 lg:row-start-3',
@@ -147,7 +147,7 @@ export const en: Translations = {
     eyebrow: 'Why us',
     title: 'Modern Warfare 4 tooling backed by patches, not promises',
     subtitle:
-      '{siteDomain} ships loader builds on patch day. ESP shows position, health, and distance. Operators work a 24/7 shift.',
+      'Patch-day loader builds, live ESP readouts, and operators on a 24/7 shift are listed here so you can compare {siteDomain} with a typical reseller.',
     usLabel: '{siteName}',
     otherLabel: 'Typical provider',
     rows: [
@@ -199,7 +199,7 @@ export const en: Translations = {
     titleLead: 'From checkout to your first match in just',
     titleHighlight: 'three simple steps',
     intro:
-      'The mw4 private cheat arrives in the operator portal. Download the loader, set the menu, then launch Modern Warfare 4.',
+      'Checkout opens the operator portal for Modern Warfare 4. Download the loader, set the menu, then read the banner before you launch the game client.',
     ctaPrimary: 'Compare plans',
     ctaSecondary: 'Read the setup FAQ',
     ctaPrimaryHref: productBase,
@@ -231,20 +231,20 @@ export const en: Translations = {
   cheats: {
     eyebrow: 'Main product',
     title: 'Modern Warfare 4 Cheats',
-    subtitle: 'Aimbot, silent aimbot, ESP, wallhack, and the rest of the listed options.',
+    subtitle: 'One license covers the combat switches on the product page. Utilities stay separate when the issue is hardware or an account limit.',
     viewAll: 'View product details',
     explore: 'Explore',
     items: [
       {
         badge: 'Limited slots',
         tier: 'Private',
-        name: 'Modern Warfare 4 Cheats',
-        title: 'Modern Warfare 4 Hacks for Windows',
+        name: 'MW4 Cheats',
+        title: 'MW4 Cheats',
         desc: 'Aimbot, silent aimbot, ESP, wallhack, no recoil, God Mode, infinite ammo, and speedhack. Monthly is $35 for 30 days. Lifetime is $150.',
         homeDesc:
-          'When you buy mw4 cheats you get aimbot, silent aimbot, ESP, wallhack, no recoil, God Mode, infinite ammo, and speedhack. Monthly is $35 for 30 days. Lifetime is $150.',
+          'The Windows menu lists aimbot, silent aimbot, ESP, wallhack, no recoil, God Mode, infinite ammo, and speedhack. Monthly is $35 for 30 days. Lifetime is $150.',
         heroDesc:
-          'Aimbot controls here are smoothness, target bone priority, and maximum distance. Silent aimbot sits on the same tab. Confirm the game build on {siteDomain} before you launch.',
+          'Menu toggles cover aimbot, silent aimbot, ESP, wallhack, and the listed combat options. Confirm the game build matches the banner on {siteDomain} before launch.',
         features: ['Aimbot', 'Silent aimbot', 'ESP', 'Wallhack', 'No recoil', 'Speedhack'],
         more: 9,
         href: productBase,
@@ -270,78 +270,78 @@ export const en: Translations = {
       accessDividerBottom: 'Access',
     },
     hwidPage: {
-      showcaseHeading: 'Panel captures',
+      showcaseHeading: 'Operator screenshots',
       overviewSubtitle:
-        'Which IDs the panel rewrites, which anti-cheat families are listed, and how a machine flag differs from an account sanction.',
+        'Panel fields that rotate, anti-cheat families named here, and why a tower block is not the same as an account penalty.',
       highlights: {
-        eyebrow: 'At a glance',
-        title: 'Hwid Spoofer: What a hardware refresh covers',
-        desc: 'After a hardware flag, the panel can rewrite disk IDs. It can rewrite MAC IDs and GPU IDs, and related IDs. The aim is a sign-in on this PC. Tables lower on the page list the rows.',
+        eyebrow: 'Quick read',
+        title: 'Fingerprint refresh on this tower',
+        desc: 'Disk, MAC, GPU, and linked IDs rotate from the operator view. Goal: sign-in on this PC after a hardware flag. Extra rows sit in the table below.',
       },
       featuresSection: {
-        eyebrow: 'Listed rows',
-        title: 'IDs and the published families',
-        desc: 'A row names a fingerprint field the panel edits, or an anti-cheat family written on this page.',
+        eyebrow: 'Table rows',
+        title: 'Fields and anti-cheat notes',
+        desc: 'Each row is either an editable fingerprint or an anti-cheat family referenced on this page.',
       },
       experience: {
-        eyebrow: 'After checkout',
-        title: 'Panel notes, then portal order',
+        eyebrow: 'Post-checkout',
+        title: 'Screens first, portal steps second',
         subtitle:
-          'Callouts for the panel are on the left. License delivery and the setup order are on the right.',
-        previewLabel: 'Panel shots',
+          'Left column explains the panel shots. Right column covers license delivery and setup order.',
+        previewLabel: 'Panel gallery',
         accessDividerTop: 'Panel',
         accessDividerBottom: 'Order',
       },
-      highlightsMore: '{count} further rows are in the feature table lower on the page.',
+      highlightsMore: '{count} additional rows appear in the feature table farther down.',
     },
     utilityPages: {
       ugc: {
-        showcaseHeading: 'Workflow frames',
+        showcaseHeading: 'Workflow previews',
         overviewSubtitle:
-          'How a restriction is mapped to a template, which steps run on their own, and why the platform still decides the case.',
+          'How limits become templates, which dispute steps repeat automatically, and why reviewers still rule each case.',
         highlights: {
-          eyebrow: 'In short',
-          title: 'Appeal packets you can run again',
-          desc: 'A gaming limit, a social limit, and a marketplace limit each get a dispute workflow you can run again. The same text is not pasted by hand.',
+          eyebrow: 'Summary',
+          title: 'Repeatable dispute packets',
+          desc: 'Gaming, social, and marketplace limits each map to a workflow the client can replay without retyping the same appeal text.',
         },
         featuresSection: {
-          eyebrow: 'Included',
-          title: 'What turns on with the license',
-          desc: 'Those capabilities are available as soon as the UGC license is active.',
+          eyebrow: 'License scope',
+          title: 'Capabilities after activation',
+          desc: 'Everything listed below unlocks once your UGC license is active.',
         },
         experience: {
-          eyebrow: 'Once the license is live',
-          title: 'Frames, then the portal order',
-          subtitle: 'The left side holds the frames. On the right: how the license is delivered, and how setup runs.',
-          previewLabel: 'Frames',
+          eyebrow: 'License live',
+          title: 'Previews left, checkout steps right',
+          subtitle: 'Workflow previews sit on the left. Delivery and setup instructions sit on the right.',
+          previewLabel: 'Workflow art',
           accessDividerTop: 'Frames',
           accessDividerBottom: 'Order',
         },
-        highlightsMore: '{count} more capability rows are further down this page.',
+        highlightsMore: '{count} extra capability rows live farther down the page.',
       },
       'skin-changer': {
-        showcaseHeading: 'Client frames',
+        showcaseHeading: 'Client previews',
         overviewSubtitle:
-          'Where the finish is drawn, what stays out of your inventory, and how to check a title before checkout.',
+          'Where finishes render, why inventory stays empty, and how to confirm a title before you pay.',
         highlights: {
-          eyebrow: 'Library',
-          title: 'The finish library on this PC',
-          desc: 'Premium weapon skins are in the library. So are outfits and knife styles, inside supported games. Each item is not its own purchase.',
+          eyebrow: 'Catalog',
+          title: 'On-screen finish catalog',
+          desc: 'Weapon skins, outfits, and knife styles load from one library inside supported games without separate cosmetic purchases.',
         },
         featuresSection: {
-          eyebrow: 'Groups',
-          title: 'Cosmetic groups',
-          desc: 'These finish types are available once the cosmetic license is active.',
+          eyebrow: 'Categories',
+          title: 'Finish categories',
+          desc: 'These cosmetic groups unlock after the Skin Changer license activates.',
         },
         experience: {
-          eyebrow: 'When access arrives',
-          title: 'Shots, then portal access',
-          subtitle: 'Shot notes stay on the left side. The right side covers portal access, then how the menu is set up.',
-          previewLabel: 'Shots',
+          eyebrow: 'Access ready',
+          title: 'Gallery left, portal steps right',
+          subtitle: 'Preview notes stay left. Portal access and menu setup stay right.',
+          previewLabel: 'Client gallery',
           accessDividerTop: 'Frames',
           accessDividerBottom: 'Order',
         },
-        highlightsMore: '{count} cosmetic rows continue lower on this page.',
+        highlightsMore: '{count} more cosmetic rows continue below.',
       },
     },
     swipeHint: 'Swipe for more screenshots',
@@ -364,34 +364,34 @@ export const en: Translations = {
     items: [
       {
         badge: 'Available',
-        category: 'Hardware utility',
-        title: 'HWID Spoofer for Modern Warfare 4 PCs',
+        category: 'Machine ID utility',
+        title: 'HWID Spoofer',
         subtitle:
-          'Disk serials, MAC addresses, and GPU IDs get a new pass. The cleaner in the license runs before the next sign-in.',
-        desc: 'After a hardware flag, this license rewrites disk serials. It also rewrites MAC addresses, GPU IDs, and related fingerprints. Trace cleanup is in the same license.',
-        features: ['Disk serial rewrite', 'MAC rewrite', 'GPU ID rewrite', 'Cleaner in the license'],
+          'The panel rewrites listed fingerprints and runs trace cleanup before the next sign-in. TPM, Secure Boot, and HVCI stay as your Windows profile requires.',
+        desc: 'License covers disk serial, MAC, GPU, and linked fingerprint rotation plus the bundled trace cleaner after a hardware block on this PC.',
+        features: ['Disk serial pass', 'MAC pass', 'GPU pass', 'Bundled cleaner'],
         more: 0,
         href: HWID_SPOOFER_PATH,
       },
       {
         badge: 'Available',
-        category: 'Account appeals',
-        title: 'Account Recovery Workflows with UGC',
+        category: 'Appeal automation',
+        title: 'UGC',
         subtitle:
-          'Template appeals, and dispute steps you can run again, for a restricted profile on a game, a social site, or a marketplace.',
-        desc: 'Unban & Governance Control (UGC) includes template appeals. It also files disputes on its own when a login is limited, and that work is not tied to one platform.',
-        features: ['Workflow appeals', 'Automated dispute filings', 'Several platforms', 'Games, social, marketplaces'],
+          'Build one workflow, attach ownership proof and a timeline, then let the client resubmit disputes without pasting the same text by hand.',
+        desc: 'Unban & Governance Control (UGC) stores appeal templates and replays dispute filings when gaming, social, or marketplace logins stay limited.',
+        features: ['Template workflows', 'Auto dispute replay', 'Cross-platform scope', 'Game, social, shop profiles'],
         more: 0,
         href: UGC_PATH,
       },
       {
         badge: 'Available',
-        category: 'On-screen cosmetics',
-        title: 'Client Skin Changer for Supported Titles',
+        category: 'Local cosmetics',
+        title: 'Skin Changer',
         subtitle:
-          'Weapon skins and outfits, drawn on this PC, without a separate purchase for each cosmetic.',
-        desc: 'A small client paints premium weapon skins on your screen. Outfits and knife variants are included, across the major titles it lists.',
-        features: ['Weapon finish looks', 'Outfit looks', 'Knife style looks', 'Major titles covered'],
+          'Finishes render on your display only and do not add items to inventory. Ask support whether your game version is still on the supported list.',
+        desc: 'Lightweight client previews premium gun skins, outfits, and knife styles locally across the major titles listed on its page.',
+        features: ['Gun finish previews', 'Outfit previews', 'Knife previews', 'Major title list'],
         more: 0,
         href: SKIN_CHANGER_PATH,
       },
@@ -410,7 +410,7 @@ export const en: Translations = {
     read: 'Read full article',
     articleActionsAria: 'Continue reading',
     buyCta: 'Buy Modern Warfare 4 Cheats',
-    buyHwidCta: 'Buy the HWID license',
+    buyHwidCta: 'Checkout HWID Spoofer',
     moreArticles: 'More articles',
     sidebarAria: 'Article sidebar',
     tocTitle: 'In this article',
@@ -507,8 +507,8 @@ export const en: Translations = {
       {
         heading: 'What the site lists',
         paragraphs: [
-          'Modern Warfare 4 cheats cover the listed menu modules. HWID Spoofer is for a PC that fails login while other PCs work.',
-          'UGC formats appeal workflows. Skin Changer draws cosmetics on your client only. Each product page has its feature list and plans.',
+          'Modern Warfare 4 cheats cover the listed menu modules. HWID Spoofer targets tower-level login blocks when other machines still work.',
+          'UGC automates appeal workflows for limited profiles. Skin Changer renders cosmetics locally without inventory changes. Each page lists features and plans.',
         ],
       },
       {
@@ -566,9 +566,9 @@ export const en: Translations = {
       { id: 'products', href: '/', label: 'Feature overview', ariaLabel: 'Features', scrollTarget: 'features' },
       { id: 'products', href: PRODUCTS_HUB_PATH, label: 'All products', ariaLabel: 'All products' },
       { id: 'products', href: productBase, label: 'Cheat plans and modules', ariaLabel: '{cheatProduct}' },
-      { id: 'hwidSpoofer', href: HWID_SPOOFER_PATH, label: 'HWID panel', ariaLabel: 'HWID Spoofer' },
-      { id: 'products', href: UGC_PATH, label: 'UGC appeals', ariaLabel: 'UGC' },
-      { id: 'products', href: SKIN_CHANGER_PATH, label: 'Skin client', ariaLabel: 'Skin Changer' },
+      { id: 'hwidSpoofer', href: HWID_SPOOFER_PATH, label: 'Fingerprint tool', ariaLabel: 'HWID Spoofer' },
+      { id: 'products', href: UGC_PATH, label: 'Appeal workflows', ariaLabel: 'UGC' },
+      { id: 'products', href: SKIN_CHANGER_PATH, label: 'Local finishes', ariaLabel: 'Skin Changer' },
       { id: 'blog', href: '/blog/', label: 'Guides and articles', ariaLabel: 'Blog' },
       { id: 'forum', href: '/forum/', label: 'Community forum', ariaLabel: 'Forum' },
     ],
@@ -589,7 +589,7 @@ export const en: Translations = {
         '{siteName} publishes {cheatProduct}, the utility pages, and support notes at {siteDomain}.',
       sections: [
         {
-          heading: 'Mw4 Cheat: Who we are',
+          heading: 'Modern Warfare 4 catalog: Who we are',
           paragraphs: [
             '{siteName} is a PC catalog for Modern Warfare 4 tools. The site lists the cheat menu, HWID Spoofer, UGC, and Skin Changer.',
             'Setup notes and the status banner are here so you can judge {cheatProduct} before you pay. Product names identify the software. They are not a claim of ownership.',
@@ -788,6 +788,12 @@ export const en: Translations = {
       categoryCommunity: 'Community',
       categoryLabels: {
         'MW4 Discussion': 'MW4 Discussion',
+        'MW4 Features': 'MW4 Features',
+        'Buying Advice': 'Buying Advice',
+        'Technical Support': 'Technical Support',
+        'Technical Discussion': 'Technical Discussion',
+        'Software Discussion': 'Software Discussion',
+        'Announcements and Updates': 'Announcements and Updates',
         'Gameplay Questions': 'Gameplay Questions',
         'Product Questions': 'Product Questions',
         'Setup & Support': 'Setup & Support',
@@ -816,57 +822,57 @@ export const en: Translations = {
     },
     utilities: {
       title: 'HWID Spoofer',
-      description: 'Hardware identifiers are refreshed when other PCs accept a login and this one rejects it at once.',
-      viewDetails: 'Open the utility page',
-      includes: 'In the license:',
-      schemaName: 'HWID Spoofer',
+      description: 'Rotate hardware identifiers when every other PC signs in but this tower stops fresh accounts immediately.',
+      viewDetails: 'View HWID details',
+      includes: 'License includes:',
+      schemaName: 'HWID Spoofer utility',
     },
   },
   pageSeo: {
     '/': {
-      title: 'Modern Warfare 4 Cheats | Aimbot, ESP and Radar on PC',
+      title: 'Buy mw4 Hacks | Plans and Modules',
       description:
-        'Modern Warfare 4 Cheats with aimbot, player ESP, and radar on Windows. Compare plans on {siteDomain} before checkout.',
+        'Compare aimbot, ESP, and wallhack modules for Modern Warfare 4 on Windows. Monthly and lifetime access are listed on {siteDomain}.',
     },
     '/cheats/': {
-      title: 'Modern Warfare 4 Hacks | Menu Modules and Checkout Plans',
+      title: 'mw4 Wallhack 2026 | Aimbot and ESP Menu',
       description:
-        'Modern Warfare 4 Hacks with player ESP, aimbot, and radar on Windows. Review menu options and requirements on {siteDomain}.',
+        'mw4 soft aim tool options cover smoothness, bones, and distance caps. Review requirements on {siteDomain}.',
     },
     '/hwid-spoofer/': {
-      title: 'Modern Warfare 4 HWID Spoofer | Rotate Disk and MAC IDs',
+      title: 'mw4 Spoofing Tool | HWID Refresh',
       description:
-        'Modern Warfare 4 HWID Spoofer rotates disk, MAC, and GPU IDs when this PC fails login. Bundled cleaner; see plans on {siteDomain}.',
+        'Rotate disk, MAC, and GPU IDs on this PC when login blocks point to hardware. Plans and cleaner steps are on {siteDomain}.',
     },
     '/products/': {
-      title: 'Cheats | Modern Warfare 4 Product List',
+      title: 'Modern Warfare 4 Products Hub | Cheats and Utilities',
       description:
-        'Compare {cheatProduct} with HWID Spoofer, UGC, and Skin Changer. Plans, delivery, and requirements are on {siteDomain}.',
+        'Side-by-side plans for {cheatProduct}, HWID Spoofer, UGC, and Skin Changer. Delivery notes and Windows requirements sit on {siteDomain}.',
     },
     '/ugc/': {
-      title: 'Modern Warfare 4 Account Recovery | UGC Appeal Automation',
+      title: 'Modern Warfare 4 UGC | Appeal Workflow Automation',
       description:
-        'Modern Warfare 4 Account Recovery maps restrictions to UGC workflows and automates dispute steps. View plan options on {siteDomain}.',
+        'Map gaming, social, or marketplace restrictions to UGC templates that resubmit dispute packets. Plan options sit on {siteDomain}.',
     },
     '/skin-changer/': {
-      title: 'Modern Warfare 4 Skin Changer | Local Cosmetic Previews',
+      title: 'Modern Warfare 4 Skin Changer | Local Finishes',
       description:
-        'Modern Warfare 4 Skin Changer previews weapon skins and outfits client-side in supported titles. Compare plans on {siteDomain}.',
+        'Preview weapon skins, outfits, and knife styles on this PC without buying each cosmetic. Confirm your title on {siteDomain}.',
     },
     '/blog/': {
-      title: 'Guides | Modern Warfare 4 ESP, Aimbot and Patch Notes',
+      title: 'Modern Warfare 4 Guides | Menu and Patch Notes',
       description:
-        'Guides: Modern Warfare 4 preset walkthroughs, ESP and aim tuning, radar setup, and anti-cheat status checklists on {siteDomain}.',
+        'Long-form Modern Warfare 4 notes on ESP tuning, aim tabs, and post-patch banner checks when articles are published on {siteDomain}.',
     },
     '/forum/': {
-      title: 'Forum | Modern Warfare 4 Archive | Setup and ESP',
+      title: 'Modern Warfare 4 Forum Archive | Read-Only Threads',
       description:
-        'Forum: Read-only Modern Warfare 4 threads on loader setup, ESP configs, patches, and HWID notes. New threads and replies are closed.',
+        'Archived Modern Warfare 4 discussions on loader setup, ESP configs, and HWID notes. New threads and replies stay closed on {siteDomain}.',
     },
     '/faq/': {
-      title: 'Faq | Modern Warfare 4 Plans, Setup and Status',
+      title: 'Modern Warfare 4 FAQ | Plans, Loader and Status',
       description:
-        'Faq: Windows support, the 30 day and lifetime plans, status checks, and checkout help for Modern Warfare 4 on {siteDomain}.',
+        'Windows support, 30 day and lifetime plans, license moves, and checkout steps for Modern Warfare 4 products on {siteDomain}.',
     },
     '/terms/': {
       title: 'Terms of Sale | Licenses and Refunds',
@@ -879,20 +885,22 @@ export const en: Translations = {
         'What {siteDomain} collects in analytics, which cookies it sets, and how long a support ticket keeps your email.',
     },
     '/about/': {
-      title: 'About {siteName} | Status Notes and Support',
+      title: 'About mw4cheatstore.com | Catalog and Support',
       description:
-        '{siteName} publishes Modern Warfare 4 Cheats notes, the status banner, and email support on {siteDomain}.',
+        'Who publishes {cheatProduct}, how portal delivery works, and where the Modern Warfare 4 status banner lives on {siteDomain}.',
     },
     '/support/': {
-      title: 'Support | Loader, Orders and Setup Help',
+      title: 'Contact Support | Modern Warfare 4 Loader Help',
       description:
-        'Support: Email for loader errors, order questions, and setup on {siteDomain}. Include the order email and Windows version.',
+        'Email for loader errors, HWID resets, and order questions after checkout on {siteDomain}. Include the order email and Windows build.',
     },
   },
   ui: {
     skipLink: 'Skip to main content',
     browseCheatsNav: 'Try Now',
     browseCheatsNavMobile: 'View product',
+    navHome: 'Home',
+    navProduct: 'Product',
     homeAria: 'Modern Warfare 4 Cheats home',
     menuOpen: 'Open menu',
     themeLight: 'Switch to light mode',

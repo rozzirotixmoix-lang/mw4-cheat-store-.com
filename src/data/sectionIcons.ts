@@ -16,6 +16,8 @@ export const setupStepIcons: IconName[] = ['acqPackage', 'acqSettings', 'acqChec
 
 export const blogTagIcons: Record<string, IconName> = {
   Guides: 'navBlog',
+  'Game Guides': 'navBlog',
+  'Buying Guides': 'tag',
   Setup: 'settings',
   Features: 'layers',
   Updates: 'refresh',

@@ -29,19 +29,19 @@
   ],
   "gallery": [
     {
-      "alt": "Vista de rifle en primera persona en una azotea con nieve, con nombres, distancias y marcos verdes.",
-      "caption": "Superposiciones en partida",
-      "captionDesc": "Nombres, distancias y marcos en un combate en azotea de Modern Warfare 4."
+      "alt": "Vista con mira de rifle en Modern Warfare 4 con cajas ESP verdes sobre enemigos en un pasillo de madera.",
+      "caption": "ESP en partida",
+      "captionDesc": "Vista en primera persona con cajas enemigas y minimapa durante Modern Warfare 4."
     },
     {
-      "alt": "Panel de aimbot con Aim Key M2, hueso Nearest, Check Visibility activo, FOV 100 y suavizado.",
-      "caption": "Menú de aimbot",
-      "captionDesc": "Tecla de puntería, hueso, suavizado, FOV y distancia máxima en la pestaña aimbot."
+      "alt": "Pestaña Visuals de Modern Warfare 4 con caja de jugador, esqueleto, barra de salud y distancia en un menú morado.",
+      "caption": "Panel Visuals",
+      "captionDesc": "Interruptores de ESP de personaje, grosor del esqueleto y distancia máxima en Visuals para Modern Warfare 4."
     },
     {
-      "alt": "Pestaña Players del ESP con Enable ESP y Show Team, más nombre, distancia, salud, huesos y caja.",
-      "caption": "Menú ESP",
-      "captionDesc": "Nombre, distancia, barra de salud, huesos e interruptores de caja en la pestaña de jugadores."
+      "alt": "Menú Visuals de Modern Warfare 4 con portal, minerales, trampas, cofres e ítems en tres columnas de distancia.",
+      "caption": "Capas ESP del mundo",
+      "captionDesc": "Distancias de portal, trampa, cofre e ítem junto a la navegación Visuals en Modern Warfare 4."
     }
   ],
   "tiers": {

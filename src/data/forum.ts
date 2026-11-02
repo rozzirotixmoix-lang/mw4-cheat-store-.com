@@ -4,6 +4,12 @@ import { enForumPosts } from './forum/en-posts';
 
 export const forumCategories = [
   { name: 'MW4 Discussion', tone: 'purple', icon: 'layers' },
+  { name: 'MW4 Features', tone: 'blue', icon: 'layers' },
+  { name: 'Buying Advice', tone: 'purple', icon: 'tag' },
+  { name: 'Technical Support', tone: 'green', icon: 'headphones' },
+  { name: 'Technical Discussion', tone: 'blue', icon: 'shieldCheck' },
+  { name: 'Software Discussion', tone: 'purple', icon: 'tag' },
+  { name: 'Announcements and Updates', tone: 'orange', icon: 'refresh' },
   { name: 'Gameplay Questions', tone: 'blue', icon: 'tag' },
   { name: 'Product Questions', tone: 'purple', icon: 'tag' },
   { name: 'Setup & Support', tone: 'green', icon: 'headphones' },

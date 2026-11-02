@@ -41,8 +41,6 @@ function cardTags(product: ProductPage): string[] {
       {
         catalog.map((entry) => {
           const product = entry.page;
-          const homeCard = product.kind === 'tier' ? t.cheats.items.find((item) => item.name === product.name) : undefined;
-          const cardDesc = homeCard?.homeDesc || product.desc;
           const bullets = product.features.slice(0, 3);
           const tags = cardTags(product);
           const pageHref = lp(entry.path);
@@ -92,8 +90,7 @@ function cardTags(product: ProductPage): string[] {
 
                 <div class="min-w-0">
                   <Button as="a" href={pageHref} variant="primary" size="sm" class="w-full min-w-0">
-                    {s.viewDetails}: {entry.shortName}
-                    <Icon name="arrowRight" size={17} />
+                    {s.viewDetails}
                   </Button>
                 </div>
               </div>

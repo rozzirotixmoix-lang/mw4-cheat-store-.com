@@ -395,6 +395,10 @@ export interface Translations {
     browseCheatsNav: string;
     /** Mobile header CTA. Must differ from `browseCheatsNav` so the two header product links are unique. */
     browseCheatsNavMobile: string;
+    /** Short header inline link to homepage. */
+    navHome: string;
+    /** Short header inline link to the products hub. */
+    navProduct: string;
     homeAria: string;
     menuOpen: string;
     themeLight: string;

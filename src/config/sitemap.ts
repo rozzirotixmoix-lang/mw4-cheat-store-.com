@@ -119,6 +119,7 @@ export function customSitemapPageUrls(): string[] {
 
   for (const slug of getAllBlogSlugs()) {
     for (const locale of LOCALES) {
+      if (!getBlogPosts(locale).some((post) => post.slug === slug)) continue;
       const localized = localizePath(blogPostPath(slug), locale);
       if (isIndexablePath(localized)) paths.add(localized);
     }
@@ -126,6 +127,7 @@ export function customSitemapPageUrls(): string[] {
 
   for (const post of getForumPosts('en')) {
     for (const locale of LOCALES) {
+      if (!getForumPosts(locale).some((row) => row.slug === post.slug)) continue;
       const localized = localizePath(`/forum/${post.slug}/`, locale);
       if (isIndexablePath(localized)) paths.add(localized);
     }

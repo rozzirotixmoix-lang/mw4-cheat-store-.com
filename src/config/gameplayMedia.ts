@@ -1,8 +1,8 @@
 /** Default Open Graph / Twitter preview (first hero slide). */
-export const DEFAULT_OG_GAMEPLAY_IMAGE = '/images/gameplay/modern-warfare-4-match-esp.webp';
+export const DEFAULT_OG_GAMEPLAY_IMAGE = '/images/gameplay/modern-warfare-4-esp-scope-gameplay.webp';
 
 export const DEFAULT_OG_GAMEPLAY_ALT =
-  'First-person rifle view on a snowy rooftop, with player names, distances, and green brackets.';
+  'Modern Warfare 4 scoped rifle view with green enemy ESP boxes in a wooden warehouse corridor.';
 
 /** Intrinsic size of the default OG master (1024x576). */
 export const DEFAULT_OG_GAMEPLAY_WIDTH = 1024;

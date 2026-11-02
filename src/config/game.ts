@@ -10,8 +10,8 @@ export const GAME = {
   shortName: 'Modern Warfare 4',
   publisher: '',
   antiCheat: '',
-  officialUrl: 'https://www.callofduty.com/',
+  officialUrl: '',
 } as const;
 
 /** Display name of the main cheat product, used in menus, cards and comparison headers. */
-export const CHEAT_PRODUCT_NAME = 'Modern Warfare 4 Cheats';
+export const CHEAT_PRODUCT_NAME = 'MW4 Cheats';
