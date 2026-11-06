@@ -37,7 +37,7 @@ export const en: Translations = {
     status: 'Read the Modern Warfare 4 banner on this site before you launch.',
     eyebrow: 'Dominate Every Match',
     titleLead: 'MW4 Cheats ',
-    titleAccent: 'for PC',
+    titleAccent: 'for PC: hacks, plans, modules, and aimbot tools',
     subtitle:
       'Dominate every raid and every firefight. Get precision aim assist, full ESP, and deep customization, all tuned for Windows and updated after every patch. Compare modules and plans, then pick the setup that fits your playstyle.',
     ctaPrimary: 'View products',
@@ -401,7 +401,7 @@ export const en: Translations = {
     eyebrow: 'Blog',
     title: 'Guides and updates',
     subtitle: 'ESP and aimbot setup, menu tuning and patch-day checks for Modern Warfare 4.',
-    latestTitle: 'Guides: Long-form Modern Warfare 4 Cheat Menu Tuning and Patch-Day Posts',
+    latestTitle: 'Guides: Long-form Modern Warfare 4 Cheat Menu Tuning and Patch-Day Notes',
     latestSubtitle: 'Filter by topic to find setup guides, feature deep-dives, and patch-day notes.',
     filterAll: 'All articles',
     emptyFilter: 'No articles match this filter.',

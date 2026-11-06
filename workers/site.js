@@ -58,6 +58,37 @@ function withSecurityHeaders(response) {
   });
 }
 
+/** On Pages/local preview hosts, point canonicals, hreflang, sitemap, and robots at the request origin. */
+async function rewritePreviewCanonicals(request, response) {
+  const url = new URL(request.url);
+  if (!isLocalPreviewHost(parseHostname(url.hostname))) return response;
+  const type = (response.headers.get('content-type') || '').toLowerCase();
+  const path = url.pathname;
+  const shouldRewrite =
+    type.includes('text/html') ||
+    type.includes('xml') ||
+    type.includes('text/plain') ||
+    path === '/robots.txt' ||
+    path === '/sitemap.xml' ||
+    /\.(xml|txt)$/i.test(path);
+  if (!shouldRewrite) return response;
+  const productionOrigin = `https://${CANONICAL_HOST}`;
+  const requestOrigin = `${url.protocol}//${url.host}`;
+  const text = await response.text();
+  const next = text.includes(productionOrigin) ? text.split(productionOrigin).join(requestOrigin) : text;
+  const headers = new Headers(response.headers);
+  headers.delete('Content-Length');
+  return new Response(next, {
+    status: response.status,
+    statusText: response.statusText,
+    headers,
+  });
+}
+
+async function finalizeResponse(request, response) {
+  return withSecurityHeaders(await rewritePreviewCanonicals(request, withHtmlCharset(response)));
+}
+
 function splitUrl(url) {
   const [pathPart, hash = ''] = url.split('#');
   const [pathname, search = ''] = pathPart.split('?');
@@ -186,7 +217,8 @@ export default {
         if (pathname === '/sitemap.xml' || pathname.endsWith('.xml')) {
           const headers = new Headers(asset.headers);
           headers.set('Content-Type', 'application/xml; charset=utf-8');
-          return withSecurityHeaders(
+          return finalizeResponse(
+            request,
             new Response(asset.body, {
               status: asset.status,
               statusText: asset.statusText,
@@ -194,7 +226,7 @@ export default {
             }),
           );
         }
-        return withSecurityHeaders(asset);
+        return finalizeResponse(request, asset);
       }
     }
 
@@ -257,7 +289,7 @@ export default {
       );
     }
 
-    const response = withSecurityHeaders(withHtmlCharset(asset));
+    const response = await finalizeResponse(request, asset);
     return cacheDocumentResponse(request, ctx, response);
   },
 };
