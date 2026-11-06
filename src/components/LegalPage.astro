@@ -6,6 +6,7 @@ import { Prose } from '@/components/starwind/prose';
 import { useLocale } from '../i18n';
 import { normalizeInternalPath } from '../utils/path';
 import { resolveCheckoutHref } from '../config/checkout';
+import { stripCommaColon } from '../config/seo';
 
 interface Props {
   title: string;
@@ -15,6 +16,8 @@ interface Props {
 }
 
 const { title, description, breadcrumbLabel, sections } = Astro.props;
+const displayTitle = stripCommaColon(title);
+const displayDescription = stripCommaColon(description);
 const { t, lp } = useLocale(Astro.currentLocale);
 
 function linkify(text: string): string {
@@ -38,8 +41,8 @@ function linkify(text: string): string {
     />
     </div>
     <header class="mt-4 space-y-4 text-center">
-      <h1 class="text-3xl font-bold normal-case text-foreground md:text-4xl">{title}</h1>
-      <p class="text-lg leading-relaxed text-muted-foreground">{description}</p>
+      <h1 class="text-3xl font-bold normal-case text-foreground md:text-4xl">{displayTitle}</h1>
+      <p class="text-lg leading-relaxed text-muted-foreground">{displayDescription}</p>
     </header>
 
     <Prose class="mt-10 max-w-none text-left">

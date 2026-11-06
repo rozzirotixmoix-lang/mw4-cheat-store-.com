@@ -22,10 +22,10 @@
 .product-experience__title {
   margin: 0;
   font-family: var(--font-heading, ui-sans-serif, system-ui, sans-serif);
-  font-size: clamp(1.625rem, 3vw, 2.125rem);
-  font-weight: 800;
+  font-size: clamp(1.5rem, 2.8vw, 1.875rem);
+  font-weight: 600;
   line-height: 1.2;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.01em;
   color: var(--foreground);
 }
 

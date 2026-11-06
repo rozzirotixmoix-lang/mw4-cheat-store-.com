@@ -79,9 +79,14 @@ function dropLastWord(text: string): string {
   return (boundary > 0 ? text.slice(0, boundary) : text).trim();
 }
 
+/** Remove commas and colons from titles, H1s, and meta descriptions. */
+export function stripCommaColon(text: string): string {
+  return text.replace(/[,:]+/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
 /** Trim at a word boundary. Used so visible excerpts stay intact while meta stays in budget. */
 export function clipAtWord(text: string, max = META_MAX, min = META_MIN, maxPx = META_PX): string {
-  const cleaned = text.replace(/\s+/g, ' ').replace(/"/g, "'").trim();
+  const cleaned = stripCommaColon(text).replace(/"/g, "'");
   let trimmed = cleaned;
   if (trimmed.length > max) {
     const cut = trimmed.slice(0, max + 1);
@@ -123,7 +128,7 @@ export function pageTitle(keyword: string, brand?: string, locale?: string): str
 
 /** Drop a site-name suffix first, then trim at a word boundary to 60 chars / 561px. */
 export function clipTitle(text: string, max = TITLE_MAX, min = TITLE_MIN, maxPx = 561): string {
-  let trimmed = text.replace(/\s+/g, ' ').replace(/"/g, "'").trim();
+  let trimmed = stripCommaColon(text).replace(/"/g, "'");
   const pipe = trimmed.lastIndexOf(' | ');
   if ((trimmed.length > max || pxWidth(trimmed) > maxPx) && pipe >= min) {
     const without = trimmed.slice(0, pipe).trim();

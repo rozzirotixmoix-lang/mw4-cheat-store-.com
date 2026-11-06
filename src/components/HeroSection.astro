@@ -13,8 +13,12 @@ import { HERO_IMAGE_SIZES, HERO_IMAGE_WIDTHS } from '../utils/responsiveImage';
 import Icon from './icons/Icon.astro';
 import { Button } from '@/components/starwind/button';
 import { Badge } from '@/components/starwind/badge';
+import { stripCommaColon } from '../config/seo';
 
 const h = t.hero;
+const heroTitleLead = stripCommaColon(h.titleLead);
+const heroTitleAccent = stripCommaColon(h.titleAccent);
+const heroSubtitle = stripCommaColon(h.subtitle);
 
 const heroMarqueePills = [
   ...h.statusPills.map((label, i) => ({
@@ -45,11 +49,11 @@ const heroMarqueePills = [
           id="hero-title"
           class="max-w-full text-lg font-bold leading-snug tracking-normal text-foreground sm:text-xl lg:text-2xl"
         >
-          {h.titleLead}<span class="hero-title-accent">{h.titleAccent}</span>
+          {heroTitleLead}<span class="hero-title-accent">{heroTitleAccent}</span>
         </h1>
 
         <p class="max-w-xl text-sm leading-relaxed text-muted-foreground md:text-base">
-          {h.subtitle}
+          {heroSubtitle}
         </p>
 
         <div class="flex flex-wrap justify-start gap-3 sm:gap-4">

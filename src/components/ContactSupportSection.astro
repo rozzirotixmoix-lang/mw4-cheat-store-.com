@@ -6,6 +6,7 @@ const { t, lp } = useLocale(Astro.currentLocale);
 import Icon from './icons/Icon.astro';
 import type { IconName } from './icons/types';
 import { HWID_CHECKOUT_PATH, PRIMARY_CHECKOUT_PATH } from '../config/checkout';
+import { stripCommaColon } from '../config/seo';
 import { HWID_SPOOFER_SLUG, isUtilityEnabled } from '../config/catalog';
 import { Button } from '@/components/starwind/button';
 import {
@@ -34,8 +35,8 @@ const c = t.support;
   <div class="support-section__inner mx-auto max-w-6xl px-5">
     <header class="section-header section-header--wide support-section__header">
       <p class="section-header__eyebrow">{c.eyebrow}</p>
-      <h1 id={titleId} class="section-header__title text-foreground">{c.title}</h1>
-      <p class="section-header__subtitle">{c.subtitle}</p>
+      <h1 id={titleId} class="section-header__title text-foreground">{stripCommaColon(c.title)}</h1>
+      <p class="section-header__subtitle">{stripCommaColon(c.subtitle)}</p>
     </header>
 
     <ul class="support-section__cards">

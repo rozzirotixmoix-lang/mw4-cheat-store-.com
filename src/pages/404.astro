@@ -4,6 +4,7 @@ import { useLocale } from '../i18n';
 import Icon from '../components/icons/Icon.astro';
 import { Button } from '@/components/starwind/button';
 import { ROUTES } from '../utils/path';
+import { stripCommaColon } from '../config/seo';
 
 const { locale, t, lp } = useLocale(Astro.currentLocale);
 ---
@@ -17,7 +18,7 @@ const { locale, t, lp } = useLocale(Astro.currentLocale);
   <section class="py-16 md:py-24">
     <div class="mx-auto max-w-lg px-5 text-center">
       <p class="text-sm font-semibold uppercase tracking-wider text-primary">404</p>
-      <h1 class="mt-3 text-3xl font-bold uppercase text-foreground md:text-4xl">{t.notFound.title}</h1>
+      <h1 class="mt-3 text-3xl font-bold uppercase text-foreground md:text-4xl">{stripCommaColon(t.notFound.title)}</h1>
       <h2 class="mt-4 text-lg font-medium leading-relaxed text-muted-foreground" data-reveal>{t.notFound.body}</h2>
       <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center" data-reveal-stagger>
         <Button as="a" href={lp(ROUTES.home)} variant="primary">

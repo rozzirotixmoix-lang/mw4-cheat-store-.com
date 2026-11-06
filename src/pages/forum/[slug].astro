@@ -4,7 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Icon from '../../components/icons/Icon.astro';
 import { getForumPost, getForumPosts } from '../../data/forum/locale';
-import { canonicalUrl, clipAtWord, pageTitle } from '../../config/seo';
+import { canonicalUrl, clipAtWord, pageTitle, stripCommaColon } from '../../config/seo';
 import { breadcrumbSchema, discussionForumPostingSchema } from '../../utils/schema';
 import { useLocale } from '../../i18n';
 import { resolveCheckoutHref } from '../../config/checkout';
@@ -96,7 +96,7 @@ const relatedPosts = [
             </div>
             <div class="forum-detail-content">
               <div class="forum-post-meta"><span class={`forum-community-avatar tone-${post.categoryTone}`}><Icon name="users" size={15} /></span><a href={lp('/forum/')} class="forum-community-name">{f.eyebrow}: {forumCategoryLabel(post.category)}</a><span>·</span><span><Icon name="userRound" size={13} /> {f.guideTeam}</span><span>{f.guideBasedQa}</span></div>
-              <h1 class="text-foreground">{post.title}</h1>
+              <h1 class="text-foreground">{stripCommaColon(post.title)}</h1>
               <span class="forum-flair">{f.closedThread}</span>
               <span class="forum-flair">{f.closedBy}</span>
               {post.flair && <span class={`forum-flair tone-${post.categoryTone}`}>{post.flair}</span>}

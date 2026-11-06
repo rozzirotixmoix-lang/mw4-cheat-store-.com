@@ -5,7 +5,7 @@ import { useLocale } from '../../i18n';
 
 const { locale, t, lp } = useLocale(Astro.currentLocale);
 import { getAllBlogSlugs, getBlogPost, getRelatedBlogPosts } from '../../data/blog';
-import { canonicalUrl, pageTitle, SITE_ORIGIN } from '../../config/seo';
+import { canonicalUrl, pageTitle, SITE_ORIGIN, stripCommaColon } from '../../config/seo';
 import {
   articleSchema,
   breadcrumbSchema,
@@ -127,8 +127,8 @@ const headline = post.h1 ?? post.title;
           </figure>
 
           <header class="blog-article__header">
-            <h1 class="blog-article__title">{headline}</h1>
-            <p class="blog-article__lead">{post.desc}</p>
+            <h1 class="blog-article__title">{stripCommaColon(headline)}</h1>
+            <p class="blog-article__lead">{stripCommaColon(post.desc)}</p>
             {
               post.author && (
                 <p class="blog-article__byline">

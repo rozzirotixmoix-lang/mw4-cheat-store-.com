@@ -1,4 +1,6 @@
 ---
+import { stripCommaColon } from '../config/seo';
+
 interface Props {
   eyebrow: string;
   title: string;
@@ -12,6 +14,8 @@ interface Props {
 
 const { eyebrow, title, desc, titleId, centered = false, wide = false, level = 'h2' } = Astro.props;
 const TitleTag = level === 'h1' ? 'h1' : 'h2';
+const heading = level === 'h1' ? stripCommaColon(title) : title;
+const subtitle = level === 'h1' && desc ? stripCommaColon(desc) : desc;
 ---
 
 <header
@@ -23,6 +27,6 @@ const TitleTag = level === 'h1' ? 'h1' : 'h2';
   data-reveal="up"
 >
   <p class="section-header__eyebrow">{eyebrow}</p>
-  <TitleTag id={titleId} class:list={['section-header__title', level === 'h1' && 'text-foreground']}>{title}</TitleTag>
-  {desc ? <p class="section-header__subtitle">{desc}</p> : null}
+  <TitleTag id={titleId} class:list={['section-header__title', level === 'h1' && 'text-foreground']}>{heading}</TitleTag>
+  {subtitle ? <p class="section-header__subtitle">{subtitle}</p> : null}
 </header>

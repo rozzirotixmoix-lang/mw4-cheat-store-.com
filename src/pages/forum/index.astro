@@ -5,7 +5,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import Icon from '../../components/icons/Icon.astro';
 import { getForumCategories, getForumPosts } from '../../data/forum/locale';
 import { getBlogPosts, getBlogPostTimestamp } from '../../data/blog';
-import { resolvePageSeo } from '../../config/seo';
+import { resolvePageSeo, stripCommaColon } from '../../config/seo';
 import { breadcrumbSchema, collectionPageSchema } from '../../utils/schema';
 import { useLocale } from '../../i18n';
 import { formatForumRelative } from '../../utils/forumTime';
@@ -60,8 +60,8 @@ const sourceTimestamp = (path?: string) => {
       <header class="forum-hero">
         <div>
           <p class="section-header__eyebrow">{f.eyebrow}</p>
-          <h1 class="text-foreground">{f.title}</h1>
-          <h2 class="forum-hero__copy">{f.description}</h2>
+          <h1 class="text-foreground">{stripCommaColon(f.title)}</h1>
+          <h2 class="forum-hero__copy">{stripCommaColon(f.description)}</h2>
         </div>
         <div class="forum-hero__actions">
           <a class="forum-create" href={lp('/products/')}><Icon name="navProducts" size={17} /> {t.notFound.viewProducts}</a>

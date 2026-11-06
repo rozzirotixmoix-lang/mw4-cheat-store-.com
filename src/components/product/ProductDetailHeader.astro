@@ -3,6 +3,7 @@ import type { ProductPage } from '../../data/products';
 import { Badge } from '@/components/starwind/badge';
 import { GAME } from '../../config/game';
 import { CHEATS_PRIMARY_SLUG } from '../../config/catalog';
+import { stripCommaColon } from '../../config/seo';
 
 interface Props {
   product: ProductPage;
@@ -20,6 +21,8 @@ const heading =
         : product.slug === 'skin-changer'
           ? 'Modern Warfare 4 Skin Changer'
           : product.title;
+const displayHeading = stripCommaColon(heading);
+const displaySubtitle = stripCommaColon(product.subtitle || product.desc);
 ---
 
 <header class="product-detail-header space-y-4">
@@ -30,6 +33,6 @@ const heading =
     {isGameProduct && <Badge variant="outline">{GAME.shortName}</Badge>}
     {product.category && !isGameProduct && <Badge variant="outline">{product.category}</Badge>}
   </div>
-  <h1 class="max-w-3xl text-3xl font-bold normal-case leading-tight text-foreground md:text-4xl">{heading}</h1>
-  <p class="max-w-2xl text-lg leading-relaxed text-muted-foreground">{product.subtitle || product.desc}</p>
+  <h1 class="max-w-3xl text-3xl font-bold normal-case leading-tight text-foreground md:text-4xl">{displayHeading}</h1>
+  <p class="max-w-2xl text-lg leading-relaxed text-muted-foreground">{displaySubtitle}</p>
 </header>

@@ -7,7 +7,7 @@ import {
   getNonFeaturedBlogPosts,
 } from '../../data/blog';
 import { useLocale } from '../../i18n';
-import { resolvePageSeo } from '../../config/seo';
+import { resolvePageSeo, stripCommaColon } from '../../config/seo';
 import { breadcrumbSchema, collectionPageSchema } from '../../utils/schema';
 
 const { locale, t, lp } = useLocale(Astro.currentLocale);
@@ -67,8 +67,8 @@ const tagIcon = (tag: string): IconName => blogTagIcons[tag] ?? 'tag';
     <div class="mx-auto max-w-6xl px-5">
       <header class="section-header max-w-2xl" data-reveal>
         <p class="section-header__eyebrow">{t.blog.eyebrow}</p>
-        <h1 id="blog-latest-title" class="section-header__title text-foreground">{t.blog.latestTitle}</h1>
-        <h2 class="section-header__subtitle">{t.blog.latestSubtitle}</h2>
+        <h1 id="blog-latest-title" class="section-header__title text-foreground">{stripCommaColon(t.blog.latestTitle)}</h1>
+        <h2 class="section-header__subtitle">{stripCommaColon(t.blog.latestSubtitle)}</h2>
       </header>
 
       <div
