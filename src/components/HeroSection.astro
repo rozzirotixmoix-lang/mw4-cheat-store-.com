@@ -1,12 +1,6 @@
 ---
 import { useLocale } from '../i18n';
 import { ROUTES } from '../utils/path';
-
-const { locale, t, lp } = useLocale(Astro.currentLocale);
-import { getHeroSlides } from '../data/products';
-
-const heroSlides = getHeroSlides(locale);
-const firstSlide = heroSlides[0];
 import { compatibilityIcons, heroStatIcons, heroStatusPillIcons } from '../data/sectionIcons';
 import ResponsiveImage from './ResponsiveImage.astro';
 import { HERO_IMAGE_SIZES, HERO_IMAGE_WIDTHS } from '../utils/responsiveImage';
@@ -14,6 +8,30 @@ import Icon from './icons/Icon.astro';
 import { Button } from '@/components/starwind/button';
 import { Badge } from '@/components/starwind/badge';
 import { stripCommaColon } from '../config/seo';
+
+const { t, lp } = useLocale(Astro.currentLocale);
+
+/** Swap or add slides here. Files live in public/images/gameplay/. */
+const HERO_SLIDES = [
+  {
+    src: '/images/gameplay/modern-warfare-4-esp-scope-gameplay.webp',
+    alt: 'Modern Warfare 4 scoped rifle view with green enemy ESP boxes in a wooden warehouse corridor.',
+    width: 1024,
+    height: 576,
+  },
+  {
+    src: '/images/gameplay/modern-warfare-4-visuals-settings-panel.webp',
+    alt: 'Modern Warfare 4 Visuals tab with player box, skeleton, health bar, and distance sliders on a dark purple menu.',
+    width: 1024,
+    height: 576,
+  },
+  {
+    src: '/images/gameplay/modern-warfare-4-visuals-settings-interface.webp',
+    alt: 'Modern Warfare 4 Visuals menu showing portal, ores, traps, chests, and items distance controls in three columns.',
+    width: 1024,
+    height: 576,
+  },
+] as const;
 
 const h = t.hero;
 const heroTitleLead = stripCommaColon(h.titleLead);
@@ -49,7 +67,7 @@ const heroMarqueePills = [
           id="hero-title"
           class="max-w-full text-lg font-bold leading-snug tracking-normal text-foreground sm:text-xl lg:text-2xl"
         >
-          {heroTitleLead}<span class="hero-title-accent">{heroTitleAccent}</span>
+          {heroTitleLead}{' '}<span class="hero-title-accent">{heroTitleAccent}</span>
         </h1>
 
         <p class="max-w-xl text-sm leading-relaxed text-muted-foreground md:text-base">
@@ -72,22 +90,29 @@ const heroMarqueePills = [
       </div>
 
       <div class="mx-auto flex w-full max-w-xl flex-col items-center gap-5 lg:mx-0 lg:max-w-none lg:items-end">
-        {firstSlide && (
-          <div class="hero-slider hero-slider--desktop relative w-full rounded-xl border border-border bg-card p-2 shadow-sm">
-            <figure class="hero-slider__slide aspect-[16/10] overflow-hidden rounded-lg bg-muted/30">
-              <ResponsiveImage
-                src={firstSlide.src}
-                alt={firstSlide.alt}
-                width={firstSlide.width ?? 960}
-                height={firstSlide.height ?? 540}
-                widths={HERO_IMAGE_WIDTHS}
-                loading="eager"
-                fetchPriority="high"
-                sizes={HERO_IMAGE_SIZES}
-                desktopOnly
-                class="h-full w-full object-cover"
-              />
-            </figure>
+        {HERO_SLIDES.length > 0 && (
+          <div class="hero-slider relative w-full rounded-xl border border-border bg-card p-2 shadow-sm">
+            <div class="hero-fade relative aspect-[16/10] overflow-hidden rounded-lg bg-muted/30" data-hero-fade>
+              {HERO_SLIDES.map((slide, i) => (
+                <figure
+                  class:list={['hero-fade__slide m-0', i === 0 && 'is-active']}
+                  data-hero-fade-slide
+                >
+                  <ResponsiveImage
+                    src={slide.src}
+                    alt={slide.alt}
+                    width={slide.width}
+                    height={slide.height}
+                    widths={HERO_IMAGE_WIDTHS}
+                    loading={i === 0 ? 'eager' : 'lazy'}
+                    fetchPriority={i === 0 ? 'high' : 'low'}
+                    sizes={HERO_IMAGE_SIZES}
+                    class="h-full w-full object-cover"
+                  />
+                </figure>
+              ))}
+              <div class="hero-fade__overlay" aria-hidden="true"></div>
+            </div>
           </div>
         )}
         <div class="grid w-full grid-cols-1 gap-2.5 sm:grid-cols-2 sm:gap-3 md:grid-cols-4 lg:grid-cols-2">
@@ -150,5 +175,58 @@ const heroMarqueePills = [
     margin-top: 1rem !important;
     color: color-mix(in oklab, var(--muted-foreground) 40%, #f4f4f5);
   }
+
+  .hero-fade__slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+
+  .hero-fade__slide :global(picture),
+  .hero-fade__slide :global(img) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero-fade__slide:first-child {
+    position: relative;
+  }
+
+  .hero-fade__slide.is-active {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .hero-fade__overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+    background: rgb(0 0 0 / 28%);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-fade__slide {
+      transition: none;
+    }
+  }
 </style>
+
+<script>
+  const root = document.querySelector('[data-hero-fade]');
+  if (root && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const slides = [...root.querySelectorAll('[data-hero-fade-slide]')];
+    if (slides.length > 1) {
+      let index = 0;
+      window.setInterval(() => {
+        slides[index]?.classList.remove('is-active');
+        index = (index + 1) % slides.length;
+        slides[index]?.classList.add('is-active');
+      }, 3000);
+    }
+  }
+</script>
 
