@@ -355,9 +355,9 @@ html.dark a.nav-link[data-nav-link]:hover .icon-app {
 }
 
 .faq-filter-chip.is-active {
-  background: var(--primary);
-  color: var(--primary-foreground);
-  border-color: var(--primary);
+  background: color-mix(in oklab, var(--primary) 58%, black);
+  color: #ffffff;
+  border-color: color-mix(in oklab, var(--primary) 58%, black);
 }
 
 .blog-toc-link.is-active {
@@ -834,7 +834,11 @@ html.dark .text-primary {
    until they are about to scroll in. The hero copy stays painted with the first frame.
    The gameplay carousel is desktop-only, so it is not part of the mobile first paint. */
 @media (max-width: 1023px) {
-  #products,
+  #products {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 90rem;
+  }
+
   #why-us,
   #workflow,
   #blog,
@@ -843,7 +847,7 @@ html.dark .text-primary {
   #product-experience,
   footer {
     content-visibility: auto;
-    contain-intrinsic-size: auto 32rem;
+    contain-intrinsic-size: auto 40rem;
   }
 
   /* Style each feature card as it approaches, instead of the whole tall section at once. */

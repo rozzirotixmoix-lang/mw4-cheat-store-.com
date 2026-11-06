@@ -44,9 +44,11 @@ const tabletWidth = [...widths].sort((a, b) => a - b).find((width) => width >= 6
 const tabletSrc = phoneWidth && tabletWidth ? webpSrc(src, tabletWidth) : undefined;
 const imgSrc = desktopOnly
   ? 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7'
-  : phoneSrc ?? defaultWebpSrc(src, widths);
+  : (phoneSrc ?? defaultWebpSrc(src, widths));
 const pictureSizes = desktopOnly ? HERO_IMAGE_SIZES : sizes;
 const pictureMedia = desktopOnly ? '(min-width: 1024px)' : undefined;
+const imgLoading = desktopOnly ? 'lazy' : loading;
+const imgPriority = desktopOnly ? 'low' : fetchPriority;
 ---
 
 {
@@ -72,9 +74,9 @@ const pictureMedia = desktopOnly ? '(min-width: 1024px)' : undefined;
         alt={alt ?? ''}
         width={width}
         height={height}
-        loading={loading}
-        decoding="async"
-        fetchpriority={fetchPriority}
+        loading={imgLoading}
+        decoding={imgPriority === 'high' ? 'sync' : 'async'}
+        fetchpriority={imgPriority}
         sizes={phoneSrc ? undefined : pictureSizes}
         class={className}
       />
@@ -85,9 +87,9 @@ const pictureMedia = desktopOnly ? '(min-width: 1024px)' : undefined;
       alt={alt ?? ''}
       width={width}
       height={height}
-      loading={loading}
-      decoding="async"
-      fetchpriority={fetchPriority}
+      loading={imgLoading}
+      decoding={imgPriority === 'high' ? 'sync' : 'async'}
+      fetchpriority={imgPriority}
       class={className}
     />
   )

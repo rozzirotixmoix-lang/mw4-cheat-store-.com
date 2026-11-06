@@ -39,7 +39,7 @@ export const en: Translations = {
     titleLead: 'MW4 Cheats ',
     titleAccent: 'for PC',
     subtitle:
-      'For a legit mw4 assist profile, start with smoothness and bone priority instead of max snap. Open the status banner on {siteDomain} before you pick a plan.',
+      'Dominate every raid and every firefight. Get precision aim assist, full ESP, and deep customization, all tuned for Windows and updated after every patch. Compare modules and plans, then pick the setup that fits your playstyle.',
     ctaPrimary: 'View products',
     metrics: [
       { label: 'Silent aimbot', strong: 'Listed' },
@@ -903,7 +903,7 @@ export const en: Translations = {
     navProduct: 'Product',
     homeAria: 'Modern Warfare 4 Cheats home',
     menuOpen: 'Open menu',
-    themeLight: 'Switch to light mode',
+    themeLight: 'Switch between light and dark mode',
     languageSwitcherLabel: 'Language',
     languageNames: {
       en: 'English',

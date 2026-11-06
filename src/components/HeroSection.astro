@@ -112,3 +112,23 @@ const heroMarqueePills = [
   </div>
 </section>
 
+<style>
+  #hero-title {
+    font-size: clamp(1.75rem, 4vw, 3rem) !important;
+    font-weight: 800 !important;
+    line-height: 1.15 !important;
+    letter-spacing: -0.01em !important;
+    max-width: 900px;
+    overflow-wrap: break-word;
+    text-wrap: balance;
+  }
+
+  #hero-title + p {
+    font-size: clamp(1rem, 1.6vw, 1.15rem);
+    line-height: 1.65;
+    max-width: 680px;
+    margin-top: 1rem !important;
+    color: color-mix(in oklab, var(--muted-foreground) 40%, #f4f4f5);
+  }
+</style>
+

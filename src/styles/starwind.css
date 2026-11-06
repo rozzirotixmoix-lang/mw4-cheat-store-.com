@@ -1,6 +1,5 @@
 @import "./fonts.css";
 @import "tailwindcss";
-@import "tw-animate-css";
 @plugin "@tailwindcss/forms";
 @custom-variant dark (&:where(.dark, .dark *));
 
@@ -96,7 +95,7 @@
   --secondary-foreground: #0a0614;
   --secondary-accent: #7c3aed;
   --muted: #ebe4f8;
-  --muted-foreground: #5b5470;
+  --muted-foreground: #4e4864;
   --accent: #ebe4f8;
   --accent-foreground: #0a0614;
   --info: #6b6580;
@@ -130,15 +129,15 @@
   --card-foreground: #ffffff;
   --popover: #0f0b1f;
   --popover-foreground: #ffffff;
-  --primary: #a855f7;
+  --primary: #9333ea;
   --primary-text: #c4a7ff;
   --primary-foreground: #ffffff;
   --primary-accent: #c084fc;
   --secondary: #15102a;
   --secondary-foreground: #ffffff;
-  --secondary-accent: #a855f7;
+  --secondary-accent: #9333ea;
   --muted: #15102a;
-  --muted-foreground: #a1a1aa;
+  --muted-foreground: #c4c4cc;
   --accent: #15102a;
   --accent-foreground: #ffffff;
   --info: #6b6580;
@@ -151,7 +150,7 @@
   --error-foreground: #ffffff;
   --border: #2a2240;
   --input: #2a2240;
-  --outline: #a855f7;
+  --outline: #9333ea;
   --cta: #ffffff;
   --cta-foreground: #0a0614;
   --cta-hover: #e4e4e7;
@@ -160,7 +159,7 @@
   /* sidebars variables */
   --sidebar-background: #0f0b1f;
   --sidebar-foreground: #ffffff;
-  --sidebar-primary: #a855f7;
+  --sidebar-primary: #9333ea;
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: #15102a;
   --sidebar-accent-foreground: #ffffff;

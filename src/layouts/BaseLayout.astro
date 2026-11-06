@@ -27,6 +27,7 @@ import JsonLd from '../components/JsonLd.astro';
 import { ThemeInitScript } from '@starwind-ui/astro/theme';
 import { THEME_CONTROLLER_OPTIONS } from '../config/theme';
 import outfitLatin from '@fontsource-variable/outfit/files/outfit-latin-wght-normal.woff2?url';
+import orbitronSemiBold from '@fontsource/orbitron/files/orbitron-latin-600-normal.woff2?url';
 
 interface Props {
   title?: string;
@@ -93,6 +94,9 @@ const inlineResponsiveHint = ['/forum/', '/faq/', '/about/'].includes(layoutBase
 <html lang={locale} class="dark">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preload" href={outfitLatin} as="font" type="font/woff2" crossorigin="anonymous" fetchpriority="high" />
+    <link rel="preload" href={orbitronSemiBold} as="font" type="font/woff2" crossorigin="anonymous" media="(min-width: 640px)" />
     <script is:inline>
       document.documentElement.classList.add('js');
     </script>
@@ -101,7 +105,6 @@ const inlineResponsiveHint = ['/forum/', '/faq/', '/about/'].includes(layoutBase
       storageKey={THEME_CONTROLLER_OPTIONS.storageKey}
       className={THEME_CONTROLLER_OPTIONS.className}
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{documentTitle}</title>
     <meta name="description" content={metaDescription} />
     <meta name="author" content={t.site.name} />
@@ -162,14 +165,6 @@ const inlineResponsiveHint = ['/forum/', '/faq/', '/about/'].includes(layoutBase
     <meta name="twitter:image:alt" content={ogImageAlt} />
     {TWITTER_SITE && <meta name="twitter:site" content={TWITTER_SITE} />}
     {TWITTER_CREATOR && <meta name="twitter:creator" content={TWITTER_CREATOR} />}
-
-    <link rel="preload" href={outfitLatin} as="font" type="font/woff2" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&display=swap"
-      rel="stylesheet"
-    />
 
     <slot name="head" />
     {

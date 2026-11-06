@@ -61,7 +61,7 @@ const sourceTimestamp = (path?: string) => {
       </header>
 
       <div class="forum-layout">
-        <main class="forum-main" aria-label={f.postsAria}>
+        <section class="forum-main" aria-label={f.postsAria}>
           <div class="forum-toolbar">
             <div class="forum-sort" role="group" aria-label={f.sortAria}>
               <button class="is-active" type="button" data-forum-sort="popular" aria-pressed="true">{f.sortPopular}</button>
@@ -113,7 +113,7 @@ const sourceTimestamp = (path?: string) => {
             <button type="button" data-page-next aria-label={f.pageNext}>{f.pageNext}</button>
             <span class="forum-pagination__status" data-page-status aria-live="polite"></span>
           </nav>
-        </main>
+        </section>
 
         <aside class="forum-sidebar">
           <section class="forum-side-card forum-about" id="community-guidelines">
@@ -163,6 +163,17 @@ const sourceTimestamp = (path?: string) => {
       history.replaceState(null, '', window.location.pathname);
     }
 
+    function setPressedState(item: HTMLElement, active: boolean) {
+      item.classList.toggle('is-active', active);
+      if (item instanceof HTMLButtonElement) {
+        item.setAttribute('aria-pressed', String(active));
+        return;
+      }
+      item.removeAttribute('aria-pressed');
+      if (active) item.setAttribute('aria-current', 'true');
+      else item.removeAttribute('aria-current');
+    }
+
     function updateForum() {
       const sort = sortButtons.find((button) => button.getAttribute('aria-pressed') === 'true')?.dataset.forumSort ?? 'popular';
       const ordered = [...cards].sort((a, b) => {
@@ -210,11 +221,7 @@ const sourceTimestamp = (path?: string) => {
     }
 
     sortButtons.forEach((button) => button.addEventListener('click', () => {
-      sortButtons.forEach((item) => {
-        const active = item === button;
-        item.classList.toggle('is-active', active);
-        item.setAttribute('aria-pressed', String(active));
-      });
+      sortButtons.forEach((item) => setPressedState(item, item === button));
       currentPage = 1;
       updateForum();
     }));
@@ -223,9 +230,7 @@ const sourceTimestamp = (path?: string) => {
       if (button instanceof HTMLAnchorElement) event.preventDefault();
       activeFilter = button.dataset.forumFilter ?? 'all';
       filterButtons.forEach((item) => {
-        const active = item === button || item.dataset.forumFilter === activeFilter;
-        item.classList.toggle('is-active', active);
-        item.setAttribute('aria-pressed', String(active));
+        setPressedState(item, item === button || item.dataset.forumFilter === activeFilter);
       });
       currentPage = 1;
       updateForum();
@@ -242,11 +247,7 @@ const sourceTimestamp = (path?: string) => {
 
     const initialFilter = filterButtons.find((button) => button.dataset.forumFilter === activeFilter);
     if (initialFilter) {
-      filterButtons.forEach((item) => {
-        const active = item === initialFilter;
-        item.classList.toggle('is-active', active);
-        item.setAttribute('aria-pressed', String(active));
-      });
+      filterButtons.forEach((item) => setPressedState(item, item === initialFilter));
     } else {
       activeFilter = 'all';
     }

@@ -145,10 +145,7 @@ export default defineConfig({
   // Path redirects: `src/middleware.ts` (dev) + `scripts/redirects.mjs` (`npm start`).
   // Do not use `redirects` here — Astro serves a static HTML stub that does not 301 in dev.
   compressHTML: true,
-  prefetch: {
-    prefetchAll: false,
-    defaultStrategy: 'hover',
-  },
+  prefetch: false,
   devToolbar: {
     enabled: false,
   },
@@ -174,7 +171,7 @@ export default defineConfig({
       cssMinify: true,
       minify: 'esbuild',
       target: 'es2022',
-      assetsInlineLimit: 8192,
+      assetsInlineLimit: 0,
       modulePreload: { polyfill: false },
       rollupOptions: {
         output: {
