@@ -39,7 +39,7 @@ export const en: Translations = {
     titleLead: 'MW4 Cheats for PC: ',
     titleAccent: 'Aimbot, ESP, and Modules, hacks, plans, and tools',
     subtitle:
-      'MW4 cheats for PC. Aimbot, ESP, and more, running on Windows and updated after each patch. Check the plans, compare the modules, and grab what works for you.',
+      'MW4 cheats for PC. Aimbot, ESP, hacks, plans, and tools, running on Windows and updated after each patch. Check the plans, compare the modules, and grab what works for you.',
     ctaPrimary: 'View products',
     metrics: [
       { label: 'Silent aimbot', strong: 'Listed' },
@@ -65,7 +65,7 @@ export const en: Translations = {
     eyebrow: 'Features',
     title: 'Everything you need in one package',
     subtitle:
-      'Nine menu groups below mirror what the Modern Warfare 4 product page lists. Each block explains one switch family before you open checkout.',
+      'Nine menu groups below list Aimbot, ESP, and Modules, plus the hacks, plans, and tools on the Modern Warfare 4 product page. Each block explains one switch family before you open checkout.',
     items: [
       {
         title: 'ESP',
@@ -244,7 +244,7 @@ export const en: Translations = {
         homeDesc:
           'The Windows menu lists aimbot, silent aimbot, ESP, wallhack, no recoil, God Mode, infinite ammo, and speedhack. Monthly is $35 for 30 days. Lifetime is $150.',
         heroDesc:
-          'Menu toggles cover aimbot, silent aimbot, ESP, wallhack, and the listed combat options. Confirm the game build matches the banner on {siteDomain} before launch.',
+          'Cheats on this page list MW4 soft aim tool options that cover smoothness, bones, and distance. Menu toggles cover aimbot, silent aimbot, ESP, wallhack, and the listed combat options. Confirm the game build matches the banner on {siteDomain} before launch.',
         features: ['Aimbot', 'Silent aimbot', 'ESP', 'Wallhack', 'No recoil', 'Speedhack'],
         more: 9,
         href: productBase,
@@ -402,7 +402,7 @@ export const en: Translations = {
     title: 'Guides and updates',
     subtitle: 'ESP and aimbot setup, menu tuning and patch-day checks for Modern Warfare 4.',
     latestTitle: 'Guides: Long-form Modern Warfare 4 Cheat Menu Tuning, Patch-Day Notes and Posts',
-    latestSubtitle: 'Filter by topic to find setup guides, feature deep-dives, and patch-day notes.',
+    latestSubtitle: 'Long-form Modern Warfare 4 Cheat Menu Tuning, Patch-Day Notes and Posts. Filter by topic to find setup guides, feature deep-dives, and patch-day notes.',
     filterAll: 'All articles',
     emptyFilter: 'No articles match this filter.',
     emptyArchive: 'No articles yet. New guides will show up here.',
@@ -457,8 +457,8 @@ export const en: Translations = {
   },
   support: {
     eyebrow: 'Support',
-    title: 'Modern Warfare 4 Cheats Support',
-    subtitle: 'Ask about a plan before you pay, or send a ticket after checkout.',
+    title: 'Contact Support: Modern Warfare 4 Cheats',
+    subtitle: 'Contact Support for Modern Warfare 4 Cheats. Ask about a plan before you pay, or send a ticket after checkout.',
     channels: [
       {
         icon: 'users',
@@ -584,14 +584,14 @@ export const en: Translations = {
   },
   legalPages: {
     about: {
-      title: 'About the catalog: Support and Delivery Details for mw4 cheats on {siteDomain}',
+      title: 'mw4 cheats: Catalog, Support, and Delivery Details on {siteDomain}',
       description:
-        'This catalog publishes the main product, the utility pages, and support notes at {siteDomain}.',
+        'mw4 cheats catalog with support and delivery details. This catalog publishes the main product, the utility pages, and support notes at {siteDomain}.',
       sections: [
         {
           heading: 'Modern Warfare 4 catalog: Who we are',
           paragraphs: [
-            'This site is a PC catalog for Modern Warfare 4 tools. The [four-license product hub](/products/) lists the [cheat menu](/cheats/), [fingerprint utility page](/hwid-spoofer/), [appeal workflows page](/ugc/), and [local finishes page](/skin-changer/).',
+            'This site is a PC catalog for Modern Warfare 4 tools. The [four-license product hub](/products/) lists the [cheat menu](/cheats/), [HWID fingerprint page](/hwid-spoofer/), [UGC appeal page](/ugc/), and [local finishes page](/skin-changer/).',
             'Setup notes and the status banner are here so you can judge the main product before you pay. Product names identify the software. They are not a claim of ownership.',
           ],
         },
@@ -644,7 +644,7 @@ export const en: Translations = {
         {
           heading: 'Information we collect',
           paragraphs: [
-            'If Google Analytics is on, it can record page views, device type, browser, and an approximate region. Payment and license delivery run on external checkout pages. {siteDomain} does not keep payment card numbers.',
+            'This Privacy Policy explains analytics, cookies, and tickets. If Google Analytics is on, it can record page views, device type, browser, and an approximate region. Payment and license delivery run on external checkout pages. {siteDomain} does not keep payment card numbers.',
           ],
         },
         {
@@ -668,14 +668,14 @@ export const en: Translations = {
       ],
     },
     terms: {
-      title: 'Terms & Conditions',
+      title: 'Terms of Sale: Licenses and Refunds',
       description:
         'What you buy, how licenses work, when a refund can be considered, and the account penalty you accept on {siteDomain}.',
       sections: [
         {
           heading: 'Agreement',
           paragraphs: [
-            'Last updated: September 2026. Using {siteDomain}, or finishing checkout for a product listed here, means you accept these Terms & Conditions and the Privacy Policy.',
+            'Last updated: September 2026. These Terms of Sale cover licenses and refunds. Using {siteDomain}, or finishing checkout for a product listed here, means you accept these Terms & Conditions and the Privacy Policy.',
           ],
         },
         {
@@ -760,16 +760,16 @@ export const en: Translations = {
       eyebrow: 'Help center',
       title: 'Faq: Modern Warfare 4 loader, status, setup, plans and checkout questions',
       description:
-        'This faq covers setup steps, the 30 day and lifetime plans, ESP and aim options, and what to do after an anti-cheat update.',
+        'This Faq covers Modern Warfare 4 loader, status, setup, plans and checkout questions, plus ESP and aim options after an anti-cheat update.',
       schemaName: 'Modern Warfare 4 Cheats FAQ',
       schemaDescription:
         'Setup, plan length, ESP, aimbot, loader delivery, and checkout answers for Modern Warfare 4 on {siteDomain}.',
     },
     forum: {
       eyebrow: 'Modern Warfare 4 community forum',
-      title: 'Forum: Modern Warfare 4 Community Archive',
+      title: 'Modern Warfare 4 Forum Archive: Community Threads',
       description:
-        'Forum: Archived, read-only threads on loader setup, ESP configs, patch status, and HWID bans. Replies are closed.',
+        'This Modern Warfare 4 Forum Archive holds community threads. Forum: Archived, read-only threads on loader setup, ESP configs, patch status, and HWID bans. Replies are closed.',
       exploreGuides: 'Explore the guides',
       postsAria: 'Community posts',
       sortAria: 'Post sorting',
@@ -840,9 +840,9 @@ export const en: Translations = {
   },
   pageSeo: {
     '/': {
-      title: 'mw4 Hacks | Plans, Modules, Aimbot and ESP PC Tools',
+      title: 'MW4 Cheats for PC | Aimbot, ESP, Modules, hacks',
       description:
-        'mw4: Aimbot, ESP, and wallhack modules for Modern Warfare 4 on Windows. Monthly and lifetime access are listed on {siteDomain}.',
+        'MW4 Cheats for PC: Aimbot, ESP, and wallhack modules for Modern Warfare 4 on Windows. Monthly and lifetime access are listed on {siteDomain}.',
     },
     '/cheats/': {
       title: 'Cheats | mw4 Soft Aim Tool Options Cover Smoothness',
@@ -852,22 +852,22 @@ export const en: Translations = {
     '/hwid-spoofer/': {
       title: 'mw4 Spoofing Tool | HWID Refresh',
       description:
-        'Rotate disk, MAC, and GPU IDs on this PC when login blocks point to hardware. Plans and cleaner steps are on {siteDomain}.',
+        'mw4 Spoofing Tool: rotate disk, MAC, and GPU IDs on this PC when login blocks point to hardware. Plans and cleaner steps are on {siteDomain}.',
     },
     '/products/': {
       title: 'Modern Warfare 4 Products Hub | Cheats and Utilities',
       description:
-        'Side-by-side plans for {cheatProduct}, HWID Spoofer, UGC, and Skin Changer. Delivery notes and Windows requirements sit on {siteDomain}.',
+        'Modern Warfare 4 Products Hub: side-by-side plans for {cheatProduct}, HWID Spoofer, UGC, and Skin Changer. Delivery notes sit on {siteDomain}.',
     },
     '/ugc/': {
       title: 'Modern Warfare 4 UGC | Appeal Workflow Automation',
       description:
-        'Map gaming, social, or marketplace restrictions to UGC templates that resubmit dispute packets. Plan options sit on {siteDomain}.',
+        'Modern Warfare 4 UGC: map gaming, social, or marketplace restrictions to templates that resubmit dispute packets. Plan options sit on {siteDomain}.',
     },
     '/skin-changer/': {
       title: 'Modern Warfare 4 Skin Changer | Local Finishes',
       description:
-        'Preview weapon skins, outfits, and knife styles on this PC without buying each cosmetic. Confirm your title on {siteDomain}.',
+        'Modern Warfare 4 Skin Changer: preview weapon skins, outfits, and knife styles on this PC without buying each cosmetic. Confirm your title on {siteDomain}.',
     },
     '/blog/': {
       title: 'Guides | Long-form ESP Tuning and Patch Note Posts',
@@ -877,7 +877,7 @@ export const en: Translations = {
     '/forum/': {
       title: 'Modern Warfare 4 Forum Archive | Read-Only Threads',
       description:
-        'Archived Modern Warfare 4 discussions on loader setup, ESP configs, and HWID notes. New threads and replies stay closed on {siteDomain}.',
+        'Modern Warfare 4 Forum Archive: archived discussions on loader setup, ESP configs, and HWID notes. New threads and replies stay closed on {siteDomain}.',
     },
     '/faq/': {
       title: 'Faq | Plans, Loader, Status, and Checkout Questions',
@@ -887,22 +887,22 @@ export const en: Translations = {
     '/terms/': {
       title: 'Terms of Sale | Licenses and Refunds',
       description:
-        'Sales are final after checkout. License limits, refund exceptions, and account penalties for products on {siteDomain}.',
+        'Terms of Sale: sales are final after checkout. License limits, refund exceptions, and account penalties for products on {siteDomain}.',
     },
     '/privacy/': {
       title: 'Privacy Policy | Analytics, Cookies and Tickets',
       description:
-        'What {siteDomain} collects in analytics, which cookies it sets, and how long a support ticket keeps your email.',
+        'Privacy Policy: what {siteDomain} collects in analytics, which cookies it sets, and how long a support ticket keeps your email.',
     },
     '/about/': {
       title: 'mw4 cheats | Catalog, Support, and Delivery Details',
       description:
-        'Who publishes mw4 cheats, how portal delivery works, and where the Modern Warfare 4 status banner lives. Catalog notes sit on {siteDomain}.',
+        'mw4 cheats: who publishes this catalog, how portal delivery works, and where the Modern Warfare 4 status banner lives. Notes sit on {siteDomain}.',
     },
     '/support/': {
       title: 'Contact Support | Modern Warfare 4 Loader Help',
       description:
-        'Email for loader errors, HWID resets, and order questions after checkout on {siteDomain}. Include the order email and Windows build.',
+        'Contact Support: email for loader errors, HWID resets, and order questions after checkout on {siteDomain}. Include the order email and Windows build.',
     },
   },
   ui: {

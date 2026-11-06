@@ -435,7 +435,7 @@ const tierBodies: Record<string, ProductPage['body']> = {
     { type: 'h2', text: 'Plans and delivery' },
     {
       type: 'p',
-      text: 'Monthly access is $35 for 30 days. Lifetime access is $150 with no end date on the license. Both tiers share one module list. Checkout sends you to the partner flow, then the portal hosts the Windows loader.',
+      text: 'Cheats list MW4 soft aim tool options that cover smoothness. Monthly access is $35 for 30 days. Lifetime access is $150 with no end date on the license. Both tiers share one module list. Checkout sends you to the partner flow, then the portal hosts the Windows loader.',
     },
     { type: 'h2', text: 'Updates and compatibility' },
     {
@@ -571,7 +571,7 @@ const productContent: Record<
     overview: {
       title: 'Hardware refresh for a blocked tower',
       paragraphs: [
-        'Use this mw4 spoofing tool when login fails on one PC yet works on others. The panel refreshes disk serials, MAC addresses, GPU IDs, and related fingerprints, then the bundled cleaner clears traces. Published notes reference Vanguard, Easy Anti-Cheat, BattlEye, and Ricochet with ACE and Javelin.',
+        'Use this mw4 Spoofing Tool and HWID Spoofer when login fails on one PC yet works on others. The panel refreshes disk serials, MAC addresses, GPU IDs, and related fingerprints, then the bundled cleaner clears traces. Published notes reference Vanguard, Easy Anti-Cheat, BattlEye, and Ricochet with ACE and Javelin.',
         'Account-level bans stay in place. Monthly access is $50 for 31 days. Lifetime is $150 with unlimited access. Both plans include the same panel and cleaner.',
       ],
     },
@@ -601,7 +601,7 @@ const productContent: Record<
     overview: {
       title: 'Automated appeals across platforms',
       paragraphs: [
-        'UGC (Unban & Governance Control) maps restrictions on gaming, social, or marketplace accounts into templates that resubmit dispute packets for you.',
+        'Modern Warfare 4 UGC (Unban & Governance Control) maps restrictions on gaming, social, or marketplace accounts into templates that resubmit dispute packets for you.',
         'Hardware bans sit outside this scope. Reviewers retain control. The 31 day plan is $35. Lifetime is $150. Feature access is identical on both plans.',
       ],
     },
@@ -631,7 +631,7 @@ const productContent: Record<
     overview: {
       title: 'Local cosmetic library',
       paragraphs: [
-        'Preview premium weapon skins, outfits, and knife variants from one menu across supported games without paying per item.',
+        'Modern Warfare 4 Skin Changer previews premium weapon skins, outfits, and knife variants from one menu across supported games without paying per item.',
         'Visuals never sync to inventory. The 31 day license is $35. Lifetime access is $150 for the same library. Email support to verify your game before purchase.',
       ],
     },

@@ -37,9 +37,9 @@ export interface CatalogCopy {
 
 const en: CatalogCopy = {
   eyebrow: 'Store',
-  title: '{gameName} cheats and utilities',
+  title: 'Modern Warfare 4 Products Hub: cheats and utilities',
   subtitle:
-    'Four licenses for {gameName} on Windows. Open the cheat page for menu modules or a utility page when the block is account or hardware related.',
+    'This products hub lists four licenses for {gameName} on Windows: cheats and utilities. Open the cheat page for menu modules or a utility page when the block is account or hardware related.',
   trust: ['Portal delivery', '24/7 support', 'Monthly or lifetime plans', 'Partner checkout'],
   featuredEyebrow: 'Main product',
   from: 'From',

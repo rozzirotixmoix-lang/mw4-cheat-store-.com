@@ -12,8 +12,14 @@ const { product } = Astro.props;
 const isGameProduct = product.kind === 'tier';
 const heading =
   product.slug === CHEATS_PRIMARY_SLUG
-    ? `${product.title}: soft aim tool options cover smoothness`
-    : product.title;
+    ? 'Cheats: MW4 soft aim tool options cover smoothness'
+    : product.slug === 'hwid-spoofer'
+      ? `mw4 Spoofing Tool: ${product.title}`
+      : product.slug === 'ugc'
+        ? 'Modern Warfare 4 UGC'
+        : product.slug === 'skin-changer'
+          ? 'Modern Warfare 4 Skin Changer'
+          : product.title;
 ---
 
 <header class="product-detail-header space-y-4">

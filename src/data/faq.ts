@@ -36,8 +36,10 @@ function link(text: string, href: string): string {
 }
 
 const cheats = link('Windows cheat menu', ROUTES.cheats);
-const hwid = link('fingerprint utility', ROUTES.hwidSpoofer);
-const ugc = link('appeal workflows', ROUTES.ugc);
+const hwidWhenLink = link('hardware ID utility', ROUTES.hwidSpoofer);
+const hwidVsLink = link('HWID refresh page', ROUTES.hwidSpoofer);
+const ugcWhatLink = link('UGC templates', ROUTES.ugc);
+const ugcVsLink = link('automated appeals page', ROUTES.ugc);
 const skinChanger = link('local finishes page', ROUTES.skinChanger);
 const allProducts = link('products page', ROUTES.productsHub);
 const faqPage = link('full FAQ', ROUTES.faq);
@@ -93,7 +95,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'products',
     icon: 'accountRecovery',
     q: 'What does UGC do with a restricted account?',
-    a: `${ugc} (Unban & Governance Control) stores reusable appeal workflows and replays dispute steps for limited gaming, social, or marketplace profiles across platforms.`,
+    a: `${ugcWhatLink} (Unban & Governance Control) stores reusable dispute packets and replays dispute steps for limited gaming, social, or marketplace profiles across platforms.`,
     scopes: ['ugc'],
     requires: ['ugc'],
   },
@@ -111,7 +113,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'products',
     icon: 'faqHwidWhen',
     q: 'Is this an account limit or a block on this PC?',
-    a: `Profile or account limits belong with ${ugc} and its automated appeals. When only this PC rejects brand-new logins, treat it as hardware and open ${hwid}.`,
+    a: `Profile or account limits belong with ${ugcVsLink} and its automated appeals. When only this PC rejects brand-new logins, treat it as hardware and open ${hwidVsLink}.`,
     scopes: ['ugc', 'hwid-spoofer'],
     requires: ['ugc', 'hwid-spoofer'],
   },
@@ -190,7 +192,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'products',
     icon: 'faqHwidWhen',
     q: 'When is the HWID Spoofer the product to open?',
-    a: `${hwid} handles hardware ID flags when other PCs sign in but this tower refuses them. Disk serials, MAC addresses, GPU IDs, and related fields refresh with a bundled cleaner. Account sanctions stay active.`,
+    a: `${hwidWhenLink} handles hardware ID flags when other PCs sign in but this tower refuses them. Disk serials, MAC addresses, GPU IDs, and related fields refresh with a bundled cleaner. Account sanctions stay active.`,
     scopes: ['hwid-spoofer'],
     requires: ['hwid-spoofer'],
   },
