@@ -23,9 +23,10 @@ const legalLinks = [
   <div class="mx-auto max-w-6xl px-5">
     <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4" data-reveal-stagger>
       <div class="space-y-4">
-        <a href={lp('/')} class="inline-flex items-center gap-2 font-[family-name:var(--font-heading)] text-sm font-semibold" aria-label={`${t.site.name} home`}>
+        <a href={lp('/')} class="inline-flex items-center gap-2 font-[family-name:var(--font-heading)] text-sm font-semibold" aria-label={`${t.site.name} site footer`}>
           <BrandLogo size={22} class="size-[22px] shrink-0 rounded-md" />
           <BrandWordmark class="text-xs font-semibold text-foreground" />
+          <span class="sr-only">{t.site.name} site footer</span>
         </a>
         <p class="text-sm text-muted-foreground">{t.footer.tagline}</p>
       </div>
