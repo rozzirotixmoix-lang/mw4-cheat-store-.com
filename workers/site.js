@@ -183,6 +183,17 @@ export default {
     if (STATIC_FILE_PATH.test(pathname)) {
       const asset = await assetsFetch(env, request, pathname + query);
       if (asset.status === 200) {
+        if (pathname === '/sitemap.xml' || pathname.endsWith('.xml')) {
+          const headers = new Headers(asset.headers);
+          headers.set('Content-Type', 'application/xml; charset=utf-8');
+          return withSecurityHeaders(
+            new Response(asset.body, {
+              status: asset.status,
+              statusText: asset.statusText,
+              headers,
+            }),
+          );
+        }
         return withSecurityHeaders(asset);
       }
     }

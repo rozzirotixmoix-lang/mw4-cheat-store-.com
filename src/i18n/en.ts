@@ -401,7 +401,7 @@ export const en: Translations = {
     eyebrow: 'Blog',
     title: 'Guides and updates',
     subtitle: 'ESP and aimbot setup, menu tuning and patch-day checks for Modern Warfare 4.',
-    latestTitle: 'Guides: Modern Warfare 4 Cheat and Patch-Day Notes',
+    latestTitle: 'Guides: Modern Warfare 4 Cheat Menu and Patch-Day Notes',
     latestSubtitle: 'Filter by topic to find setup guides, feature deep-dives, and patch-day notes.',
     filterAll: 'All articles',
     emptyFilter: 'No articles match this filter.',
@@ -584,7 +584,7 @@ export const en: Translations = {
   },
   legalPages: {
     about: {
-      title: 'About {siteName}',
+      title: 'About MW4 Cheats: Catalog and Support on {siteDomain}',
       description:
         '{siteName} publishes {cheatProduct}, the utility pages, and support notes at {siteDomain}.',
       sections: [
@@ -748,7 +748,7 @@ export const en: Translations = {
   pages: {
     faq: {
       eyebrow: 'Help center',
-      title: 'Faq: Setup, plans and anti-cheat answers',
+      title: 'Faq: Modern Warfare 4 loader, status, setup and plans',
       description:
         'This faq covers setup steps, the 30 day and lifetime plans, ESP and aim options, and what to do after an anti-cheat update.',
       schemaName: 'Modern Warfare 4 Cheats FAQ',
@@ -830,14 +830,14 @@ export const en: Translations = {
   },
   pageSeo: {
     '/': {
-      title: 'Buy mw4 Hacks | Plans and Modules',
+      title: 'mw4 Hacks | Plans, Modules, Aimbot and ESP PC Tools',
       description:
-        'Compare aimbot, ESP, and wallhack modules for Modern Warfare 4 on Windows. Monthly and lifetime access are listed on {siteDomain}.',
+        'mw4: Aimbot, ESP, and wallhack modules for Modern Warfare 4 on Windows. Monthly and lifetime access are listed on {siteDomain}.',
     },
     '/cheats/': {
-      title: 'mw4 Wallhack 2026 | Aimbot and ESP Menu',
+      title: 'Cheats | mw4 Soft Aim Tool Options Cover Smoothness',
       description:
-        'mw4 soft aim tool options cover smoothness, bones, and distance caps. Review requirements on {siteDomain}.',
+        'Cheats: mw4 soft aim tool options cover smoothness, bones, and distance caps. Review the requirements on {siteDomain}.',
     },
     '/hwid-spoofer/': {
       title: 'mw4 Spoofing Tool | HWID Refresh',
@@ -860,9 +860,9 @@ export const en: Translations = {
         'Preview weapon skins, outfits, and knife styles on this PC without buying each cosmetic. Confirm your title on {siteDomain}.',
     },
     '/blog/': {
-      title: 'Modern Warfare 4 Guides | Menu and Patch Notes',
+      title: 'Guides | Long-form ESP Tuning and Patch Note Posts',
       description:
-        'Long-form Modern Warfare 4 notes on ESP tuning, aim tabs, and post-patch banner checks when articles are published on {siteDomain}.',
+        'Guides: Modern Warfare 4 notes on ESP tuning, aim tabs, and post-patch banner checks when articles are published on {siteDomain}.',
     },
     '/forum/': {
       title: 'Modern Warfare 4 Forum Archive | Read-Only Threads',
@@ -870,9 +870,9 @@ export const en: Translations = {
         'Archived Modern Warfare 4 discussions on loader setup, ESP configs, and HWID notes. New threads and replies stay closed on {siteDomain}.',
     },
     '/faq/': {
-      title: 'Modern Warfare 4 FAQ | Plans, Loader and Status',
+      title: 'Faq | Plans, Loader, Status, and Checkout Questions',
       description:
-        'Windows support, 30 day and lifetime plans, license moves, and checkout steps for Modern Warfare 4 products on {siteDomain}.',
+        'Faq: Windows support, 30 day and lifetime plans, license moves, and checkout steps for Modern Warfare 4 products on {siteDomain}.',
     },
     '/terms/': {
       title: 'Terms of Sale | Licenses and Refunds',
@@ -885,7 +885,7 @@ export const en: Translations = {
         'What {siteDomain} collects in analytics, which cookies it sets, and how long a support ticket keeps your email.',
     },
     '/about/': {
-      title: 'About mw4cheatstore.com | Catalog and Support',
+      title: 'mw4 cheats | Catalog, Support, and Delivery Details',
       description:
         'Who publishes {cheatProduct}, how portal delivery works, and where the Modern Warfare 4 status banner lives on {siteDomain}.',
     },
