@@ -39,7 +39,7 @@ export const en: Translations = {
     titleLead: 'MW4 Cheats ',
     titleAccent: 'for PC: hacks, plans, modules, ESP, and aimbot tools',
     subtitle:
-      'Dominate every raid and every firefight. Get precision aim assist, full ESP, and deep customization, all tuned for Windows and updated after every patch. Compare modules and plans, then pick the setup that fits your playstyle.',
+      'Dominate every raid and every firefight. Get listed hacks for PC, including aimbot tools and full ESP, all tuned for Windows and updated after every patch. Compare modules and plans, then pick the setup that fits your playstyle.',
     ctaPrimary: 'View products',
     metrics: [
       { label: 'Silent aimbot', strong: 'Listed' },
