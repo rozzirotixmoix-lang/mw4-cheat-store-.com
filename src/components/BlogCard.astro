@@ -40,6 +40,7 @@ const cardHeight = post.imageHeight ?? (isFeatured ? 540 : 360);
   size="sm"
   class:list={[
     'blog-card group/card gap-0 overflow-visible border border-border py-0 pt-0 shadow-xs ring-0 ring-transparent hover:shadow-md has-data-[slot=card-footer]:pb-0',
+    'relative',
     isFeatured
       ? 'blog-featured mt-8 md:mt-10 lg:grid lg:grid-cols-[1.05fr_0.95fr] lg:items-stretch'
       : 'flex h-full flex-col',
@@ -50,14 +51,11 @@ const cardHeight = post.imageHeight ?? (isFeatured ? 540 : 360);
   data-ts={timestamp}
   data-read-minutes={readMinutes}
 >
-  <a
-    href={href}
+  <div
     class:list={[
-      'blog-card__media relative block aspect-video overflow-hidden focus-visible:outline-none focus-visible:ring-3 focus-visible:ring-primary/40 focus-visible:ring-offset-2 focus-visible:ring-offset-card',
+      'blog-card__media relative block aspect-video overflow-hidden',
       isFeatured && 'blog-featured__media lg:aspect-auto lg:min-h-[16rem] lg:self-stretch',
     ]}
-    tabindex="-1"
-    aria-hidden="true"
   >
     <ResponsiveImage
       src={post.image}
@@ -104,7 +102,7 @@ const cardHeight = post.imageHeight ?? (isFeatured ? 540 : 360);
       class="pointer-events-none absolute inset-0 z-[1] bg-gradient-to-t from-black/25 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover/card:opacity-100"
       aria-hidden="true"
     />
-  </a>
+  </div>
 
   <div class:list={['blog-card__body', isFeatured ? 'blog-featured__body lg:border-l lg:border-border' : 'flex min-h-0 flex-1 flex-col']}>
     <CardContent
@@ -114,12 +112,7 @@ const cardHeight = post.imageHeight ?? (isFeatured ? 540 : 360);
       ]}
     >
       <CardTitle class="text-base font-semibold normal-case leading-snug tracking-tight md:text-[1.0625rem]">
-        <a
-          href={href}
-          class="text-foreground decoration-primary/0 underline-offset-4 transition-colors hover:text-primary hover:underline"
-        >
-          {post.title}
-        </a>
+        {post.title}
       </CardTitle>
 
       <p
@@ -147,10 +140,11 @@ const cardHeight = post.imageHeight ?? (isFeatured ? 540 : 360);
         <Icon name="clock" size={14} class="blog-card__footer-icon" aria-hidden="true" />
         <span>{post.readTime}</span>
       </p>
-      <Button as="a" href={href} variant="outline" size="sm" class="blog-card__read min-w-0 max-w-full whitespace-nowrap">
+      <Button as="span" variant="outline" size="sm" class="blog-card__read min-w-0 max-w-full whitespace-nowrap">
         {t.blog.read}: {post.title}
         <Icon name="arrowRight" size={16} />
       </Button>
     </CardFooter>
   </div>
+  <a href={href} class="absolute inset-0 z-20"><span class="sr-only">{t.blog.read}: {post.title}</span></a>
 </Card>

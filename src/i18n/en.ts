@@ -37,7 +37,7 @@ export const en: Translations = {
     status: 'Read the Modern Warfare 4 banner on this site before you launch.',
     eyebrow: 'Dominate Every Match',
     titleLead: 'MW4 Cheats ',
-    titleAccent: 'for PC: hacks, plans, modules, and aimbot tools',
+    titleAccent: 'for PC: hacks, plans, modules, ESP, and aimbot tools',
     subtitle:
       'Dominate every raid and every firefight. Get precision aim assist, full ESP, and deep customization, all tuned for Windows and updated after every patch. Compare modules and plans, then pick the setup that fits your playstyle.',
     ctaPrimary: 'View products',
@@ -600,6 +600,7 @@ export const en: Translations = {
           paragraphs: [
             'The main product lists aimbot, silent aimbot, ESP, wallhack, no recoil, God Mode, infinite ammo, and speedhack. A 30 day plan is $35. Lifetime is $150. Those prices match the product page.',
             'Utility prices stay on their own pages. Articles cover menu setup, patch-day checks, and what an anti-cheat update changes.',
+            'HWID Spoofer, UGC, and Skin Changer each keep their own license. They are not part of the 30 day $35 or lifetime $150 cheat plan.',
             'Pages change when a patch lands or a menu option moves. Read the homepage banner before a session.',
           ],
         },

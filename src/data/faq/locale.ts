@@ -28,7 +28,9 @@ function mergeFaqs(locale: SiteLocale): SiteFaqItem[] {
 }
 
 function productListHtml(locale: SiteLocale): string {
-  const links = getCatalog(locale).map((entry) => `<a href="${entry.path}">${entry.shortName}</a>`);
+  const links = getCatalog(locale).map(
+    (entry) => `<a href="${entry.path}">${entry.shortName} catalog page</a>`,
+  );
   return new Intl.ListFormat(locale, { type: 'conjunction' }).format(links);
 }
 
@@ -41,29 +43,19 @@ export function getSiteFaqs(locale: SiteLocale): SiteFaqItem[] {
   }));
 }
 
-function uniqueLandingProductAnchors(html: string, locale: SiteLocale): string {
-  let out = html;
-  for (const entry of getCatalog(locale)) {
-    const name = entry.shortName;
-    out = out.replaceAll(`<a href="${entry.path}">${name}</a>`, `<a href="${entry.path}">${name} catalog page</a>`);
-  }
-  return out;
-}
-
 export function getLandingFaqs(locale: SiteLocale): SiteFaqItem[] {
   return getSiteFaqs(locale)
     .filter((f) =>
       ['status', 'after-buy', 'ban-risk', 'platforms', 'license-move', 'products-page'].includes(f.id),
     )
     .map((item) => {
-      let a = item.a;
       if (locale === 'en' && item.id === 'products-page') {
-        a = a.replace('Every product is on the', 'The mw4 cheat shop is the');
+        return {
+          ...item,
+          a: item.a.replace('Every product is on the', 'The mw4 cheat shop is the'),
+        };
       }
-      if (item.id === 'products-page') {
-        a = uniqueLandingProductAnchors(a, locale);
-      }
-      return { ...item, a };
+      return item;
     });
 }
 

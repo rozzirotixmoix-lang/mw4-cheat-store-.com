@@ -6,8 +6,10 @@ const { locale, t, lp } = useLocale(Astro.currentLocale);
 import { getHeroSlides } from '../data/products';
 
 const heroSlides = getHeroSlides(locale);
+const firstSlide = heroSlides[0];
 import { compatibilityIcons, heroStatIcons, heroStatusPillIcons } from '../data/sectionIcons';
-import ImageSlider from './ImageSlider.astro';
+import ResponsiveImage from './ResponsiveImage.astro';
+import { HERO_IMAGE_SIZES, HERO_IMAGE_WIDTHS } from '../utils/responsiveImage';
 import Icon from './icons/Icon.astro';
 import { Button } from '@/components/starwind/button';
 import { Badge } from '@/components/starwind/badge';
@@ -66,8 +68,23 @@ const heroMarqueePills = [
       </div>
 
       <div class="mx-auto flex w-full max-w-xl flex-col items-center gap-5 lg:mx-0 lg:max-w-none lg:items-end">
-        {heroSlides.length > 0 && (
-          <ImageSlider class="hero-slider--desktop" images={heroSlides} id="hero-slider" />
+        {firstSlide && (
+          <div class="hero-slider hero-slider--desktop relative w-full rounded-xl border border-border bg-card p-2 shadow-sm">
+            <figure class="hero-slider__slide aspect-[16/10] overflow-hidden rounded-lg bg-muted/30">
+              <ResponsiveImage
+                src={firstSlide.src}
+                alt={firstSlide.alt}
+                width={firstSlide.width ?? 960}
+                height={firstSlide.height ?? 540}
+                widths={HERO_IMAGE_WIDTHS}
+                loading="eager"
+                fetchPriority="high"
+                sizes={HERO_IMAGE_SIZES}
+                desktopOnly
+                class="h-full w-full object-cover"
+              />
+            </figure>
+          </div>
         )}
         <div class="grid w-full grid-cols-1 gap-2.5 sm:grid-cols-2 sm:gap-3 md:grid-cols-4 lg:grid-cols-2">
           {h.metrics.map((m, i) => (
@@ -100,10 +117,9 @@ const heroMarqueePills = [
           {pill.label}
         </Badge>
       ))}
-      <span class="hero-marquee__repeat">
+      <span class="hero-marquee__repeat" aria-hidden="true">
         {heroMarqueePills.map((pill) => (
-          <Badge variant="outline" class="group/badge shrink-0 gap-1 py-0.5 pl-1.5 pr-2.5 text-xs whitespace-nowrap">
-            <Icon name={pill.icon} size={13} />
+          <Badge variant="outline" class="group/badge shrink-0 py-0.5 px-2.5 text-xs whitespace-nowrap">
             {pill.label}
           </Badge>
         ))}

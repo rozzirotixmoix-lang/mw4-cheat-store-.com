@@ -84,6 +84,33 @@ function pruneInlineCssIntegration() {
   };
 }
 
+function deferStylesheetsIntegration() {
+  const stylesheet = /<link([^>]*rel="stylesheet"[^>]*)>/g;
+  return {
+    name: 'defer-stylesheets',
+    hooks: {
+      'astro:build:done': ({ dir }) => {
+        const walk = (folder) => {
+          for (const entry of fs.readdirSync(folder, { withFileTypes: true })) {
+            const full = path.join(folder, entry.name);
+            if (entry.isDirectory()) walk(full);
+            else if (entry.name.endsWith('.html')) {
+              const html = fs.readFileSync(full, 'utf8');
+              const next = html.replace(stylesheet, (_match, attrs) => {
+                const href = attrs.match(/href="([^"]+)"/)?.[1];
+                if (!href) return _match;
+                return `<link rel="preload" href="${href}" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="${href}"></noscript>`;
+              });
+              if (next !== html) fs.writeFileSync(full, next);
+            }
+          }
+        };
+        walk(fileURLToPath(dir));
+      },
+    },
+  };
+}
+
 function finalizeSitemapIntegration() {
   return {
     name: 'finalize-sitemap',
@@ -152,6 +179,7 @@ export default defineConfig({
   integrations: [
     deferredBootUrlIntegration(),
     pruneInlineCssIntegration(),
+    deferStylesheetsIntegration(),
     sitemap({
       customPages: customSitemapPageUrls(),
       filter: (page) => {

@@ -166,7 +166,7 @@ const shareFacebookHref = `https://www.facebook.com/sharer/sharer.php?u=${shareE
     {TWITTER_CREATOR && <meta name="twitter:creator" content={TWITTER_CREATOR} />}
 
     <slot name="head" />
-    <style is:inline>{`@media (max-width: 768px) { #main-content { max-width: 100%; } } @media (min-width: 1024px) { #main-content { max-width: 100%; } }`}</style>
+    <style is:inline>{`html,body{background:#0a0614;color:#e4e4e7}@media (max-width: 768px) { #main-content { max-width: 100%; } } @media (min-width: 1024px) { #main-content { max-width: 100%; } }`}</style>
 
   </head>
   <body class="min-h-screen bg-background text-foreground">
