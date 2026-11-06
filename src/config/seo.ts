@@ -103,8 +103,7 @@ export function clipAtWord(text: string, max = META_MAX, min = META_MIN, maxPx =
 }
 
 export function pageTitle(keyword: string, brand?: string, locale?: string): string {
-  const t = getTranslations(locale);
-  const brandName = brand ?? t.site.name;
+  const brandName = brand ?? 'MW4';
   const suffix = ` | ${brandName}`;
   if (`${keyword}${suffix}`.length <= TITLE_MAX) return `${keyword}${suffix}`;
   if (keyword.length <= TITLE_MAX) return keyword;
