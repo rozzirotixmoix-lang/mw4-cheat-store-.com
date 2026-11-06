@@ -854,9 +854,9 @@
     }
   },
   "common": {
-    "breadcrumbHome": "Start",
-    "breadcrumbProducts": "Produkte",
-    "breadcrumbBlog": "Blog",
+    "breadcrumbHome": "Katalogstart",
+    "breadcrumbProducts": "Produkthub",
+    "breadcrumbBlog": "Leitfadenindex",
     "breadcrumbForum": "Forum",
     "breadcrumbFaq": "FAQ",
     "breadcrumbAbout": "Über uns",

@@ -4,6 +4,8 @@ import Icon from './icons/Icon.astro';
 import { Button } from '@/components/starwind/button';
 import { Prose } from '@/components/starwind/prose';
 import { useLocale } from '../i18n';
+import { normalizeInternalPath } from '../utils/path';
+import { resolveCheckoutHref } from '../config/checkout';
 
 interface Props {
   title: string;
@@ -14,6 +16,15 @@ interface Props {
 
 const { title, description, breadcrumbLabel, sections } = Astro.props;
 const { t, lp } = useLocale(Astro.currentLocale);
+
+function linkify(text: string): string {
+  return text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_match, label: string, href: string) => {
+    if (/^https?:\/\//i.test(href)) {
+      return `<a href="${href}" rel="noopener">${label}</a>`;
+    }
+    return `<a href="${lp(normalizeInternalPath(resolveCheckoutHref(href)))}">${label}</a>`;
+  });
+}
 ---
 
 <article class="py-8 md:py-12">
@@ -36,7 +47,7 @@ const { t, lp } = useLocale(Astro.currentLocale);
         <section class="mt-8">
           <h2>{section.heading}</h2>
           {section.paragraphs.map((paragraph) => (
-            <p>{paragraph}</p>
+            <p set:html={linkify(paragraph)} />
           ))}
         </section>
       ))}

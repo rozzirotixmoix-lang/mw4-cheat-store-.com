@@ -135,7 +135,7 @@ const compareRows = [copy.compareRows[0]!, priceRow, ...copy.compareRows.slice(1
               </div>
               <div>
                 <Button as="a" href={lp(featured.path)} variant="primary" size="lg" class="w-full rounded-xl">
-                  {t.products.viewDetails}
+                  {t.products.viewDetails}: {featured.page.title}
                 </Button>
               </div>
             </div>
@@ -188,7 +188,7 @@ const compareRows = [copy.compareRows[0]!, priceRow, ...copy.compareRows.slice(1
                   <span class="catalog-price__unit">{copy.perMonth}</span>
                 </div>
                 <Button as="a" href={lp(entry.path)} variant="primary" size="sm" class="w-full rounded-lg">
-                  {t.products.viewDetails}
+                  {t.products.viewDetails}: {entry.page.title}
                 </Button>
               </div>
             </article>
@@ -266,7 +266,7 @@ const compareRows = [copy.compareRows[0]!, priceRow, ...copy.compareRows.slice(1
                 catalog.map((entry) => (
                   <td>
                     <a href={lp(entry.path)} class="catalog-compare__buy">
-                      {t.products.viewDetails}
+                      {t.products.viewDetails}: {entry.shortName}
                     </a>
                   </td>
                 ))

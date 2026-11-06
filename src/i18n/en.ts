@@ -584,14 +584,14 @@ export const en: Translations = {
   },
   legalPages: {
     about: {
-      title: 'About the catalog: Support and Delivery Details on {siteDomain}',
+      title: 'About the catalog: Support and Delivery Details for mw4 cheats on {siteDomain}',
       description:
         'This catalog publishes the main product, the utility pages, and support notes at {siteDomain}.',
       sections: [
         {
           heading: 'Modern Warfare 4 catalog: Who we are',
           paragraphs: [
-            'This site is a PC catalog for Modern Warfare 4 tools. The site lists the cheat menu, HWID Spoofer, UGC, and Skin Changer.',
+            'This site is a PC catalog for Modern Warfare 4 tools. The [four-license product hub](/products/) lists the [cheat menu](/cheats/), [HWID Spoofer page](/hwid-spoofer/), [UGC page](/ugc/), and [Skin Changer page](/skin-changer/).',
             'Setup notes and the status banner are here so you can judge the main product before you pay. Product names identify the software. They are not a claim of ownership.',
           ],
         },
@@ -621,7 +621,7 @@ export const en: Translations = {
           heading: 'Support',
           paragraphs: [
             'Email handles loader errors, HWID resets, and order questions. Put the order email, Windows version, game build, and the exact error in the ticket.',
-            'The FAQ and the read-only forum archive cover setup notes too. Read the homepage banner before a session.',
+            'The [full question list](/faq/) and the [archived discussion index](/forum/) cover setup notes too. Open the [guide index](/blog/) or the [Windows cheat menu page](/cheats/) when you need product facts. Read the homepage banner before a session.',
           ],
         },
       ],
@@ -724,9 +724,9 @@ export const en: Translations = {
     },
   },
   common: {
-    breadcrumbHome: 'Home',
-    breadcrumbProducts: 'Products',
-    breadcrumbBlog: 'Blog',
+    breadcrumbHome: 'Catalog home',
+    breadcrumbProducts: 'Product hub',
+    breadcrumbBlog: 'Guide index',
     breadcrumbForum: 'Forum',
     breadcrumbFaq: 'FAQ',
     breadcrumbAbout: 'About',

@@ -311,7 +311,7 @@ export const enBlogArticles: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Take time to verify what a product actually supports before purchasing. A clear understanding of its limitations is the best starting point for making an informed decision."
+        "text": "Take time to verify what a product actually supports before purchasing. A clear understanding of its limitations is the best starting point for making an informed decision. Terminology for overlays is in the [ESP versus wallhack wording notes](/blog/mw4-esp-vs-wallhack-differences/)."
       }
     ]
   },
@@ -693,7 +693,7 @@ export const enBlogArticles: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Research the details first, understand the risks and avoid purchasing based on unsupported marketing promises."
+        "text": "Research the details first, understand the risks and avoid purchasing based on unsupported marketing promises. Feature checks live in the [pre-purchase tool evaluation notes](/blog/modern-warfare-4-cheats-buying-guide/)."
       }
     ]
   },
@@ -1042,7 +1042,7 @@ export const enBlogArticles: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Players researching third-party tools should understand these requirements and verify game-specific compatibility instead of relying on broad marketing claims."
+        "text": "Players researching third-party tools should understand these requirements and verify game-specific compatibility instead of relying on broad marketing claims. Hardware ID flags are separate; see the [spoofer limits after a hardware ID flag](/blog/modern-warfare-4-hwid-ban-spoofer-guide/)."
       },
       {
         "type": "p",
@@ -1053,10 +1053,10 @@ export const enBlogArticles: BlogPostFull[] = [
   {
     "slug": "mw4-esp-vs-wallhack-differences",
     "title": "MW4 ESP vs Wallhack: Understanding the Differences in Modern Warfare 4",
-    "h1": "MW4 ESP vs Wallhack: Understanding the Differences in Modern Warfare 4",
+    "h1": "Wallhack vs ESP: Differences Explained for Cheats",
     "tag": "Guides",
     "desc": "ESP and wallhack are often used interchangeably in gaming discussions, but they can describe different types of visual modifications. Learn how the terminology differs in Modern Warfare 4.",
-    "metaTitle": "MW4 ESP vs Wallhack: Key Differences Explained",
+    "metaTitle": "Wallhack vs ESP: Differences Explained",
     "metaDescription": "Understand the differences between ESP and wallhack terminology in Modern Warfare 4, including visual overlays, player information and compatibility considerations.",
     "date": "2026-08-14",
     "readTime": "5 min read",
@@ -1406,18 +1406,18 @@ export const enBlogArticles: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Always verify game compatibility and understand the risks before considering third-party modifications."
+        "text": "Always verify game compatibility and understand the risks before considering third-party modifications. For list pricing see the [monthly and lifetime cheat price notes](/blog/modern-warfare-4-cheats-price-guide/). Hardware flags are covered in the [hardware ID restriction overview](/blog/modern-warfare-4-hwid-ban-spoofer-guide/). The same split appears in the [read-only ESP versus radar thread](/forum/mw4-esp-vs-player-radar/)."
       }
     ]
   },
   {
     "slug": "modern-warfare-4-hwid-ban-spoofer-guide",
     "title": "Modern Warfare 4 HWID Ban: What a Hardware Spoofer Can and Cannot Do",
-    "h1": "Modern Warfare 4 HWID Ban: What a Hardware Spoofer Can and Cannot Do",
+    "h1": "HWID Ban Guide: Spoofer Facts on What Hardware Can and Cannot Do",
     "tag": "Troubleshooting",
     "desc": "Confused about Modern Warfare 4 hardware bans and HWID spoofers? Understand hardware identification, account enforcement, product compatibility and the limitations of third-party tools.",
-    "metaTitle": "Modern Warfare 4 HWID Ban: Spoofer Guide and Facts",
-    "metaDescription": "Learn what an MW4 hardware ID ban means, how HWID spoofers differ from gameplay cheats and what to verify before considering a hardware spoofing product.",
+    "metaTitle": "HWID Ban: Spoofer Guide and Facts for PC",
+    "metaDescription": "Hwid ban: Learn what an MW4 hardware ID ban means, how HWID spoofers differ from gameplay cheats, then verify the hardware product.",
     "date": "2026-07-23",
     "readTime": "6 min read",
     "featured": false,
@@ -1805,7 +1805,7 @@ export const enBlogArticles: BlogPostFull[] = [
       },
       {
         "type": "p",
-        "text": "Before considering a purchase, verify the exact supported game, technical requirements and product limitations."
+        "text": "Before considering a purchase, verify the exact supported game, technical requirements and product limitations. Overlay terms are in the [ESP versus wallhack wording notes](/blog/mw4-esp-vs-wallhack-differences/)."
       },
       {
         "type": "p",
