@@ -24,10 +24,9 @@ if (!product) {
 
 const pagePath = UTILITY_PRODUCT_PATHS[slug];
 const defaultPlan = getFeaturedPlan(product.slug);
-const productsLabel = t.nav.find((link) => link.id === 'products')?.label ?? t.common.breadcrumbProducts;
 const breadcrumbs = [
   { name: t.common.breadcrumbHome, path: '/' },
-  { name: productsLabel, path: PRODUCTS_HUB_PATH },
+  { name: t.common.breadcrumbProducts, path: PRODUCTS_HUB_PATH },
   { name: product.title, path: pagePath },
 ];
 const seo = resolvePageSeo(pagePath, locale);

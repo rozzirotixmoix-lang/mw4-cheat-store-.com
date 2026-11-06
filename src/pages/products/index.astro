@@ -26,10 +26,9 @@ const featured = catalog.find((entry) => entry.page.kind === 'tier');
 const utilities = catalog.filter((entry) => entry.page.kind === 'utility');
 const bySlug = new Map(catalog.map((entry) => [entry.slug, entry]));
 
-const productsLabel = t.nav.find((link) => link.id === 'products')?.label ?? copy.menuHeading;
 const breadcrumbs = [
   { name: t.common.breadcrumbHome, path: '/' },
-  { name: productsLabel, path: PRODUCTS_HUB_PATH },
+  { name: t.common.breadcrumbProducts, path: PRODUCTS_HUB_PATH },
 ];
 
 // Items for products that are not sold are already dropped by getSiteFaqs.

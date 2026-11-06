@@ -128,7 +128,7 @@ const tagIcon = (tag: string): IconName => blogTagIcons[tag] ?? 'tag';
           {t.notFound.backHome}
         </Button>
         <Button as="a" href={lp(ROUTES.productsHub)} variant="outline">
-          {t.nav.find((l) => l.id === 'products')?.label ?? 'Products'}
+          {t.notFound.viewProducts}
           <Icon name="arrowRight" size={16} />
         </Button>
         <Button as="a" href={lp(ROUTES.forum)} variant="outline">
