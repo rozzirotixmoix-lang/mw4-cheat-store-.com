@@ -112,7 +112,7 @@ const compareRows = [copy.compareRows[0]!, priceRow, ...copy.compareRows.slice(1
                 {featured.page.badge && <Badge variant="warning">{featured.page.badge}</Badge>}
               </div>
               <h2 id="catalog-featured-title" class="catalog-featured__title">
-                <a href={lp(featured.path)}>Cheats: {copy.featuredEyebrow}: {featured.page.title}</a>
+                <a href={lp(featured.path)}>Cheats: {copy.featuredEyebrow}: {featured.anchorLabel}</a>
               </h2>
               <p class="catalog-featured__desc">{featured.page.desc}</p>
               <ul class="catalog-featured__features list-none p-0">
@@ -135,7 +135,7 @@ const compareRows = [copy.compareRows[0]!, priceRow, ...copy.compareRows.slice(1
               </div>
               <div>
                 <Button as="a" href={lp(featured.path)} variant="primary" size="lg" class="w-full rounded-xl">
-                  {t.products.viewDetails}: {featured.page.title}
+                  {t.products.viewDetails}: {featured.anchorLabel}
                 </Button>
               </div>
             </div>
@@ -168,7 +168,7 @@ const compareRows = [copy.compareRows[0]!, priceRow, ...copy.compareRows.slice(1
                 <div class="min-w-0">
                   {entry.page.category && <p class="catalog-card__category">{entry.page.category}</p>}
                   <h3 class="catalog-card__title">
-                    <a href={lp(entry.path)}>{entry.page.title}</a>
+                    <a href={lp(entry.path)}>{entry.anchorLabel}</a>
                   </h3>
                 </div>
               </header>
@@ -188,7 +188,7 @@ const compareRows = [copy.compareRows[0]!, priceRow, ...copy.compareRows.slice(1
                   <span class="catalog-price__unit">{copy.perMonth}</span>
                 </div>
                 <Button as="a" href={lp(entry.path)} variant="primary" size="sm" class="w-full rounded-lg">
-                  {t.products.viewDetails}: {entry.page.title}
+                  {t.products.viewDetails}: {entry.anchorLabel}
                 </Button>
               </div>
             </article>
@@ -242,7 +242,7 @@ const compareRows = [copy.compareRows[0]!, priceRow, ...copy.compareRows.slice(1
                   <th scope="col">
                     <a href={lp(entry.path)} class="catalog-compare__product">
                       <Icon name={entry.icon} size={16} class="icon-app--primary" />
-                      {entry.shortName}
+                      {entry.anchorLabel}
                     </a>
                   </th>
                 ))
@@ -266,7 +266,7 @@ const compareRows = [copy.compareRows[0]!, priceRow, ...copy.compareRows.slice(1
                 catalog.map((entry) => (
                   <td>
                     <a href={lp(entry.path)} class="catalog-compare__buy">
-                      {t.products.viewDetails}: {entry.shortName}
+                      {t.products.viewDetails}: {entry.anchorLabel}
                     </a>
                   </td>
                 ))

@@ -35,10 +35,10 @@ function link(text: string, href: string): string {
   return `<a href="${normalizeInternalPath(href)}">${text}</a>`;
 }
 
-const cheats = link('{cheatProduct}', ROUTES.cheats);
-const hwid = link('HWID Spoofer', ROUTES.hwidSpoofer);
-const ugc = link('UGC', ROUTES.ugc);
-const skinChanger = link('Skin Changer', ROUTES.skinChanger);
+const cheats = link('Windows cheat menu', ROUTES.cheats);
+const hwid = link('fingerprint utility', ROUTES.hwidSpoofer);
+const ugc = link('appeal workflows', ROUTES.ugc);
+const skinChanger = link('local finishes page', ROUTES.skinChanger);
 const allProducts = link('products page', ROUTES.productsHub);
 const faqPage = link('full FAQ', ROUTES.faq);
 const blog = link('blog guides', ROUTES.blog);

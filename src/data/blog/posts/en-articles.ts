@@ -212,7 +212,7 @@ export const enBlogArticles: BlogPostFull[] = [
             "Refers to visibility-related modifications"
           ],
           [
-            "[Skin changer](/skin-changer/)",
+            "[local cosmetic overlay](/skin-changer/)",
             "Modifies cosmetic appearance where supported"
           ],
           [
@@ -1413,7 +1413,7 @@ export const enBlogArticles: BlogPostFull[] = [
   {
     "slug": "modern-warfare-4-hwid-ban-spoofer-guide",
     "title": "Modern Warfare 4 HWID Ban: What a Hardware Spoofer Can and Cannot Do",
-    "h1": "HWID Ban Guide: Spoofer Facts on What Hardware Can and Cannot Do",
+    "h1": "HWID Ban Guide: Spoofer Facts for Cheats on What Hardware Can and Cannot Do",
     "tag": "Troubleshooting",
     "desc": "Confused about Modern Warfare 4 hardware bans and HWID spoofers? Understand hardware identification, account enforcement, product compatibility and the limitations of third-party tools.",
     "metaTitle": "HWID Ban: Spoofer Guide and Facts for PC",

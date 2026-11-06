@@ -29,7 +29,7 @@ function mergeFaqs(locale: SiteLocale): SiteFaqItem[] {
 
 function productListHtml(locale: SiteLocale): string {
   const links = getCatalog(locale).map(
-    (entry) => `<a href="${entry.path}">${entry.shortName} catalog page</a>`,
+    (entry) => `<a href="${entry.path}">${entry.anchorLabel} catalog</a>`,
   );
   return new Intl.ListFormat(locale, { type: 'conjunction' }).format(links);
 }

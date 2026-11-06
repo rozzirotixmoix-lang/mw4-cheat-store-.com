@@ -39,6 +39,15 @@ const categoryLabels: Record<string, string> = {
 function forumCategoryLabel(category: string): string {
   return categoryLabels[category] ?? category;
 }
+function threadAnchor(slug: string): string {
+  const words = slug
+    .replace(/mw4-?/gi, '')
+    .replace(/cheats?-?/gi, '')
+    .replace(/skin-?changer-?/gi, 'cosmetic-')
+    .replace(/-+/g, ' ')
+    .trim();
+  return `Open archived thread: ${words}`;
+}
 const post = getForumPost(Astro.params.slug!, locale);
 if (!post) return Astro.redirect(lp('/forum/'));
 
@@ -127,11 +136,14 @@ const relatedPosts = [
             <p class="forum-side-heading" id="forum-related-title">{f.readDiscussion}</p>
             <ul class="forum-related-list">
               {relatedPosts.map((item) => (
-                <li>
-                  <a href={lp(`/forum/${item.slug}/`)}>
+                <li class="relative">
+                  <div>
                     <span class="forum-related-list__category">{forumCategoryLabel(item.category)}</span>
                     <b>{item.title}</b>
                     <span class="forum-related-list__meta">{f.closedThread} · {item.commentsCount} {f.comments} <Icon name="arrowRight" size={14} /></span>
+                  </div>
+                  <a href={lp(`/forum/${item.slug}/`)} class="absolute inset-0">
+                    <span class="sr-only">{threadAnchor(item.slug)}</span>
                   </a>
                 </li>
               ))}

@@ -12,27 +12,34 @@ export interface CatalogEntry {
   icon: IconName;
   /** Compact name for menus and comparison headers. */
   shortName: string;
+  /** Unique link text. Must not repeat shortName or the site brand. */
+  anchorLabel: string;
   page: ProductPage;
   fromPriceUsd: number;
   lifetimePriceUsd?: number;
 }
 
-const catalogMeta: Record<string, { icon: IconName; shortName: string }> = {
-  [CHEATS_PRIMARY_SLUG]: { icon: 'tierElite', shortName: CHEAT_PRODUCT_NAME },
-  [HWID_SPOOFER_SLUG]: { icon: 'systemUtility', shortName: 'HWID Spoofer' },
-  [UGC_SLUG]: { icon: 'accountRecovery', shortName: 'UGC' },
-  [SKIN_CHANGER_SLUG]: { icon: 'cosmetic', shortName: 'Skin Changer' },
+const catalogMeta: Record<string, { icon: IconName; shortName: string; anchorLabel: string }> = {
+  [CHEATS_PRIMARY_SLUG]: { icon: 'tierElite', shortName: CHEAT_PRODUCT_NAME, anchorLabel: 'Windows cheat menu' },
+  [HWID_SPOOFER_SLUG]: { icon: 'systemUtility', shortName: 'HWID Spoofer', anchorLabel: 'fingerprint utility' },
+  [UGC_SLUG]: { icon: 'accountRecovery', shortName: 'UGC', anchorLabel: 'appeal workflows' },
+  [SKIN_CHANGER_SLUG]: { icon: 'cosmetic', shortName: 'Skin Changer', anchorLabel: 'local finishes' },
 };
 
 export function getCatalog(locale: SiteLocale): CatalogEntry[] {
   return getProductPages(locale).map((page) => {
     const plans = getProductPlans(page.slug);
-    const meta = catalogMeta[page.slug] ?? { icon: 'package' as IconName, shortName: page.title };
+    const meta = catalogMeta[page.slug] ?? {
+      icon: 'package' as IconName,
+      shortName: page.title,
+      anchorLabel: page.title,
+    };
     return {
       slug: page.slug,
       path: productPath(page.slug),
       icon: meta.icon,
       shortName: meta.shortName,
+      anchorLabel: meta.anchorLabel,
       page,
       fromPriceUsd:
         plans.find((plan) => plan.id === 'monthly')?.priceUsd ??

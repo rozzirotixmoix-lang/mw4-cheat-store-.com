@@ -30,6 +30,15 @@ const categoryLabels: Record<string, string> = {
 function forumCategoryLabel(category: string): string {
   return categoryLabels[category] ?? category;
 }
+function threadAnchor(slug: string): string {
+  const words = slug
+    .replace(/mw4-?/gi, '')
+    .replace(/cheats?-?/gi, '')
+    .replace(/skin-?changer-?/gi, 'cosmetic-')
+    .replace(/-+/g, ' ')
+    .trim();
+  return `Read archived thread: ${words}`;
+}
 const forumPosts = getForumPosts(locale);
 const forumCategories = getForumCategories(locale);
 const blogPosts = getBlogPosts(locale);
@@ -92,7 +101,7 @@ const sourceTimestamp = (path?: string) => {
                     <a href="#communities" class="forum-community-name">{forumCategoryLabel(post.category)}</a>
                     <span>·</span><span><Icon name="userRound" size={13} /> u/{post.author}</span><span>·</span><span>{formatForumRelative(post.published, buildNow)}</span>
                   </div>
-                  <a class="forum-post-title" href={lp(`/forum/${post.slug}/`)}>{post.title}</a>
+                  <h2 class="forum-post-title">{post.title}</h2>
                   <p class="forum-post-excerpt">{post.excerpt}</p>
                   {post.sourceTitle && <p class="forum-source">{f.fromGuide} <a href={lp(post.sourcePath ?? '/blog/')}>{post.sourceTitle}</a></p>}
                   <div class="forum-post-actions">
@@ -100,7 +109,7 @@ const sourceTimestamp = (path?: string) => {
                     <span class="forum-flair">{f.closedBy}</span>
                     {post.flair && <span class={`forum-flair tone-${post.categoryTone}`}>{post.flair}</span>}
                     <a href={lp(`/forum/${post.slug}/`)}><Icon name="messageCircle" size={15} /> {post.commentsCount} {f.comments}</a>
-                    <a class="forum-read-link" href={lp(`/forum/${post.slug}/`)}><Icon name="arrowRight" size={15} /> {f.readDiscussion}: {post.title}</a>
+                    <a class="forum-read-link" href={lp(`/forum/${post.slug}/`)}><Icon name="arrowRight" size={15} /> {threadAnchor(post.slug)}</a>
                   </div>
                 </div>
               </article>

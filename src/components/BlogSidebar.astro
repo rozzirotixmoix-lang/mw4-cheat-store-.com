@@ -44,7 +44,7 @@ const forumNav = t.nav.find((link) => link.id === 'forum');
 const supportNav = t.nav.find((link) => link.id === 'support');
 
 const productLinks: { label: string; href: string; icon: IconName }[] = [
-  ...getCatalog(locale).map((entry) => ({ label: entry.shortName, href: entry.path, icon: entry.icon })),
+  ...getCatalog(locale).map((entry) => ({ label: entry.anchorLabel, href: entry.path, icon: entry.icon })),
   { label: forumNav?.sheetLabel ?? forumNav?.label ?? 'Forum', href: ROUTES.forum, icon: 'messageCircle' },
   { label: supportNav?.sheetLabel ?? supportNav?.label ?? 'Support', href: ROUTES.support, icon: 'headphones' },
 ];

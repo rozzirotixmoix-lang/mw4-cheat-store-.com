@@ -13,6 +13,16 @@ interface Props {
 const { threads } = Astro.props;
 const { t, lp } = useLocale(Astro.currentLocale);
 const f = t.pages.forum;
+
+function threadAnchor(slug: string): string {
+  const words = slug
+    .replace(/mw4-?/gi, '')
+    .replace(/cheats?-?/gi, '')
+    .replace(/skin-?changer-?/gi, 'cosmetic-')
+    .replace(/-+/g, ' ')
+    .trim();
+  return `Open archived thread: ${words}`;
+}
 ---
 
 {
@@ -28,14 +38,14 @@ const f = t.pages.forum;
 
         <ul class="mt-10 space-y-4">
           {threads.map((thread) => (
-            <li>
-              <a
-                href={lp(`/forum/${thread.slug}/`)}
-                class="block rounded-xl border border-border bg-card px-5 py-4 transition-colors hover:border-primary/35"
-              >
+            <li class="relative">
+              <div class="rounded-xl border border-border bg-card px-5 py-4 transition-colors hover:border-primary/35">
                 <span class="text-xs font-semibold uppercase tracking-wide text-primary">{thread.category}</span>
                 <b class="mt-1 block font-[family-name:var(--font-heading)] text-base text-foreground">{thread.title}</b>
                 <span class="mt-2 block text-sm text-muted-foreground line-clamp-2">{thread.excerpt}</span>
+              </div>
+              <a href={lp(`/forum/${thread.slug}/`)} class="absolute inset-0 z-10">
+                <span class="sr-only">{threadAnchor(thread.slug)}</span>
               </a>
             </li>
           ))}

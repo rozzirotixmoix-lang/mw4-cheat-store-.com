@@ -591,7 +591,7 @@ export const en: Translations = {
         {
           heading: 'Modern Warfare 4 catalog: Who we are',
           paragraphs: [
-            'This site is a PC catalog for Modern Warfare 4 tools. The [four-license product hub](/products/) lists the [cheat menu](/cheats/), [HWID Spoofer page](/hwid-spoofer/), [UGC page](/ugc/), and [Skin Changer page](/skin-changer/).',
+            'This site is a PC catalog for Modern Warfare 4 tools. The [four-license product hub](/products/) lists the [cheat menu](/cheats/), [fingerprint utility page](/hwid-spoofer/), [appeal workflows page](/ugc/), and [local finishes page](/skin-changer/).',
             'Setup notes and the status banner are here so you can judge the main product before you pay. Product names identify the software. They are not a claim of ownership.',
           ],
         },
@@ -623,6 +623,15 @@ export const en: Translations = {
           paragraphs: [
             'Email handles loader errors, HWID resets, and order questions. Put the order email, Windows version, game build, and the exact error in the ticket.',
             'The [full question list](/faq/) and the [archived discussion index](/forum/) cover setup notes too. Open the [guide index](/blog/) or the [Windows cheat menu page](/cheats/) when you need product facts. Read the homepage banner before a session.',
+          ],
+        },
+        {
+          heading: 'Plans, FAQ, and what a license includes',
+          paragraphs: [
+            'The main product sells two published plans: $35 for 30 days and $150 for lifetime. Those figures match the product page. Utility plan prices stay on the utility pages and are not copied into the cheat license.',
+            'Checkout runs through the partner. After payment the operator portal opens with the current Windows loader, the setup guide, and saved configs. The loader is external. It does not go in the Modern Warfare 4 folder.',
+            'The listed platform is 64-bit Windows 10 or Windows 11. macOS and Linux are not on that list. Utilities that mention HVCI, Core Isolation, TPM, and Secure Boot keep those notes on their own pages.',
+            'A game patch or an anti-cheat update can change what still runs. Read the homepage banner before a session. If the banner says the build is offline, wait. Support tickets need the order email, Windows version, game build, and the exact error.',
           ],
         },
       ],
