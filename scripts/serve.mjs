@@ -7,7 +7,7 @@ import { isLocalPreviewHost, parseHostname } from './local-preview-host.mjs';
 import { resolveCheckoutPathRedirect } from '../src/config/checkout-redirects.mjs';
 import { isErrorDocumentPath, resolveForumQueryRedirect, resolveLocaleRoutingRedirect } from '../src/config/locale-routing.mjs';
 
-import { SITE_DOMAIN as CANONICAL_HOST } from '../src/config/site-url.mjs';
+import { PRODUCTION_DOMAIN as CANONICAL_HOST } from '../src/config/site-url.mjs';
 import { resolveStaticFile } from './static-path.mjs';
 const distDir = path.resolve('dist');
 /** 4173 avoids Chrome's cached 301 from older local previews on port 3000. Production still uses PORT. */

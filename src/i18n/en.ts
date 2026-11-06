@@ -401,7 +401,7 @@ export const en: Translations = {
     eyebrow: 'Blog',
     title: 'Guides and updates',
     subtitle: 'ESP and aimbot setup, menu tuning and patch-day checks for Modern Warfare 4.',
-    latestTitle: 'Guides: Long-form Modern Warfare 4 Cheat Menu Tuning and Patch-Day Notes',
+    latestTitle: 'Guides: Long-form Modern Warfare 4 Cheat Menu Tuning, Patch-Day Notes and Posts',
     latestSubtitle: 'Filter by topic to find setup guides, feature deep-dives, and patch-day notes.',
     filterAll: 'All articles',
     emptyFilter: 'No articles match this filter.',

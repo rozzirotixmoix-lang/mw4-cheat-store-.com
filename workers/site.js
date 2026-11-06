@@ -4,11 +4,12 @@
  */
 import { resolvePathRedirect } from '../scripts/redirects.mjs';
 import { isLocalPreviewHost, parseHostname } from '../scripts/local-preview-host.mjs';
+import { rewritePreviewResponse } from '../scripts/rewrite-preview-origin.mjs';
 import { resolveCheckoutPathRedirect } from '../src/config/checkout-redirects.mjs';
 import { isErrorDocumentPath, resolveForumQueryRedirect, resolveLocaleRoutingRedirect } from '../src/config/locale-routing.mjs';
-import { SITE_DOMAIN } from '../src/config/site-url.mjs';
+import { PRODUCTION_DOMAIN } from '../src/config/site-url.mjs';
 
-const CANONICAL_HOST = SITE_DOMAIN;
+const CANONICAL_HOST = PRODUCTION_DOMAIN;
 
 /** Served as static files; must not fall through to HTML index resolution. */
 const STATIC_FILE_PATH = /^\/(?:robots\.txt|sitemap\.xml|sitemap\.xsl|rss\.xml|[^/]+\.(?:xml|xsl|txt|webmanifest))$/i;
@@ -58,35 +59,8 @@ function withSecurityHeaders(response) {
   });
 }
 
-/** On Pages/local preview hosts, point canonicals, hreflang, sitemap, and robots at the request origin. */
-async function rewritePreviewCanonicals(request, response) {
-  const url = new URL(request.url);
-  if (!isLocalPreviewHost(parseHostname(url.hostname))) return response;
-  const type = (response.headers.get('content-type') || '').toLowerCase();
-  const path = url.pathname;
-  const shouldRewrite =
-    type.includes('text/html') ||
-    type.includes('xml') ||
-    type.includes('text/plain') ||
-    path === '/robots.txt' ||
-    path === '/sitemap.xml' ||
-    /\.(xml|txt)$/i.test(path);
-  if (!shouldRewrite) return response;
-  const productionOrigin = `https://${CANONICAL_HOST}`;
-  const requestOrigin = `${url.protocol}//${url.host}`;
-  const text = await response.text();
-  const next = text.includes(productionOrigin) ? text.split(productionOrigin).join(requestOrigin) : text;
-  const headers = new Headers(response.headers);
-  headers.delete('Content-Length');
-  return new Response(next, {
-    status: response.status,
-    statusText: response.statusText,
-    headers,
-  });
-}
-
 async function finalizeResponse(request, response) {
-  return withSecurityHeaders(await rewritePreviewCanonicals(request, withHtmlCharset(response)));
+  return withSecurityHeaders(await rewritePreviewResponse(request, withHtmlCharset(response)));
 }
 
 function splitUrl(url) {
