@@ -840,7 +840,7 @@ export const en: Translations = {
   },
   pageSeo: {
     '/': {
-      title: 'MW4 Cheats for PC | Aimbot, ESP, Modules, hacks',
+      title: 'MW4 Cheats for PC | Aimbot, ESP, Modules, hacks, plans',
       description:
         'MW4 Cheats for PC: Aimbot, ESP, and wallhack modules for Modern Warfare 4 on Windows. Monthly and lifetime access are listed on {siteDomain}.',
     },

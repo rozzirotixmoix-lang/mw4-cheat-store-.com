@@ -35,7 +35,15 @@ function link(text: string, href: string): string {
   return `<a href="${normalizeInternalPath(href)}">${text}</a>`;
 }
 
-const cheats = link('Windows cheat menu', ROUTES.cheats);
+const cheatsEsp = link('MW4 cheat menu page', ROUTES.cheats);
+const cheatsAim = link('aim and ESP product page', ROUTES.cheats);
+const cheatsCapture = link('overlay option list', ROUTES.cheats);
+const cheatsLoader = link('external loader product', ROUTES.cheats);
+const cheatsLive = link('live cheat product page', ROUTES.cheats);
+const cheatsCheckout = link('cheat checkout page', ROUTES.cheats);
+const cheatsModes = link('mode option product page', ROUTES.cheats);
+const cheatsWallhack = link('ESP wallhack product page', ROUTES.cheats);
+const cheatsSilent = link('silent aimbot product page', ROUTES.cheats);
 const hwidWhenLink = link('hardware ID utility', ROUTES.hwidSpoofer);
 const hwidVsLink = link('HWID refresh page', ROUTES.hwidSpoofer);
 const ugcWhatLink = link('UGC templates', ROUTES.ugc);
@@ -148,7 +156,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'esp',
     icon: 'faqWhatIsEsp',
     q: 'What is Modern Warfare 4 ESP?',
-    a: `ESP and wallhack show enemy position, health, and distance on Modern Warfare 4. ${cheats} also includes aimbot, silent aimbot, no recoil, God Mode, infinite ammo, and speedhack.`,
+    a: `ESP and wallhack show enemy position, health, and distance on Modern Warfare 4. ${cheatsEsp} also includes aimbot, silent aimbot, no recoil, God Mode, infinite ammo, and speedhack.`,
     scopes: ['elite'],
   },
   {
@@ -156,7 +164,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'esp',
     icon: 'faqEspVsScripts',
     q: 'What is the difference between ESP and aimbot?',
-    a: `ESP and wallhack draw information. They leave the crosshair where you put it. Aimbot, silent aimbot, and no recoil are separate switches on ${cheats}.`,
+    a: `ESP and wallhack draw information. They leave the crosshair where you put it. Aimbot, silent aimbot, and no recoil are separate switches on ${cheatsAim}.`,
   },
   {
     id: 'elite-slots',
@@ -171,7 +179,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'esp',
     icon: 'faqStreamProof',
     q: 'Can OBS capture my overlay?',
-    a: `The option list on ${cheats} has no capture filter. Make a local recording before a live session.`,
+    a: `The option list on ${cheatsCapture} has no capture filter. Make a local recording before a live session.`,
   },
   {
     id: 'build-status',
@@ -201,21 +209,21 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'products',
     icon: 'faqExternalLoader',
     q: 'Is the loader injected into the game folder?',
-    a: `{siteName} runs an external loader and syncs configs from the portal. It does not place files in the Modern Warfare 4 directory. Account penalties can still follow. See ${cheats}.`,
+    a: `{siteName} runs an external loader and syncs configs from the portal. It does not place files in the Modern Warfare 4 directory. Account penalties can still follow. See ${cheatsLoader}.`,
   },
   {
     id: 'blog-vs-cheats',
     topic: 'blog',
     icon: 'faqBlogVsCheats',
     q: 'Does this article replace the live status banner?',
-    a: `No. Guides explain a topic. A live Modern Warfare 4 session still uses ${cheats} when the banner on {siteDomain} says online.`,
+    a: `No. Guides explain a topic. A live Modern Warfare 4 session still uses ${cheatsLive} when the banner on {siteDomain} says online.`,
   },
   {
     id: 'blog-setup',
     topic: 'blog',
     icon: 'faqBlogSetup',
     q: 'Where do blog setup guides point for purchase?',
-    a: `Guides link to product pages such as ${cheats}. Checkout goes through our partner. Take the loader from the portal, not from a message.`,
+    a: `Guides link to product pages such as ${cheatsCheckout}. Checkout goes through our partner. Take the loader from the portal, not from a message.`,
   },
   {
     id: 'who-cheats',
@@ -244,14 +252,14 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'plans',
     icon: 'faqTurboRanked',
     q: 'Do modules work across Modern Warfare 4 game modes?',
-    a: `The same option list is what the menu shows in each mode. Set the ESP distance and aim smoothness before the first match on ${cheats}.`,
+    a: `The same option list is what the menu shows in each mode. Set the ESP distance and aim smoothness before the first match on ${cheatsModes}.`,
   },
   {
     id: 'zoom-hack',
     topic: 'esp',
     icon: 'faqZoomHack',
     q: 'Which options cover ESP and wallhack?',
-    a: `ESP and wallhack are part of ${cheats}. They show enemy position, health, and distance.`,
+    a: `ESP and wallhack are part of ${cheatsWallhack}. They show enemy position, health, and distance.`,
     scopes: ['elite'],
   },
   {
@@ -259,7 +267,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'aim',
     icon: 'faqAutoFarm',
     q: 'Does the product include silent aimbot?',
-    a: `Aimbot, silent aimbot, and no recoil are on ${cheats}. Each one has a switch in the menu.`,
+    a: `Aimbot, silent aimbot, and no recoil are on ${cheatsSilent}. Each one has a switch in the menu.`,
     scopes: ['elite'],
   },
   {
