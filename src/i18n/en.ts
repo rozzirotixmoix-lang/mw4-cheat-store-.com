@@ -734,7 +734,7 @@ export const en: Translations = {
     },
   },
   common: {
-    breadcrumbHome: 'MW4 Cheat Shop',
+    breadcrumbHome: 'Home',
     breadcrumbProducts: 'Product hub',
     breadcrumbBlog: 'Blogs',
     breadcrumbForum: 'Forum',
