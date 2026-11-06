@@ -58,7 +58,7 @@ const TITLE_MAX = 60;
 const TITLE_MIN = 30;
 const META_MAX = 155;
 const META_MIN = 70;
-const META_PX = 985;
+const META_PX = 1000;
 const NARROW = new Set([...'ijltfIftr.,:;' + "'|!"]);
 const WIDE = new Set([...'mwMW@']);
 

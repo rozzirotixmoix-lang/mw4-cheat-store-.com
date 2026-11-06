@@ -2,6 +2,7 @@ import { PRODUCTION_DOMAIN } from '../src/config/site-url.mjs';
 import { isLocalPreviewHost, parseHostname } from './local-preview-host.mjs';
 
 const PRODUCTION_ORIGIN = `https://${PRODUCTION_DOMAIN}`;
+const PAGES_HOST_RE = /https:\/\/(?:[a-z0-9-]+\.)?mw4-cheat-store--com\.pages\.dev/gi;
 
 export function previewRequestOrigin(request) {
   const url = new URL(request.url);
@@ -22,9 +23,51 @@ export function shouldRewritePreview(pathname, contentType) {
   );
 }
 
-export function rewritePreviewBody(text, origin) {
+function normalizeLoc(href, origin) {
+  try {
+    const url = new URL(href);
+    let path = url.pathname || '/';
+    if (!path.endsWith('/') && !/\.[a-z0-9]+$/i.test(path.split('/').pop() || '')) {
+      path += '/';
+    }
+    return `${origin}${path}`;
+  } catch {
+    return href;
+  }
+}
+
+function dedupeSitemap(xml, origin) {
+  if (!xml.includes('<urlset') || !xml.includes('<loc>')) return xml;
+  const seen = new Set();
+  const urls = [...xml.matchAll(/<url>([\s\S]*?)<\/url>/g)]
+    .map((match) => {
+      const block = match[0];
+      const loc = block.match(/<loc>([^<]+)<\/loc>/)?.[1];
+      if (!loc) return '';
+      const canonical = normalizeLoc(loc, origin);
+      if (seen.has(canonical)) return '';
+      seen.add(canonical);
+      return block.replace(/<loc>[^<]+<\/loc>/, `<loc>${canonical}</loc>`);
+    })
+    .filter(Boolean);
+  const hasXhtml = xml.includes('xhtml:link');
+  const ns = hasXhtml
+    ? 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"'
+    : 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"';
+  const stylesheet = xml.includes('xml-stylesheet')
+    ? '<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>\n'
+    : '';
+  return `<?xml version="1.0" encoding="UTF-8"?>\n${stylesheet}<urlset ${ns}>\n${urls.join('\n')}\n</urlset>\n`;
+}
+
+export function rewritePreviewBody(text, origin, pathname = '') {
   if (!text || !origin) return text;
-  return text.split(PRODUCTION_ORIGIN).join(origin);
+  let next = text.split(PRODUCTION_ORIGIN).join(origin);
+  next = next.replace(PAGES_HOST_RE, origin);
+  if (pathname === '/sitemap.xml' || pathname.endsWith('sitemap.xml')) {
+    next = dedupeSitemap(next, origin);
+  }
+  return next;
 }
 
 export async function rewritePreviewResponse(request, response) {
@@ -47,7 +90,7 @@ export async function rewritePreviewResponse(request, response) {
   }
 
   const text = await response.text();
-  const next = rewritePreviewBody(text, origin);
+  const next = rewritePreviewBody(text, origin, url.pathname);
   headers.delete('Content-Length');
   return new Response(next, {
     status: response.status,

@@ -584,15 +584,15 @@ export const en: Translations = {
   },
   legalPages: {
     about: {
-      title: 'About MW4 Cheats: Catalog, Support, Delivery Details on {siteDomain}',
+      title: 'About the catalog: Support and Delivery Details on {siteDomain}',
       description:
-        '{siteName} publishes {cheatProduct}, the utility pages, and support notes at {siteDomain}.',
+        'This catalog publishes the main product, the utility pages, and support notes at {siteDomain}.',
       sections: [
         {
           heading: 'Modern Warfare 4 catalog: Who we are',
           paragraphs: [
-            '{siteName} is a PC catalog for Modern Warfare 4 tools. The site lists the cheat menu, HWID Spoofer, UGC, and Skin Changer.',
-            'Setup notes and the status banner are here so you can judge {cheatProduct} before you pay. Product names identify the software. They are not a claim of ownership.',
+            'This site is a PC catalog for Modern Warfare 4 tools. The site lists the cheat menu, HWID Spoofer, UGC, and Skin Changer.',
+            'Setup notes and the status banner are here so you can judge the main product before you pay. Product names identify the software. They are not a claim of ownership.',
           ],
         },
         {
@@ -837,7 +837,7 @@ export const en: Translations = {
     '/cheats/': {
       title: 'Cheats | mw4 Soft Aim Tool Options Cover Smoothness',
       description:
-        'Cheats: mw4 soft aim tool options cover smoothness, bones, and distance caps. Review the requirements on {siteDomain}.',
+        'Cheats: mw4 soft aim tool options cover smoothness, bones, and distance caps. Review Windows requirements on {siteDomain}.',
     },
     '/hwid-spoofer/': {
       title: 'mw4 Spoofing Tool | HWID Refresh',
@@ -862,7 +862,7 @@ export const en: Translations = {
     '/blog/': {
       title: 'Guides | Long-form ESP Tuning and Patch Note Posts',
       description:
-        'Guides: Modern Warfare 4 notes on ESP tuning, aim tabs, and post-patch banner checks when articles are published on {siteDomain}.',
+        'Guides: Modern Warfare 4 notes on ESP tuning, aim tabs, and post-patch banner checks when new articles are published on {siteDomain}.',
     },
     '/forum/': {
       title: 'Modern Warfare 4 Forum Archive | Read-Only Threads',
@@ -872,7 +872,7 @@ export const en: Translations = {
     '/faq/': {
       title: 'Faq | Plans, Loader, Status, and Checkout Questions',
       description:
-        'Faq: Windows support, 30 day and lifetime plans, license moves, and checkout steps for Modern Warfare 4 products on {siteDomain}.',
+        'Faq: Windows support, 30 day and lifetime plans, license moves, and checkout steps for Modern Warfare 4 products listed on {siteDomain}.',
     },
     '/terms/': {
       title: 'Terms of Sale | Licenses and Refunds',
@@ -887,7 +887,7 @@ export const en: Translations = {
     '/about/': {
       title: 'mw4 cheats | Catalog, Support, and Delivery Details',
       description:
-        'Who publishes {cheatProduct}, how portal delivery works, and where the Modern Warfare 4 status banner lives on {siteDomain}.',
+        'Who publishes mw4 cheats, how portal delivery works, and where the Modern Warfare 4 status banner lives. Catalog notes sit on {siteDomain}.',
     },
     '/support/': {
       title: 'Contact Support | Modern Warfare 4 Loader Help',

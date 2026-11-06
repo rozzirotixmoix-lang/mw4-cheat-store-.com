@@ -15,12 +15,8 @@ function hostnameFrom(value) {
   }
 }
 
-/** Apex brand domain. Override with PUBLIC_SITE_DOMAIN when the custom host is live. */
+/** Apex brand domain. Do not bake CF_PAGES_URL (unique preview hosts) into SEO. */
 export const PRODUCTION_DOMAIN = 'mw4cheatstore.com';
 
-export const SITE_DOMAIN =
-  hostnameFrom(readEnv('PUBLIC_SITE_DOMAIN')) ||
-  hostnameFrom(readEnv('CF_PAGES_URL')) ||
-  PRODUCTION_DOMAIN;
-
+export const SITE_DOMAIN = hostnameFrom(readEnv('PUBLIC_SITE_DOMAIN')) || PRODUCTION_DOMAIN;
 export const SITE_URL = `https://${SITE_DOMAIN}`;
