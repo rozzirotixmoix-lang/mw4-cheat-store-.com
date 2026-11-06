@@ -7,7 +7,8 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "node scripts/optimize-images.mjs && node scripts/generate-static-redirects.mjs && astro build && node scripts/prune-dist-images.mjs && node scripts/finalize-sitemap.mjs",
+    "build": "node scripts/optimize-images.mjs && node scripts/generate-static-redirects.mjs && astro build && node scripts/prune-dist-images.mjs && node scripts/finalize-sitemap.mjs && node scripts/seo-check.mjs",
+    "prebuild": "node scripts/seo-check.mjs --pre",
     "indexnow:submit": "npm run validate && node scripts/indexnow.mjs",
     "validate": "node scripts/validate.mjs",
     "validate:runtime": "npm run validate && node scripts/runtime-smoke.mjs",

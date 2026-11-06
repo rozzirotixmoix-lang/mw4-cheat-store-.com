@@ -1,6 +1,6 @@
-# mw4cheatstore.com
+# mw4cheatshop.com
 
-Static site for [mw4cheatstore.com](https://mw4cheatstore.com): Astro 7, multilingual (en, es, de, fr), Cloudflare Workers deploy.
+Static site for [mw4cheatshop.com](https://mw4cheatshop.com): Astro 7, multilingual (en, es, de, fr), Cloudflare Workers deploy.
 
 Conversion workflow: start with [AGENTS.md](AGENTS.md), the [architecture reference](docs/architecture.md), [example conversion intake](docs/conversion.example.json), and [follow-up defects](docs/template-defects.md). The example is documentation only; changing it does not change the website.
 

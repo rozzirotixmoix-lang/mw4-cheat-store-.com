@@ -81,7 +81,7 @@ const cardHeight = post.imageHeight ?? (isFeatured ? 540 : 360);
         class="gap-1.5 shadow-sm"
       >
         <Icon name={tagIcon} size={14} />
-        {post.tag}
+        {t.blog.eyebrow}
       </Badge>
       {
         showDate ? (
@@ -111,7 +111,7 @@ const cardHeight = post.imageHeight ?? (isFeatured ? 540 : 360);
         isFeatured && 'justify-center border-t border-border p-5 sm:p-6 lg:border-t-0 lg:py-6 lg:pl-8 lg:pr-6',
       ]}
     >
-      <CardTitle class="text-base font-semibold normal-case leading-snug tracking-tight md:text-[1.0625rem]">
+      <CardTitle class="line-clamp-2 text-base font-semibold normal-case leading-snug tracking-tight md:text-[1.0625rem]" title={post.title}>
         {post.title}
       </CardTitle>
 
@@ -140,8 +140,15 @@ const cardHeight = post.imageHeight ?? (isFeatured ? 540 : 360);
         <Icon name="clock" size={14} class="blog-card__footer-icon" aria-hidden="true" />
         <span>{post.readTime}</span>
       </p>
-      <Button as="span" variant="outline" size="sm" class="blog-card__read min-w-0 max-w-full whitespace-nowrap">
-        {t.blog.read}: {post.title}
+      <Button
+        as="span"
+        variant="outline"
+        size="sm"
+        class="blog-card__read min-w-0 max-w-full"
+        title={post.title}
+        aria-label={`${t.blog.read}: ${post.title}`}
+      >
+        {t.blog.read}
         <Icon name="arrowRight" size={16} />
       </Button>
     </CardFooter>

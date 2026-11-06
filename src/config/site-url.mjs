@@ -15,8 +15,16 @@ function hostnameFrom(value) {
   }
 }
 
-/** Apex brand domain. Do not bake CF_PAGES_URL (unique preview hosts) into SEO. */
-export const PRODUCTION_DOMAIN = 'mw4cheatstore.com';
+/** Apex brand domain. Never workers.dev, never a preview host. */
+export const PRODUCTION_DOMAIN = 'mw4cheatshop.com';
+export const PRODUCTION_ORIGIN = `https://${PRODUCTION_DOMAIN}`;
 
-export const SITE_DOMAIN = hostnameFrom(readEnv('PUBLIC_SITE_DOMAIN')) || PRODUCTION_DOMAIN;
-export const SITE_URL = `https://${SITE_DOMAIN}`;
+export const SITE_DOMAIN = PRODUCTION_DOMAIN;
+export const SITE_URL = PRODUCTION_ORIGIN;
+
+const envDomain = hostnameFrom(readEnv('PUBLIC_SITE_DOMAIN'));
+if (envDomain && envDomain !== PRODUCTION_DOMAIN) {
+  throw new Error(
+    `PUBLIC_SITE_DOMAIN must be ${PRODUCTION_DOMAIN} or unset (got ${envDomain}). SEO origin is ${PRODUCTION_ORIGIN}.`,
+  );
+}

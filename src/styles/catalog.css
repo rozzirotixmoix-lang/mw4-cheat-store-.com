@@ -242,6 +242,10 @@
   font-weight: 800;
   line-height: 1.15;
   overflow-wrap: anywhere;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .catalog-card__title a:hover {
@@ -253,6 +257,10 @@
   font-size: 0.875rem;
   line-height: 1.55;
   color: var(--muted-foreground);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
 }
 
 .catalog-card__features {

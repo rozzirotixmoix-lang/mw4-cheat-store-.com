@@ -173,6 +173,13 @@ function offerUrl(path: string): string {
   return new URL(path, SITE_ORIGIN).href;
 }
 
+function requireOfferPrice(priceUsd: number | undefined): string {
+  if (typeof priceUsd !== 'number' || !Number.isFinite(priceUsd) || priceUsd <= 0) {
+    throw new Error('Product schema Offer requires a positive price from productPricing.ts');
+  }
+  return String(priceUsd);
+}
+
 export function productSchema(input: {
   name: string;
   description: string;
@@ -200,7 +207,7 @@ export function productSchema(input: {
       '@type': 'Offer',
       url: offerUrl(input.offerUrl),
       priceCurrency: 'USD',
-      ...(input.priceUsd != null ? { price: input.priceUsd } : {}),
+      price: requireOfferPrice(input.priceUsd),
       availability: 'https://schema.org/InStock',
       seller: {
         '@type': 'Organization',

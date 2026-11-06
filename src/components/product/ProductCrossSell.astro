@@ -95,7 +95,7 @@ if (slugCrossSellDesc) copy.desc = slugCrossSellDesc;
                   </span>
                   <span class="min-w-0">
                     <span class="block font-[family-name:var(--font-heading)] text-lg font-bold leading-tight text-foreground group-hover:text-primary">
-                      {entry.anchorLabel}
+                      {entry.shortName}
                     </span>
                     <span class="block text-xs font-medium text-muted-foreground">
                       {copy.from} {formatPlanPrice(entry.fromPriceUsd)}
@@ -104,7 +104,7 @@ if (slugCrossSellDesc) copy.desc = slugCrossSellDesc;
                 </span>
                 <span class="text-sm leading-relaxed text-muted-foreground">{entry.page.desc}</span>
                 <span class="mt-auto inline-flex max-w-full min-w-0 items-center text-sm font-semibold text-primary-text">
-                  {t.products.viewDetails}: {entry.anchorLabel}
+                  {t.products.viewDetails}
                 </span>
               </a>
             </li>

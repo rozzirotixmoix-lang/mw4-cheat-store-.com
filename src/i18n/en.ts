@@ -734,9 +734,9 @@ export const en: Translations = {
     },
   },
   common: {
-    breadcrumbHome: 'Catalog home',
+    breadcrumbHome: 'Home',
     breadcrumbProducts: 'Product hub',
-    breadcrumbBlog: 'Guide index',
+    breadcrumbBlog: 'Blogs',
     breadcrumbForum: 'Forum',
     breadcrumbFaq: 'FAQ',
     breadcrumbAbout: 'About',

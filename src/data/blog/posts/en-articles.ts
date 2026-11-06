@@ -8,7 +8,7 @@ export const enBlogArticles: BlogPostFull[] = [
     "tag": "Guides",
     "desc": "Looking into Modern Warfare 4 cheats? Learn how to evaluate compatibility, advertised features, software requirements, support quality and important risks before choosing a third-party tool.",
     "metaTitle": "warfare 4 cheats | Features and Buying Guide Facts",
-    "metaDescription": "warfare 4 cheats: compare compatibility, features, support quality and subscription details before you pick a PC tool on mw4cheatstore.com.",
+    "metaDescription": "warfare 4 cheats: compare compatibility, features, support quality and subscription details before you pick a PC tool on mw4cheatshop.com.",
     "date": "2026-10-18",
     "readTime": "5 min read",
     "featured": false,

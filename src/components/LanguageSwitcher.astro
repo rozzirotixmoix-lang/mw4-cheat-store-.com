@@ -155,7 +155,11 @@ const triggerAria = compact ? sheetAria : `${t.ui.languageSwitcherLabel}: ${curr
 
   .lang-dropdown[data-variant='compact'] {
     width: 100%;
-    max-width: 4.5rem;
+    max-width: 100%;
+  }
+
+  .lang-dropdown[data-variant='compact'] .lang-dropdown__icon {
+    display: none;
   }
 
   .lang-dropdown[data-variant='compact'] .lang-dropdown__trigger {

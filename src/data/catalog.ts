@@ -12,7 +12,7 @@ export interface CatalogEntry {
   icon: IconName;
   /** Compact name for menus and comparison headers. */
   shortName: string;
-  /** Unique link text. Must not repeat shortName or the site brand. */
+  /** Visible catalog name and CTA label. Matches the product short name. */
   anchorLabel: string;
   page: ProductPage;
   fromPriceUsd: number;
@@ -20,10 +20,10 @@ export interface CatalogEntry {
 }
 
 const catalogMeta: Record<string, { icon: IconName; shortName: string; anchorLabel: string }> = {
-  [CHEATS_PRIMARY_SLUG]: { icon: 'tierElite', shortName: CHEAT_PRODUCT_NAME, anchorLabel: 'Windows cheat menu' },
-  [HWID_SPOOFER_SLUG]: { icon: 'systemUtility', shortName: 'HWID Spoofer', anchorLabel: 'fingerprint utility' },
-  [UGC_SLUG]: { icon: 'accountRecovery', shortName: 'UGC', anchorLabel: 'appeal workflows' },
-  [SKIN_CHANGER_SLUG]: { icon: 'cosmetic', shortName: 'Skin Changer', anchorLabel: 'local finishes' },
+  [CHEATS_PRIMARY_SLUG]: { icon: 'tierElite', shortName: CHEAT_PRODUCT_NAME, anchorLabel: CHEAT_PRODUCT_NAME },
+  [HWID_SPOOFER_SLUG]: { icon: 'systemUtility', shortName: 'HWID Spoofer', anchorLabel: 'HWID Spoofer' },
+  [UGC_SLUG]: { icon: 'accountRecovery', shortName: 'UGC', anchorLabel: 'UGC' },
+  [SKIN_CHANGER_SLUG]: { icon: 'cosmetic', shortName: 'Skin Changer', anchorLabel: 'Skin Changer' },
 };
 
 export function getCatalog(locale: SiteLocale): CatalogEntry[] {

@@ -54,10 +54,10 @@ function cardTags(product: ProductPage): string[] {
                     <Icon name={entry.icon} size={18} />
                   </span>
                   <div class="min-w-0 space-y-1">
-                    <h3 class="font-[family-name:var(--font-heading)] text-base font-bold leading-tight text-foreground md:text-lg">
+                    <h3 class="line-clamp-2 font-[family-name:var(--font-heading)] text-base font-bold leading-tight text-foreground md:text-lg" title={product.title}>
                       {product.title}
                     </h3>
-                    <p class="text-sm font-medium leading-snug text-muted-foreground">
+                    <p class="line-clamp-2 text-sm font-medium leading-snug text-muted-foreground">
                       {cardSubtitle(product)}
                     </p>
                   </div>
@@ -65,7 +65,7 @@ function cardTags(product: ProductPage): string[] {
               </header>
 
               <div class="flex min-h-0 flex-1 flex-col gap-3 px-5 py-4 sm:px-6">
-                <p class="text-sm leading-relaxed text-muted-foreground">{product.desc}</p>
+                <p class="line-clamp-3 text-sm leading-relaxed text-muted-foreground">{product.desc}</p>
 
                 {
                   bullets.length > 0 && (
@@ -90,7 +90,7 @@ function cardTags(product: ProductPage): string[] {
 
                 <div class="min-w-0">
                   <Button as="a" href={pageHref} variant="primary" size="sm" class="w-full min-w-0">
-                    {s.viewDetails}: {entry.anchorLabel}
+                    {s.viewDetails}
                   </Button>
                 </div>
               </div>
