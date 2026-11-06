@@ -401,7 +401,7 @@ export const en: Translations = {
     eyebrow: 'Blog',
     title: 'Guides and updates',
     subtitle: 'ESP and aimbot setup, menu tuning and patch-day checks for Modern Warfare 4.',
-    latestTitle: 'Guides: Modern Warfare 4 Cheat Menu and Patch-Day Notes',
+    latestTitle: 'Guides: Long-form Modern Warfare 4 Cheat Menu Tuning and Patch-Day Posts',
     latestSubtitle: 'Filter by topic to find setup guides, feature deep-dives, and patch-day notes.',
     filterAll: 'All articles',
     emptyFilter: 'No articles match this filter.',
@@ -584,7 +584,7 @@ export const en: Translations = {
   },
   legalPages: {
     about: {
-      title: 'About MW4 Cheats: Catalog and Support on {siteDomain}',
+      title: 'About MW4 Cheats: Catalog, Support, Delivery Details on {siteDomain}',
       description:
         '{siteName} publishes {cheatProduct}, the utility pages, and support notes at {siteDomain}.',
       sections: [
@@ -748,7 +748,7 @@ export const en: Translations = {
   pages: {
     faq: {
       eyebrow: 'Help center',
-      title: 'Faq: Modern Warfare 4 loader, status, setup and plans',
+      title: 'Faq: Modern Warfare 4 loader, status, setup, plans and checkout questions',
       description:
         'This faq covers setup steps, the 30 day and lifetime plans, ESP and aim options, and what to do after an anti-cheat update.',
       schemaName: 'Modern Warfare 4 Cheats FAQ',

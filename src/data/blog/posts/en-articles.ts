@@ -4,7 +4,7 @@ export const enBlogArticles: BlogPostFull[] = [
   {
     "slug": "modern-warfare-4-cheats-buying-guide",
     "title": "Modern Warfare 4 Cheats: What to Know Before Choosing a Tool",
-    "h1": "Modern Warfare 4 Cheats Buying Guide: Features Before Choosing a Tool",
+    "h1": "Modern Warfare 4 Cheats Buying Guide: Features and Facts Before Choosing a Tool",
     "tag": "Guides",
     "desc": "Looking into Modern Warfare 4 cheats? Learn how to evaluate compatibility, advertised features, software requirements, support quality and important risks before choosing a third-party tool.",
     "metaTitle": "warfare 4 cheats | Features and Buying Guide Facts",
@@ -700,7 +700,7 @@ export const enBlogArticles: BlogPostFull[] = [
   {
     "slug": "modern-warfare-4-ricochet-anti-cheat-explained",
     "title": "Modern Warfare 4 RICOCHET Anti-Cheat Explained: Detection, TPM and Secure Boot",
-    "h1": "Modern Warfare 4 RICOCHET Anti-Cheat Explained: Detection, TPM, Secure Boot and Cheats",
+    "h1": "Modern Warfare 4 RICOCHET Anti-Cheat Explained: Detection, TPM, Secure Boot and Cheats Guide",
     "tag": "Guides",
     "desc": "Modern Warfare 4 uses multiple anti-cheat security layers. Learn about RICOCHET, TPM 2.0, Secure Boot, hardware-based protections and their impact on PC players.",
     "metaTitle": "Anti Cheat | RICOCHET TPM and Secure Boot PC Guide",
