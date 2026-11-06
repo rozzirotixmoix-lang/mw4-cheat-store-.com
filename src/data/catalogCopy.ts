@@ -37,7 +37,7 @@ export interface CatalogCopy {
 
 const en: CatalogCopy = {
   eyebrow: 'Store',
-  title: 'Products hub: {gameName} cheats and utilities',
+  title: '{gameName} cheats and utilities',
   subtitle:
     'Four licenses for {gameName} on Windows. Open the cheat page for menu modules or a utility page when the block is account or hardware related.',
   trust: ['Portal delivery', '24/7 support', 'Monthly or lifetime plans', 'Partner checkout'],

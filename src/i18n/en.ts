@@ -39,7 +39,7 @@ export const en: Translations = {
     titleLead: 'MW4 Cheats ',
     titleAccent: 'for PC: hacks, plans, modules, ESP, and aimbot tools',
     subtitle:
-      'mw4 listed hacks for every raid and every firefight. Get listed hacks for PC, including aimbot tools and full ESP, all tuned for Windows and updated after every patch. Compare modules and plans, then pick the setup that fits your playstyle.',
+      'Dominate every raid and every firefight. Get listed hacks for PC, including aimbot tools and full ESP, all tuned for Windows and updated after every patch. Compare modules and plans, then pick the setup that fits your playstyle.',
     ctaPrimary: 'View products',
     metrics: [
       { label: 'Silent aimbot', strong: 'Listed' },
@@ -852,12 +852,12 @@ export const en: Translations = {
     '/hwid-spoofer/': {
       title: 'mw4 Spoofing Tool | HWID Refresh',
       description:
-        'HWID: Rotate disk, MAC, and GPU IDs on this PC when login blocks point to hardware. Plans and cleaner steps are on {siteDomain}.',
+        'Rotate disk, MAC, and GPU IDs on this PC when login blocks point to hardware. Plans and cleaner steps are on {siteDomain}.',
     },
     '/products/': {
       title: 'Modern Warfare 4 Products Hub | Cheats and Utilities',
       description:
-        'Products: side-by-side plans for {cheatProduct}, HWID Spoofer, UGC, and Skin Changer. Delivery notes and Windows requirements sit on {siteDomain}.',
+        'Side-by-side plans for {cheatProduct}, HWID Spoofer, UGC, and Skin Changer. Delivery notes and Windows requirements sit on {siteDomain}.',
     },
     '/ugc/': {
       title: 'Modern Warfare 4 UGC | Appeal Workflow Automation',
@@ -867,7 +867,7 @@ export const en: Translations = {
     '/skin-changer/': {
       title: 'Modern Warfare 4 Skin Changer | Local Finishes',
       description:
-        'Skin Changer: Preview weapon skins, outfits, and knife styles on this PC without buying each cosmetic. Confirm your title on {siteDomain}.',
+        'Preview weapon skins, outfits, and knife styles on this PC without buying each cosmetic. Confirm your title on {siteDomain}.',
     },
     '/blog/': {
       title: 'Guides | Long-form ESP Tuning and Patch Note Posts',
@@ -877,7 +877,7 @@ export const en: Translations = {
     '/forum/': {
       title: 'Modern Warfare 4 Forum Archive | Read-Only Threads',
       description:
-        'Forum: Archived Modern Warfare 4 discussions on loader setup, ESP configs, and HWID notes. New threads and replies stay closed on {siteDomain}.',
+        'Archived Modern Warfare 4 discussions on loader setup, ESP configs, and HWID notes. New threads and replies stay closed on {siteDomain}.',
     },
     '/faq/': {
       title: 'Faq | Plans, Loader, Status, and Checkout Questions',
@@ -902,7 +902,7 @@ export const en: Translations = {
     '/support/': {
       title: 'Contact Support | Modern Warfare 4 Loader Help',
       description:
-        'Support: Email for loader errors, HWID resets, and order questions after checkout on {siteDomain}. Include the order email and Windows build.',
+        'Email for loader errors, HWID resets, and order questions after checkout on {siteDomain}. Include the order email and Windows build.',
     },
   },
   ui: {
