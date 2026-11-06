@@ -89,8 +89,9 @@ function cardTags(product: ProductPage): string[] {
                 </p>
 
                 <div class="min-w-0">
-                  <Button as="a" href={pageHref} variant="primary" size="sm" class="w-full min-w-0">
+                  <Button as="a" href={pageHref} variant="primary" size="sm" class="w-full min-w-0" aria-label={`${s.viewDetails}: ${product.title}`}>
                     {s.viewDetails}
+                    <span class="sr-only">: {product.title}</span>
                   </Button>
                 </div>
               </div>

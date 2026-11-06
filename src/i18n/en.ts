@@ -37,7 +37,7 @@ export const en: Translations = {
     status: 'Read the Modern Warfare 4 banner on this site before you launch.',
     eyebrow: 'Dominate Every Match',
     titleLead: 'MW4 Cheats for PC: ',
-    titleAccent: 'Aimbot, ESP, and Modules',
+    titleAccent: 'Aimbot, ESP, and Modules, hacks, plans, and tools',
     subtitle:
       'MW4 cheats for PC. Aimbot, ESP, and more, running on Windows and updated after each patch. Check the plans, compare the modules, and grab what works for you.',
     ctaPrimary: 'View products',

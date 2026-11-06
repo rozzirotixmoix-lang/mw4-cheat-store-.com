@@ -149,6 +149,7 @@ const cardHeight = post.imageHeight ?? (isFeatured ? 540 : 360);
         aria-label={`${t.blog.read}: ${post.title}`}
       >
         {t.blog.read}
+        <span class="sr-only">: {post.title}</span>
         <Icon name="arrowRight" size={16} />
       </Button>
     </CardFooter>
